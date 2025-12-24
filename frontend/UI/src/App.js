@@ -5,6 +5,11 @@ import tnBenefits from './data/state/TN.benefits.json';
 import caBenefits from './data/state/CA.benefits.json';
 import txBenefits from './data/state/TX.benefits.json';
 import vaBenefits from './data/state/VA.benefits.json';
+import flBenefits from './data/state/FL.benefits.json';
+import paBenefits from './data/state/PA.benefits.json';
+import ohBenefits from './data/state/OH.benefits.json';
+import NYBenefits from './data/state/NY.benefits.json';
+import NCBenefits from './data/state/NC.benefits.json';
 // import txBenefits from './data/tx_benefits.json';
 
 // Map of state codes to their benefit data
@@ -12,7 +17,12 @@ const STATE_BENEFITS = {
   'TN': tnBenefits,
   'CA': caBenefits,
   'TX': txBenefits,
-  'VA': vaBenefits
+  'VA': vaBenefits,
+  'FL': flBenefits,
+  'PA': paBenefits,
+  'OH': ohBenefits,
+  'NY': NYBenefits,
+  'NC': NCBenefits
   // Add more as you create them
 };
 
@@ -137,6 +147,22 @@ function App() {
 
   return (
     <div className="App">
+      {/* Banner at the top */}
+<div className="hero-banner" style={{
+  background: 'linear-gradient(135deg, #1e3a8a 0%, #dc2626 50%, #f3f4f6 100%)',
+  padding: '3rem 2rem',
+  marginBottom: '2rem',
+  color: 'white',
+  textAlign: 'center',
+  boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'  // Adds subtle depth
+}}>
+        <h1 style={{ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>
+          Benefits4Vets
+        </h1>
+        <p style={{ fontSize: '1.25rem', opacity: 0.9 }}>
+          Discover Your Benefits, Maximize Your Impact
+        </p>
+      </div>
       <div className="container">
         <h1>Veteran Benefits Finder</h1>
         <p className="subtitle">

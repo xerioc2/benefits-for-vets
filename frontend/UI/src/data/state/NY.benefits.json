@@ -1,0 +1,166 @@
+[
+  {
+    "id": "ny_property_tax_exemptions_veterans",
+    "scope": "state",
+    "state": "NY",
+    "title": "Veterans Property Tax Exemptions",
+    "summary": "New York offers multiple local property tax exemptions for eligible veterans, including combat, wartime, and disabled veteran exemptions.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": true,
+      "notes": "Exemptions and amounts vary by municipality. Local governments must opt in."
+    },
+    "eligibilityNotes": "Eligibility depends on military service, discharge status, and whether the local municipality has adopted the exemption. Disabled veterans may qualify for higher exemptions.",
+    "sourceUrl": "https://veterans.ny.gov/content/property-tax-exemptions-veterans",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ny_vehicle_registration_fee_exemption",
+    "scope": "state",
+    "state": "NY",
+    "title": "Vehicle Registration Fee Exemptions for Disabled Veterans",
+    "summary": "Certain vehicle registration fees may be exempt for qualifying disabled veterans in New York.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": true,
+      "requiresWartimeService": null,
+      "notes": "Eligibility and exemptions depend on DMV rules and veteran disability status."
+    },
+    "eligibilityNotes": "Disabled veterans must meet DMV eligibility criteria and provide documentation verifying service-connected disability.",
+    "sourceUrl": "https://dmv.ny.gov/more-info/vehicle-registrations-and-title-certificates-members-military",
+    "tags": ["vehicle", "dmv", "tax"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ny_thruway_ezpass_disabled_veteran",
+    "scope": "state",
+    "state": "NY",
+    "title": "New York Thruway E-ZPass Discount for Disabled Veterans",
+    "summary": "Eligible disabled veterans may receive toll-free travel on the New York State Thruway with an approved E-ZPass account.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresPermanentTotal": true,
+      "requiresServiceConnected": true,
+      "requiresWartimeService": null,
+      "notes": "Applies to NY State Thruway only; other toll authorities may have separate programs."
+    },
+    "eligibilityNotes": "Veterans must apply through the New York State Thruway Authority and meet disability requirements.",
+    "sourceUrl": "https://www.thruway.ny.gov/ezpass/veterans.html",
+    "tags": ["transportation", "toll", "vehicle"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ny_hunting_fishing_license_veterans",
+    "scope": "state",
+    "state": "NY",
+    "title": "Hunting, Fishing, and Trapping License Benefits for Veterans",
+    "summary": "New York offers reduced-fee or free hunting, fishing, and trapping licenses for certain veterans and service members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility varies by license type and service status."
+    },
+    "eligibilityNotes": "Veterans must meet New York residency requirements and provide proof of service or disability when applying through DEC.",
+    "sourceUrl": "https://www.dec.ny.gov/outdoor/7860.html",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ny_state_park_pass_veterans",
+    "scope": "state",
+    "state": "NY",
+    "title": "New York State Parks Pass for Veterans",
+    "summary": "Certain veterans and eligible family members may receive free or reduced-cost access to New York State Parks.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": true,
+      "notes": "Pass eligibility varies by program (e.g., wartime service, disability, Gold Star family)."
+    },
+    "eligibilityNotes": "Veterans must meet eligibility criteria and apply through New York State Parks or designated agencies.",
+    "sourceUrl": "https://parks.ny.gov/admission/military-and-veterans.aspx",
+    "tags": ["recreation", "state_parks"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ny_veterans_tuition_award",
+    "scope": "state",
+    "state": "NY",
+    "title": "New York Veterans Tuition Awards",
+    "summary": "Tuition assistance for eligible veterans enrolled in approved undergraduate or graduate programs in New York.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": true,
+      "notes": "Award amounts and eligibility depend on enrollment status and service history."
+    },
+    "eligibilityNotes": "Veterans must be New York residents and enrolled in approved programs. Awards may supplement GI Bill benefits.",
+    "sourceUrl": "https://veterans.ny.gov/content/veterans-tuition-awards",
+    "tags": ["education", "tuition", "financial_aid"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ny_state_veterans_homes",
+    "scope": "state",
+    "state": "NY",
+    "benefitType": "facility",
+    "title": "New York State Veterans Homes",
+    "summary": "State-operated long-term care facilities providing nursing and residential care for eligible veterans and certain family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": null,
+      "notes": "Admission depends on medical need, eligibility determination, and bed availability."
+    },
+    "eligibilityNotes": "Applicants must meet VA and New York eligibility criteria. Homes are located throughout the state.",
+    "sourceUrl": "https://veterans.ny.gov/programs/veterans-homes",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ny_state_veterans_cemeteries",
+    "scope": "state",
+    "state": "NY",
+    "benefitType": "facility",
+    "title": "New York State Veterans Cemeteries",
+    "summary": "State-operated veterans cemeteries offering burial options for eligible veterans and family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility generally mirrors VA national cemetery eligibility."
+    },
+    "eligibilityNotes": "Cemetery availability and services vary by location. Pre-need eligibility determination is recommended.",
+    "sourceUrl": "https://veterans.ny.gov/programs/veterans-cemeteries",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ny_supplemental_burial_allowance",
+    "scope": "state",
+    "state": "NY",
+    "title": "New York State Supplemental Burial Allowance",
+    "summary": "Financial assistance to help cover burial and funeral costs for eligible veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": null,
+      "notes": "Allowance amounts and eligibility depend on circumstances and county administration."
+    },
+    "eligibilityNotes": "Administered through county veterans service agencies. May supplement federal VA burial benefits.",
+    "sourceUrl": "https://veterans.ny.gov/content/new-york-state-supplemental-burial-allowance",
+    "tags": ["burial", "death_benefits", "reimbursement"],
+    "lastReviewed": "2025-12-24"
+  }
+]

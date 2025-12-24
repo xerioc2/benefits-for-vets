@@ -1,0 +1,138 @@
+[
+  {
+    "id": "fl_property_tax_exemption_disabled_veteran",
+    "scope": "state",
+    "state": "FL",
+    "title": "Property Tax Exemption for Disabled Veterans",
+    "summary": "Florida offers property tax exemptions for certain disabled veterans, including a full exemption for qualifying 100% P&T veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresPermanentTotal": true,
+      "requiresServiceConnected": true,
+      "notes": "Florida also offers partial exemptions for combat-related disabilities (10%+); full exemption applies to 100% P&T."
+    },
+    "eligibilityNotes": "Apply through the County Property Appraiser. Documentation from the VA is required.",
+    "sourceUrl": "https://floridarevenue.com/property/Pages/Veterans.aspx",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_vehicle_registration_fee_exemption",
+    "scope": "state",
+    "state": "FL",
+    "title": "Motor Vehicle Registration Fee Exemption (Disabled Veterans)",
+    "summary": "Eligible disabled veterans may receive an exemption from certain vehicle registration fees in Florida.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresPermanentTotal": true,
+      "requiresServiceConnected": true,
+      "notes": "Applies to one vehicle owned by the veteran."
+    },
+    "eligibilityNotes": "Disabled Veteran license plates are required. Apply through the Florida DHSMV.",
+    "sourceUrl": "https://www.flhsmv.gov/motor-vehicles-tags-titles/license-plates-registration/military-and-veterans/",
+    "tags": ["vehicle", "tax", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_disabled_veteran_license_plate",
+    "scope": "state",
+    "state": "FL",
+    "title": "Disabled Veteran License Plate",
+    "summary": "Special license plate for veterans with qualifying service-connected disabilities, providing parking and fee benefits.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true
+    },
+    "eligibilityNotes": "Issued by the Florida DHSMV with VA disability verification.",
+    "sourceUrl": "https://www.flhsmv.gov/motor-vehicles-tags-titles/license-plates-registration/military-and-veterans/",
+    "tags": ["vehicle", "parking", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_state_park_pass_disabled_veteran",
+    "scope": "state",
+    "state": "FL",
+    "title": "Florida State Parks Lifetime Pass (Disabled Veterans)",
+    "summary": "Lifetime free admission to Florida State Parks for eligible disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true
+    },
+    "eligibilityNotes": "Pass issued by Florida State Parks with VA documentation.",
+    "sourceUrl": "https://www.floridastateparks.org/learn/lifetime-pass",
+    "tags": ["recreation", "state_parks"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_hunting_fishing_license_exemption",
+    "scope": "state",
+    "state": "FL",
+    "title": "Hunting & Fishing License Exemption (Disabled Veterans)",
+    "summary": "Eligible disabled veterans may receive free or reduced-cost hunting and fishing licenses in Florida.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "notes": "Some licenses may require additional endorsements."
+    },
+    "eligibilityNotes": "Issued through the Florida Fish and Wildlife Conservation Commission (FWC).",
+    "sourceUrl": "https://myfwc.com/license/recreational/veterans/",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_veterans_preference_employment",
+    "scope": "state",
+    "state": "FL",
+    "title": "Florida Veterans’ Preference in Employment",
+    "summary": "Eligible veterans may receive hiring preference for public employment in Florida.",
+    "requirements": {
+      "requiresWartimeService": true,
+      "notes": "Disabled veterans and certain spouses/survivors may receive additional preference."
+    },
+    "eligibilityNotes": "Applies to state and local government positions. Documentation required during application.",
+    "sourceUrl": "https://www.myfloridacfo.com/division/aa/localgovernments/veteranspreference.htm",
+    "tags": ["employment", "preference", "civil_service"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_veterans_homes",
+    "scope": "state",
+    "state": "FL",
+    "benefitType": "facility",
+    "title": "Florida State Veterans’ Homes",
+    "summary": "State-operated long-term care facilities for eligible veterans and eligible spouses.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Admission depends on eligibility determination, medical need, and bed availability."
+    },
+    "eligibilityNotes": "Applicants must meet VA and Florida eligibility requirements. Spouses may be eligible in certain cases.",
+    "sourceUrl": "https://www.floridavets.org/locations/state-veterans-homes/",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_veterans_cemeteries",
+    "scope": "state",
+    "state": "FL",
+    "benefitType": "facility",
+    "title": "Florida National & State Veterans Cemeteries",
+    "summary": "Veterans cemeteries providing burial options for eligible veterans and family members in Florida.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility generally mirrors VA national cemetery rules."
+    },
+    "eligibilityNotes": "Pre-need eligibility determination is recommended. Availability varies by location.",
+    "sourceUrl": "https://www.floridavets.org/benefits-services/cemeteries/",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-24"
+  }
+]

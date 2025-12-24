@@ -45,7 +45,7 @@
       "requiresPermanentTotal": true
     },
     "eligibilityNotes": "Issued by the California DMV upon verification of VA disability status.",
-    "sourceUrl": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/disabled-veteran/",
+    "sourceUrl": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/disabled-veteran-dv-license-plates/",
     "tags": ["vehicle", "parking", "dmv"],
     "lastReviewed": "2025-12-24"
   },

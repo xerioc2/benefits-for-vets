@@ -1,0 +1,140 @@
+[
+  {
+    "id": "oh_disabled_veteran_homestead_exemption",
+    "scope": "state",
+    "state": "OH",
+    "title": "Disabled Veteran Homestead Property Tax Exemption",
+    "summary": "Veterans with a 100% VA service-connected disability may qualify for an expanded homestead property tax exemption on their primary residence.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true
+    },
+    "eligibilityNotes": "Must be a resident of Ohio and rated 100% P&T by the VA. Surviving spouses may also be eligible. Apply through your County Auditor. Rates may vary by county. See official page.",
+    "sourceUrl": "https://dvs.ohio.gov/veteran-benefits",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "oh_veterans_bonus_program",
+    "scope": "state",
+    "state": "OH",
+    "title": "Ohio Veterans Bonus Program",
+    "summary": "A cash bonus for veterans who served during eligible service periods (e.g., Persian Gulf, Iraq, Afghanistan).",
+    "requirements": {
+      "field": "servedDuringEligiblePeriod",
+      "op": "==",
+      "value": true,
+      "notes": "Service must meet eligible period criteria (e.g., OIF/OEF). See official resources for eligibility.",
+      "minDisability": null,
+      "requiresServiceConnected": false
+    },
+    "eligibilityNotes": "Veterans who meet the service period criteria and Ohio residency can apply for the bonus. Contact your CVSO for details.",
+    "sourceUrl": "https://dvs.ohio.gov/resources-for-veterans/veterans-bonus/veterans-bonus",
+    "tags": ["cash_bonus", "service_period"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "oh_veteran_hunting_fishing_license",
+    "scope": "state",
+    "state": "OH",
+    "title": "Ohio Free Hunting & Fishing Licenses (Five-Year)",
+    "summary": "Permanent and totally disabled Ohio veterans and former POWs may receive a free five-year hunting and fishing license, including permits and stamps.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true
+    },
+    "eligibilityNotes": "Veterans must provide documentation of disability status or POW service. Benefits include multiple licenses and permits at no cost.",
+    "sourceUrl": "https://veteransguardian.com/veteran-benefits-for-ohio/",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "oh_free_watercraft_registration",
+    "scope": "state",
+    "state": "OH",
+    "title": "Free Watercraft Registration for Disabled Veterans",
+    "summary": "Ohio offers free registration of personal watercraft for qualifying residents who are 100% permanently and totally disabled, former POWs, or Medal of Honor recipients.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true
+    },
+    "eligibilityNotes": "Documentation of disability status, POW status, or Medal of Honor needed. See official guidelines for state registration exemptions.",
+    "sourceUrl": "https://veteransguardian.com/veteran-benefits-for-ohio/",
+    "tags": ["vehicle", "registration", "recreation"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "oh_veteran_driver_license_designation",
+    "scope": "state",
+    "state": "OH",
+    "title": "Ohio Veteran Designation on Driver License or ID",
+    "summary": "Veterans can receive a veteran designation on their Ohio driver’s license or ID card at no additional cost with proper documentation.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Valid DD-214 or equivalent documentation required; honorable or general under honorable conditions discharge preferred."
+    },
+    "eligibilityNotes": "Visit a BMV deputy registrar with DD-214, current orders, or VA ID to request the veteran designation.",
+    "sourceUrl": "https://www.bmv.ohio.gov/military-armed-forces-designation.aspx",
+    "tags": ["id", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "oh_veteran_housing_benefits",
+    "scope": "state",
+    "state": "OH",
+    "title": "Ohio Heroes Home Loan & Housing Assistance",
+    "summary": "Programs such as the Ohio Heroes Home Loan may offer lower mortgage interest and home purchase assistance benefits to veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Qualification depends on credit, income, and OHFA program requirements; not always tied to disability rating."
+    },
+    "eligibilityNotes": "Contact the Ohio Housing Finance Agency or Ohio Heroes Home Loan program for full eligibility criteria.",
+    "sourceUrl": "https://myohiohome.org/ohioheroes.aspx",
+    "tags": ["housing", "loan"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "oh_employment_preference",
+    "scope": "state",
+    "state": "OH",
+    "title": "Ohio Veteran Employment Preference",
+    "summary": "Veterans may receive preference points or credits on Ohio civil service exams and hiring.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Veterans’ hiring preference varies by employer and civil service guidelines; check official state employment resources for details."
+    },
+    "eligibilityNotes": "Veterans should provide DD-214 or equivalent documentation for hiring preference or civil service exam credit.",
+    "sourceUrl": "https://www.dvs.ohio.gov/veteran-benefits",
+    "tags": ["employment", "preference"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "oh_veterans_homes",
+    "scope": "state",
+    "state": "OH",
+    "benefitType": "facility",
+    "title": "Ohio State Veterans Homes",
+    "summary": "State-operated veterans homes providing long-term and domiciliary care for eligible veterans in Sandusky and Georgetown.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Admission depends on care needs, eligibility, and bed availability; contact the facilities directly.",
+      "requiresWartimeService": null
+    },
+    "eligibilityNotes": "Applicants must meet Ohio and VA eligibility criteria; spouses may be eligible in limited circumstances. Contact the Ohio Veterans Homes for details.",
+    "sourceUrl": "https://dvs.ohio.gov/veterans-homes",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  }
+]
