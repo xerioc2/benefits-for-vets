@@ -1,0 +1,196 @@
+[
+  {
+    "id": "ca_property_tax_exemption_disabled_veteran",
+    "scope": "state",
+    "state": "CA",
+    "title": "Disabled Veterans Property Tax Exemption",
+    "summary": "Property tax exemption for qualifying disabled veterans or their surviving spouses in California.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "notes": "California offers basic and low-income exemption levels; amounts vary annually."
+    },
+    "eligibilityNotes": "Generally requires 100% service-connected disability or qualifying circumstances. Surviving spouses may be eligible. Apply through the County Assessor.",
+    "sourceUrl": "https://www.boe.ca.gov/proptaxes/dv_exemption.htm",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_vehicle_registration_fee_waiver",
+    "scope": "state",
+    "state": "CA",
+    "title": "Vehicle Registration Fee Waiver (Disabled Veteran)",
+    "summary": "Waiver of vehicle registration and license fees for qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "notes": "Applies to one vehicle used by or for the veteran."
+    },
+    "eligibilityNotes": "Requires Disabled Veteran license plates issued by the California DMV.",
+    "sourceUrl": "https://www.dmv.ca.gov/portal/vehicle-registration/registration-fees/disabled-veterans/",
+    "tags": ["vehicle", "tax", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_disabled_veteran_license_plates",
+    "scope": "state",
+    "state": "CA",
+    "title": "Disabled Veteran License Plates",
+    "summary": "Special license plates providing parking and fee benefits to qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true
+    },
+    "eligibilityNotes": "Issued by the California DMV upon verification of VA disability status.",
+    "sourceUrl": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/disabled-veteran/",
+    "tags": ["vehicle", "parking", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_college_fee_waiver_plan_a_b",
+    "scope": "state",
+    "state": "CA",
+    "title": "College Fee Waiver for Veteran Dependents (Plan A & B)",
+    "summary": "Tuition and fee waivers at California public colleges for eligible dependents of veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Plan A generally requires service-connected disability or death; Plan B is income-based."
+    },
+    "eligibilityNotes": "Applies to dependents and spouses in qualifying circumstances. Administered by the California Department of Veterans Affairs.",
+    "sourceUrl": "https://www.calvet.ca.gov/VetServices/Pages/College-Fee-Waiver.aspx",
+    "tags": ["education", "dependents", "tuition"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_state_veterans_homes",
+    "scope": "state",
+    "state": "CA",
+    "benefitType": "facility",
+    "title": "California State Veterans Homes",
+    "summary": "Long-term care homes providing housing and medical services for eligible veterans and certain spouses.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Admission depends on medical need, eligibility determination, and bed availability."
+    },
+    "eligibilityNotes": "Applicants must meet VA and California eligibility criteria. Spouses may qualify in limited cases.",
+    "sourceUrl": "https://www.calvet.ca.gov/VetHomes",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_state_park_pass_disabled_veteran",
+    "scope": "state",
+    "state": "CA",
+    "title": "California State Park Pass (Disabled Veteran)",
+    "summary": "Free or reduced-cost access to California state parks for qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 50,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Eligibility thresholds and pass types vary."
+    },
+    "eligibilityNotes": "Must apply through California State Parks with proof of disability.",
+    "sourceUrl": "https://www.parks.ca.gov/?page_id=30806",
+    "tags": ["recreation", "state_parks"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_employment_preference",
+    "scope": "state",
+    "state": "CA",
+    "title": "California Veterans Employment Preference",
+    "summary": "Veterans may receive preference points when applying for California state civil service positions.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": true,
+      "notes": "Preference eligibility depends on discharge status and wartime service; disabled veterans may receive additional points."
+    },
+    "eligibilityNotes": "Applies to qualifying veterans seeking California state employment. Documentation such as DD-214 is required.",
+    "sourceUrl": "https://www.calvet.ca.gov/VetServices/Pages/Employment-Services.aspx",
+    "tags": ["employment", "preference", "civil_service"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_hunting_fishing_license_reduction",
+    "scope": "state",
+    "state": "CA",
+    "title": "Reduced-Fee Hunting & Fishing Licenses for Disabled Veterans",
+    "summary": "California offers reduced-fee hunting and fishing licenses to eligible disabled veterans.",
+    "requirements": {
+      "minDisability": 50,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Veteran must have a service-connected disability rating of 50% or greater."
+    },
+    "eligibilityNotes": "Requires California residency and VA disability documentation. Licenses are issued through California Department of Fish and Wildlife.",
+    "sourceUrl": "https://www.calvet.ca.gov/VetServices/Pages/Hunting-and-Fishing-License.aspx",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_dmv_veteran_designation",
+    "scope": "state",
+    "state": "CA",
+    "title": "Veteran Designation on California Driver License / ID",
+    "summary": "Eligible veterans may add a Veteran designation to a California driver license or identification card.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": null,
+      "notes": "Requires verification of veteran status through CalVet prior to DMV visit."
+    },
+    "eligibilityNotes": "Veterans must obtain a Veteran Status Verification Form from CalVet and present it at a DMV office.",
+    "sourceUrl": "https://www.calvet.ca.gov/VetServices/Pages/Veteran-Designation.aspx",
+    "tags": ["id", "dmv", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_toll_bridge_discounts",
+    "scope": "state",
+    "state": "CA",
+    "title": "California Toll Bridge Discounts for Disabled Veterans",
+    "summary": "Disabled veterans may qualify for toll bridge discounts or exemptions on certain California toll facilities.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresPermanentTotal": true,
+      "requiresServiceConnected": true,
+      "requiresWartimeService": null,
+      "notes": "Eligibility and benefits vary by region and toll authority."
+    },
+    "eligibilityNotes": "Discounts are region-specific (e.g., Bay Area bridges). Veterans must apply through the appropriate toll authority.",
+    "sourceUrl": "https://www.calvet.ca.gov/VetServices/Pages/Transportation-Benefits.aspx",
+    "tags": ["transportation", "toll", "vehicle"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_veterans_cemeteries",
+    "scope": "state",
+    "state": "CA",
+    "benefitType": "facility",
+    "title": "California State Veterans Cemeteries",
+    "summary": "State-operated veterans cemeteries providing burial options for eligible veterans and family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility generally mirrors VA national cemetery eligibility; availability varies by location."
+    },
+    "eligibilityNotes": "Includes multiple cemetery locations throughout California. Pre-need eligibility determination is recommended.",
+    "sourceUrl": "https://www.calvet.ca.gov/VetServices/Pages/Cemeteries.aspx",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-24"
+  }
+]
+

@@ -1,0 +1,451 @@
+[
+  {
+    "id": "va_health_care",
+    "scope": "federal",
+    "title": "VA Health Care",
+    "summary": "Eligible Veterans may enroll in VA health care services, including primary care, specialty care, mental health care, and prescriptions.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Eligibility depends on service history, discharge status, income, and other factors. Disability rating may affect priority group and copays."
+    },
+    "eligibilityNotes": "Eligibility depends on service history, discharge status, income, and other factors. Disability rating may affect priority group and copays.",
+    "sourceUrl": "https://www.va.gov/health-care/eligibility/",
+    "tags": ["healthcare", "medical", "va"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_disability_compensation",
+    "scope": "federal",
+    "title": "VA Disability Compensation",
+    "summary": "Monthly tax-free payments for Veterans with service-connected disabilities.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Requires a service-connected condition and a VA disability rating."
+    },
+    "eligibilityNotes": "Generally requires a service-connected disability. The VA assigns a disability rating based on medical evidence.",
+    "sourceUrl": "https://www.va.gov/disability/",
+    "tags": ["compensation", "disability", "income"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_home_loan",
+    "scope": "federal",
+    "title": "VA Home Loan Guaranty",
+    "summary": "VA-backed home loans that may offer no down payment, limited closing costs, and competitive interest rates.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Eligibility depends on service requirements and obtaining a Certificate of Eligibility (COE). Disability status may impact funding-fee exemption."
+    },
+    "eligibilityNotes": "Eligibility depends on service requirements and a VA Certificate of Eligibility (COE). Some Veterans with service-connected disabilities may qualify for a funding fee waiver.",
+    "sourceUrl": "https://www.va.gov/housing-assistance/home-loans/",
+    "tags": ["housing", "loan", "mortgage", "coe"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_sah_grant",
+    "scope": "federal",
+    "title": "Specially Adapted Housing (SAH) Grant",
+    "summary": "Grant up to $126,526 (FY 2026) to help severely disabled veterans build, buy, or modify a home to accommodate their disability.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Requires loss of use of both lower extremities, blindness in both eyes, loss/loss of use of one lower extremity with residual effects, or other qualifying conditions."
+    },
+    "eligibilityNotes": "Can be used up to 6 times over lifetime. Qualifying conditions include: loss or loss of use of both legs, blindness in both eyes (20/200 or less), loss of use of one leg with residual effects, or loss of use of one lower extremity after 9/11 that prevents balance/walking without assistance.",
+    "sourceUrl": "https://www.va.gov/housing-assistance/disability-housing-grants/",
+    "tags": ["housing", "grant", "disability", "home_modification"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_sha_grant",
+    "scope": "federal",
+    "title": "Special Housing Adaptation (SHA) Grant",
+    "summary": "Grant up to $23,000 (approximate, adjusted annually) to help disabled veterans adapt or purchase a home to accommodate their disability.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Requires blindness in both eyes with 5/200 visual acuity or less, loss/loss of use of both hands, or certain respiratory conditions."
+    },
+    "eligibilityNotes": "Can be used multiple times up to maximum amount. For veterans with less severe disabilities than SAH requirements. Can adapt existing home or help purchase adapted home.",
+    "sourceUrl": "https://www.va.gov/housing-assistance/disability-housing-grants/",
+    "tags": ["housing", "grant", "disability", "home_modification"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_tra_grant",
+    "scope": "federal",
+    "title": "Temporary Residence Adaptation (TRA) Grant",
+    "summary": "Grant to help SAH/SHA-eligible veterans adapt a family member's home where they are temporarily residing.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Must be eligible for SAH or SHA grant and temporarily residing in a family member's home."
+    },
+    "eligibilityNotes": "Maximum amounts vary based on SAH vs SHA eligibility. For veterans temporarily living with family members. Family member must own the home.",
+    "sourceUrl": "https://www.va.gov/housing-assistance/disability-housing-grants/",
+    "tags": ["housing", "grant", "disability", "home_modification"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_hisa_grant",
+    "scope": "federal",
+    "title": "Home Improvements and Structural Alterations (HISA) Grant",
+    "summary": "Grant up to $6,800 for service-connected disabled veterans or $2,000 for non-service-connected to make home modifications necessary for medical treatment or disability access.",
+    "requirements": {
+      "minDisability": 50,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Up to $6,800 for veterans with 50%+ service-connected disability. $2,000 for veterans with non-service-connected conditions under certain criteria."
+    },
+    "eligibilityNotes": "Lifetime benefit maximum. Must be enrolled in VA healthcare and receive prescription from VA healthcare provider. Administered through local VA medical center prosthetics department.",
+    "sourceUrl": "https://www.prosthetics.va.gov/factsheet/PSAS-FactSheet-Housing-Adaptation-Programs.pdf",
+    "tags": ["housing", "grant", "disability", "home_modification"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_automobile_allowance",
+    "scope": "federal",
+    "title": "Automobile Allowance",
+    "summary": "One-time payment of $27,075 (FY 2026) to help purchase a specially equipped vehicle for veterans with certain service-connected disabilities.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Requires loss or permanent loss of use of one or both feet/hands, permanent decreased vision in both eyes, or ankylosis of one or both knees/hips."
+    },
+    "eligibilityNotes": "VA pays seller directly. Can be awarded once every 30 years, or sooner if vehicle destroyed by natural disaster. Must apply before purchasing vehicle. Includes cars, vans, motor homes, trucks, tractors.",
+    "sourceUrl": "https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/",
+    "tags": ["vehicle", "grant", "disability"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_adaptive_equipment",
+    "scope": "federal",
+    "title": "Adaptive Equipment for Vehicles",
+    "summary": "Multiple grants available to modify vehicles with adaptive equipment like power steering, lifts, hand controls, or other specialized equipment.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Available to veterans who meet automobile allowance criteria or have ankylosis in knees/hips. Can be renewed for repairs/replacements."
+    },
+    "eligibilityNotes": "Unlike automobile allowance, adaptive equipment grants can be issued multiple times for repairs, replacements, or new equipment. Prescribed by VHA physician or Certified Driver Rehabilitation Specialist.",
+    "sourceUrl": "https://www.va.gov/disability/eligibility/special-claims/automobile-allowance-adaptive-equipment/",
+    "tags": ["vehicle", "grant", "disability", "adaptive"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_clothing_allowance",
+    "scope": "federal",
+    "title": "Annual Clothing Allowance",
+    "summary": "Annual payment of $1,053 (2026) to replace clothing damaged by prosthetic/orthopedic devices or skin medications for service-connected conditions.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Prosthetic/orthopedic device must damage clothing, or skin medication must irreparably stain outer garments."
+    },
+    "eligibilityNotes": "Can receive multiple allowances (up to 4 per year) if multiple devices/medications damage different types of clothing. Apply by August 1st annually. Recurring payment - no need to reapply after initial approval.",
+    "sourceUrl": "https://www.va.gov/disability/eligibility/special-claims/clothing-allowance/",
+    "tags": ["clothing", "allowance", "disability"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_champva",
+    "scope": "federal",
+    "title": "CHAMPVA Health Insurance",
+    "summary": "Comprehensive health insurance for spouses, dependents, and survivors of veterans with permanent and total service-connected disabilities or who died from service-connected conditions.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresPermanentTotal": true,
+      "requiresServiceConnected": true,
+      "notes": "Veteran must be rated permanently and totally disabled, OR veteran died from service-connected disability, OR veteran died while rated P&T. Not eligible if qualify for TRICARE."
+    },
+    "eligibilityNotes": "Covers spouses, dependent children, and primary family caregivers. Cost-sharing program - CHAMPVA pays 75% after $50 individual/$100 family deductible. $3,000 annual catastrophic cap. Surviving spouses lose benefits if remarry before age 55.",
+    "sourceUrl": "https://www.va.gov/family-and-caregiver-benefits/health-and-disability/champva/",
+    "tags": ["healthcare", "family", "insurance", "dependents"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "federal_employment_preference",
+    "scope": "federal",
+    "title": "Veterans Preference in Federal Hiring",
+    "summary": "Preference points awarded to veterans in competitive federal hiring and priority during reductions in force.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "5-point preference for honorably discharged veterans who served during wartime or certain periods. 10-point preference for service-connected disabled veterans."
+    },
+    "eligibilityNotes": "Does not guarantee employment but provides competitive advantage. Disabled veterans with 10%+ rating placed at top of category on referral lists at VA. Does not apply to promotions or transfers.",
+    "sourceUrl": "https://www.opm.gov/policy-data-oversight/veterans-services/vet-guide-for-hr-professionals/",
+    "tags": ["employment", "hiring", "preference", "civil_service"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "federal_vra_hiring",
+    "scope": "federal",
+    "title": "Veterans Recruitment Appointment (VRA)",
+    "summary": "Non-competitive hiring authority allowing eligible veterans to be appointed to federal positions up to GS-11 without competition.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Available to disabled veterans, veterans who served during war/campaign, or veterans who separated within 3 years."
+    },
+    "eligibilityNotes": "After 2 years of successful performance, veterans are converted to career or career-conditional appointment. No grade level limitations. Faster path to federal employment.",
+    "sourceUrl": "https://www.vaforvets.va.gov/vaforvets/JobSeekers/Pages/Federal-Hiring-Process.asp",
+    "tags": ["employment", "hiring", "non_competitive"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "federal_30_percent_disabled_hiring",
+    "scope": "federal",
+    "title": "30% or More Disabled Veterans Hiring Authority",
+    "summary": "Non-competitive hiring authority for veterans with 30%+ service-connected disability to any federal position at any grade level.",
+    "requirements": {
+      "minDisability": 30,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Must have 30% or higher service-connected disability rating from VA."
+    },
+    "eligibilityNotes": "No grade level restrictions. Can be converted to career appointment based on successful performance. Provides fastest path to federal employment for 30%+ disabled veterans.",
+    "sourceUrl": "https://www.vaforvets.va.gov/vaforvets/JobSeekers/Pages/Federal-Hiring-Process.asp",
+    "tags": ["employment", "hiring", "non_competitive", "disability"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "national_parks_access_pass",
+    "scope": "federal",
+    "title": "America the Beautiful Access Pass (National Parks)",
+    "summary": "Free lifetime pass providing access to 2,000+ federal recreation sites including national parks, wildlife refuges, and forests for disabled veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Must have permanent service-connected disability that severely limits one or more major life activities. Any percentage rating qualifies."
+    },
+    "eligibilityNotes": "Admits passholder plus 3 additional adults where per-person fees charged, or entire vehicle at per-vehicle sites. Provides 50% discount on some amenity fees like camping. Free if obtained in person, $10 processing fee if ordered online.",
+    "sourceUrl": "https://www.nps.gov/subjects/accessibility/interagency-access-pass.htm",
+    "tags": ["recreation", "parks", "access_pass"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "national_parks_military_pass",
+    "scope": "federal",
+    "title": "America the Beautiful Military Lifetime Pass",
+    "summary": "Free lifetime pass to 2,000+ federal recreation sites for all U.S. military veterans and Gold Star Families.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Available to all U.S. military veterans (any era) and Gold Star Families."
+    },
+    "eligibilityNotes": "Covers entrance and standard amenity fees at national parks, wildlife refuges, forests, and BLM lands. Does not cover camping, tours, or concessions. Free in person or $10 processing fee online.",
+    "sourceUrl": "https://www.nps.gov/planyourvisit/veterans-and-gold-star-families-free-access.htm",
+    "tags": ["recreation", "parks", "access_pass"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "commissary_exchange_privileges",
+    "scope": "federal",
+    "title": "Commissary and Military Exchange Shopping Privileges",
+    "summary": "In-store shopping access at military commissaries and exchanges for veterans with service-connected disabilities, providing significant savings on groceries and retail items.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Any service-connected disability rating qualifies. Purple Heart recipients and former POWs also eligible."
+    },
+    "eligibilityNotes": "Use Veteran Health ID Card (VHIC) or VA letter with government ID for access. 1.43% surcharge on credit card purchases. Commissary saves approximately 25% vs commercial stores. 100% disabled veterans can obtain DoD ID card for easier access.",
+    "sourceUrl": "https://www.va.gov/resources/commissary-and-exchange-privileges-for-veterans/",
+    "tags": ["shopping", "commissary", "exchange", "savings"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "sba_vosb_sdvosb_certification",
+    "scope": "federal",
+    "title": "SBA Veteran Small Business Certification (VOSB/SDVOSB)",
+    "summary": "Federal certification enabling veteran-owned businesses to compete for set-aside and sole-source government contracts.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Business must be 51%+ veteran-owned and controlled. SDVOSB requires service-connected disability."
+    },
+    "eligibilityNotes": "VOSB: Access to VA sole-source/set-aside contracts (7% of VA contracts). SDVOSB: Access to federal sole-source/set-aside contracts (5% of all federal contracts). Free certification through SBA.",
+    "sourceUrl": "https://www.sba.gov/federal-contracting/contracting-assistance-programs/veteran-contracting-assistance-programs",
+    "tags": ["business", "contracting", "certification", "sba"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "sba_vboc",
+    "scope": "federal",
+    "title": "Veterans Business Outreach Centers (VBOCs)",
+    "summary": "31 nationwide centers providing free business training, counseling, mentorship, and resources to veteran entrepreneurs.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Available to veterans, service members, National Guard/Reserve, and military spouses."
+    },
+    "eligibilityNotes": "Free services include business plan development, workshops, concept assessments, mentorship, and connections to lenders and SBA programs. Conducts Boots to Business programs.",
+    "sourceUrl": "https://www.sba.gov/local-assistance/resource-partners/veterans-business-outreach-centers-vboc",
+    "tags": ["business", "training", "counseling", "entrepreneurship"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_gi_bill",
+    "scope": "federal",
+    "title": "GI Bill Education Benefits",
+    "summary": "Education benefits to help Veterans, service members, and dependents pay for school or training.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Eligibility varies by GI Bill program and depends on service history and discharge status."
+    },
+    "eligibilityNotes": "Eligibility depends on service history and discharge status. Multiple GI Bill programs exist (e.g., Post-9/11 GI Bill, Montgomery GI Bill).",
+    "sourceUrl": "https://www.va.gov/education/",
+    "tags": ["education", "gi_bill", "training"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_vre",
+    "scope": "federal",
+    "title": "Veteran Readiness and Employment (VR&E)",
+    "summary": "Employment, training, and education support for Veterans with service-connected disabilities and certain dependents.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "VR&E eligibility generally depends on having a service-connected disability rating and meeting program criteria; see official VA guidance."
+    },
+    "eligibilityNotes": "Eligibility depends on service-connected disability status and other factors. See VA guidance for details and how to apply.",
+    "sourceUrl": "https://www.benefits.va.gov/benefits/services.asp",
+    "tags": ["employment", "education", "training", "vre"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_life_insurance",
+    "scope": "federal",
+    "title": "VA Life Insurance",
+    "summary": "Life insurance programs for Veterans, including options for those with service-connected disabilities.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Programs vary based on service status, disability status, and application timing. See VA program pages for details."
+    },
+    "eligibilityNotes": "Programs vary based on service status, disability status, and application timing. See VA program pages for details.",
+    "sourceUrl": "https://www.va.gov/life-insurance/",
+    "tags": ["insurance", "life"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_burial_benefits_overview",
+    "scope": "federal",
+    "title": "VA Burial and Memorial Benefits (Overview)",
+    "summary": "Overview of VA burial and memorial benefits, including national cemetery burial, headstones/markers, and related support.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Eligibility depends on service and discharge status; see linked pages for program-specific requirements."
+    },
+    "eligibilityNotes": "Eligibility depends on service history and discharge status. See linked pages for specific programs and requirements.",
+    "sourceUrl": "https://www.va.gov/burials-memorials/",
+    "tags": ["burial", "cemetery", "memorial"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_burial_eligibility",
+    "scope": "federal",
+    "title": "Burial in a VA National Cemetery (Eligibility)",
+    "summary": "Eligibility information for burial in a VA national cemetery for Veterans and eligible family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Eligibility varies by status and service history. A pre-need eligibility determination may be available."
+    },
+    "eligibilityNotes": "Eligibility varies by status and service history. A pre-need eligibility determination may be available.",
+    "sourceUrl": "https://www.va.gov/burials-memorials/eligibility/",
+    "tags": ["burial", "cemetery", "survivors"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_burial_allowance",
+    "scope": "federal",
+    "title": "Veterans Burial Allowance",
+    "summary": "Financial assistance to help cover some burial and funeral costs for eligible Veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Amounts/eligibility vary based on circumstances of death and burial; see VA guidance for requirements and how to apply."
+    },
+    "eligibilityNotes": "Eligibility and amounts vary based on circumstances. See VA guidance for requirements and how to apply.",
+    "sourceUrl": "https://www.va.gov/burials-memorials/veterans-burial-allowance/",
+    "tags": ["burial", "death_benefits", "reimbursement"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_dic",
+    "scope": "federal",
+    "title": "Dependency and Indemnity Compensation (DIC)",
+    "summary": "Monthly tax-free benefit paid to eligible surviving spouses, children, or parents of service members who died in the line of duty or from a service-connected condition.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Service member must have died from service-connected condition or in line of duty."
+    },
+    "eligibilityNotes": "For surviving spouses, children, or parents. Surviving spouses must not have remarried (or remarried after age 57).",
+    "sourceUrl": "https://www.va.gov/disability/dependency-indemnity-compensation/",
+    "tags": ["survivor", "income", "dic"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_aid_and_attendance",
+    "scope": "federal",
+    "title": "Aid and Attendance / Housebound Benefits",
+    "summary": "Additional monthly payments for veterans or survivors who need help with daily activities or are largely confined to their home.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Requires medical need and qualifying pension or survivor benefit."
+    },
+    "eligibilityNotes": "Must qualify for VA pension and require regular aid and attendance of another person, or be housebound.",
+    "sourceUrl": "https://www.va.gov/pension/aid-attendance-housebound/",
+    "tags": ["pension", "eldercare", "health"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_state_veterans_homes_federal",
+    "scope": "federal",
+    "benefitType": "facility",
+    "title": "VA State Veterans Homes (Federal Program)",
+    "summary": "VA-supported long-term care facilities operated by states for eligible veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Eligibility depends on VA status, clinical need, and state-specific admission rules."
+    },
+    "eligibilityNotes": "Each state sets own admission criteria. VA provides per diem payments to states. 175 homes across all 50 states.",
+    "sourceUrl": "https://www.va.gov/geriatrics/pages/State_Veterans_Homes.asp",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  }
+]
