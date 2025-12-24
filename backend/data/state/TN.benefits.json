@@ -1,15 +1,15 @@
 [
   {
-    "id": "tn_property_tax_relief_disabled_veterans_pt",
+    "id": "tn_property_tax_relief_disabled_vet_pt",
     "scope": "state",
     "state": "TN",
     "title": "Property Tax Relief for Disabled Veterans",
-    "summary": "Property tax relief for eligible disabled veterans in Tennessee.",
+    "summary": "Property tax relief for qualifying disabled veterans in Tennessee.",
     "requirements": {
       "minDisability": 100,
       "requiresPermanentTotal": true
     },
-    "eligibilityNotes": "Veteran must be rated 100% Permanent and Total by the VA.",
+    "eligibilityNotes": "Must be rated 100% Permanent and Total (P&T) by the VA. See official page for application details and required documentation.",
     "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/homeowners/property-tax-relief-for-disabled-veterans.html",
     "tags": ["tax", "property", "housing"],
     "lastReviewed": "2025-12-23"
@@ -18,10 +18,10 @@
     "id": "tn_state_parks_free_day",
     "scope": "state",
     "state": "TN",
-    "title": "Tennessee State Parks: Free Day",
-    "summary": "Free admission on designated dates and complimentary camping/golf offers tied to service branch birthdays (see official page for current details).",
-    "requirements": null,
-    "eligibilityNotes": "Dates and offers vary by year and service branch. See the official page for the current schedule, documentation requirements, and reservation instructions.",
+    "title": "Free Day at Tennessee State Parks",
+    "summary": "Free admission on designated dates and certain complimentary camping/golf offers tied to service branch birthdays (see official page for current dates).",
+    "requirements": {},
+    "eligibilityNotes": "Dates and offers vary by year and service branch. See the official page for the current schedule, documentation requirements, and reservation details.",
     "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/state-parks/free-day.html",
     "tags": ["recreation", "state_parks", "camping", "golf"],
     "lastReviewed": "2025-12-23"
@@ -30,37 +30,35 @@
     "id": "tn_state_parks_offseason_discount",
     "scope": "state",
     "state": "TN",
-    "title": "Tennessee State Parks: Offseason Discount",
-    "summary": "Offseason discounts may be available for eligible Tennessee residents at participating state parks (see official page for dates and details).",
-    "requirements": {
-      "requiresTennesseeResident": true
-    },
-    "eligibilityNotes": "Eligibility and discount rules can change. Verify current requirements, dates, and participating locations on the official page and bring required documentation when booking/purchasing.",
+    "title": "State Parks: Offseason Discount",
+    "summary": "Offseason discounts may be available to eligible Tennessee residents at participating state parks (see official page for dates and details).",
+    "requirements": {},
+    "eligibilityNotes": "Verify residency requirements, eligible parks, and current discount rules on the official page. Bring required documentation when booking/purchasing.",
     "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/state-parks/discounted-rates.html",
     "tags": ["recreation", "state_parks", "discount"],
     "lastReviewed": "2025-12-23"
   },
   {
-    "id": "tn_state_parks_lodging_100_service_connected",
+    "id": "tn_state_parks_lodging_100_sc",
     "scope": "state",
     "state": "TN",
-    "title": "Tennessee State Parks: Lodging Benefit for 100% Service-Connected Veterans",
+    "title": "State Parks: Lodging Benefit for 100% Service-Connected Veterans",
     "summary": "Certain lodging/camping benefits may be available for veterans rated 100% service-connected (see official page for details).",
     "requirements": {
       "minDisability": 100,
       "requiresServiceConnected": true
     },
-    "eligibilityNotes": "Verify eligible locations/rates and required documentation on the official page. Present proof of eligibility when booking.",
+    "eligibilityNotes": "Check eligible locations/rates and required documentation on the official page. Present proof when booking.",
     "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/state-parks/discounted-rates.html",
     "tags": ["recreation", "state_parks", "lodging"],
     "lastReviewed": "2025-12-23"
   },
   {
-    "id": "tn_hunting_fishing_license_disabled_veteran_one_time_fee",
+    "id": "tn_hunting_fishing_license_disabled_vet",
     "scope": "state",
     "state": "TN",
     "title": "Disabled Veteran Hunting & Fishing License (One-time $10)",
-    "summary": "A permanent sport combination hunting and fishing license may be available to eligible Tennessee residents for a one-time $10 fee.",
+    "summary": "Eligible Tennessee residents may obtain a permanent sport combination hunting and fishing license with a one-time $10 fee.",
     "requirements": {
       "anyOf": [
         {
@@ -76,72 +74,86 @@
             { "requiresWartimeService": true }
           ]
         }
-      ],
-      "requiresTennesseeResident": true
+      ]
     },
-    "eligibilityNotes": "Requires Tennessee residency and qualifying disability/service criteria. See official guidance for documentation requirements and definitions.",
+    "eligibilityNotes": "Requires Tennessee residency and qualifying disability/service criteria. See the official page for exact eligibility language and required documentation.",
     "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/state-parks/hunting-and-fishing-licenses.html",
     "tags": ["recreation", "hunting", "fishing", "license"],
     "lastReviewed": "2025-12-23"
   },
-{
-  "id": "tn_property_tax_relief_surviving_spouse",
-  "scope": "state",
-  "state": "TN",
-  "audience": "surviving_spouse",
-  "title": "Property Tax Relief for Surviving Spouses",
-  "summary": "Property tax relief may be available to surviving spouses of disabled veterans who would have been eligible for the disabled veteran property tax relief program.",
-  "requirements": {
-    "minDisability": 100,
-    "requiresPermanentTotal": true
-  },
-  "eligibilityNotes": "Surviving spouse conditions still apply (e.g., must not remarry; must own and use the home as primary residence). Apply through the County Trustee. See official guidance for details.",
-  "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/homeowners/property-tax-relief-for-surviving-spouses.html",
-  "tags": ["tax", "property", "housing", "survivor"],
-  "lastReviewed": "2025-12-23"
-  },
   {
-    "id": "tn_veteran_designation_driver_license_id",
+    "id": "tn_property_tax_relief_surviving_spouse",
     "scope": "state",
     "state": "TN",
-    "title": "Veteran Designation on Tennessee Driver License / Photo ID",
-    "summary": "Tennessee offers a veteran designation on a TN driver license or photo ID with DD-214 documentation and applicable fees.",
+    "audience": "surviving_spouse",
+    "title": "Property Tax Relief for Surviving Spouses",
+    "summary": "Property tax relief may be available to surviving spouses of eligible disabled veterans, subject to specific conditions.",
     "requirements": {
-      "requiresDd214": true,
-      "requiresTennesseeResident": true
+      "allOf": [
+        { "field": "isSurvivingSpouse", "op": "==", "value": true },
+        { "field": "hasRemarried", "op": "==", "value": false },
+        { "field": "ownsHome", "op": "==", "value": true },
+        { "field": "isPrimaryResidence", "op": "==", "value": true }
+      ]
     },
-    "eligibilityNotes": "Visit a Driver Services Center and present a certified or original DD-214. Standard issuance/renewal fees apply. If not renewing, a duplicate may be obtained (fees listed on the official page).",
-    "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/motor-services/veteran-id.html",
-    "tags": ["id", "motor_services", "driver_license"],
+    "eligibilityNotes": "Generally requires the surviving spouse to not remarry and to own and use the home as a primary residence. Apply through your County Trustee. See official sources for details and additional eligibility rules.",
+    "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/homeowners/property-tax-relief-for-surviving-spouses.html",
+    "tags": ["tax", "property", "housing", "survivor"],
     "lastReviewed": "2025-12-23"
   },
   {
-    "id": "tn_county_motor_vehicle_privilege_tax_relief_disabled_veterans_pt",
+    "id": "tn_driver_license_veteran_designation",
+    "scope": "state",
+    "state": "TN",
+    "title": "Veteran Designation on TN Driver License / Photo ID",
+    "summary": "Veterans can add a veteran designation to a Tennessee driver license or photo ID by presenting acceptable documentation (fees may apply).",
+    "requirements": {},
+    "eligibilityNotes": "Visit a Driver Services Center with acceptable documentation (e.g., DD-214). Standard issuance/renewal fees apply; duplicate fees may apply if not renewing.",
+    "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/motor-services/veteran-id.html",
+    "tags": ["id", "license"],
+    "lastReviewed": "2025-12-23"
+  },
+  {
+    "id": "tn_county_motor_vehicle_privilege_tax_relief_pt",
     "scope": "state",
     "state": "TN",
     "title": "County Motor Vehicle Privilege Tax Relief for Disabled Veterans",
-    "summary": "County motor vehicle privilege tax relief for eligible disabled veterans in Tennessee.",
+    "summary": "County motor vehicle privilege tax relief for qualifying disabled veterans in Tennessee.",
     "requirements": {
       "minDisability": 100,
       "requiresPermanentTotal": true
     },
-    "eligibilityNotes": "Veteran must be rated 100% Permanent and Total by the VA. Verify required documentation and application steps on the official page.",
+    "eligibilityNotes": "Must be rated 100% Permanent and Total (P&T) by the VA. See official page for documentation and application steps.",
     "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/motor-services/county-motor-vehicle-privilege-tax.html",
-    "tags": ["tax", "vehicle", "motor_services"],
+    "tags": ["tax", "vehicle"],
     "lastReviewed": "2025-12-23"
   },
   {
-    "id": "tn_highways_for_heroes_cdl",
+    "id": "tn_highways_for_heroes_cdl_skills_waiver",
     "scope": "state",
     "state": "TN",
-    "title": "Highways for Heroes (CDL Program)",
-    "summary": "Tennessee program that may waive the road skills test for qualified military personnel applying for a Tennessee Commercial Driver License (CDL).",
-    "requirements": {
-      "requiresMilitaryOrVeteranStatus": true
-    },
-    "eligibilityNotes": "Eligibility depends on service history and program requirements. See official page for qualifying criteria, documentation, and application steps.",
+    "title": "Highways for Heroes (CDL Skills Test Waiver)",
+    "summary": "Tennessee program that may allow qualified military personnel and veterans to waive the CDL road skills test.",
+    "requirements": {},
+    "eligibilityNotes": "Eligibility and required forms/documentation vary. See official page for qualification criteria and application instructions.",
     "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/motor-services/commercial-driver-s-license-issuance.html",
-    "tags": ["employment", "cdl", "motor_services", "education_training"],
+    "tags": ["employment", "cdl", "vehicle", "license"],
     "lastReviewed": "2025-12-23"
-  }
+  },
+  {
+  "id": "tn_veterans_homes",
+  "scope": "state",
+  "state": "TN",
+  "benefitType": "facility",
+  "title": "Tennessee State Veterans Homes",
+  "summary": "Long-term care facilities for eligible veterans and eligible spouses.",
+  "requirements": {
+    "notes": "Admission depends on availability, care needs, and eligibility determination."
+  },
+  "eligibilityNotes": "Applicants must meet VA and state eligibility criteria. Spouses may be eligible in certain cases.",
+  "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-veterans-homes.html",
+  "tags": ["housing", "long_term_care", "facility"],
+  "lastReviewed": "2025-12-23"
+}
+
 ]

@@ -1,0 +1,74 @@
+[
+{
+  "id": "va_health_care",
+  "scope": "federal",
+  "title": "VA Health Care",
+  "summary": "Eligible veterans may enroll in VA health care services, including primary care, specialty care, and prescriptions.",
+  "requirements": {
+    "minDisability": 0
+  },
+  "eligibilityNotes": "Eligibility depends on service history, discharge status, and other factors. Disability rating may affect priority group and copays.",
+  "sourceUrl": "https://www.va.gov/health-care/eligibility/",
+  "tags": ["healthcare", "medical", "va"],
+  "lastReviewed": "2025-12-23"
+},
+{
+  "id": "va_disability_compensation",
+  "scope": "federal",
+  "title": "VA Disability Compensation",
+  "summary": "Monthly tax-free payments for veterans with service-connected disabilities.",
+  "requirements": {
+    "requiresServiceConnected": true
+  },
+  "eligibilityNotes": "Disability must be connected to military service and rated by the VA.",
+  "sourceUrl": "https://www.va.gov/disability/",
+  "tags": ["compensation", "disability", "income"],
+  "lastReviewed": "2025-12-23"
+},
+{
+  "id": "va_home_loan",
+  "scope": "federal",
+  "title": "VA Home Loan Guaranty",
+  "summary": "VA-backed home loans with no down payment and competitive interest rates.",
+  "requirements": {},
+  "eligibilityNotes": "Available to eligible veterans, service members, and some surviving spouses. Disability rating may waive the VA funding fee.",
+  "sourceUrl": "https://www.va.gov/housing-assistance/home-loans/",
+  "tags": ["housing", "loan", "mortgage"],
+  "lastReviewed": "2025-12-23"
+},
+{
+  "id": "gi_bill",
+  "scope": "federal",
+  "title": "GI Bill Education Benefits",
+  "summary": "Education benefits to help veterans, service members, and dependents pay for school or training.",
+  "requirements": {},
+  "eligibilityNotes": "Eligibility depends on service history and discharge status. Multiple GI Bill programs exist.",
+  "sourceUrl": "https://www.va.gov/education/",
+  "tags": ["education", "gi_bill", "training"],
+  "lastReviewed": "2025-12-23"
+},
+{
+  "id": "va_life_insurance",
+  "scope": "federal",
+  "title": "VA Life Insurance",
+  "summary": "Life insurance programs for veterans, including coverage for those with service-connected disabilities.",
+  "requirements": {
+    "requiresServiceConnected": false
+  },
+  "eligibilityNotes": "Programs vary based on service status, disability, and application timing.",
+  "sourceUrl": "https://www.va.gov/life-insurance/",
+  "tags": ["insurance", "life"],
+  "lastReviewed": "2025-12-23"
+},
+{
+  "id": "va_burial_benefits",
+  "scope": "federal",
+  "title": "VA Burial and Memorial Benefits",
+  "summary": "Burial benefits for eligible veterans, including national cemetery burial, headstones, and burial allowances.",
+  "requirements": {},
+  "eligibilityNotes": "Eligibility depends on service history and discharge status.",
+  "sourceUrl": "https://www.va.gov/burials-memorials/",
+  "tags": ["burial", "cemetery", "memorial"],
+  "lastReviewed": "2025-12-23"
+}
+]
