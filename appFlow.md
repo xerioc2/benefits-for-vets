@@ -4,6 +4,7 @@
 2. User selects:
    - State
    - Disability rating
+   - Checks box if P&T
 3. App displays:
    - List of potential benefits
    - Eligibility explanation
