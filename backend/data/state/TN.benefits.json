@@ -84,25 +84,21 @@
     "tags": ["recreation", "hunting", "fishing", "license"],
     "lastReviewed": "2025-12-23"
   },
-  {
-    "id": "tn_property_tax_relief_surviving_spouses",
-    "scope": "state",
-    "state": "TN",
-    "audience": "surviving_spouse",
-    "title": "Property Tax Relief for Surviving Spouses",
-    "summary": "Property tax relief may be available to eligible surviving spouses of disabled veterans, subject to specific conditions.",
-    "requirements": {
-      "allOf": [
-        { "field": "isSurvivingSpouse", "op": "==", "value": true },
-        { "field": "hasRemarried", "op": "==", "value": false },
-        { "field": "ownsHome", "op": "==", "value": true },
-        { "field": "isPrimaryResidence", "op": "==", "value": true }
-      ]
-    },
-    "eligibilityNotes": "Surviving spouse must not remarry, must own (solely or jointly) and use the home as their primary residence. Additional rules may apply based on when the veteran would have qualified. Apply through your County Trustee and verify details on the official page.",
-    "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/homeowners/property-tax-relief-for-surviving-spouses.html",
-    "tags": ["tax", "property", "housing", "survivor"],
-    "lastReviewed": "2025-12-23"
+{
+  "id": "tn_property_tax_relief_surviving_spouse",
+  "scope": "state",
+  "state": "TN",
+  "audience": "surviving_spouse",
+  "title": "Property Tax Relief for Surviving Spouses",
+  "summary": "Property tax relief may be available to surviving spouses of disabled veterans who would have been eligible for the disabled veteran property tax relief program.",
+  "requirements": {
+    "minDisability": 100,
+    "requiresPermanentTotal": true
+  },
+  "eligibilityNotes": "Surviving spouse conditions still apply (e.g., must not remarry; must own and use the home as primary residence). Apply through the County Trustee. See official guidance for details.",
+  "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/homeowners/property-tax-relief-for-surviving-spouses.html",
+  "tags": ["tax", "property", "housing", "survivor"],
+  "lastReviewed": "2025-12-23"
   },
   {
     "id": "tn_veteran_designation_driver_license_id",
