@@ -238,5 +238,107 @@
     "sourceUrl": "https://www.glo.texas.gov/vlb/",
     "tags": ["housing", "loan", "land"],
     "lastReviewed": "2025-12-24"
-  }
+  },
+  {
+  "id": "tx_veteran_entrepreneur_program",
+  "scope": "state",
+  "state": "TX",
+  "title": "Texas Veteran Entrepreneur Program",
+  "summary": "Comprehensive business assistance including consultation, business plans, financing, and marketing for veteran entrepreneurs.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Free program operated by Texas Veterans Commission."
+  },
+  "eligibilityNotes": "Provides veteran entrepreneurs and business owners with tools to start or grow businesses. Includes awareness of federal/state benefits, needs assessment, and program review.",
+  "sourceUrl": "https://tvc.texas.gov/entrepreneur/",
+  "tags": ["business", "entrepreneurship", "assistance"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tx_lawyers_for_veterans",
+  "scope": "state",
+  "state": "TX",
+  "title": "Texas Lawyers for Texas Veterans",
+  "summary": "Pro bono civil legal assistance for veterans and families who cannot afford legal services.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "For veterans and families who cannot afford legal services."
+  },
+  "eligibilityNotes": "State Bar of Texas program provides free legal assistance for qualifying veterans in civil matters.",
+  "sourceUrl": "https://www.texasbar.com/Content/NavigationMenu/ForThePublic/FreeLegalInformation/TexasLawyersforTexasVeterans/default.htm",
+  "tags": ["legal", "assistance", "pro_bono"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tx_military_licensing_waiver",
+  "scope": "state",
+  "state": "TX",
+  "title": "Military Occupational Licensing Waiver Program",
+  "summary": "Eliminates application and examination fees; military training counts toward occupational licenses.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Available to veterans and military spouses."
+  },
+  "eligibilityNotes": "Military training and experience counts toward occupational licensing. Spouses may qualify for expedited licensing in nursing, education, legal services, and other fields.",
+  "sourceUrl": "https://tvc.texas.gov/",
+  "tags": ["employment", "licensing", "fee_waiver", "spouse"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tx_state_contracting_preference",
+  "scope": "state",
+  "state": "TX",
+  "title": "Service-Disabled Veteran Business Contracting Preference",
+  "summary": "First preference in state purchasing for Texas businesses owned by service-disabled veterans.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": true,
+    "requiresPermanentTotal": null,
+    "notes": "Business must be 51%+ owned by service-disabled veteran who is Texas resident."
+  },
+  "eligibilityNotes": "Service-disabled veteran-owned Texas businesses receive first preference when state purchases goods. Quality and price must be comparable.",
+  "sourceUrl": "https://comptroller.texas.gov/purchasing/",
+  "tags": ["business", "contracting", "preference"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tx_mental_health_vmhd",
+  "scope": "state",
+  "state": "TX",
+  "title": "Veterans Mental Health Department (VMHD) Services",
+  "summary": "Peer-to-peer networks, suicide prevention training, and justice-involved veteran outreach—all free regardless of discharge status.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Free services regardless of discharge status. $50M invested in alternative therapy clinical trials."
+  },
+  "eligibilityNotes": "Comprehensive mental health support including peer networks, suicide prevention, and innovative treatments. Contact TVC for assistance.",
+  "sourceUrl": "https://tvc.texas.gov/mental-health/",
+  "tags": ["mental_health", "healthcare", "support"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tx_folds_of_honor_scholarship",
+  "scope": "state",
+  "state": "TX",
+  "title": "Folds of Honor Texas Scholarships",
+  "summary": "Up to $5,000 scholarship for dependents of disabled veterans based on unmet financial need.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": true,
+    "requiresPermanentTotal": null,
+    "notes": "Based on unmet need. Children's Fund Scholarship available."
+  },
+  "eligibilityNotes": "Scholarships valued up to $5,000 for dependents of service-connected disabled veterans. Documentation of unmet need required.",
+  "sourceUrl": "https://foldsofhonor.org/",
+  "tags": ["education", "scholarship", "dependents"],
+  "lastReviewed": "2025-12-24"
+}
 ]

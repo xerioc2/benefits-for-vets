@@ -1,0 +1,112 @@
+[
+  {
+    "id": "mi_property_tax_exemption_disabled_veteran",
+    "scope": "state",
+    "state": "MI",
+    "title": "Disabled Veteran Property Tax Exemption",
+    "summary": "Michigan provides a full property tax exemption for qualifying disabled veterans or their surviving spouses.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null,
+      "notes": "Applies to the veteran’s primary residence. Surviving spouses may remain eligible if they do not remarry."
+    },
+    "eligibilityNotes": "Veteran must be rated 100% service-connected and totally disabled by the VA. Apply through the local assessor with VA documentation.",
+    "sourceUrl": "https://www.michigan.gov/taxes/property/exemptions/veterans",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "mi_tuition_grant_veterans",
+    "scope": "state",
+    "state": "MI",
+    "title": "Michigan Veterans Tuition Grant",
+    "summary": "Need-based tuition assistance for eligible Michigan veterans attending approved colleges.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": true,
+      "notes": "Requires honorable service during a period of war and Michigan residency."
+    },
+    "eligibilityNotes": "Administered by the Michigan Department of Treasury. Covers tuition assistance, not housing or books.",
+    "sourceUrl": "https://www.michigan.gov/mistudentaid/programs/veterans",
+    "tags": ["education", "tuition", "grant"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "mi_hunting_fishing_license_disabled_vet",
+    "scope": "state",
+    "state": "MI",
+    "title": "Free Hunting & Fishing Licenses for Disabled Veterans",
+    "summary": "Michigan offers free hunting and fishing licenses to qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null,
+      "notes": "Includes base licenses; some permits or stamps may still require payment."
+    },
+    "eligibilityNotes": "Veterans must provide VA documentation showing 100% service-connected disability.",
+    "sourceUrl": "https://www.michigan.gov/dnr/buy-and-apply/licenses/veterans",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "mi_driver_license_veteran_designation",
+    "scope": "state",
+    "state": "MI",
+    "title": "Veteran Designation on Michigan Driver License / ID",
+    "summary": "Eligible veterans may add a Veteran designation to a Michigan driver license or state ID.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Requires proof of honorable service such as DD-214."
+    },
+    "eligibilityNotes": "Apply at a Secretary of State office with acceptable veteran documentation.",
+    "sourceUrl": "https://www.michigan.gov/sos/all-services/veteran-designation",
+    "tags": ["id", "license", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "mi_veterans_homes",
+    "scope": "state",
+    "state": "MI",
+    "benefitType": "facility",
+    "title": "Michigan Veterans Homes",
+    "summary": "State-operated veterans homes providing long-term care, skilled nursing, and assisted living services.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Admission depends on care needs, eligibility determination, and bed availability."
+    },
+    "eligibilityNotes": "Michigan operates multiple veterans homes. Spouses may be eligible in certain circumstances.",
+    "sourceUrl": "https://www.michigan.gov/mvaa/services/veterans-homes",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "mi_veterans_cemeteries",
+    "scope": "state",
+    "state": "MI",
+    "benefitType": "facility",
+    "title": "Michigan Veterans Cemeteries",
+    "summary": "State-operated veterans cemeteries offering burial options for eligible veterans and family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility generally mirrors VA national cemetery eligibility."
+    },
+    "eligibilityNotes": "Includes multiple cemetery locations throughout Michigan. Pre-need eligibility is recommended.",
+    "sourceUrl": "https://www.michigan.gov/mvaa/services/cemeteries",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-24"
+  }
+]

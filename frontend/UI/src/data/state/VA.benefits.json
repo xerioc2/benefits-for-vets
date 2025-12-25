@@ -202,5 +202,73 @@
     "sourceUrl": "https://www.dvs.virginia.gov/benefits-services/tax-exemptions",
     "tags": ["tax", "income", "retirement"],
     "lastReviewed": "2025-12-24"
-  }
+  },
+  {
+  "id": "va_values_veterans_v3",
+  "scope": "state",
+  "state": "VA",
+  "title": "Virginia Values Veterans (V3) Program",
+  "summary": "State employment initiative encouraging veteran hiring with enhanced interview requirements for state agencies.",
+  "requirements": {
+    "minDisability": null,
+    "requiresPermanentTotal": null,
+    "requiresServiceConnected": null,
+    "notes": "State agencies must interview at least one veteran if they meet minimum qualifications."
+  },
+  "eligibilityNotes": "Virginia Values Veterans (V3) Program promotes veteran employment throughout state agencies. Enhanced consideration for Purple Heart recipients and Gold Star families.",
+  "sourceUrl": "https://www.dvs.virginia.gov/",
+  "tags": ["employment", "preference", "hiring"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "va_guard_tuition_assistance",
+  "scope": "state",
+  "state": "VA",
+  "title": "Virginia National Guard Tuition Assistance Program",
+  "summary": "State-funded tuition assistance for Virginia National Guard members.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be active member of Virginia National Guard."
+  },
+  "eligibilityNotes": "Provides tuition assistance for Guard members attending Virginia institutions.",
+  "sourceUrl": "https://www.vdh.virginia.gov/",
+  "tags": ["education", "tuition", "national_guard"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "va_military_retirement_phased_elimination",
+  "scope": "state",
+  "state": "VA",
+  "title": "Military Retirement Income Tax Subtraction (Phased Elimination)",
+  "summary": "Virginia is phasing out all state income tax on military retirement pay. Currently $40,000 deduction for age 55+, increasing toward full exemption.",
+  "requirements": {
+    "minDisability": null,
+    "requiresPermanentTotal": null,
+    "requiresServiceConnected": null,
+    "notes": "As of 2024: veterans 55+ can deduct up to $40,000. Amount increases annually toward full exemption."
+  },
+  "eligibilityNotes": "Applies to military retirement income, Survivor Benefit Plan payments, and military benefits paid to surviving spouses. Virginia is eliminating all taxes on military retirement over time.",
+  "sourceUrl": "https://www.dvs.virginia.gov/benefits-services/tax-exemptions",
+  "tags": ["tax", "income", "retirement"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "va_vmsdep_stipend_details",
+  "scope": "state",
+  "state": "VA",
+  "title": "VMSDEP Stipend for Books, Room & Board",
+  "summary": "In addition to tuition waiver, VMSDEP provides stipend for books, room, and board for eligible dependents.",
+  "requirements": {
+    "minDisability": 90,
+    "requiresPermanentTotal": null,
+    "requiresServiceConnected": true,
+    "notes": "Veteran must be 90-100% permanently disabled, or KIA/MIA/POW. Virginia must be home of record for 5+ years."
+  },
+  "eligibilityNotes": "Covers 8 semesters (4 academic years). Children must be 16-29 years old. Includes stipend beyond tuition. Apply through DVS portal each semester.",
+  "sourceUrl": "https://www.dvs.virginia.gov/benefits-services/education/virginia-military-survivors-dependents-education-program-vmsdep",
+  "tags": ["education", "tuition", "stipend", "dependents"],
+  "lastReviewed": "2025-12-24"
+}
 ]

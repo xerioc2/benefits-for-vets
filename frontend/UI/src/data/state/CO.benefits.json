@@ -1,0 +1,142 @@
+[
+  {
+    "id": "co_disabled_veteran_property_tax_exemption",
+    "scope": "state",
+    "state": "CO",
+    "title": "Disabled Veteran Property Tax Exemption",
+    "summary": "Colorado offers a property tax exemption for qualifying disabled veterans on their primary residence.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "notes": "Applies to the veteran’s primary residence only. Exemption amount is set by state law and may change."
+    },
+    "eligibilityNotes": "Veteran must be rated 100% Permanent and Total due to service-connected disability. Surviving spouses may remain eligible if they do not remarry. Apply through the County Assessor.",
+    "sourceUrl": "https://cdva.colorado.gov/property-tax-exemption",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "co_vehicle_registration_disabled_veteran",
+    "scope": "state",
+    "state": "CO",
+    "title": "Vehicle Registration Fee Exemption for Disabled Veterans",
+    "summary": "Colorado provides vehicle registration fee exemptions for qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 50,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Eligibility thresholds and covered fees may vary; applies to one vehicle."
+    },
+    "eligibilityNotes": "Veterans must meet disability requirements and apply through their County Motor Vehicle Office.",
+    "sourceUrl": "https://cdva.colorado.gov/dmv-benefits",
+    "tags": ["vehicle", "dmv", "tax"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "co_disabled_veteran_license_plate",
+    "scope": "state",
+    "state": "CO",
+    "title": "Disabled Veteran License Plate",
+    "summary": "Special license plates for eligible disabled veterans, which may include parking and fee benefits.",
+    "requirements": {
+      "minDisability": 50,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Disability threshold and benefits depend on plate type."
+    },
+    "eligibilityNotes": "Issued by the Colorado DMV with verification of VA disability status.",
+    "sourceUrl": "https://dmv.colorado.gov/disabled-veteran-license-plates",
+    "tags": ["vehicle", "parking", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "co_state_parks_disabled_veteran_pass",
+    "scope": "state",
+    "state": "CO",
+    "title": "Colorado State Parks Disabled Veteran Pass",
+    "summary": "Free or discounted access to Colorado State Parks for qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 50,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Pass types and eligibility thresholds may vary."
+    },
+    "eligibilityNotes": "Apply through Colorado Parks and Wildlife with proof of disability.",
+    "sourceUrl": "https://cpw.state.co.us/buyapply/Pages/DisabledVeteranPass.aspx",
+    "tags": ["recreation", "state_parks"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "co_hunting_fishing_license_disabled_veteran",
+    "scope": "state",
+    "state": "CO",
+    "title": "Reduced-Fee Hunting & Fishing Licenses for Disabled Veterans",
+    "summary": "Colorado offers reduced-fee hunting and fishing licenses to qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 60,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Eligibility depends on VA disability rating and residency."
+    },
+    "eligibilityNotes": "Licenses are issued through Colorado Parks and Wildlife.",
+    "sourceUrl": "https://cpw.state.co.us/buyapply/Pages/MilitaryVeterans.aspx",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "co_veteran_employment_preference",
+    "scope": "state",
+    "state": "CO",
+    "title": "Colorado Veterans Employment Preference",
+    "summary": "Veterans may receive preference in hiring for Colorado state government positions.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": true,
+      "notes": "Disabled veterans may receive additional preference points."
+    },
+    "eligibilityNotes": "Applies to qualifying veterans seeking state employment. Documentation such as DD-214 may be required.",
+    "sourceUrl": "https://cdva.colorado.gov/employment-preference",
+    "tags": ["employment", "preference", "civil_service"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "co_veterans_homes",
+    "scope": "state",
+    "state": "CO",
+    "benefitType": "facility",
+    "title": "Colorado State Veterans Community Living Centers",
+    "summary": "Long-term care facilities providing nursing and assisted living services for eligible veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Admission depends on medical need, eligibility determination, and bed availability."
+    },
+    "eligibilityNotes": "Colorado operates multiple Veterans Community Living Centers across the state.",
+    "sourceUrl": "https://cdva.colorado.gov/veterans-community-living-centers",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "co_veterans_cemeteries",
+    "scope": "state",
+    "state": "CO",
+    "benefitType": "facility",
+    "title": "Colorado State Veterans Cemeteries",
+    "summary": "State-operated cemeteries providing burial options for eligible veterans and family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility generally mirrors VA national cemetery rules."
+    },
+    "eligibilityNotes": "Includes multiple cemetery locations throughout Colorado.",
+    "sourceUrl": "https://cdva.colorado.gov/state-veterans-cemeteries",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-24"
+  }
+]

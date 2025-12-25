@@ -201,5 +201,146 @@
     "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-veterans-homes.html",
     "tags": ["housing", "long_term_care", "facility"],
     "lastReviewed": "2025-12-23"
-  }
+  },
+  {
+  "id": "tn_veterans_cemeteries_all",
+  "scope": "state",
+  "state": "TN",
+  "benefitType": "facility",
+  "title": "Tennessee State Veterans Cemeteries (All 5 Locations)",
+  "summary": "Five state-operated veterans cemeteries providing burial options throughout Tennessee.",
+  "requirements": {
+    "minDisability": null,
+    "requiresPermanentTotal": null,
+    "requiresServiceConnected": null,
+    "requiresWartimeService": null,
+    "notes": "Eligibility generally mirrors VA national cemetery requirements."
+  },
+  "eligibilityNotes": "Locations: Knoxville (2 cemeteries: East TN State Veterans Cemetery & John Sevier State Veterans Cemetery), Memphis (West TN State Veterans Cemetery), Nashville (Middle TN State Veterans Cemetery), Parkers Crossroads (West TN State Veterans Cemetery at Parkers Crossroads). No fee for veteran interment, small fee for dependents.",
+  "sourceUrl": "https://www.tn.gov/veteran/burial-benefits/tn-veterans-cemeteries.html",
+  "tags": ["burial", "cemetery", "memorial", "facility"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tn_business_tax_exemption",
+  "scope": "state",
+  "state": "TN",
+  "title": "Business Tax Exemption for Disabled Veterans",
+  "summary": "Disabled veterans exempt from certain business taxes listed in Tennessee business tax law.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": true,
+    "requiresPermanentTotal": null,
+    "notes": "Exemption applies to certain business activities under TN business tax law."
+  },
+  "eligibilityNotes": "Disabled veterans may be exempt from specific business taxes. Consult TN Department of Revenue for qualifying activities.",
+  "sourceUrl": "https://www.tn.gov/revenue/taxes/business-tax.html",
+  "tags": ["tax", "business"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tn_professional_privilege_tax_exemption",
+  "scope": "state",
+  "state": "TN",
+  "title": "Professional Privilege Tax Exemption (Active Military 181+ Days)",
+  "summary": "Active military members with 181+ days of service skip professional privilege tax for certain professions.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "For active military with 181+ days service. Applies to attorneys, lobbyists, and other licensed professionals."
+  },
+  "eligibilityNotes": "Exemption from professional privilege tax for qualifying active service members in certain professions.",
+  "sourceUrl": "https://www.tn.gov/revenue/",
+  "tags": ["tax", "professional", "military"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tn_sales_tax_refund",
+  "scope": "state",
+  "state": "TN",
+  "title": "Sales Tax Refund for Disabled/Seniors",
+  "summary": "Yearly sales tax refund for seniors 65+ or disabled individuals with low income.",
+  "requirements": {
+    "anyOf": [
+      {"field": "age", "op": ">=", "value": 65},
+      {"minDisability": null, "field": "disabledWithLowIncome", "op": "==", "value": true}
+    ],
+    "notes": "Must meet low-income criteria. Refund checks start in September."
+  },
+  "eligibilityNotes": "Seniors or disabled with low income can claim yearly sales tax refund through Tennessee Department of Revenue.",
+  "sourceUrl": "https://www.tn.gov/revenue/taxes/sales-and-use-tax.html",
+  "tags": ["tax", "sales_tax", "refund"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tn_national_guard_tuition",
+  "scope": "state",
+  "state": "TN",
+  "title": "Tennessee National Guard Tuition Assistance",
+  "summary": "State-funded tuition assistance program for Tennessee National Guard members.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be active member of Tennessee National Guard."
+  },
+  "eligibilityNotes": "Tuition assistance for Guard members attending Tennessee institutions. Separate from federal Guard benefits.",
+  "sourceUrl": "https://www.tn.gov/military/",
+  "tags": ["education", "tuition", "national_guard"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tn_kia_dependents_scholarship",
+  "scope": "state",
+  "state": "TN",
+  "title": "Scholarship for KIA Veterans' Survivors",
+  "summary": "Full cost of college at Tennessee state institution for survivors of veterans killed in action.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Veteran must have been killed in action or died as result of injuries suffered in war."
+  },
+  "eligibilityNotes": "Survivors receive full tuition coverage at Tennessee public colleges and universities.",
+  "sourceUrl": "https://www.tn.gov/veteran/",
+  "tags": ["education", "scholarship", "dependents", "survivors"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tn_veterans_homes_all_locations",
+  "scope": "state",
+  "state": "TN",
+  "benefitType": "facility",
+  "title": "Tennessee State Veterans Homes (All 4 Locations)",
+  "summary": "Four state-operated long-term care facilities for eligible veterans throughout Tennessee.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "requiresWartimeService": null,
+    "notes": "Admission depends on eligibility, care needs, and bed availability."
+  },
+  "eligibilityNotes": "Locations: Clarksville (Tennessee State Veterans' Home at Clarksville), Cleveland (Tennessee State Veterans' Home at Humboldt - relocated), Murfreesboro (Tennessee State Veterans' Home at Murfreesboro), Knoxville (Tennessee State Veterans' Home at Knoxville). Tennessee residents or natives eligible. Spouses, surviving spouses, and Gold Star parents may be eligible. Fee applies.",
+  "sourceUrl": "https://www.tn.gov/veteran/tn-state-veterans-homes.html",
+  "tags": ["housing", "long_term_care", "facility"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tn_veterans_preference_spouse",
+  "scope": "state",
+  "state": "TN",
+  "title": "Veteran Employment Preference for Spouse",
+  "summary": "State employment preference extended to spouses of disabled veterans.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Available to spouses of service-connected disabled veterans."
+  },
+  "eligibilityNotes": "Spouses of disabled veterans receive state employment preference in Tennessee.",
+  "sourceUrl": "https://www.tn.gov/veteran/",
+  "tags": ["employment", "preference", "spouse"],
+  "lastReviewed": "2025-12-24"
+}
 ]

@@ -1,0 +1,129 @@
+[
+  {
+    "id": "az_property_tax_exemption_disabled_veteran",
+    "scope": "state",
+    "state": "AZ",
+    "title": "Disabled Veteran Property Tax Exemption",
+    "summary": "Arizona provides a property tax exemption for qualifying disabled veterans and surviving spouses.",
+    "requirements": {
+      "minDisability": 10,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Exemption amount varies by county and disability rating; higher exemptions apply at higher ratings."
+    },
+    "eligibilityNotes": "Veterans must have a service-connected disability and Arizona residency. Apply through the County Assessor.",
+    "sourceUrl": "https://dvs.az.gov/services/property-tax-exemptions",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "az_vehicle_license_tax_exemption",
+    "scope": "state",
+    "state": "AZ",
+    "title": "Vehicle License Tax Exemption (Disabled Veteran)",
+    "summary": "Exemption from Arizona Vehicle License Tax (VLT) for qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null,
+      "notes": "Applies to one vehicle owned by the veteran."
+    },
+    "eligibilityNotes": "Requires VA documentation showing 100% service-connected permanent disability.",
+    "sourceUrl": "https://azdot.gov/motor-vehicles/vehicle-services/plates-and-placards/disabled-veteran",
+    "tags": ["vehicle", "tax", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "az_disabled_veteran_license_plate",
+    "scope": "state",
+    "state": "AZ",
+    "title": "Disabled Veteran License Plate",
+    "summary": "Arizona Disabled Veteran license plate providing parking and vehicle tax benefits.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null
+    },
+    "eligibilityNotes": "Issued by ADOT Motor Vehicle Division with VA disability verification.",
+    "sourceUrl": "https://azdot.gov/motor-vehicles/vehicle-services/plates-and-placards/disabled-veteran",
+    "tags": ["vehicle", "parking", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "az_veteran_designation_driver_license",
+    "scope": "state",
+    "state": "AZ",
+    "title": "Veteran Designation on Arizona Driver License / ID",
+    "summary": "Eligible veterans may add a Veteran designation to an Arizona driver license or ID card.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Requires proof of honorable discharge (e.g., DD-214)."
+    },
+    "eligibilityNotes": "Apply at an Arizona MVD office or authorized third-party provider.",
+    "sourceUrl": "https://azdot.gov/motor-vehicles/driver-services/veteran-designation",
+    "tags": ["id", "license", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "az_hunting_fishing_license_disabled_veteran",
+    "scope": "state",
+    "state": "AZ",
+    "title": "Reduced-Fee Hunting & Fishing License (Disabled Veteran)",
+    "summary": "Arizona offers reduced-fee hunting and fishing licenses for qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null,
+      "notes": "Available to Arizona residents with qualifying VA disability."
+    },
+    "eligibilityNotes": "Licenses issued through Arizona Game and Fish Department.",
+    "sourceUrl": "https://www.azgfd.com/license/",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "az_veterans_homes",
+    "scope": "state",
+    "state": "AZ",
+    "benefitType": "facility",
+    "title": "Arizona State Veterans Homes",
+    "summary": "Long-term care facilities providing skilled nursing and assisted living services for eligible veterans and spouses.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Admission depends on medical need, eligibility determination, and bed availability."
+    },
+    "eligibilityNotes": "Arizona operates veterans homes in Phoenix, Tucson, and Yuma.",
+    "sourceUrl": "https://dvs.az.gov/services/veterans-homes",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "az_veterans_cemeteries",
+    "scope": "state",
+    "state": "AZ",
+    "benefitType": "facility",
+    "title": "Arizona Veterans Memorial Cemeteries",
+    "summary": "State-operated veterans cemeteries providing burial options for eligible veterans and family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility generally mirrors VA national cemetery eligibility."
+    },
+    "eligibilityNotes": "Includes cemeteries in Marana and Sierra Vista.",
+    "sourceUrl": "https://dvs.az.gov/services/memorial-cemeteries",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-24"
+  }
+]

@@ -162,5 +162,193 @@
     "sourceUrl": "https://veterans.ny.gov/content/new-york-state-supplemental-burial-allowance",
     "tags": ["burial", "death_benefits", "reimbursement"],
     "lastReviewed": "2025-12-24"
-  }
+  },
+  {
+  "id": "ny_lifetime_liberty_pass",
+  "scope": "state",
+  "state": "NY",
+  "title": "Lifetime Liberty Pass (40%+ Disabled Wartime Veterans)",
+  "summary": "Comprehensive free benefits including vehicle entry to state parks, free golf at 28 courses, free swimming at 36 pools, and discounted camping.",
+  "requirements": {
+    "minDisability": 40,
+    "requiresServiceConnected": true,
+    "requiresWartimeService": true,
+    "notes": "For wartime veterans with 40% or greater service-connected disability."
+  },
+  "eligibilityNotes": "Benefits include: free vehicle entry to state parks and DEC day-use areas, state boat launches, historic sites; free golf at 28 state park golf courses; free swimming at 36 state park pools; discounted camping and cabin rentals.",
+  "sourceUrl": "https://parks.ny.gov/admission/military-and-veterans.aspx",
+  "tags": ["recreation", "state_parks", "golf", "swimming"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_merit_scholarship",
+  "scope": "state",
+  "state": "NY",
+  "title": "MERIT Scholarship for Military Dependents",
+  "summary": "Up to $24,250 annually for children, spouses, and dependents of severely and permanently disabled service members.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": true,
+    "requiresPermanentTotal": true,
+    "notes": "For dependents of military members who became severely and permanently disabled or died as result of military service."
+  },
+  "eligibilityNotes": "Covers tuition (up to SUNY in-state rate), room and board, and books for 4 years of full-time undergraduate study (5 years for approved programs). Must be enrolled at approved NY postsecondary institution with 12+ credits per semester.",
+  "sourceUrl": "https://www.hesc.ny.gov/pay-for-college/military-corner/military-enhanced-recognition-incentive-and-tribute-merit-scholarship.html",
+  "tags": ["education", "scholarship", "dependents"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_children_of_veterans_award",
+  "scope": "state",
+  "state": "NY",
+  "title": "Children of Veterans Award",
+  "summary": "Up to $450 per year for college for children of eligible veterans.",
+  "requirements": {
+    "anyOf": [
+      {"minDisability": 40, "requiresServiceConnected": true},
+      {"field": "veteranStatus", "op": "==", "value": "died_due_to_service"}
+    ],
+    "notes": "Veterans must have died due to service OR have 40%+ service-connected disability."
+  },
+  "eligibilityNotes": "Apply by June 30 of current academic year. Children of qualifying New York State veterans eligible.",
+  "sourceUrl": "https://veterans.ny.gov/content/veterans-tuition-awards",
+  "tags": ["education", "scholarship", "dependents"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_blind_annuity_program",
+  "scope": "state",
+  "state": "NY",
+  "title": "New York State Blind Annuity Program",
+  "summary": "Annual annuity payment of $1,395.36 ($116.28 monthly) for legally blind wartime veterans or unmarried surviving spouses.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresWartimeService": true,
+    "notes": "Blindness need not be service-connected. Legal blindness standard applies."
+  },
+  "eligibilityNotes": "Available to legally blind New York State wartime veterans or unmarried surviving spouse. If veteran met criteria but never received benefit during lifetime, unmarried surviving spouse may still be eligible.",
+  "sourceUrl": "https://veterans.ny.gov/content/new-york-state-blind-annuity-program",
+  "tags": ["financial_assistance", "disability", "annuity"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_peddlers_license_free",
+  "scope": "state",
+  "state": "NY",
+  "title": "Free Lifetime Veterans Peddler's License",
+  "summary": "Free lifetime license for veterans who served overseas to peddle, vend, and sell goods on highways.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresWartimeService": null,
+    "notes": "Must have served overseas and have other than dishonorable discharge."
+  },
+  "eligibilityNotes": "Provides right to peddle, vend, sell goods, wares, or merchandise, or solicit trade on highways within specific jurisdiction. Surviving spouses also eligible. Contact County Clerk's Office for application.",
+  "sourceUrl": "https://veterans.ny.gov/content/new-york-state-peddler's-license",
+  "tags": ["business", "license", "fee_waiver"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_emergency_housing_assistance",
+  "scope": "state",
+  "state": "NY",
+  "title": "Veterans Emergency Housing Assistance Fund",
+  "summary": "Up to $2,000 for emergency housing needs under certain circumstances.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "For emergency housing situations."
+  },
+  "eligibilityNotes": "Provides financial assistance for emergency housing needs. Contact NY Division of Veterans' Services.",
+  "sourceUrl": "https://veterans.ny.gov/programs",
+  "tags": ["housing", "emergency", "financial_assistance"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_access_to_home_heroes",
+  "scope": "state",
+  "state": "NY",
+  "title": "Access to Home for Heroes/Veterans Program",
+  "summary": "Financial assistance to make dwellings accessible for low/moderate-income disabled veterans.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": true,
+    "requiresPermanentTotal": null,
+    "notes": "Permanently disabled veterans whose income is at or below 120% of area median income."
+  },
+  "eligibilityNotes": "Provides financial assistance for home modifications to improve accessibility.",
+  "sourceUrl": "https://veterans.ny.gov/programs",
+  "tags": ["housing", "accessibility", "financial_assistance"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_homes_for_veterans_mortgage",
+  "scope": "state",
+  "state": "NY",
+  "title": "Homes for Veterans Mortgage Program",
+  "summary": "Fixed-rate mortgages with interest rates 0.375% below already-low state mortgage rates, plus down payment assistance.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Available to active duty, reserve, National Guard, and honorably discharged veterans."
+  },
+  "eligibilityNotes": "Administered through SONYMA in conjunction with NY State Division of Veterans' Affairs. Contact participating lenders statewide.",
+  "sourceUrl": "https://www.nyhomes.org/programs/homes-for-veterans",
+  "tags": ["housing", "loan", "mortgage"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_operation_recognition",
+  "scope": "state",
+  "state": "NY",
+  "title": "Operation Recognition - High School Diploma",
+  "summary": "Free high school diploma for veterans of all eras who left school without graduating to serve in the U.S. military.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must have left high school before graduation to enter military service."
+  },
+  "eligibilityNotes": "Available to veterans of all eras who were inducted before completing high school education.",
+  "sourceUrl": "https://veterans.ny.gov/programs",
+  "tags": ["education", "diploma"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_paid_family_deployment_leave",
+  "scope": "state",
+  "state": "NY",
+  "title": "Paid Family Deployment Leave",
+  "summary": "10 weeks of paid time off under NY Paid Family Leave to address issues related to family member's military deployment.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "For workers addressing deployment-related family issues."
+  },
+  "eligibilityNotes": "Available under New York Paid Family Leave Act for various reasons including military deployment situations.",
+  "sourceUrl": "https://paidfamilyleave.ny.gov/",
+  "tags": ["employment", "family_leave", "deployment"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_cold_war_veterans_exemption",
+  "scope": "state",
+  "state": "NY",
+  "title": "Cold War Veterans' Property Tax Exemption",
+  "summary": "10% or 15% reduction in assessed value for Cold War veterans (as adopted by taxing jurisdiction), with additional reduction for service-connected disabilities.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Cold War service period: Sept 2, 1945 - Dec 26, 1991. Additional reduction for service-connected disability equal to one-half of disability rating."
+  },
+  "eligibilityNotes": "Local option exemption - must be adopted by taxing jurisdiction. Apply through local assessor. Maximum limits exist in each community.",
+  "sourceUrl": "https://veterans.ny.gov/content/property-tax-exemptions-veterans",
+  "tags": ["tax", "property", "cold_war"],
+  "lastReviewed": "2025-12-24"
+}
 ]
