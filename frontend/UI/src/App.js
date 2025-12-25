@@ -17,6 +17,11 @@ import AZbenefits from './data/state/AZ.benefits.json';
 import MIbenefits from './data/state/MI.benefits.json';
 import SCbenefits from './data/state/SC.benefits.json';
 import CObenefits from './data/state/CO.benefits.json';
+import mobenefits from './data/state/MO.benefits.json';
+import inbenefits from './data/state/IN.benefits.json';
+import mdbenefits from './data/state/MD.benefits.json';
+import idbenefits from './data/state/ID.benefits.json';
+import alBenefits from './data/state/AL.benefits.json';
 // import txBenefits from './data/tx_benefits.json';
 
 // Map of state codes to their benefit data
@@ -37,6 +42,11 @@ const STATE_BENEFITS = {
   'MI': MIbenefits,
   'SC': SCbenefits,
   'CO': CObenefits,
+  'MO': mobenefits,
+  'IN': inbenefits,
+  'MD': mdbenefits,
+  'ID': idbenefits,
+  'AL': alBenefits,
   // Add more as you create them
 };
 

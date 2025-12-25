@@ -340,5 +340,27 @@
   "sourceUrl": "https://foldsofhonor.org/",
   "tags": ["education", "scholarship", "dependents"],
   "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tx_national_guard_state_tuition_assistance",
+  "scope": "state",
+  "state": "TX",
+  "title": "Texas National Guard State Tuition Assistance (STA)",
+  "summary": "Need-based tuition assistance up to $1,000 per semester (or up to $4,500 for priority applicants) for active Texas National Guard, Air Guard, and State Guard members.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be active drilling member (not AGR). Enlisted E-1 to E-9, Officers O-1 to O-5, or Warrants W-1 to W-3. ETS/MRD must be after semester end."
+  },
+  "eligibilityNotes": "Available to active drilling members of Texas Army National Guard (TXARNG), Texas Air National Guard (TXANG), or Texas State Guard (TXSG). Must be accepted and registered at Texas public or private college/university (for-profit schools NOT eligible) for minimum 3 semester credit hours. Must complete basic training before semester start and maintain 2.0 GPA. Must serve through end of semester. Undergraduate applicants prioritized for $1,000/semester; STEM degree students and Early Commissioning Program members receive priority for up to $4,500/semester. Available for 5 academic years (10 semesters). Fall and Spring only - NOT summer. ROTC cadets eligible under certain conditions. Apply through Texas Military Department.",
+  "sourceUrl": "https://tmd.texas.gov/state-tuition-assistance-program",
+  "tags": [
+    "education",
+    "tuition",
+    "national_guard",
+    "need_based"
+  ],
+  "lastReviewed": "2025-12-25"
 }
 ]

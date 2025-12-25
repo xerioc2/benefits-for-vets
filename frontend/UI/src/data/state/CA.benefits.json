@@ -326,5 +326,27 @@
     "sourceUrl": "https://www.calvet.ca.gov/VetServices/Pages/State-Benefits.aspx",
     "tags": ["financial_assistance", "emergency", "national_guard"],
     "lastReviewed": "2025-12-24"
-  }
+  },
+  {
+  "id": "ca_cmd_gi_bill",
+  "scope": "state",
+  "state": "CA",
+  "title": "California Military Department GI Bill Award Program",
+  "summary": "Up to 100% tuition and fees at California public universities, CSU, community colleges, and eligible private institutions for active California National Guard, State Guard, and Naval Militia members.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be active member with 2+ years service. Must maintain 3+ units/semester and 2.0 GPA."
+  },
+  "eligibilityNotes": "Active members of California Army or Air National Guard, California State Guard, or California Naval Militia. Must serve 2 years in unit, agree to remain active throughout participation, and pursue certificate/degree not currently possessed. Must maintain 3+ academic units per semester and 2.0 cumulative GPA. Must be California resident for at least 1 year. Priority deadline April 30 annually; applications accepted first-come first-served after that until funds exhausted. Apply through California Student Aid Commission.",
+  "sourceUrl": "https://calguard.ca.gov/education/",
+  "tags": [
+    "education",
+    "tuition",
+    "national_guard",
+    "waiver"
+  ],
+  "lastReviewed": "2025-12-25"
+}
 ]

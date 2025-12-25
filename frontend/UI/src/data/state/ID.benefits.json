@@ -1,0 +1,140 @@
+[
+  {
+    "id": "id_property_tax_benefit_disabled_veteran",
+    "scope": "state",
+    "state": "ID",
+    "title": "Property Tax Benefit for Disabled Veterans",
+    "summary": "Reduces property taxes on an Idaho residence (and up to one acre) for qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Benefit may reduce property taxes by up to $1,500. Apply through county assessor."
+    },
+    "eligibilityNotes": "Must be an Idaho resident, homeowner, and have a 100% service-connected disability. Surviving spouses may continue the benefit in limited circumstances per state rules.",
+    "sourceUrl": "https://tax.idaho.gov/taxes/property/homeowners/veteran-benefit/",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "id_veteran_designation_driver_license_id",
+    "scope": "state",
+    "state": "ID",
+    "title": "Veteran Designation on Idaho Driver’s License / ID",
+    "summary": "Adds a Veteran designation to an Idaho driver’s license or identification card.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must present acceptable proof of veteran status/honorable discharge (or other qualifying proof) at a driver’s license office."
+    },
+    "eligibilityNotes": "Available to veterans who can present acceptable documents showing honorable discharge (or other ITD-accepted proof).",
+    "sourceUrl": "https://itd.idaho.gov/itddmv/",
+    "tags": ["id", "dmv", "license"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "id_disabled_veteran_license_plates",
+    "scope": "state",
+    "state": "ID",
+    "title": "Disabled Veteran License Plates",
+    "summary": "Special Idaho plates for qualifying disabled veterans (application through ITD).",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "notes": "Uses ITD application; documentation required (see form)."
+    },
+    "eligibilityNotes": "Generally for honorably discharged veterans with 100% service-connected permanent disability; see ITD form instructions for required documentation.",
+    "sourceUrl": "https://itd.idaho.gov/wp-content/uploads/2018/11/3397.pdf",
+    "tags": ["vehicle", "plates", "dmv"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "id_state_parks_disabled_veteran_pass",
+    "scope": "state",
+    "state": "ID",
+    "title": "Idaho State Parks Disabled Veteran Lifetime Pass",
+    "summary": "Lifetime pass that waives day-use fees and provides camping fee waivers for eligible disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "notes": "Waives day-use for one personal vehicle with veteran present; waives usage fees for one campsite (reservation fees still apply)."
+    },
+    "eligibilityNotes": "Eligibility commonly requires Idaho residency and 100% service-connected Permanent & Total disability (per program application).",
+    "sourceUrl": "https://parksandrecreation.idaho.gov/disabled-veterans-application/",
+    "tags": ["recreation", "state_parks", "camping"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "id_fish_game_disabled_veteran_programs",
+    "scope": "state",
+    "state": "ID",
+    "title": "Idaho Fish & Game Disabled Veteran (DAV) Reduced-Fee Licenses/Tags",
+    "summary": "Reduced-fee DAV license and reduced-fee tags for eligible resident disabled veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "DAV license and reduced-fee tags/permits available; specific documentation and eligibility rules apply."
+    },
+    "eligibilityNotes": "Program details, pricing, and required documentation are defined by Idaho Fish & Game on the DAV programs page.",
+    "sourceUrl": "https://idfg.idaho.gov/licenses/dav-programs",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "id_veterans_homes_boise_lewiston",
+    "scope": "state",
+    "state": "ID",
+    "benefitType": "facility",
+    "title": "Idaho State Veterans Homes (Boise, Lewiston and others)",
+    "summary": "State veterans homes providing skilled nursing and supportive services for eligible veterans (and in some cases spouses).",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Admission criteria, medical need, and bed availability apply."
+    },
+    "eligibilityNotes": "Facilities and details are managed through Idaho Division of Veterans Services; check specific home pages for admissions packets and eligibility.",
+    "sourceUrl": "https://veterans.idaho.gov/",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "id_state_veterans_cemetery_boise_blackfoot",
+    "scope": "state",
+    "state": "ID",
+    "benefitType": "facility",
+    "title": "Idaho State Veterans Cemetery (Boise / Blackfoot) – Pre-Registration & Interment",
+    "summary": "State veterans cemetery interment program; pre-registration available to verify eligibility in advance.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Eligibility generally follows National Cemetery Administration rules plus Idaho law; pre-registration helps families."
+    },
+    "eligibilityNotes": "No Idaho residency requirement is stated for eligibility on the Idaho State Veterans Cemetery info pages; rules follow NCA eligibility and Idaho law.",
+    "sourceUrl": "https://veterans.idaho.gov/cemeteries/boise-cemetery/",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "id_armed_forces_pso_dependent_scholarship",
+    "scope": "state",
+    "state": "ID",
+    "title": "Armed Forces & Public Safety Officer Dependent Scholarship (Tuition/Fee Waiver + Support)",
+    "summary": "Tuition/fee waiver and additional support for eligible children/spouses of military members or public safety officers (Idaho program).",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Program has eligibility rules; includes tuition/fees waiver plus additional amounts for books and may include housing/subsistence per program rules."
+    },
+    "eligibilityNotes": "Program is described by Idaho Division of Veterans Services; eligibility and application details are handled through the linked program resources.",
+    "sourceUrl": "https://veterans.idaho.gov/education/",
+    "tags": ["education", "dependents", "tuition"],
+    "lastReviewed": "2025-12-25"
+  }
+]
