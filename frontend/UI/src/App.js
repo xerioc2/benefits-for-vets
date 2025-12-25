@@ -10,6 +10,8 @@ import paBenefits from './data/state/PA.benefits.json';
 import ohBenefits from './data/state/OH.benefits.json';
 import NYBenefits from './data/state/NY.benefits.json';
 import NCBenefits from './data/state/NC.benefits.json';
+import GAbenefits from './data/state/GA.benefits.json';
+import ILbenefits from './data/state/IL.benefits.json';
 // import txBenefits from './data/tx_benefits.json';
 
 // Map of state codes to their benefit data
@@ -22,7 +24,9 @@ const STATE_BENEFITS = {
   'PA': paBenefits,
   'OH': ohBenefits,
   'NY': NYBenefits,
-  'NC': NCBenefits
+  'NC': NCBenefits,
+  'GA': GAbenefits,
+  'IL': ILbenefits,
   // Add more as you create them
 };
 

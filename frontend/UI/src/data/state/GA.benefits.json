@@ -1,0 +1,146 @@
+[
+  {
+    "id": "ga_property_tax_exemption_disabled_vet",
+    "scope": "state",
+    "state": "GA",
+    "title": "Disabled Veteran Property Tax Exemption",
+    "summary": "Full exemption from Georgia ad valorem (property) taxes for qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null,
+      "notes": "Applies to primary residence and up to 10 acres of land."
+    },
+    "eligibilityNotes": "Veteran must be rated 100% service-connected and permanently disabled by the VA. Surviving spouses may retain the exemption under certain conditions.",
+    "sourceUrl": "https://veterans.georgia.gov/state-benefits/property-tax-exemptions",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_vehicle_registration_fee_exemption",
+    "scope": "state",
+    "state": "GA",
+    "title": "Vehicle Registration Fee Exemption (Disabled Veteran)",
+    "summary": "Exemption from Georgia motor vehicle ad valorem and registration taxes for qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null,
+      "notes": "Applies to one personally owned vehicle."
+    },
+    "eligibilityNotes": "Veteran must qualify for Georgia Disabled Veteran license plates.",
+    "sourceUrl": "https://veterans.georgia.gov/state-benefits/motor-vehicle-benefits",
+    "tags": ["vehicle", "tax", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_disabled_veteran_license_plates",
+    "scope": "state",
+    "state": "GA",
+    "title": "Georgia Disabled Veteran License Plates",
+    "summary": "Special license plates providing registration and parking benefits to qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null
+    },
+    "eligibilityNotes": "Issued through the Georgia Department of Revenue with VA disability verification.",
+    "sourceUrl": "https://veterans.georgia.gov/state-benefits/motor-vehicle-benefits",
+    "tags": ["vehicle", "parking", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_driver_license_free",
+    "scope": "state",
+    "state": "GA",
+    "title": "Free Driver License or ID for Veterans",
+    "summary": "Georgia provides free driver licenses or identification cards to qualifying veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Veteran status verification required."
+    },
+    "eligibilityNotes": "Available through the Georgia Department of Driver Services with proof of veteran status.",
+    "sourceUrl": "https://dds.georgia.gov/veterans",
+    "tags": ["id", "license", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_hunting_fishing_license_disabled_vet",
+    "scope": "state",
+    "state": "GA",
+    "title": "Free Hunting & Fishing Licenses for Disabled Veterans",
+    "summary": "Free lifetime hunting and fishing licenses for qualifying disabled Georgia veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null
+    },
+    "eligibilityNotes": "Veteran must be a Georgia resident and meet VA disability criteria.",
+    "sourceUrl": "https://veterans.georgia.gov/state-benefits/hunting-and-fishing",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_state_veterans_homes",
+    "scope": "state",
+    "state": "GA",
+    "benefitType": "facility",
+    "title": "Georgia State Veterans Homes",
+    "summary": "State-operated long-term care facilities for eligible veterans and certain spouses.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Admission depends on medical need, eligibility, and bed availability."
+    },
+    "eligibilityNotes": "Applicants must meet VA and Georgia eligibility requirements.",
+    "sourceUrl": "https://veterans.georgia.gov/state-veterans-homes",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_veterans_cemeteries",
+    "scope": "state",
+    "state": "GA",
+    "benefitType": "facility",
+    "title": "Georgia Veterans Cemeteries",
+    "summary": "State veterans cemeteries offering burial benefits for eligible veterans and family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility generally mirrors VA national cemetery eligibility."
+    },
+    "eligibilityNotes": "Pre-need eligibility determination is recommended.",
+    "sourceUrl": "https://veterans.georgia.gov/state-veterans-cemeteries",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_employment_preference",
+    "scope": "state",
+    "state": "GA",
+    "title": "Georgia Veterans Employment Preference",
+    "summary": "Veterans may receive hiring preference for Georgia state government positions.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": true,
+      "notes": "Disabled veterans may receive additional preference."
+    },
+    "eligibilityNotes": "Applies to eligible veterans seeking state employment with proper documentation.",
+    "sourceUrl": "https://veterans.georgia.gov/state-benefits/employment",
+    "tags": ["employment", "preference"],
+    "lastReviewed": "2025-12-24"
+  }
+]

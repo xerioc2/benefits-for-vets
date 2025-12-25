@@ -1,0 +1,124 @@
+[
+  {
+    "id": "il_property_tax_exemption_disabled_veteran",
+    "scope": "state",
+    "state": "IL",
+    "title": "Disabled Veterans Property Tax Exemption",
+    "summary": "Illinois provides a property tax exemption for qualifying disabled veterans based on VA disability rating.",
+    "requirements": {
+      "minDisability": 30,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Exemption amount increases at 50% and 70% disability levels."
+    },
+    "eligibilityNotes": "Veterans must have a service-connected disability of at least 30%. Apply through the local County Assessor.",
+    "sourceUrl": "https://www2.illinois.gov/veterans/benefits/Pages/Real-Estate-Tax-Exemption.aspx",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "il_veterans_grant",
+    "scope": "state",
+    "state": "IL",
+    "title": "Illinois Veterans Grant (IVG)",
+    "summary": "Tuition and mandatory fee assistance for eligible Illinois veterans attending public colleges and universities.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Requires qualifying active duty service and Illinois residency."
+    },
+    "eligibilityNotes": "Covers tuition and certain fees at Illinois public institutions. Does not cover housing or books.",
+    "sourceUrl": "https://www.isac.org/isac-gift-assistance-programs/illinois-veterans-grant/",
+    "tags": ["education", "tuition", "grant"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "il_mia_pow_scholarship",
+    "scope": "state",
+    "state": "IL",
+    "audience": "dependents",
+    "title": "Illinois MIA/POW Scholarship",
+    "summary": "Education benefits for dependents of veterans who are deceased, disabled, MIA, or POW.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Applies to dependents of qualifying veterans."
+    },
+    "eligibilityNotes": "Provides tuition assistance at Illinois public institutions for eligible dependents.",
+    "sourceUrl": "https://www.isac.org/isac-gift-assistance-programs/illinois-mia-pow-scholarship/",
+    "tags": ["education", "dependents", "scholarship"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "il_hunting_fishing_license_disabled_vet",
+    "scope": "state",
+    "state": "IL",
+    "title": "Reduced-Fee Hunting and Fishing Licenses for Disabled Veterans",
+    "summary": "Illinois offers reduced-cost hunting and fishing licenses for qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 10,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Must be an Illinois resident with a service-connected disability."
+    },
+    "eligibilityNotes": "Licenses are issued through the Illinois Department of Natural Resources.",
+    "sourceUrl": "https://www2.illinois.gov/dnr/licenses/Pages/Military.aspx",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "il_driver_license_veteran_designation",
+    "scope": "state",
+    "state": "IL",
+    "title": "Veteran Designation on Illinois Driver License / ID",
+    "summary": "Eligible veterans may add a Veteran designation to an Illinois driver license or state ID.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Requires proof of honorable service (e.g., DD-214)."
+    },
+    "eligibilityNotes": "Veterans must present documentation at a Secretary of State facility.",
+    "sourceUrl": "https://www.ilsos.gov/departments/drivers/drivers_license/veterans_designation.html",
+    "tags": ["id", "license", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "il_veterans_homes",
+    "scope": "state",
+    "state": "IL",
+    "benefitType": "facility",
+    "title": "Illinois Veterans Homes",
+    "summary": "Long-term care facilities providing skilled nursing and assisted living services for eligible veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Admission depends on medical need, eligibility determination, and bed availability."
+    },
+    "eligibilityNotes": "Illinois operates multiple Veterans Homes throughout the state.",
+    "sourceUrl": "https://www2.illinois.gov/veterans/services/Pages/Veterans-Homes.aspx",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "il_veterans_cemeteries",
+    "scope": "state",
+    "state": "IL",
+    "benefitType": "facility",
+    "title": "Illinois Veterans Cemeteries",
+    "summary": "State-operated cemeteries providing burial options for eligible veterans and family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Eligibility generally mirrors VA national cemetery eligibility."
+    },
+    "eligibilityNotes": "Includes multiple cemetery locations across Illinois.",
+    "sourceUrl": "https://www2.illinois.gov/veterans/services/Pages/Cemeteries.aspx",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-24"
+  }
+]
