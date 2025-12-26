@@ -14,7 +14,7 @@ Replace your current frontend folder with all the files I've created:
 
 Open PowerShell in your `frontend` folder:
 ```powershell
-cd C:\Users\xerio\Desktop\Benefits4Vets\benefits-for-vets\frontend
+cd C:\Users\xerio\Desktop\Benefits4Vets\benefits-for-vets\frontend\UI
 npm install
 ```
 
