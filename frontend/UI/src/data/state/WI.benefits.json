@@ -1,0 +1,19 @@
+[
+  {
+    "id": "wi_wing",
+    "scope": "state",
+    "state": "WI",
+    "title": "Wisconsin National Guard Tuition Grant (WING)",
+    "summary": "Up to 100% tuition grant for undergraduate coursework up to first baccalaureate degree at qualifying Wisconsin schools, based on UW-Madison tuition rates.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must be actively drilling WI National Guard member in good standing. Must meet satisfactory academic progress. Cannot be delinquent in child support/maintenance payments. Cannot receive WI VetEd benefit for same term."
+    },
+    "eligibilityNotes": "WI state-funded grant for professional certificate, associate's degree or first bachelor's degree at qualifying schools (UW System, WI Technical College System, accredited private institutions, tribal colleges). Grant amount calculated based on: (1) tuition minus any grants/scholarships received, (2) number of credits enrolled, (3) applicable UW-Madison maximum tuition rate for that academic year. NEW as of 2024: changed from reimbursement to upfront payment - schools now paid directly within 30 days. Apply 90 days before term through 90 days after term ends via online portal at dma.wi.gov (paper applications NO LONGER ACCEPTED after Nov 7, 2025). Established 1977 under Wis. Stat. § 321.40. Recoupment required if fail to meet end-of-term eligibility (SAP, good standing, etc). Contact wingtuitiongrant@widma.gov or 608-242-3159.",
+    "sourceUrl": "https://dma.wi.gov/wisconsin-national-guard-tuition-grant-quick-facts-sheet/",
+    "tags": ["education", "tuition", "national_guard", "grant"],
+    "lastReviewed": "2025-12-25"
+  }
+]

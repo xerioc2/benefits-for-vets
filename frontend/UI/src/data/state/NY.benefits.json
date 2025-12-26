@@ -350,5 +350,22 @@
   "sourceUrl": "https://veterans.ny.gov/content/property-tax-exemptions-veterans",
   "tags": ["tax", "property", "cold_war"],
   "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_rirp",
+  "scope": "state",
+  "state": "NY",
+  "title": "Recruitment Incentive and Retention Program (RIRP)",
+  "summary": "100% tuition at SUNY or CUNY, or $2,485 per semester at private New York institutions for NY National Guard and Naval Militia members.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be in good standing with State Military Forces (attend or make-up all drills and annual training). NY resident for 186 days prior to using program (excluding Active Duty periods)."
+  },
+  "eligibilityNotes": "NY State program for Army and Air National Guard and Naval Militia members. Pays 100% tuition at any SUNY or CUNY institution, or $2,485/semester at private schools located within NYS. Must be enrolled in undergraduate degree-granting program for minimum 6 credit hours/semester or 4/quarter. Must complete FAFSA (obtain Student Aid Report) and TAP application (obtain original TAP Award Certificate). Cannot be used for Summer or Winter semesters. Apply through unit administrator or education service representative. Contact: ng.ny.nyarng.mbx.rirpny@army.mil",
+  "sourceUrl": "https://dmna.ny.gov/education/?id=rirp",
+  "tags": ["education", "tuition", "national_guard"],
+  "lastReviewed": "2025-12-25"
 }
 ]

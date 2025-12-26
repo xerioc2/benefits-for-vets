@@ -102,5 +102,22 @@
     "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/commercial-drivers-license-overview/",
     "tags": ["employment", "dmv", "cdl"],
     "lastReviewed": "2025-12-25"
-  }
+  },
+  {
+  "id": "in_ngsg",
+  "scope": "state",
+  "state": "IN",
+  "title": "National Guard Supplemental Grant (NGSG)",
+  "summary": "Guarantees up to 100% tuition and regularly assessed fees for Indiana National Guard members attending Indiana public institutions for their first associate, bachelor, or master degree.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be IN Guard member BEFORE applying. Must be IN resident, high school graduate or GED. Part-time (3-11 hours) or full-time (12-15 hours) enrollment. Unit certification required each semester."
+  },
+  "eligibilityNotes": "IN state grant program for active IN Army/Air National Guard members in good standing. Covers up to 100% tuition and regularly assessed fees at IN public institutions for first associate, bachelor, or master degree. Must file FAFSA by March 10 (error-free by May 15) annually. Must maintain Satisfactory Academic Progress (SAP) per institution. Must be IN Guard member before applying - cannot join retroactively. Unit commander certification required each semester. Annual application resets every June. Applications due no later than 5 days before classes start. Apply through ScholarTrack.IN.gov. Contact unit education office or ng.in.arng.list.j1arp-eds@army.mil for questions.",
+  "sourceUrl": "https://www.in.gov/indiana-national-guard/troop-family-resources/education-services/national-guard-supplemental-grant-ngsg/",
+  "tags": ["education", "tuition", "national_guard", "grant"],
+  "lastReviewed": "2025-12-25"
+}
 ]

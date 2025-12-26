@@ -342,5 +342,22 @@
   "sourceUrl": "https://www.tn.gov/veteran/",
   "tags": ["employment", "preference", "spouse"],
   "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tn_strong_act",
+  "scope": "state",
+  "state": "TN",
+  "title": "Tennessee STRONG Act State Tuition Assistance",
+  "summary": "Tuition reimbursement program covering up to 100% of remaining tuition costs (after federal TA and other aid) at UT Knoxville resident rates, plus course/program fee reimbursement for Tennessee National Guard members.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be active drilling TN Army or Air National Guard member in good standing. Must serve during applicable academic term."
+  },
+  "eligibilityNotes": "Last-dollar reimbursement program for TN National Guard members. Covers remaining tuition after federal TA, scholarships, grants up to UT Knoxville resident rate. NEW effective July 2025: Course/program fee reimbursement of $3,500/fiscal year (undergraduate) or $7,500/fiscal year (graduate). Lifetime limits: 130 undergraduate semester hours or 40 graduate semester hours. Must maintain 2.0 GPA (undergrad) or 3.0 GPA (graduate). Available at any TN public or private regionally accredited institution (private schools reimbursed at public rates). Must complete FAFSA and use Federal TA if eligible. Application packet must be submitted within 45 days of course completion. Apply through TN National Guard Education Services.",
+  "sourceUrl": "https://www.tn.gov/military/programs-benefits/education-incentives/state-ta.html",
+  "tags": ["education", "tuition", "national_guard", "reimbursement"],
+  "lastReviewed": "2025-12-25"
 }
 ]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "ky_ngta",
+    "scope": "state",
+    "state": "KY",
+    "title": "Kentucky National Guard Tuition Award Program",
+    "summary": "100% tuition coverage at public colleges and universities at on-campus rates. Lifetime benefit caps: $40,000 at 4-year comprehensive universities.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must have completed Basic Combat Training (or contracted ROTC/SMP). Must be passing APFT/ACFT and height/weight standards. Cannot be flagged. Must maintain satisfactory academic progress."
+    },
+    "eligibilityNotes": "KY National Guard state program pays 100% of tuition at public colleges/universities at on-campus rate (does NOT cover special course fees or late fees). Lifetime caps based on institution type: $40,000 at KY 4-year public comprehensive universities as defined by KRS 164.001(7). Does not cover winter or summer terms (use Federal TA for those). Application deadlines: April 1 for fall semester, October 1 for spring semester. Must register at https://ky.ngb.army.mil (requires CAC and military network for first-time registration). Apply at https://ky.ngb.army.mil/TuitionStudentv2. For questions contact Janet Crickmer at janet.crickmer.nfg@army.mil or 502-607-1039. Priority given to members without prior certificate/diploma from vocational program, then by application receipt date. Governed by 106 KAR 3:010.",
+    "sourceUrl": "https://ky.ng.mil/Personnel-Services/Education-and-Incentives/",
+    "tags": ["education", "tuition", "national_guard"],
+    "lastReviewed": "2025-12-25"
+  }
+]

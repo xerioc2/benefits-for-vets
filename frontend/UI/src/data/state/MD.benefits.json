@@ -287,5 +287,41 @@
     "sourceUrl": "https://veterans.maryland.gov/Benefits/Pages/Burial.aspx",
     "tags": ["burial", "cemetery", "memorial", "facility"],
     "lastReviewed": "2025-12-25"
+  },
+  [
+  {
+    "id": "md_star",
+    "scope": "state",
+    "state": "MD",
+    "title": "State Tuition Assistance Reimbursement (STAR)",
+    "summary": "Up to $8,500 per fiscal year in tuition and fee reimbursement for Maryland National Guard members. Two-part reimbursement process during each semester.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must have at least 2 years left on contract from course end date. Must pass courses with C (2.0 GPA) or better for undergraduate, B- or higher for graduate."
+    },
+    "eligibilityNotes": "MD National Guard state reimbursement program covering tuition and fees up to $8,500 per fiscal year (subject to availability of state funds). Does NOT cover books or course supplies. Requires 2-part submission: Initial STAR (within 45 days of semester start) with completed forms, itemized bill, class schedule. Final STAR (within 45 days of semester end) with itemized bill showing $0 balance and final grades. Must extend contract if less than 2 years remaining. Recoupment required for failed courses (under C or 2.0 GPA). Apply through MD National Guard Education Services at [email protected] or 667-296-4144/4137/4139.",
+    "sourceUrl": "https://military.maryland.gov/NG/Pages/tuition-assistance.aspx",
+    "tags": ["education", "tuition", "national_guard", "reimbursement"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "md_stw",
+    "scope": "state",
+    "state": "MD",
+    "title": "State Tuition Waiver (STW)",
+    "summary": "Up to 50% tuition waived at Maryland partner schools for active Maryland National Guard members enrolled in undergraduate or graduate programs.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must be active MD Army or Air National Guard member. Available only at designated MD partner schools."
+    },
+    "eligibilityNotes": "MD National Guard tuition waiver program providing up to 50% tuition reduction at Maryland partner institutions. Available for both undergraduate and graduate programs. STW letters issued by MD National Guard Education Services via email. List of partner schools available at military.maryland.gov/NG/Pages/Partner-Schools.aspx. Can be combined with other aid programs. Apply by contacting MD NG Education Office at [email protected] or 667-296-4144/4137/4139. Some partner schools (like Johns Hopkins, Stevenson University) may offer enhanced discounts up to 50% for first 6 credit hours per semester.",
+    "sourceUrl": "https://military.maryland.gov/NG/Pages/tuition-assistance.aspx",
+    "tags": ["education", "tuition", "national_guard", "waiver"],
+    "lastReviewed": "2025-12-25"
   }
+]
 ]

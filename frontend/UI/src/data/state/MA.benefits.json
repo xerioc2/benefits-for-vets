@@ -1,0 +1,19 @@
+[
+  {
+    "id": "ma_stfw",
+    "scope": "state",
+    "state": "MA",
+    "title": "Massachusetts National Guard State Tuition and Fee Waiver",
+    "summary": "100% tuition and fee waiver for active MA National Guard members attending 28 state universities, colleges, and community colleges. Up to 130 semester credit hours.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must be active member in good standing of MA Army/Air National Guard. Commonwealth-funded program (not institutions). Must request Certificate of Eligibility (TAGMA Form 621-3) every 30 credits from MA National Guard Education Office."
+    },
+    "eligibilityNotes": "MA state-backed funding provides 100% tuition and fee waiver at 28 Massachusetts state universities, colleges, and community colleges for up to 130 credit hours. Members in good standing receive full coverage. Must request Certificate of Eligibility every 30 credits from MA National Guard Education Office at 508-968-5889 or ng.ma.maarng.mbx.education-ma@army.mil. Can be combined with Federal TA (max $4,500/year additional) and GI Bill benefits. Authorized under MA General Law Section 2A. Contact MA NG Education Office at 339-202-3199 for more information.",
+    "sourceUrl": "https://massnationalguard.org/education-benefits/",
+    "tags": ["education", "tuition", "national_guard", "waiver", "fees"],
+    "lastReviewed": "2025-12-25"
+  }
+]

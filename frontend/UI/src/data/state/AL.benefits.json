@@ -204,5 +204,22 @@
     "sourceUrl": "https://va.alabama.gov/veterans-memorial-cemetery/",
     "tags": ["burial", "cemetery", "memorial", "facility"],
     "lastReviewed": "2025-12-25"
-  }
+  },
+  {
+  "id": "al_angeap",
+  "scope": "state",
+  "state": "AL",
+  "title": "Alabama National Guard Educational Assistance Program (ANGEAP)",
+  "summary": "Need-based tuition and fee assistance for Alabama National Guard members attending Alabama public postsecondary institutions. Maximum annual award $12,035 (2024-25).",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be active AL Army or Air National Guard member in good standing. Must have completed basic training. Need-based - requires minimum $100 cost after other aid. 4-year service commitment after receiving last assistance."
+  },
+  "eligibilityNotes": "State grant program for AL National Guard members enrolled in certificate/degree programs at accredited AL community colleges, technical colleges, or universities. Maximum award $12,035/year (2024-25), with semester/quarter caps of $6,227.50 (semester) or $4,151.33 (quarter). Last-dollar payer after federal TA, grants, scholarships, other aid. Must show financial need of at least $100 after other benefits applied. Covers tuition and fees only (not ancillary costs like books/supplies). Lifetime limits: 120 undergraduate hours, 60 graduate hours. Must maintain 2.0 GPA, complete FAFSA each year. Recoupment required if separate from Guard within 4 years of last assistance. Apply through AL National Guard unit with Alabama Commission on Higher Education approval. Deadlines vary by semester.",
+  "sourceUrl": "https://www.ache.edu/index.php/military-educational-benefits/",
+  "tags": ["education", "tuition", "national_guard", "grant", "need_based"],
+  "lastReviewed": "2025-12-25"
+}
 ]

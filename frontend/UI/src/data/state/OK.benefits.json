@@ -1,0 +1,19 @@
+[
+  {
+    "id": "ok_tuition_waiver",
+    "scope": "state",
+    "state": "OK",
+    "title": "Oklahoma National Guard Tuition Waiver",
+    "summary": "Resident tuition waiver at Oklahoma institutions for satisfactory participating OK National Guard members who are OK residents. Up to 18 credit hours per semester.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must be OK resident. Must be satisfactory participating member of OK National Guard. Waives resident tuition only (not fees or other costs)."
+    },
+    "eligibilityNotes": "OK state benefit waives resident tuition for satisfactory participating OK National Guard members who are OK residents. Covers up to 18 credit hours per semester. Available at OK public institutions. Contact unit or OK National Guard Educational Assistance Program office for application materials and eligibility verification. For more information visit ok.ng.mil/eap/ or contact unit education office.",
+    "sourceUrl": "https://ok.ng.mil/eap/",
+    "tags": ["education", "tuition", "national_guard", "waiver"],
+    "lastReviewed": "2025-12-25"
+  }
+]

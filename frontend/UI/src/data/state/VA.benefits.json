@@ -270,5 +270,22 @@
   "sourceUrl": "https://www.dvs.virginia.gov/benefits-services/education/virginia-military-survivors-dependents-education-program-vmsdep",
   "tags": ["education", "tuition", "stipend", "dependents"],
   "lastReviewed": "2025-12-24"
+},
+{
+  "id": "va_stap",
+  "scope": "state",
+  "state": "VA",
+  "title": "State Tuition Assistance Program (STAP)",
+  "summary": "Up to $4,500 per semester in tuition grants for Virginia National Guard members attending accredited institutions with physical locations in Virginia.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must have minimum 2 years remaining service obligation. Must have completed required initial active duty service. Must be satisfactorily performing duty. 2-year commitment incurred upon completion of last term."
+  },
+  "eligibilityNotes": "Virginia National Guard (Army or Air) members enrolled in good standing at VA public institutions or accredited nonprofit private institutions with physical location in Virginia. Spring 2026 cap is $4,500/semester (reduced from previous $10,000 due to surge in enrollment). Covers TUITION ONLY (not fees, books, room/board). Must complete FAFSA/CASFA and maintain Satisfactory Academic Progress. Grants paid directly to school by Department of Military Affairs. Recoupment required for failed/incomplete/withdrawn courses or incomplete document packets. Apply through https://statetuition.vangweb.com. Request windows: Fall (May 15-Jul 1), Spring (Sep 15-Nov 1), Summer (Feb 15-Apr 1).",
+  "sourceUrl": "https://statetuition.vangweb.com/",
+  "tags": ["education", "tuition", "national_guard"],
+  "lastReviewed": "2025-12-25"
 }
 ]

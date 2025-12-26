@@ -1,0 +1,19 @@
+[
+  {
+    "id": "or_ongsta",
+    "scope": "state",
+    "state": "OR",
+    "title": "Oregon National Guard State Tuition Assistance (ONGSTA)",
+    "summary": "100% tuition funding at resident rates plus fees and book allowance at eligible Oregon postsecondary institutions. Up to $274 per credit hour for 2025-26.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must be current OR National Guard member enrolled at eligible OR institution. Maximum 90 credits (community colleges) or 180 quarter credits/120 semester credits (universities). Must create Federal TA account and education goal. Must file FAFSA."
+    },
+    "eligibilityNotes": "OR National Guard state program providing 100% tuition at resident rates, certain fees, and book allowance for undergraduate studies. For public universities/community colleges: covers full resident tuition. For private institutions: covers average base resident tuition rate of all OR public universities (not to exceed $274/credit in 2025-26), minus any DoD Federal TA grants. Can be used concurrently with VA education benefits (not counted in award calculation). Post-9/11 GI Bill is affected by ONGSTA funds - contact school's VA Certifying Official. Funds disbursed directly to college/university. Apply through OSAC Student Portal at oregonstudentaid.gov. Administered through Oregon Student Aid Commission (OSAC).",
+    "sourceUrl": "https://oregonstudentaid.gov/grants/oregon-national-guard-state-tuition-assistance/",
+    "tags": ["education", "tuition", "national_guard", "books"],
+    "lastReviewed": "2025-12-25"
+  }
+]

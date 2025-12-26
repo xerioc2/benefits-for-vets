@@ -382,5 +382,22 @@
     "sourceUrl": "https://www.fldoe.org/schools/higher-ed/fl-college-system/veterans.stml",
     "tags": ["education", "registration"],
     "lastReviewed": "2025-12-24"
-  }
+  },
+  {
+  "id": "fl_edd_family",
+  "scope": "state",
+  "state": "FL",
+  "title": "Educational Dollars for Duty - Family Member Benefit",
+  "summary": "Up to 50% tuition assistance for spouses and children of active Florida National Guard members. New program effective July 1, 2025.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Spouse or child of active FL National Guard member. Member must be in good standing with Florida National Guard."
+  },
+  "eligibilityNotes": "Established by SB 336 effective July 1, 2025. Provides tuition assistance to spouses and children of active FL National Guard members. $500,000 set aside annually to cover up to 50% of tuition costs. Legislature may increase funding in future years. Department of Military Affairs oversees implementation and establishes application procedures. Contact FL National Guard Education Office for application details.",
+  "sourceUrl": "https://dma.myflorida.com/programs/edd/",
+  "tags": ["education", "tuition", "dependent", "family", "national_guard"],
+  "lastReviewed": "2025-12-25"
+}
 ]

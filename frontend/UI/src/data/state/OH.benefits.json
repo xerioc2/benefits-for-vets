@@ -222,5 +222,22 @@
   "sourceUrl": "https://tax.ohio.gov/",
   "tags": ["tax", "sales_tax", "refund"],
   "lastReviewed": "2025-12-24"
+},
+{
+  "id": "oh_ongsp",
+  "scope": "state",
+  "state": "OH",
+  "title": "Ohio National Guard Scholarship Program (ONGSP)",
+  "summary": "100% tuition coverage at Ohio public colleges and universities, or 100% of average public tuition rate at private institutions for Ohio National Guard members through unit-based scholarship system.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be enlisted OH Army or Air National Guard member in good standing. 6-year enlistment required for full benefits (96 units). 3-5 year enlistment eligible for reduced benefits (48 units)."
+  },
+  "eligibilityNotes": "Covers 100% tuition at OH state-assisted colleges/universities (base tuition/general fees only - not lab/course/assessment fees). At approved private institutions, pays 100% of average state university tuition rate. Unit-based system: 96 units for 6-year enlistment, 48 units for 3-5 year enlistment. Maximum 12 units charged per term regardless of credit hours. Available for associate, bachelor, diploma-granting nursing programs, and approved trade certifications/NTEP programs. Minimum 3 credit hours per term. Army Guard must exhaust Federal TA first. Recoupment required if fail to complete enlistment obligation. Apply through unit reviewer via Ohio National Guard Scholarship Website (oh.oharng.mbx.ong-scholarship@mail.mil).",
+  "sourceUrl": "https://www.ong.ohio.gov/members/ong/education/index.html",
+  "tags": ["education", "tuition", "national_guard", "scholarship"],
+  "lastReviewed": "2025-12-25"
 }
 ]

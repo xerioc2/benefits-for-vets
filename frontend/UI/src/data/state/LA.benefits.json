@@ -1,0 +1,36 @@
+[
+  {
+    "id": "la_step",
+    "scope": "state",
+    "state": "LA",
+    "title": "Louisiana State Tuition Exemption Program (STEP)",
+    "summary": "FREE tuition at all Louisiana public colleges and universities for resident National Guard members. Good for 5 academic years or until degree completion (associate, bachelor, master, or professional).",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must be actively drilling member of LA National Guard. Must be LA resident. Good for first degree at each level only."
+    },
+    "eligibilityNotes": "LA state law provides FREE tuition at all LA public colleges and universities for resident National Guard members. Covers 5 separate academic years or until receipt of degree at associate, baccalaureate, master's, or professional level (whichever occurs first). Tuition is completely exempted - no payment required. Can be combined with other benefits including Federal TA and GI Bill. Apply through Louisiana National Guard Education Services. For more info visit geauxguard.la.gov/state-tuition-exemption-program-step/",
+    "sourceUrl": "https://geauxguard.la.gov/state-tuition-exemption-program-step/",
+    "tags": ["education", "tuition", "national_guard", "free_tuition"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "la_patriot",
+    "scope": "state",
+    "state": "LA",
+    "title": "Louisiana Patriot Scholarship",
+    "summary": "NEW 2023 program covering mandatory fees for undergraduate degrees at LA public institutions, working in conjunction with STEP to allow Guard members to graduate debt-free.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must be LA Army or Air National Guard member. Effective August 1, 2023. Only covers mandatory fees (not books or other expenses)."
+    },
+    "eligibilityNotes": "Patriot Scholarship passed as LA law in 2023 to work with State Tuition Exemption Program (STEP) to help LA Guard members graduate debt-free with undergraduate degree. STEP covers tuition, Patriot covers mandatory fees. LOSFA first applies STEP to tuition bill, then Patriot Scholarship to mandatory fees. Mandatory fees vary by enrollment hours - Patriot scales to meet them. NOT a monetary award - can only be used for mandatory fees. Can be paired with GI Bill but speak to LANG Education Services Office to maximize benefits wisely. All LA Army and Air National Guard members became eligible when law took effect August 1, 2023. Contact LANG Education Services for more info at geauxguard.la.gov/education/",
+    "sourceUrl": "https://geauxguard.la.gov/education/",
+    "tags": ["education", "fees", "national_guard", "new_program_2023"],
+    "lastReviewed": "2025-12-25"
+  }
+]

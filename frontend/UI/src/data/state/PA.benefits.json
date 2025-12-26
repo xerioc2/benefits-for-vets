@@ -249,5 +249,22 @@
   "sourceUrl": "https://www.pa.gov/agencies/oa/employment/veterans.html",
   "tags": ["employment", "preference", "civil_service"],
   "lastReviewed": "2025-12-24"
+},
+{
+  "id": "pa_eap",
+  "scope": "state",
+  "state": "PA",
+  "title": "Educational Assistance Program (EAP)",
+  "summary": "Up to 100% tuition for undergraduate programs at Pennsylvania institutions for PA National Guard members with 6-year service commitment.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must enter 6-year service commitment with PA National Guard. Must be PA resident (bona fide domiciliary). Must fulfill commitment or repay all EAP funds plus interest."
+  },
+  "eligibilityNotes": "PA National Guard members enrolled in degree or certificate-granting program at approved PA institutions. Program administered by PHEAA with PA Department of Military and Veterans Affairs. Award amount based on tuition rate and technology fee charged to PA residents at state-owned universities. Undergraduate students: Award based on full-time/part-time status (full-time = 12+ credits/semester). Must be enrolled for at least 3 credits/year. Summer awards available if funding permits. Must complete FAFSA annually at www.fafsa.ed.gov. PA educational state grants cannot be reduced if receiving EAP benefits. Apply annually through unit of assignment with PA National Guard.",
+  "sourceUrl": "https://www.pheaa.org/funding-opportunities/aid-for-military-national-guard/national-guard-eap",
+  "tags": ["education", "tuition", "national_guard"],
+  "lastReviewed": "2025-12-25"
 }
 ]

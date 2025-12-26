@@ -1,0 +1,19 @@
+[
+  {
+    "id": "nj_njngtp",
+    "scope": "state",
+    "state": "NJ",
+    "title": "New Jersey National Guard Tuition Program (NJNGTP)",
+    "summary": "FREE tuition at any of 29 New Jersey public institutions for undergraduate and graduate studies. Up to 16 credits per semester tuition-free.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must have completed Initial Entry Training and be in good standing as active member of NJ National Guard. Must apply for all available state/federal grants and scholarships first (last-dollar benefit). Must apply for Post-9/11 GI Bill if eligible (transfers excluded)."
+    },
+    "eligibilityNotes": "NJ state law mandates FREE tuition for NJ National Guard members at 29 public colleges and universities for undergraduate and graduate studies. Covers up to 16 credits per semester. Members must be active drilling in good standing. Last-dollar benefit - must first apply for Pell Grant and NJ Tuition Aid Grant (TAG); if Pell + TAG equals or exceeds tuition cost, NJNGTP cannot be used that semester. Cannot be used with Federal Tuition Assistance (FTA). One degree per level (associate, bachelor, master) regardless of where earned. Must file FAFSA annually by March 15 priority deadline. Commander's Certificate of Eligibility required each semester. Apply through unit or at education.njarmyguard.com/njngtp.",
+    "sourceUrl": "https://njarmyguard.com/tuition",
+    "tags": ["education", "tuition", "national_guard", "free_tuition"],
+    "lastReviewed": "2025-12-25"
+  }
+]

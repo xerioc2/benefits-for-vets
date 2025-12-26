@@ -1,0 +1,19 @@
+[
+  {
+    "id": "ct_ng_waiver",
+    "scope": "state",
+    "state": "CT",
+    "title": "Connecticut National Guard Tuition Waiver",
+    "summary": "100% tuition waiver during fall and spring semesters (50% during summer/winter intersessions) at CT public colleges and universities for CT Air/Army National Guard members in good standing.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must be member in good standing of CT Air/Army National Guard. Must be matriculated student (accepted and enrolled in degree/certificate program). Out-of-state students who enroll in CT National Guard also qualify."
+    },
+    "eligibilityNotes": "CT state law (General Statutes 10a-99-d-5) provides tuition waivers at CT public colleges and universities for eligible National Guard students. Waiver covers 100% of tuition during fall and spring semesters, 50% of extension course fees during summer and winter intersessions. Available at CT State Universities (Central, Eastern, Southern, Western), 12 Community Colleges, and University of CT. Does NOT cover fees, books, room & board, parking, student activity fees, or laboratory fees - tuition only. Out-of-state students who enroll in CT National Guard qualify for this waiver. Must be matriculated (formally accepted) but do not need to declare major initially. Certificate of Eligibility required each semester from unit Readiness NCO or Education Officer - process can take about 1 month. Cannot receive National Guard CH 1606 Montgomery GI Bill benefits if not actively serving in Guard unit. Under CT General Statutes 10a-99-d-5.",
+    "sourceUrl": "https://veterans.uconn.edu/benefits/national-guard-state-veterans-tuition-waiver/",
+    "tags": ["education", "tuition", "national_guard", "waiver"],
+    "lastReviewed": "2025-12-25"
+  }
+]

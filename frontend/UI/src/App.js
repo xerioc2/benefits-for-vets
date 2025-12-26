@@ -22,6 +22,16 @@ import inbenefits from './data/state/IN.benefits.json';
 import mdbenefits from './data/state/MD.benefits.json';
 import idbenefits from './data/state/ID.benefits.json';
 import alBenefits from './data/state/AL.benefits.json';
+import ksBenefits from './data/state/KS.benefits.json';
+import ctBenefits from './data/state/CT.benefits.json';
+import kyBenefits from './data/state/KY.benefits.json';
+import laBenefits from './data/state/LA.benefits.json';
+import maBenefits from './data/state/MA.benefits.json';
+import msbenefits from './data/state/MS.benefits.json';
+import njBenefits from './data/state/NJ.benefits.json';
+import okBenefits from './data/state/OK.benefits.json';
+import orBenefits from './data/state/OR.benefits.json';
+import wiBenefits from './data/state/WI.benefits.json';
 // import txBenefits from './data/tx_benefits.json';
 
 // Map of state codes to their benefit data
@@ -47,6 +57,18 @@ const STATE_BENEFITS = {
   'MD': mdbenefits,
   'ID': idbenefits,
   'AL': alBenefits,
+  'KS': ksBenefits,
+  'CT': ctBenefits,
+  'KY': kyBenefits,
+  'LA': laBenefits,
+  'MA': maBenefits,
+  'MS': msbenefits,
+  'NJ': njBenefits,
+  'OK': okBenefits,
+  'OR': orBenefits,
+  'WI': wiBenefits,
+  
+  
   // Add more as you create them
 };
 

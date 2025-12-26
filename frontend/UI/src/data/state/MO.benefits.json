@@ -136,5 +136,22 @@
     "sourceUrl": "https://mvc.dps.mo.gov/cemeteries/",
     "tags": ["burial", "cemetery", "memorial", "facility"],
     "lastReviewed": "2025-12-25"
-  }
+  },
+  {
+  "id": "mo_state_ta",
+  "scope": "state",
+  "state": "MO",
+  "title": "Missouri National Guard State Tuition Assistance",
+  "summary": "100% tuition coverage (not fees) for up to 39 credit hours annually at Missouri institutions. NEW 2025-26: Tuition and fee waiver option added for public institutions receiving state appropriations.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be active MO National Guard member in good standing with certificate of satisfactory service. Eligible immediately upon enlistment (for classes starting 1+ day later). 2.5 GPA minimum."
+  },
+  "eligibilityNotes": "MO state program provides 100% tuition (not general fees, technology fees, etc.) up to 39 credit hours annually. Estimated value $41,000+ over 4 years. NEW effective 2025-26 academic year (SB 1322): Tuition and fee waiver option at MO public institutions receiving state appropriations. Waiver is last-dollar after State TA, federal TA, GI Bill, scholarships, grants. Maximum 120 credit hours for waiver. Waiver not available if state appropriation decreases vs. previous fiscal year. Members automatically granted in-state tuition rates. Must maintain 2.5 GPA, provide commanding officer certificate, complete FAFSA. Recoupment required if cease active affiliation during semester (except death/disability/medical DQ). Apply through MO National Guard before each semester. Administered by Office of the Adjutant General.",
+  "sourceUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=173.239",
+  "tags": ["education", "tuition", "national_guard"],
+  "lastReviewed": "2025-12-25"
+}
 ]

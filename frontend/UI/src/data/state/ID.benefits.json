@@ -136,5 +136,22 @@
     "sourceUrl": "https://veterans.idaho.gov/education/",
     "tags": ["education", "dependents", "tuition"],
     "lastReviewed": "2025-12-25"
-  }
+  },
+  {
+  "id": "id_seap",
+  "scope": "state",
+  "state": "ID",
+  "title": "State Education Assistance Program (SEAP)",
+  "summary": "Up to $8,000 per state fiscal year in tuition and fee reimbursement for Idaho National Guard members attending Idaho institutions. Legislature-dependent funding renewed annually.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be active drilling eligible non-technician ID National Guard member in good standing. ID institutions only. State fiscal year runs July 1 - June 30."
+  },
+  "eligibilityNotes": "ID state reimbursement program providing up to $8,000 per state fiscal year (July 1 - June 30) for tuition and fees at institutions inside Idaho. Available to active drilling Idaho Army or Air National Guard members in non-technician status. Legislature-dependent funding - program renewed annually. Can apply 60 days prior to class start through day before classes begin. Can be combined with Chapter 1606 GI Bill (unlike federal TA which cannot). Value: $32,000+ over 4 years. Apply through ID National Guard Education Services Office. Contact via Idaho Military Division website for application procedures and eligibility verification.",
+  "sourceUrl": "https://www.imd.idaho.gov/idaho-national-guard/careers/our-benefits/",
+  "tags": ["education", "tuition", "national_guard", "reimbursement"],
+  "lastReviewed": "2025-12-25"
+}
 ]
