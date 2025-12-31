@@ -1,0 +1,162 @@
+[
+  {
+    "id": "wa_dependents_tuition_waiver",
+    "scope": "state",
+    "state": "WA",
+    "audience": "dependents",
+    "title": "Washington State Dependents Tuition Waiver",
+    "summary": "Full tuition and fees waiver for up to 200 quarter credits (or equivalent semester credits) for children and spouses/surviving spouses of 100% disabled or deceased veterans at Washington public colleges and universities.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "notes": "Veteran must be 100% P&T disabled, OR died as result of service, OR MIA/POW. Veteran must be Washington domiciliary."
+    },
+    "eligibilityNotes": "Children: ages 17-26. Spouses/surviving spouses: 10 years from date of death, disability rating, or POW/MIA determination. Waiver covers ALL undergraduate tuition and fees. Book stipend of $500/year if funds appropriated by legislature. Graduate credits encouraged but not required.",
+    "sourceUrl": "https://www.dva.wa.gov/veterans-their-families/veterans-benefits/education-and-training/washington-tuition-waiver",
+    "tags": ["education", "tuition", "dependents", "waiver"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "wa_veteran_tuition_waiver",
+    "scope": "state",
+    "state": "WA",
+    "title": "Washington Veteran Tuition Waiver",
+    "summary": "State community colleges, colleges and universities may waive some or all tuition and fees for eligible wartime veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": true,
+      "notes": "Must have served overseas during wartime or in international waters. Each institution sets own guidelines."
+    },
+    "eligibilityNotes": "Available to Washington resident veterans who served in war or conflict on foreign soil or international waters. Contact individual institutions for specific waiver amounts and application process.",
+    "sourceUrl": "https://www.dva.wa.gov/veterans-their-families/veterans-benefits/education-and-training",
+    "tags": ["education", "tuition", "waiver"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "wa_property_tax_exemption_disabled_veteran",
+    "scope": "state",
+    "state": "WA",
+    "title": "Property Tax Exemption for Disabled Veterans and Surviving Spouses",
+    "summary": "Washington offers property tax relief for qualifying disabled veterans and eligible surviving spouses based on income and disability status.",
+    "requirements": {
+      "minDisability": 80,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "notes": "Eligibility also depends on income thresholds and residency. Exemption amount varies based on income level."
+    },
+    "eligibilityNotes": "Apply through the local County Assessor. Income limits apply and are adjusted periodically. Unremarried surviving spouses may qualify.",
+    "sourceUrl": "https://dor.wa.gov/taxes-rates/property-tax/property-tax-exemptions-and-deferrals",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "wa_employment_preference_veterans",
+    "scope": "state",
+    "state": "WA",
+    "title": "Washington Veterans Employment Preference",
+    "summary": "Veterans and eligible spouses receive preference points (5% or 10%) when applying for Washington state and local government jobs.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": true,
+      "notes": "Non-combat veterans: 5% added to exam score. Combat veterans: 10% added. Mobilized Guard/Reserve: 5%."
+    },
+    "eligibilityNotes": "Applies to qualifying veterans, surviving spouses, and registered domestic partners of eligible veterans. Honorably discharged combat veterans or those with campaign ribbon receive preference. Surviving spouses of veterans with service-connected P&T disability also eligible.",
+    "sourceUrl": "https://www.dva.wa.gov/employment",
+    "tags": ["employment", "preference", "civil_service"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "wa_state_parks_lifetime_pass_disabled_veteran",
+    "scope": "state",
+    "state": "WA",
+    "title": "Washington State Parks Lifetime Disabled Veteran Pass",
+    "summary": "Lifetime free access to Washington State Parks for qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 30,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Pass provides free day-use access to state parks; camping discounts may apply."
+    },
+    "eligibilityNotes": "Veterans must provide proof of disability and residency. Apply through Washington State Parks.",
+    "sourceUrl": "https://parks.wa.gov/passes-permits/disabled-veterans",
+    "tags": ["recreation", "state_parks"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "wa_hunting_fishing_license_disabled_vet",
+    "scope": "state",
+    "state": "WA",
+    "title": "Reduced-Fee Hunting and Fishing Licenses for Disabled Veterans",
+    "summary": "Washington offers discounted hunting and fishing licenses for veterans with qualifying service-connected disabilities.",
+    "requirements": {
+      "minDisability": 30,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "License eligibility and discounts vary by license type."
+    },
+    "eligibilityNotes": "Veterans must be Washington residents and provide VA disability documentation.",
+    "sourceUrl": "https://wdfw.wa.gov/licenses/eligibility/military-discounts",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "wa_driver_license_veteran_designation",
+    "scope": "state",
+    "state": "WA",
+    "title": "Veteran Designation on Washington Driver License / ID",
+    "summary": "Veterans may add a Veteran designation to a Washington driver license or identification card.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Requires proof of honorable service such as DD-214."
+    },
+    "eligibilityNotes": "Veterans must present documentation at a Department of Licensing office.",
+    "sourceUrl": "https://www.dol.wa.gov/driver-licenses-and-permits/veteran-designation",
+    "tags": ["id", "license", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "wa_veterans_homes",
+    "scope": "state",
+    "state": "WA",
+    "benefitType": "facility",
+    "title": "Washington State Veterans Homes",
+    "summary": "Long-term care facilities providing nursing and rehabilitation services for eligible veterans and certain spouses.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Admission depends on medical need, eligibility determination, and bed availability."
+    },
+    "eligibilityNotes": "Applicants must meet VA and Washington eligibility criteria. Spouses may be eligible in limited circumstances. Homes located throughout Washington state.",
+    "sourceUrl": "https://www.dva.wa.gov/veterans-homes",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "wa_veterans_cemeteries",
+    "scope": "state",
+    "state": "WA",
+    "benefitType": "facility",
+    "title": "Washington State Veterans Cemetery",
+    "summary": "State-operated veterans cemetery in Medical Lake providing burial options for eligible veterans and family members at no charge for veterans ($300 for eligible dependents).",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility generally mirrors VA national cemetery eligibility. No residency requirement."
+    },
+    "eligibilityNotes": "Washington State Veterans Cemetery located in Medical Lake. Veterans eligible for VA national cemetery are eligible. No charge for veteran interments, one-time $300 fee for eligible dependents. 30-minute committal service provided.",
+    "sourceUrl": "https://www.dva.wa.gov/veterans-cemeteries",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-24"
+  }
+]

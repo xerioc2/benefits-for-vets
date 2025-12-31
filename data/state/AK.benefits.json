@@ -1,0 +1,285 @@
+{
+  "state": "Alaska",
+  "stateCode": "AK",
+  "benefits": [
+    {
+      "id": "ak-guard-tuition",
+      "category": "Education",
+      "name": "Alaska National Guard Tuition Assistance",
+      "description": "Alaska National Guard provides 100% tuition and fees coverage at all University of Alaska System schools (Fairbanks, Anchorage, Southeast). Members can combine both federal and state TA for 100% coverage. Army Guard: $250/credit hour (exhaust federal TA first), Air Guard: 100% tuition up to 12 credits/semester after Tech School. One credential per level (certificate, associate, bachelor's, master's).",
+      "eligibility": "Active Alaska National Guard members in good standing, satisfactory unit training participation",
+      "value": "100% tuition + fees at University of Alaska System, can stack with federal TA",
+      "source": "https://veterans.alaska.gov/education/"
+    },
+    {
+      "id": "ak-instate-tuition",
+      "category": "Education",
+      "name": "In-State Tuition for Military",
+      "description": "Active duty service members, Guard, and Reserve stationed in Alaska for 12+ consecutive months, plus their dependents, qualify for resident tuition rates at all Alaska institutions. Can retain this rate while stationed in Alaska regardless of home state residency. Tuition capped at $250/credit for active duty.",
+      "eligibility": "Active duty/Guard/Reserve stationed in Alaska 12+ months, or their dependents",
+      "value": "$250/credit tuition cap + resident rates",
+      "source": "https://www.uaa.alaska.edu/students/veterans/tuition-assistance.cshtml"
+    },
+    {
+      "id": "ak-property-tax-exemption",
+      "category": "Tax",
+      "name": "Property Tax Exemption for Disabled Veterans",
+      "description": "Veterans with 50%+ service-connected disability rating receive exemption from property taxes on first $150,000 of assessed value on their primary residence. Exemption transfers to surviving spouse age 60+ upon veteran's death. Must qualify for or be eligible for Permanent Fund Dividend. Requires annual application with disability rating letter.",
+      "eligibility": "50%+ service-connected disability, primary residence, permanent place of abode, PFD eligible",
+      "value": "Tax exempt on first $150K assessed value",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/Alaska"
+    },
+    {
+      "id": "ak-permanent-fund",
+      "category": "Financial",
+      "name": "Alaska Permanent Fund Dividend (PFD)",
+      "description": "All Alaska residents receive annual dividend from state's oil revenue investment fund. 2024 dividend was $1,702 per person. Application period is January 1 - March 31 each year. Must be Alaska resident for entire prior calendar year and intend to remain indefinitely. Active duty stationed in Alaska qualify with special residency rules.",
+      "eligibility": "Alaska residents (including active duty stationed in Alaska with special provisions)",
+      "value": "$1,702/person (2024 amount, varies yearly)",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/Alaska"
+    },
+    {
+      "id": "ak-no-income-tax",
+      "category": "Tax",
+      "name": "No State Income Tax",
+      "description": "Alaska has no state income tax on individuals. This means military pay, military retirement pay, VA disability compensation, TSP distributions, and survivor benefits are all untaxed at the state level. No state tax return required.",
+      "eligibility": "All Alaska residents",
+      "value": "0% state tax on all income",
+      "source": "https://vetsguardian.com/veteran-benefits-for-alaska/"
+    },
+    {
+      "id": "ak-land-discount",
+      "category": "Financial",
+      "name": "Veterans Land Purchase Discount",
+      "description": "Alaska resident veterans receive one-time 25% discount on purchase of state land (residential/recreational, not commercial/industrial). Discount applies to purchase price minus reimbursable costs (survey, road development). Must be Alaska resident for 1+ year immediately preceding sale. Each parcel webpage shows estimated discount amount.",
+      "eligibility": "90+ days active duty (or early separation), honorable discharge, Alaska resident 1+ year, 18+ years old",
+      "value": "25% discount on state land purchase price (once-in-lifetime)",
+      "source": "https://dnr.alaska.gov/mlw/landsales/info/vet-discount/"
+    },
+    {
+      "id": "ak-mortgage-preference",
+      "category": "Financial",
+      "name": "Veterans Mortgage Interest Rate Preference",
+      "description": "Alaska Housing Finance Corporation (AHFC) offers veterans 1% lower interest rate on first $50,000 of home purchase loan. Veterans Mortgage program also provides financing at lower interest rates. Contact AHFC-approved lender to implement.",
+      "eligibility": "Qualified veterans purchasing home in Alaska",
+      "value": "1% interest rate reduction on first $50K of loan",
+      "source": "https://veterans.alaska.gov/real-estate/"
+    },
+    {
+      "id": "ak-employment-preference",
+      "category": "Employment",
+      "name": "State Employment Veteran Preference",
+      "description": "Five-point veteran preference for all open competitive state job vacancies. If numerical ratings used, veterans receive 5% of points. Disabled veterans and POWs guaranteed interview opportunity. Qualified means meets minimum qualifications and requires review of application.",
+      "eligibility": "181+ days active duty with honorable discharge (or less with campaign medal/Purple Heart/heroism medal), current Alaska Guard members, POWs",
+      "value": "5 points preference + disabled/POW interview guarantee",
+      "source": "https://veterans.alaska.gov/employment/veteran-preference/"
+    },
+    {
+      "id": "ak-priority-employment",
+      "category": "Employment",
+      "name": "Priority of Service Employment Programs",
+      "description": "Alaska Department of Labor provides priority of service for veterans, eligible spouses, and caregivers seeking employment, apprenticeships, and on-the-job training. Specialized DVOP and LVER staff at Anchorage, Fairbanks, and Matanuska-Susitna job centers provide comprehensive assessments, career services, job counseling, resume assistance. Jobs for Veterans State Grant: $586,077 (FFY 2025).",
+      "eligibility": "Veterans with honorable discharge, eligible spouses and caregivers, veterans with significant barriers to employment",
+      "value": "Free comprehensive career services + priority job referrals",
+      "source": "https://jobs.alaska.gov/veterans/"
+    },
+    {
+      "id": "ak-occupational-licensing",
+      "category": "Employment",
+      "name": "Occupational Licensing for Military",
+      "description": "Deployed service members can defer professional licensing requirements until after redeployment (combat zones/hazardous duty). Request online via myAlaska or submit exemption form. Military Family Life Counselors receive expedited application processing for professional counselor, social worker, and qualifying licenses. Temporary licenses available for most license types (valid 180 days).",
+      "eligibility": "Deployed service members with Alaska professional license, DoD MFLCs, active duty with Alaska orders, military spouses with Alaska orders",
+      "value": "Licensing deferral during deployment + expedited processing + 180-day temporary licenses",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/Alaska"
+    },
+    {
+      "id": "ak-hunting-disabled",
+      "category": "Recreation",
+      "name": "Free Hunting & Fishing - Disabled Veterans",
+      "description": "Alaska resident disabled veterans with 50%+ service-connected disability receive FREE lifetime permanent identification card for hunting, sport fishing, and trapping. No king salmon stamp or state conservation stamp required. Must be physically present in Alaska to apply. Includes Alaska Territorial Guard members with 50%+ disability.",
+      "eligibility": "50%+ service-connected disability, honorable discharge, Alaska resident 12+ months",
+      "value": "FREE lifetime hunting, fishing, trapping (no stamps required)",
+      "source": "https://www.adfg.alaska.gov/index.cfm?adfg=huntlicense.military"
+    },
+    {
+      "id": "ak-hunting-guard",
+      "category": "Recreation",
+      "name": "Free Hunting & Fishing - Guard & Reserves",
+      "description": "Active Alaska National Guard members and U.S. Armed Forces Reserve members receive FREE annual hunting, trapping, and sport fishing license. Must meet Alaska residency requirements. No king salmon stamp or state conservation stamp required.",
+      "eligibility": "Active Alaska National Guard or U.S. Armed Forces Reserve members, Alaska residents",
+      "value": "FREE annual hunting, fishing, trapping license",
+      "source": "https://www.adfg.alaska.gov/index.cfm?adfg=huntlicense.military"
+    },
+    {
+      "id": "ak-hunting-senior",
+      "category": "Recreation",
+      "name": "Free Hunting & Fishing - Seniors",
+      "description": "Alaska residents age 60+ receive FREE lifetime permanent identification card for hunting, sport fishing, and trapping. No king salmon stamp or state conservation stamp required. Must be physically present in Alaska to apply.",
+      "eligibility": "Alaska residents 60+ years old",
+      "value": "FREE lifetime hunting, fishing, trapping",
+      "source": "https://www.adfg.alaska.gov/index.cfm?adfg=license.proxy"
+    },
+    {
+      "id": "ak-hunting-active-duty",
+      "category": "Recreation",
+      "name": "Reduced Hunting & Fishing - Active Duty",
+      "description": "Active duty stationed in Alaska 12+ months can purchase resident licenses (no guide required). Active duty stationed less than 12 months receive special military license at resident rates. Nonresident military pay reduced prices. Active duty on leave outside U.S. exempt from hunter safety requirements.",
+      "eligibility": "Active duty service members stationed in or on leave from Alaska",
+      "value": "Resident rates or reduced nonresident rates",
+      "source": "https://www.adfg.alaska.gov/index.cfm?adfg=huntlicense.military"
+    },
+    {
+      "id": "ak-state-parks-camping",
+      "category": "Recreation",
+      "name": "Free State Park Camping Pass",
+      "description": "Disabled veterans receive one FREE Alaska State Park Camping Pass valid in all developed Alaska State Park campgrounds. Pass is good for 2 years. Must present proof of service-connected disability in person at Anchorage or Fairbanks Department of Natural Resources Public Information Centers. Does not include boat launch or day use.",
+      "eligibility": "Disabled veterans with service-connected disability",
+      "value": "FREE 2-year state park camping pass (all developed campgrounds)",
+      "source": "https://veterans.alaska.gov/benefits/state-of-alaska/recreational/"
+    },
+    {
+      "id": "ak-marine-highway",
+      "category": "Transportation",
+      "name": "Alaska Marine Highway Reduced Fare",
+      "description": "Veterans with service-connected disability receive 50% reduced passenger fare on Alaska Marine Highway System (AMHS) vessels. Attendant (if required by physician) also travels at half fare. Valid for all AMHS ferry routes statewide.",
+      "eligibility": "Veterans with service-connected disability (attendant if physician-required)",
+      "value": "50% fare reduction for veteran + attendant",
+      "source": "https://veterans.alaska.gov/benefits/state-of-alaska/recreational/"
+    },
+    {
+      "id": "ak-railroad-discount",
+      "category": "Transportation",
+      "name": "Alaska Railroad Military Discount",
+      "description": "Active duty service members, military retirees, and their dependents receive 20% discount on Alaska Railroad tickets. Must show military ID or proof of status at boarding. Valid for all Alaska Railroad routes.",
+      "eligibility": "Active duty, military retirees, dependents",
+      "value": "20% discount on train tickets",
+      "source": "https://veterans.alaska.gov/benefits/state-of-alaska/recreational/"
+    },
+    {
+      "id": "ak-license-plates-free",
+      "category": "Vehicle",
+      "name": "Free Specialty License Plates",
+      "description": "Alaska offers FREE specialty license plates (after validation of service/loss) for: Purple Heart recipients, Prisoners of War (POW), Pearl Harbor survivors, and Gold Star Families. Plates display branch of service plus 64 different unit symbols/badges available.",
+      "eligibility": "Purple Heart recipients, POWs, Pearl Harbor survivors, Gold Star immediate family (DD1300 required)",
+      "value": "FREE specialty plates (one-time validation)",
+      "source": "https://veterans.alaska.gov/vehicles/"
+    },
+    {
+      "id": "ak-license-plates-veteran",
+      "category": "Vehicle",
+      "name": "Veteran Service License Plates",
+      "description": "Veterans who served in U.S. Armed Forces or Alaska National Guard members qualify for specialty plates showing branch of service. $30 plate fee at initial application or replacement. Plates indicate branch and can include unit symbols.",
+      "eligibility": "Veterans with honorable service, current Alaska National Guard members",
+      "value": "$30 one-time fee for service plates",
+      "source": "https://veterans.alaska.gov/vehicles/"
+    },
+    {
+      "id": "ak-license-plates-disabled",
+      "category": "Vehicle",
+      "name": "Disabled Veteran License Plates",
+      "description": "Veterans with 50%+ service-connected disability receive disabled veteran plate exempt from Motor Vehicle Registration Taxes and registration fees for one vehicle. Optional wheelchair logo version with parking privileges (requires Form 861). Second and subsequent plates available at full fees.",
+      "eligibility": "50%+ service-connected disability, VA certification required",
+      "value": "FREE registration (no taxes/fees) for one vehicle",
+      "source": "https://veterans.alaska.gov/vehicles/"
+    },
+    {
+      "id": "ak-veteran-dl",
+      "category": "Vehicle",
+      "name": "Veteran Driver's License Designation",
+      "description": "Veterans entitled to have veteran status noted on Alaska Driver's License or ID Card. Cost is $5 at Alaska DMV. Proof of honorable discharge required (DD214 or equivalent).",
+      "eligibility": "Veterans with honorable discharge",
+      "value": "$5 fee for veteran designation on DL/ID",
+      "source": "https://veterans.alaska.gov/vehicles/"
+    },
+    {
+      "id": "ak-dl-extension",
+      "category": "Vehicle",
+      "name": "Military Driver's License Extension",
+      "description": "Non-commercial driver's license valid for 90 days after discharge or return to Alaska, whichever occurs first (policy adopted June 1997). Provides transition period for veterans returning to Alaska.",
+      "eligibility": "Military members with Alaska driver's license",
+      "value": "90-day license validity extension",
+      "source": "https://veterans.alaska.gov/vehicles/"
+    },
+    {
+      "id": "ak-cdl-waiver",
+      "category": "Vehicle",
+      "name": "CDL Road Skills Testing Waiver",
+      "description": "Alaska offers Commercial Driver's License (CDL) road skills testing waiver for service members and former service members based on military driving experience. Reduces barriers to commercial employment for veterans.",
+      "eligibility": "Service members and veterans with qualifying military driving experience",
+      "value": "Waiver of CDL road skills test requirement",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/Alaska"
+    },
+    {
+      "id": "ak-veterans-home",
+      "category": "Healthcare",
+      "name": "Alaska Veterans & Pioneers Home",
+      "description": "State-operated long-term care facility in Palmer providing assisted living, memory care, and skilled nursing. Eden Alternative Registered Home offering compassionate care with focus on quality of life. Qualifying veterans eligible for VA per diem to offset costs. Features include activities, communal dining, 12-16 hour nursing, 24-hour supervision.",
+      "eligibility": "Alaska resident 1+ year prior to admission, veterans may receive VA per diem assistance",
+      "value": "Affordable long-term care ($5,000-$7,300/month estimated) + VA per diem for qualifying veterans",
+      "source": "https://dfcs.alaska.gov/daph/pages/palmer/default.aspx"
+    },
+    {
+      "id": "ak-dd214-recording",
+      "category": "Legal",
+      "name": "Free DD-214 Recording",
+      "description": "Veterans may record original or certified copy of Armed Forces Report of Separation (DD214) without fee at any State Recorder's office of Department of Natural Resources. 14 district offices statewide oversee 34 recording districts. Creates official public record.",
+      "eligibility": "All veterans with DD214",
+      "value": "FREE recording of DD214 in official state records",
+      "source": "https://www.seniorvoicealaska.com/story/2018/04/01/columns/state-of-alaska-offers-benefits-to-veterans/1655.html"
+    },
+    {
+      "id": "ak-wwii-diploma",
+      "category": "Education",
+      "name": "WWII Veterans High School Diploma",
+      "description": "Alaska Department of Education awards high school diplomas to WWII veterans (including Alaska Territorial Guard members) who served August 7, 1940 - July 25, 1947. Veterans with GED may also apply. Family members may apply for eligible deceased or incapacitated veterans. Diploma shows veteran's full name.",
+      "eligibility": "WWII veterans (or family of deceased/incapacitated) who served 8/7/1940-7/25/1947",
+      "value": "FREE Alaska high school diploma for WWII service",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/Alaska"
+    },
+    {
+      "id": "ak-purple-star-schools",
+      "category": "Education",
+      "name": "Purple Star School Designation",
+      "description": "Alaska Purple Star School designation recognizes schools that show major commitment to students and families connected to nation's military. Helps military families identify supportive schools when relocating to Alaska. Schools must meet criteria demonstrating military-friendly environment.",
+      "eligibility": "Alaska schools meeting military-friendly criteria",
+      "value": "Recognition of military-supportive school environment",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/Alaska"
+    },
+    {
+      "id": "ak-burial",
+      "category": "Burial",
+      "name": "Fort Richardson National Cemetery",
+      "description": "VA National Cemetery in Fort Richardson (near Anchorage) following National Cemetery Association rules. Eligible for burial: veterans with honorable discharge meeting minimum active duty requirement, spouses, widow/widowers, minor dependents, certain disabled unmarried adult children. Spouses/children who predecease veteran also eligible. Reserve members who die on duty or eligible for retirement pay also eligible.",
+      "eligibility": "Eligible veterans, spouses, dependents per VA national cemetery rules",
+      "value": "FREE burial in national cemetery",
+      "source": "https://reemedical.com/va-benefits-for-veterans-in-alaska/"
+    },
+    {
+      "id": "ak-military-credit",
+      "category": "Employment",
+      "name": "Military Service Credit Toward State Retirement",
+      "description": "Veterans can receive credit for military service toward Alaska state retirement system. Helps veterans who become state employees receive retirement benefits sooner based on prior military service. Contact Alaska Division of Retirement and Benefits for specifics.",
+      "eligibility": "Veterans who become Alaska state employees",
+      "value": "Military service time credited toward state retirement",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/Alaska"
+    },
+    {
+      "id": "ak-hilton-honors",
+      "category": "Employment",
+      "name": "Hilton Honors Military Employment Program",
+      "description": "Veterans, transitioning service members, National Guard/Reservists, and military spouses registered at Alaska Job Center can receive up to 100,000 Hilton Honors points (once-in-lifetime) for approved job-search activities including interviews, relocation, or training for new position. Must have current Hilton Honors account and specific employment-related travel need.",
+      "eligibility": "Veterans, transitioning service members, Guard/Reserve, military spouses registered at Alaska Job Center",
+      "value": "Up to 100,000 Hilton Honors points (once-in-lifetime)",
+      "source": "https://jobs.alaska.gov/veterans/"
+    },
+    {
+      "id": "ak-governors-award",
+      "category": "Recognition",
+      "name": "Governor's Veterans Advocacy Award",
+      "description": "Annual award presented on Veterans Day (November 11) recognizing individuals demonstrating extraordinary personal concern, compassion, and commitment to veterans' causes, veterans, and their families. May include those who formed innovative volunteer programs/projects benefiting veterans. Must be performed on volunteer basis.",
+      "eligibility": "Individuals with exceptional volunteer service to Alaska veterans",
+      "value": "Annual recognition by Governor of Alaska",
+      "source": "https://www.seniorvoicealaska.com/story/2018/04/01/columns/state-of-alaska-offers-benefits-to-veterans/1655.html"
+    }
+  ]
+}

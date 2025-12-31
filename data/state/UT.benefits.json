@@ -1,0 +1,386 @@
+[
+  {
+    "id": "ut_state_tuition_waiver",
+    "state": "Utah",
+    "name": "Utah National Guard State Tuition Waiver",
+    "category": "Education",
+    "description": "Eligible Utah National Guard members receive 100% tuition + fees waiver at Utah state public colleges and universities. Must be full-time Guard member. Apply through Utah National Guard Education Office.",
+    "eligibility": [
+      "Utah National Guard member (full-time)",
+      "Attending Utah public college/university",
+      "Meet Guard education office requirements"
+    ],
+    "benefit_amount": "100% tuition + fees waiver at Utah public institutions",
+    "how_to_apply": "Apply through Utah National Guard Education Office (ng.ut.utarng.list.education-office@mail.mil)",
+    "source_name": "Utah National Guard",
+    "source_url": "https://guard.utah.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_state_tuition_assistance",
+    "state": "Utah",
+    "name": "State Tuition Assistance (STA)",
+    "category": "Education",
+    "description": "Utah National Guard members receive up to $6,000 per state fiscal year (not exceeding $250/credit hour). STEM-C degree programs: up to $7,000/fiscal year. Can be used WITH federal TA AND GI Bill simultaneously to maximize benefits. Single unified application for all state/federal education benefits.",
+    "eligibility": [
+      "Utah National Guard member (Army or Air)",
+      "Attending ANY Utah institution (public or private)",
+      "$6,000/year ($7,000 for STEM-C)"
+    ],
+    "benefit_amount": "Up to $6,000-$7,000 per state fiscal year (max $250/credit)",
+    "how_to_apply": "Apply through Utah National Guard unified education application",
+    "source_name": "Utah National Guard",
+    "source_url": "https://guard.utah.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_scott_lundell_tuition_waiver",
+    "state": "Utah",
+    "name": "Scott B. Lundell Tuition Waiver (Purple Heart/100% Disabled)",
+    "category": "Education",
+    "description": "Children and un-remarried spouses of Utah veterans who received Purple Heart OR who died as result of service-connected disability OR are 100% service-connected disabled receive FREE tuition waiver at Utah public colleges/universities.",
+    "eligibility": [
+      "Child or un-remarried spouse",
+      "Veteran received Purple Heart OR died from service-connected disability OR 100% disabled",
+      "Attending Utah public institution"
+    ],
+    "benefit_amount": "FREE tuition waiver at Utah public colleges/universities",
+    "how_to_apply": "Apply through Utah System of Higher Education",
+    "source_name": "Utah System of Higher Education",
+    "source_url": "https://ushe.edu/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_veterans_tuition_gap",
+    "state": "Utah",
+    "name": "Veterans Tuition Gap Program",
+    "category": "Education",
+    "description": "Supplemental grant provided by State of Utah that covers tuition, fees, AND books for veterans whose federal GI Bill benefits have been exhausted or are not available. Attending Utah higher education institutions.",
+    "eligibility": [
+      "Utah veteran",
+      "Federal GI Bill benefits exhausted OR not available",
+      "Attending Utah institution of higher education"
+    ],
+    "benefit_amount": "Covers tuition + fees + books (gap funding)",
+    "how_to_apply": "Contact school admissions office",
+    "source_name": "Utah Department of Veterans and Military Affairs",
+    "source_url": "https://veterans.utah.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_instate_tuition",
+    "state": "Utah",
+    "name": "In-State Tuition for Military and Veterans",
+    "category": "Education",
+    "description": "In-state tuition available for: active duty assigned to Utah (including Guard/Reserve), immediate family of active duty in Utah, veterans with non-dishonorable discharge, family members of veteran claimed as dependent, eligible GI Bill users, Utah resident away on military duty taking online courses.",
+    "eligibility": [
+      "Active duty in Utah OR family member OR",
+      "Veteran (not dishonorable) OR family of veteran OR",
+      "GI Bill eligible OR",
+      "Utah resident military taking online"
+    ],
+    "benefit_amount": "In-state tuition rates (saves $10,000-$15,000/year)",
+    "how_to_apply": "Contact Admissions Office Residency page at Utah institution",
+    "source_name": "Utah System of Higher Education",
+    "source_url": "https://ushe.edu/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_property_tax_10_100",
+    "state": "Utah",
+    "name": "Disabled Veteran Property Tax Exemption (10%-100%)",
+    "category": "Tax Benefits",
+    "description": "Veterans with 10%-100% service-connected disability receive property tax exemption on primary residence (up to 1 acre) OR tangible personal property (vehicles, boats, etc.). 2025 maximum exemption: $521,620 taxable value. Actual benefit = disability % × maximum. Applies to unmarried surviving spouse or minor orphans. Apply by September 1 annually.",
+    "eligibility": [
+      "Utah resident veteran",
+      "10%-100% service-connected disability",
+      "Own property as of January 1",
+      "Primary residence (1 acre max) OR personal property",
+      "OR unmarried surviving spouse/minor orphans"
+    ],
+    "benefit_amount": "Up to $521,620 taxable value exemption (disability % × maximum, 2025)",
+    "how_to_apply": "Apply to County Auditor/Treasurer by September 1 annually with VA letter",
+    "source_name": "Utah State Tax Commission",
+    "source_url": "https://tax.utah.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_active_duty_200_days_exemption",
+    "state": "Utah",
+    "name": "Active/Reserve Duty 200-Day Property Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Active or Reserve duty service members stationed OUTSIDE Utah for 200+ days in calendar year (or 200 consecutive days beginning prior year) receive TOTAL property tax exemption on primary residence. Must be property owner as of January 1. Reapply annually.",
+    "eligibility": [
+      "Active or Reserve duty service member",
+      "Stationed outside Utah 200+ days",
+      "Property owner as of January 1",
+      "Primary residence only"
+    ],
+    "benefit_amount": "100% property tax exemption on primary residence",
+    "how_to_apply": "Apply to County Auditor/Treasurer by September 1 with military orders",
+    "source_name": "Utah State Tax Commission",
+    "source_url": "https://tax.utah.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_military_pay_state_exempt",
+    "state": "Utah",
+    "name": "Military Pay Income Tax (Follows Federal)",
+    "category": "Tax Benefits",
+    "description": "All income included in federal adjusted gross income is automatically included in Utah income. Income exempt from federal taxation is also exempt for Utah. Military pay for nonresident service members is NOT subject to Utah income tax.",
+    "eligibility": [
+      "Follows federal tax treatment",
+      "Nonresident military pay exempt"
+    ],
+    "benefit_amount": "Follows federal exemptions",
+    "how_to_apply": "Include/exclude same as federal return",
+    "source_name": "Utah State Tax Commission",
+    "source_url": "https://tax.utah.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_survivor_benefits_tax_credit",
+    "state": "Utah",
+    "name": "Survivor Benefits Tax Credit (SBP/RCSBP/RSFPP)",
+    "category": "Tax Benefits",
+    "description": "Surviving spouse or dependent child of service member who died on active duty OR in line of duty (inactive duty training) receive tax credit on survivor benefits. Tax credit = federally taxable benefits × 0.0485 (4.85%). Also applies to SBP, RCSBP, and RSFPP annuities.",
+    "eligibility": [
+      "Surviving spouse or dependent child",
+      "Service member died on active duty OR in line of duty",
+      "OR receiving SBP/RCSBP/RSFPP annuity"
+    ],
+    "benefit_amount": "Tax credit = 4.85% of federally taxable survivor benefits",
+    "how_to_apply": "Claim credit on Utah income tax return",
+    "source_name": "Utah State Tax Commission",
+    "source_url": "https://tax.utah.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_disability_retirement_exempt",
+    "state": "Utah",
+    "name": "Military Disability Retirement Pay Exemption",
+    "category": "Tax Benefits",
+    "description": "Military Disability Retirement Pay received as pension, annuity, or similar allowance for personal injury or sickness resulting from active service is exempt from Utah state income tax.",
+    "eligibility": [
+      "Receiving military disability retirement pay",
+      "Personal injury/sickness from active service"
+    ],
+    "benefit_amount": "100% exemption on military disability retirement pay",
+    "how_to_apply": "Exclude from Utah income tax return",
+    "source_name": "Utah State Tax Commission",
+    "source_url": "https://tax.utah.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_military_spouse_licensing",
+    "state": "Utah",
+    "name": "Military Spouse Occupational Licensing Reciprocity",
+    "category": "Employment",
+    "description": "Military spouses receive expedited processing for occupational licenses and credit for equivalent out-of-state licenses when moving to Utah with service member spouse.",
+    "eligibility": [
+      "Military spouse",
+      "Moving to Utah with service member",
+      "Hold valid out-of-state license"
+    ],
+    "benefit_amount": "Expedited licensing + reciprocity",
+    "how_to_apply": "Contact Utah Department of Commerce, Division of Occupational and Professional Licensing",
+    "source_name": "Utah Department of Commerce",
+    "source_url": "https://dopl.utah.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_veterans_job_preference",
+    "state": "Utah",
+    "name": "Veterans Job Preference (State Employment)",
+    "category": "Employment",
+    "description": "Honorably discharged veterans receive hiring preference for Utah state government positions. Disabled veterans receive additional consideration.",
+    "eligibility": [
+      "Utah resident veteran",
+      "Honorably discharged",
+      "Applying for state government position"
+    ],
+    "benefit_amount": "Hiring preference (additional for disabled veterans)",
+    "how_to_apply": "Indicate veteran status on state job applications with DD-214",
+    "source_name": "Utah Department of Government Operations",
+    "source_url": "https://dhrm.utah.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_disabled_veterans_outreach",
+    "state": "Utah",
+    "name": "Disabled Veterans' Outreach Program (DVOP)",
+    "category": "Employment",
+    "description": "Specialized employment services through Utah Department of Workforce Services for disabled veterans including job placement assistance, career counseling, and training opportunities.",
+    "eligibility": [
+      "Utah disabled veteran",
+      "Seeking employment or training"
+    ],
+    "benefit_amount": "FREE employment services and job placement assistance",
+    "how_to_apply": "Contact Utah Department of Workforce Services",
+    "source_name": "Utah Department of Workforce Services",
+    "source_url": "https://jobs.utah.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_ace_program",
+    "state": "Utah",
+    "name": "ACE Program (Accelerated Career Entry)",
+    "category": "Employment",
+    "description": "Designed to assist Utah veterans, Active Component members, actively drilling Guard/Reserve, and spouses overcome employment barriers. Provides avenue to gain civilian employment by capitalizing on military experience OR short-term training leading to certificate/license.",
+    "eligibility": [
+      "Utah veteran OR",
+      "Active Component member OR",
+      "Actively drilling Guard/Reserve OR",
+      "Spouse of above"
+    ],
+    "benefit_amount": "Employment assistance + short-term training/certification support",
+    "how_to_apply": "Contact Utah Department of Veterans and Military Affairs",
+    "source_name": "Utah Department of Veterans and Military Affairs",
+    "source_url": "https://veterans.utah.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_state_parks_free",
+    "state": "Utah",
+    "name": "FREE Utah State Parks Admission",
+    "category": "Recreation",
+    "description": "Utah veterans receive FREE admission to all Utah State Parks. Great for outdoor recreation in one of America's most beautiful states.",
+    "eligibility": [
+      "Utah resident veteran",
+      "Honorably discharged"
+    ],
+    "benefit_amount": "FREE state park admission",
+    "how_to_apply": "Present veteran ID or DD-214 at Utah State Parks",
+    "source_name": "Utah State Parks",
+    "source_url": "https://stateparks.utah.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_bus_trax_reduced_fare",
+    "state": "Utah",
+    "name": "Reduced Fare Cards (Bus/TRAX)",
+    "category": "Transportation",
+    "description": "Utah veterans eligible for reduced fare cards on public transportation (bus and TRAX light rail) in Utah.",
+    "eligibility": [
+      "Utah resident veteran"
+    ],
+    "benefit_amount": "Reduced fare on public transit",
+    "how_to_apply": "Contact Utah Transit Authority (UTA)",
+    "source_name": "Utah Transit Authority",
+    "source_url": "https://www.rideuta.com/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_disabled_veteran_plates",
+    "state": "Utah",
+    "name": "Disabled Veteran License Plates",
+    "category": "Other",
+    "description": "Veterans with ANY service-connected disability can receive Disabled Veteran license plate. One-time $15 fee, NO renewal fees. Must present Military ID or documentation AND VA Summary of Benefits letter. NOTE: Plate does NOT qualify for disabled parking.",
+    "eligibility": [
+      "Utah resident veteran",
+      "ANY service-connected disability",
+      "VA Summary of Benefits letter"
+    ],
+    "benefit_amount": "$15 one-time fee, no renewal fees",
+    "how_to_apply": "Apply at Utah DMV with VA Summary of Benefits letter",
+    "source_name": "Utah Division of Motor Vehicles",
+    "source_url": "https://dmv.utah.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_special_group_plates_free",
+    "state": "Utah",
+    "name": "FREE Special Group License Plates (Purple Heart/POW/Pearl Harbor)",
+    "category": "Other",
+    "description": "Purple Heart recipients, former POWs, and Pearl Harbor survivors receive license plates EXEMPT from application AND renewal fees. Regular registration fees and property taxes still apply. Present Purple Heart membership card, Pearl Harbor Survivors Association card, or DD-214.",
+    "eligibility": [
+      "Purple Heart recipient OR",
+      "Former POW OR",
+      "Pearl Harbor survivor"
+    ],
+    "benefit_amount": "FREE application + FREE renewal (no plate fees)",
+    "how_to_apply": "Apply at Utah DMV with qualifying documentation",
+    "source_name": "Utah Division of Motor Vehicles",
+    "source_url": "https://dmv.utah.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_drivers_license_veteran_designation",
+    "state": "Utah",
+    "name": "Veteran Designation on Driver's License",
+    "category": "Other",
+    "description": "Veterans can have 'UTAH HONORS VETERANS' veteran designation added to Utah driver's license. Must provide DD-214 showing honorable or general discharge. Verification typically takes 2-3 weeks after application.",
+    "eligibility": [
+      "Utah resident veteran",
+      "Honorable or general discharge"
+    ],
+    "benefit_amount": "Veteran designation on driver's license",
+    "how_to_apply": "Submit DD-214 to Utah DMV for verification",
+    "source_name": "Utah Division of Motor Vehicles",
+    "source_url": "https://dmv.utah.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_veterans_homes",
+    "state": "Utah",
+    "name": "Utah Veterans Homes (3 Locations)",
+    "category": "Healthcare",
+    "description": "Three Utah veterans homes: Central Utah Veterans Home (Payson), George E. Wahlen Ogden Veterans Home (Ogden), Southern Utah Veterans Home (Ivins). Provide long-term care, memory care, and skilled nursing for eligible veterans and spouses.",
+    "eligibility": [
+      "Eligible veteran OR spouse",
+      "Meet admission requirements"
+    ],
+    "benefit_amount": "Subsidized long-term care and skilled nursing",
+    "how_to_apply": "Contact specific Utah Veterans Home",
+    "source_name": "Utah Department of Veterans and Military Affairs",
+    "source_url": "https://veterans.utah.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_cemetery",
+    "state": "Utah",
+    "name": "Utah Veterans Memorial Park Cemetery",
+    "category": "Other",
+    "description": "State veterans cemetery in Bluffdale (Salt Lake County). Eligibility same as federal VA cemeteries. FREE burial for eligible veterans and spouses.",
+    "eligibility": [
+      "Eligible veteran OR spouse",
+      "Meet federal cemetery eligibility"
+    ],
+    "benefit_amount": "FREE burial services",
+    "how_to_apply": "Contact Utah Veterans Memorial Park Cemetery",
+    "source_name": "Utah Department of Veterans and Military Affairs",
+    "source_url": "https://veterans.utah.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_legal_clinic",
+    "state": "Utah",
+    "name": "Utah Veterans Legal Clinic",
+    "category": "Other",
+    "description": "FREE legal assistance for Utah veterans through Utah Veterans Legal Clinic. Provides pro bono legal services for civil matters.",
+    "eligibility": [
+      "Utah resident veteran"
+    ],
+    "benefit_amount": "FREE pro bono legal services (civil matters)",
+    "how_to_apply": "Contact Utah Veterans Legal Clinic",
+    "source_name": "Utah Department of Veterans and Military Affairs",
+    "source_url": "https://veterans.utah.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ut_armories_free_use",
+    "state": "Utah",
+    "name": "Free Use of Armories",
+    "category": "Other",
+    "description": "Utah veterans organizations and groups may use National Guard armories for meetings and events at no charge, subject to availability and approval.",
+    "eligibility": [
+      "Utah veterans organization or group",
+      "Subject to availability and approval"
+    ],
+    "benefit_amount": "FREE use of armory facilities",
+    "how_to_apply": "Contact Utah National Guard for armory use requests",
+    "source_name": "Utah National Guard",
+    "source_url": "https://guard.utah.gov/",
+    "last_verified": "2025-12-30"
+  }
+]

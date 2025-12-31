@@ -1,0 +1,339 @@
+[
+  {
+    "id": "ar_ng_tuition",
+    "state": "Arkansas",
+    "name": "National Guard Tuition Incentive Program",
+    "category": "Education",
+    "description": "Provides $2,500 semiannually (up to $5,000 annually) for Arkansas National Guard members attending Arkansas institutions. Subject to funding availability.",
+    "eligibility": [
+      "Active Arkansas National Guard member in good standing",
+      "Enrolled at Arkansas institution",
+      "Maintain satisfactory academic progress"
+    ],
+    "benefit_amount": "$2,500 per semester ($5,000 per year)",
+    "how_to_apply": "Apply through Arkansas National Guard Education Office",
+    "source_name": "Arkansas National Guard",
+    "source_url": "https://www.arguard.army.mil/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ar_ng_tuition_waiver",
+    "state": "Arkansas",
+    "name": "Arkansas National Guard Tuition Waiver Program (NGTW)",
+    "category": "Education",
+    "description": "Waives up to 120 credit hours OR until completion of bachelor's degree (whichever first) for Arkansas National Guard members at state-supported public institutions. NGTW applied to tuition first, then military education benefits cover additional costs. Covers mandatory fees but NOT books or other fees. Apply each semester.",
+    "eligibility": [
+      "Current Arkansas National Guard member",
+      "Attending state-supported public institution",
+      "Satisfactory academic progress required",
+      "Apply each semester"
+    ],
+    "benefit_amount": "Up to 120 credit hours OR bachelor's degree (tuition + mandatory fees)",
+    "how_to_apply": "Apply each semester through Arkansas National Guard Education Office",
+    "source_name": "Arkansas National Guard",
+    "source_url": "https://www.arguard.army.mil/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ar_military_dependents_scholarship",
+    "state": "Arkansas",
+    "name": "Military Dependents Scholarship Program",
+    "category": "Education",
+    "description": "Undergraduate financial aid (tuition waiver) at Arkansas state institution for spouse or dependent child of Arkansas veterans killed in action, missing in action, POW, or totally and permanently disabled as result of service.",
+    "eligibility": [
+      "Spouse OR dependent child of Arkansas veteran",
+      "Veteran KIA, MIA, POW, OR totally and permanently disabled from service",
+      "Attending Arkansas state institution",
+      "Undergraduate studies"
+    ],
+    "benefit_amount": "Tuition waiver at state institutions",
+    "how_to_apply": "Apply through Arkansas Department of Veterans Affairs",
+    "source_name": "Arkansas Department of Veterans Affairs",
+    "source_url": "https://www.veterans.arkansas.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ar_instate_tuition",
+    "state": "Arkansas",
+    "name": "In-State Tuition for Veterans and Dependents",
+    "category": "Education",
+    "description": "Arkansas public institutions grant residency for tuition purposes to eligible nonresident veterans (honorable discharge after 90+ days within 3 years), active service members, spouses, and dependents.",
+    "eligibility": [
+      "Veteran discharged honorably after 90+ days within 3 years of enrollment",
+      "OR active duty service member",
+      "OR spouse/dependent of above",
+      "Attending Arkansas public institution"
+    ],
+    "benefit_amount": "In-state tuition rates (saves $10,000-$15,000/year)",
+    "how_to_apply": "Submit DD-214 or military documentation to institution",
+    "source_name": "Arkansas Department of Higher Education",
+    "source_url": "https://www.adhe.edu/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ar_high_school_credits",
+    "state": "Arkansas",
+    "name": "High School Credits for Basic Training",
+    "category": "Education",
+    "description": "Arkansas high school students receive 2 units of Career Focus credit for completing Basic Training prior to high school graduation. Must have enlisted through Delayed Entry Program or National Guard Split Training Option.",
+    "eligibility": [
+      "Arkansas high school student",
+      "Completed Basic Training before graduation",
+      "Enlisted via Delayed Entry Program OR Guard Split Training Option"
+    ],
+    "benefit_amount": "2 Career Focus credits toward high school graduation",
+    "how_to_apply": "Contact high school counselor with Basic Training completion documentation",
+    "source_name": "Arkansas Department of Education",
+    "source_url": "https://dese.ade.arkansas.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ar_honorary_diploma",
+    "state": "Arkansas",
+    "name": "Honorary High School Diploma",
+    "category": "Education",
+    "description": "WWII, Korea, and Vietnam veterans called to active duty before finishing high school may receive honorary high school diploma.",
+    "eligibility": [
+      "Arkansas resident veteran",
+      "WWII, Korea, or Vietnam era",
+      "Called to active duty before completing high school"
+    ],
+    "benefit_amount": "Honorary high school diploma",
+    "how_to_apply": "Contact local school district",
+    "source_name": "Arkansas Department of Education",
+    "source_url": "https://dese.ade.arkansas.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ar_property_tax_100",
+    "state": "Arkansas",
+    "name": "100% Property Tax Exemption for Disabled Veterans",
+    "category": "Tax Benefits",
+    "description": "Veterans 100% service-connected disabled OR awarded Special Monthly Compensation for loss/loss of use of limbs OR total blindness are exempt from ALL state taxes on homestead and personal property. Act 876 of 2025 amended to require Summary of Benefits letter only ONCE (no annual resubmission). Extends to unremarried widows/widowers and dependent minor children if veteran KIA, MIA, or died from service causes.",
+    "eligibility": [
+      "Arkansas resident veteran",
+      "100% service-connected disabled OR SMC for limbs/blindness",
+      "OR unremarried surviving spouse/minor children (veteran KIA/MIA/service death)",
+      "Submit Summary of Benefits letter once"
+    ],
+    "benefit_amount": "100% exemption from all homestead + personal property taxes",
+    "how_to_apply": "Submit VA Summary of Benefits letter to County Collector once; notify of status changes",
+    "source_name": "Arkansas Department of Finance and Administration",
+    "source_url": "https://www.dfa.arkansas.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ar_military_pay_exempt",
+    "state": "Arkansas",
+    "name": "Military Pay Income Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Military pay earned by service members in active or reserve segments is NOT subject to Arkansas income tax. Includes National Guard and Reserve members. Additional pay and allowances also exempt.",
+    "eligibility": [
+      "Arkansas resident on active duty OR Guard/Reserve",
+      "Receiving military pay"
+    ],
+    "benefit_amount": "100% exemption on military pay + allowances",
+    "how_to_apply": "Exclude from Arkansas income tax return",
+    "source_name": "Arkansas Department of Finance and Administration",
+    "source_url": "https://www.dfa.arkansas.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ar_retirement_pay_exempt",
+    "state": "Arkansas",
+    "name": "Military Retirement Pay Tax Exemption (Act 141 of 2018)",
+    "category": "Tax Benefits",
+    "description": "Beginning 2018, Arkansas military retirement pay is FULLY exempt from state taxes, thanks to Act 141 of Arkansas' 91st General Assembly. Complete exemption for all military retirees.",
+    "eligibility": [
+      "Receiving military retirement pay",
+      "Arkansas resident"
+    ],
+    "benefit_amount": "100% exemption on military retirement pay (effective 2018)",
+    "how_to_apply": "Exclude from Arkansas income tax return",
+    "source_name": "Arkansas Department of Finance and Administration",
+    "source_url": "https://www.dfa.arkansas.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ar_guard_reserve_travel_exempt",
+    "state": "Arkansas",
+    "name": "Guard/Reserve Overnight Travel Expense Exemption",
+    "category": "Tax Benefits",
+    "description": "National Guard and Reserve members may exclude overnight travel expenses required for military duty from Arkansas income tax.",
+    "eligibility": [
+      "Arkansas National Guard OR Reserve member",
+      "Overnight travel expenses for military duty"
+    ],
+    "benefit_amount": "Exemption on overnight travel expenses for duty",
+    "how_to_apply": "Exclude from Arkansas income tax return",
+    "source_name": "Arkansas Department of Finance and Administration",
+    "source_url": "https://www.dfa.arkansas.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ar_home_sale_exempt",
+    "state": "Arkansas",
+    "name": "Principal Residence Sale Profit Exemption",
+    "category": "Tax Benefits",
+    "description": "Service members may exclude profits from sale of their principal residence from Arkansas income tax.",
+    "eligibility": [
+      "Arkansas service member",
+      "Selling principal residence due to military orders"
+    ],
+    "benefit_amount": "Exemption on home sale profits",
+    "how_to_apply": "Exclude from Arkansas income tax return",
+    "source_name": "Arkansas Department of Finance and Administration",
+    "source_url": "https://www.dfa.arkansas.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ar_scra",
+    "state": "Arkansas",
+    "name": "Arkansas Service Members Civil Relief Act",
+    "category": "Tax Benefits",
+    "description": "Provides tax deferral for 180 days if unable to pay due to military service. NO interest or penalty accrues during deferral. Statute of limitations suspended for military service period + 270 days.",
+    "eligibility": [
+      "Arkansas service member",
+      "Unable to pay taxes due to military service"
+    ],
+    "benefit_amount": "180-day tax deferral with no interest/penalty; statute suspended",
+    "how_to_apply": "Contact Arkansas Department of Finance and Administration",
+    "source_name": "Arkansas Department of Finance and Administration",
+    "source_url": "https://www.dfa.arkansas.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ar_blind_vehicle_tax",
+    "state": "Arkansas",
+    "name": "Blind Veteran Vehicle Sales Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Veterans blind from service-connected injury get tax exemption on gross receipts/proceeds from sale of NEW automobile. VA entitlement letter required. One vehicle every 2 years.",
+    "eligibility": [
+      "Arkansas resident veteran",
+      "Blind from service-connected injury",
+      "VA entitlement letter",
+      "Purchasing new automobile"
+    ],
+    "benefit_amount": "Sales tax exemption on one new vehicle every 2 years",
+    "how_to_apply": "Present VA entitlement letter to dealer",
+    "source_name": "Arkansas Department of Finance and Administration",
+    "source_url": "https://www.dfa.arkansas.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ar_adaptive_equipment_tax",
+    "state": "Arkansas",
+    "name": "Adaptive Equipment Sales Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Tax exemption on gross receipts/proceeds from sale of motor vehicles and adaptive equipment purchased with VA financial assistance.",
+    "eligibility": [
+      "Arkansas resident disabled veteran",
+      "VA provided financial assistance for adaptive equipment/vehicle",
+      "VA documentation"
+    ],
+    "benefit_amount": "Sales tax exemption on VA-assisted vehicle/equipment purchases",
+    "how_to_apply": "Present VA assistance documentation to seller",
+    "source_name": "Arkansas Department of Finance and Administration",
+    "source_url": "https://www.dfa.arkansas.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ar_employment_preference",
+    "state": "Arkansas",
+    "name": "Veterans Employment Hiring Preference",
+    "category": "Employment",
+    "description": "Veterans receive preference in Arkansas state employment (hiring, promotions, retention). Additional points added to passing exam scores. If veteran not chosen, can request base score, adjusted score, and selected candidate's score. Also applies to Guard/Reserve and surviving spouses.",
+    "eligibility": [
+      "Arkansas veteran OR National Guard/Reserve member OR surviving spouse",
+      "Applying for state employment"
+    ],
+    "benefit_amount": "Hiring preference + exam points + retention priority",
+    "how_to_apply": "Indicate veteran status on state employment applications",
+    "source_name": "Arkansas Department of Transformation and Shared Services",
+    "source_url": "https://www.transform.ar.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ar_state_employee_leave",
+    "state": "Arkansas",
+    "name": "State Employee Military Leave",
+    "category": "Employment",
+    "description": "Arkansas National Guard and Reserve members who are state employees receive leave for military duty.",
+    "eligibility": [
+      "Arkansas state employee",
+      "National Guard OR Reserve member",
+      "Called to military duty"
+    ],
+    "benefit_amount": "Military leave for duty",
+    "how_to_apply": "Follow state employee military leave procedures",
+    "source_name": "Arkansas Department of Transformation and Shared Services",
+    "source_url": "https://www.transform.ar.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ar_hunting_fishing_disabled",
+    "state": "Arkansas",
+    "name": "Disabled Military Veteran Lifetime Hunting and Fishing Licenses",
+    "category": "Recreation",
+    "description": "Resident disabled military veterans receive lifetime hunting, fishing, or combination licenses at discounted rates. Available at Little Rock office and by mail.",
+    "eligibility": [
+      "Arkansas resident disabled military veteran",
+      "VA disability documentation"
+    ],
+    "benefit_amount": "Lifetime hunting/fishing/combination licenses (discounted)",
+    "how_to_apply": "Apply at Arkansas Game and Fish Commission Little Rock office or by mail",
+    "source_name": "Arkansas Game and Fish Commission",
+    "source_url": "https://www.agfc.com/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ar_military_retiree_licenses",
+    "state": "Arkansas",
+    "name": "Military Retiree Lifetime Hunting and Fishing Licenses",
+    "category": "Recreation",
+    "description": "Resident military retirees receive lifetime fishing, hunting, or combination licenses. Available at Little Rock office and by mail.",
+    "eligibility": [
+      "Arkansas resident military retiree",
+      "Proof of military retirement"
+    ],
+    "benefit_amount": "Lifetime hunting/fishing/combination licenses",
+    "how_to_apply": "Apply at Arkansas Game and Fish Commission Little Rock office or by mail",
+    "source_name": "Arkansas Game and Fish Commission",
+    "source_url": "https://www.agfc.com/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ar_state_parks_camping",
+    "state": "Arkansas",
+    "name": "Half-Price State Park Camping (100% Disabled)",
+    "category": "Recreation",
+    "description": "Arkansas resident veterans with permanent service-connected 100% disability rate receive year-round camping at HALF PRICE in Arkansas State Parks. Proof required: Awards letter (dated within 2 years) OR Arkansas DV license plate.",
+    "eligibility": [
+      "Arkansas resident veteran",
+      "Permanent 100% service-connected disability",
+      "VA Awards letter (within 2 years) OR DV license plate"
+    ],
+    "benefit_amount": "50% discount on state park camping year-round",
+    "how_to_apply": "Present VA Awards letter or DV license plate at state park",
+    "source_name": "Arkansas Department of Parks and Tourism",
+    "source_url": "https://www.arkansasstateparks.com/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ar_licensure_portability",
+    "state": "Arkansas",
+    "name": "Professional License Portability",
+    "category": "Employment",
+    "description": "Arkansas dedicated to supporting active duty, returning veterans, and spouses with licensure portability. Most accepting laws and regulations for licensure portability in US. Straightforward transition for professional licenses across jurisdictions.",
+    "eligibility": [
+      "Active duty service member OR veteran OR military spouse",
+      "Professional license from another state",
+      "No disqualifying criminal history"
+    ],
+    "benefit_amount": "License recognition and portability",
+    "how_to_apply": "Contact Arkansas licensing board for profession",
+    "source_name": "Arkansas Professional Licensing Boards",
+    "source_url": "https://www.arkansas.gov/",
+    "last_verified": "2025-12-30"
+  }
+]

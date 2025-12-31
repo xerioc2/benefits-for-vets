@@ -1,0 +1,74 @@
+[
+  {
+    "id": "vt_property_tax_exemption_disabled_veterans_survivors",
+    "scope": "state",
+    "state": "VT",
+    "title": "Property Tax Exemption for Disabled Veterans and Survivors",
+    "summary": "Property tax exemption on the assessed value of a primary residence for eligible disabled veterans and certain survivors; amount varies by town (minimum threshold set by state; towns may increase).",
+    "requirements": {
+      "notes": "Municipal amount varies; application is submitted to VT Office of Veterans Affairs by annual deadline (commonly May 1)."
+    },
+    "eligibilityNotes": "Submit the state application with required documentation by the deadline listed on the form. Exemption amount is determined by your town (minimum set by state; some towns vote to increase).",
+    "sourceUrl": "https://www.lincolninst.edu/app/uploads/legacy-files/gwipp/upload/sources/Vermont/vt_application_for_veterans_property_tax_exemption_2019.pdf",
+    "tags": [
+      "tax",
+      "property",
+      "housing",
+      "disabled"
+    ],
+    "lastReviewed": "2025-12-30"
+  },
+  {
+    "id": "vt_veteran_free_hunting_fishing_license_privilege",
+    "scope": "state",
+    "state": "VT",
+    "title": "Veteran Free License Privilege (Hunting/Fishing)",
+    "summary": "Application for certain free or discounted hunting/fishing license privileges for eligible veterans (administered via Vermont Fish & Wildlife).",
+    "requirements": {
+      "notes": "Eligibility requirements and documentation are specified on the application."
+    },
+    "eligibilityNotes": "Complete the application and include required documentation per the form; submit to Vermont Fish & Wildlife at the address listed on the application.",
+    "sourceUrl": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_73079/File/Licenses%20Center/Printable%20Applications/Disabled%20Veteran%20Free%20License%20Application.pdf",
+    "tags": [
+      "recreation",
+      "hunting",
+      "fishing",
+      "disabled"
+    ],
+    "lastReviewed": "2025-12-30"
+  },
+  {
+    "id": "vt_vng_tuition_benefit_program",
+    "scope": "state",
+    "state": "VT",
+    "title": "Vermont National Guard Tuition Benefit Program (VNGTBP)",
+    "summary": "Tuition coverage for active Vermont National Guard members in good standing (administered via VSAC; amount varies by institution/program).",
+    "requirements": {
+      "notes": "Must be an active VTNG member in good standing; see VSAC program eligibility and covered institutions/programs."
+    },
+    "eligibilityNotes": "Apply through VSAC and coordinate with your school’s financial aid/veteran services office. Program details and amounts vary by institution and program.",
+    "sourceUrl": "https://www.vsac.org/vermont-national-guard-tuition-benefit-program",
+    "tags": [
+      "education",
+      "tuition",
+      "national-guard"
+    ],
+    "lastReviewed": "2025-12-30"
+  },
+  {
+    "id": "vt_vng_tuition_benefit_statute_16_2857",
+    "scope": "state",
+    "state": "VT",
+    "title": "VNG Tuition Benefit Program Statute (16 V.S.A. § 2857)",
+    "summary": "Vermont statutory authority describing the Vermont National Guard Tuition Benefit Program and administration/payment mechanics.",
+    "requirements": {},
+    "eligibilityNotes": "Use this citation when you need the legal basis/definitions for the program and its requirements.",
+    "sourceUrl": "https://legislature.vermont.gov/statutes/section/16/087/02857",
+    "tags": [
+      "education",
+      "law",
+      "national-guard"
+    ],
+    "lastReviewed": "2025-12-30"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "ks_ngeap",
+    "scope": "state",
+    "state": "KS",
+    "title": "Kansas National Guard Educational Assistance",
+    "summary": "Up to 100% of tuition and required fees for certificate, diploma, or degree at Kansas institutions for KS Air/Army National Guard members. Full-time enrollment NOT required.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must be member of KS Air/Army National Guard unit. Administered by Kansas Board of Regents. Covers courses leading to certificate, diploma, or degree."
+    },
+    "eligibilityNotes": "KS state program provides up to 100% of tuition and required fees that lead to award of certificate, diploma, or degree upon satisfactory completion of coursework for members of KS National Guard units. Full-time enrollment NOT required - part-time students eligible. Administered by Kansas Board of Regents. Additionally, KS offers STAT (State Tuition Assistance Transfer to Dependent) - new 2025 program (HB 2185) allowing transfer to eligible dependents. For graduate studies, EMERGE program provides tuition/fees up to 15 credit hours (max rate not exceeding state educational institutions) for Master's, Professional, or Doctorate degrees with service obligation. Contact KS National Guard Education Office at kansastag.gov or Kansas Board of Regents.",
+    "sourceUrl": "https://www.kansastag.gov/205/Education-Office",
+    "tags": ["education", "tuition", "national_guard", "fees"],
+    "lastReviewed": "2025-12-25"
+  }
+]

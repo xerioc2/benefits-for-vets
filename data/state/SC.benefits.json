@@ -1,0 +1,179 @@
+[
+  {
+    "id": "sc_free_tuition_children_wartime_veterans",
+    "scope": "state",
+    "state": "SC",
+    "audience": "dependents",
+    "title": "Free Tuition for Children of Certain Wartime Veterans",
+    "summary": "Full tuition waiver at any South Carolina state-supported college, university, or post-high school technical education institution for children of qualifying wartime veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": true,
+      "notes": "Veteran must be: KIA, died on duty, died from service-connected disability, 100% P&T disabled, Purple Heart recipient, or Medal of Honor recipient."
+    },
+    "eligibilityNotes": "Children must be 26 or younger. Both student AND veteran (if living) must have been SC residents for 12 continuous months before application and still be current residents. Covers tuition only (not books, fees, housing). Work and conduct must be satisfactory. Apply online through SC Department of Veterans Affairs.",
+    "sourceUrl": "https://scdva.sc.gov/education",
+    "tags": ["education", "tuition", "dependents", "waiver"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "sc_national_guard_cap",
+    "scope": "state",
+    "state": "SC",
+    "title": "South Carolina National Guard College Assistance Program (SCNG CAP)",
+    "summary": "100% of college tuition and fees at state-supported institutions up to $12,000 per year, with lifetime cap of $25,000.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must be serving in SC National Guard in active drilling status through entire time reimbursement requested."
+    },
+    "eligibilityNotes": "Covers certificate programs, apprenticeships, credentials, first bachelor's degree, or two-year degree programs. Must have completed at least one semester and finished Initial Active Duty Training/Technical Training. 90%+ attendance required. Payments made after census date each semester.",
+    "sourceUrl": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/South-Carolina",
+    "tags": ["education", "tuition", "national_guard"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "sc_in_state_tuition_veterans",
+    "scope": "state",
+    "state": "SC",
+    "title": "In-State Tuition Rates for Veterans, Service Members and Dependents",
+    "summary": "Veterans, active and reserve component service members, and dependents receive in-state tuition rates regardless of residency duration.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "For dependents using transferred VA educational assistance, parent must be on active duty outside SC or dependent must be using benefits."
+    },
+    "eligibilityNotes": "Active duty, retired military, honorably discharged veterans get in-state rates. Dependents continuously enrolled maintain rates even if service member transfers. No 12-month residency wait required.",
+    "sourceUrl": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/South-Carolina",
+    "tags": ["education", "tuition"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "sc_property_tax_exemption_disabled_veteran_pt",
+    "scope": "state",
+    "state": "SC",
+    "title": "Property Tax Exemption for Disabled Veterans",
+    "summary": "South Carolina provides a full property tax exemption on a primary residence for qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresPermanentTotal": true,
+      "requiresServiceConnected": true,
+      "notes": "Exemption applies to the veteran's primary residence and up to five acres of land."
+    },
+    "eligibilityNotes": "Veteran must be rated 100% Permanent and Total by the VA. Surviving spouses may remain eligible under certain conditions if unremarried.",
+    "sourceUrl": "https://dor.sc.gov/tax/property-tax/exemptions",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "sc_vehicle_tax_exemption_disabled_vet",
+    "scope": "state",
+    "state": "SC",
+    "title": "Motor Vehicle Property Tax Exemption for Disabled Veterans",
+    "summary": "Exemption from property taxes on up to two vehicles owned or leased by a qualifying disabled veteran.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresPermanentTotal": true,
+      "requiresServiceConnected": true,
+      "notes": "Applies to privately owned or leased vehicles used for personal transportation."
+    },
+    "eligibilityNotes": "Must be rated 100% Permanent and Total by the VA. Apply through the County Auditor.",
+    "sourceUrl": "https://dor.sc.gov/tax/property-tax/exemptions",
+    "tags": ["vehicle", "tax"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "sc_hunting_fishing_license_free_disabled_vet",
+    "scope": "state",
+    "state": "SC",
+    "title": "Free Hunting & Fishing Licenses for Disabled Veterans",
+    "summary": "South Carolina offers free hunting and fishing licenses to qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Includes basic hunting and fishing privileges; additional permits may still require payment."
+    },
+    "eligibilityNotes": "Veteran must be a South Carolina resident with a service-connected disability. Contact SC DNR for application.",
+    "sourceUrl": "https://www.dnr.sc.gov/licenses/military.html",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "sc_driver_license_veteran_designation",
+    "scope": "state",
+    "state": "SC",
+    "title": "Veteran Designation on South Carolina Driver License / ID",
+    "summary": "Eligible veterans may add a Veteran designation to a South Carolina driver license or state ID.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Requires verification of veteran status through the South Carolina Department of Veterans' Affairs."
+    },
+    "eligibilityNotes": "Veterans must obtain certification from SCDVA before visiting the DMV.",
+    "sourceUrl": "https://www.scdmvonline.com/Driver-Services/Veterans",
+    "tags": ["id", "license", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "sc_employment_preference",
+    "scope": "state",
+    "state": "SC",
+    "title": "South Carolina Veterans Employment Preference",
+    "summary": "Veterans and eligible family members may receive preference when applying for state government employment in South Carolina.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": true,
+      "notes": "Disabled veterans may receive additional preference points."
+    },
+    "eligibilityNotes": "Applies to qualifying veterans seeking employment with South Carolina state agencies. Honorably discharged members receive preference. Extended to surviving spouses and dependents under certain conditions.",
+    "sourceUrl": "https://veterans.sc.gov/benefits-and-services/employment",
+    "tags": ["employment", "preference"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "sc_state_veterans_homes",
+    "scope": "state",
+    "state": "SC",
+    "benefitType": "facility",
+    "title": "South Carolina State Veterans Homes",
+    "summary": "Long-term care facilities providing skilled nursing and residential care for eligible veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Admission depends on medical need, eligibility determination, and bed availability."
+    },
+    "eligibilityNotes": "South Carolina operates multiple Veterans Homes across the state. Contact SCDVA for locations and admission criteria.",
+    "sourceUrl": "https://veterans.sc.gov/benefits-and-services/veterans-homes",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "sc_veterans_cemeteries",
+    "scope": "state",
+    "state": "SC",
+    "benefitType": "facility",
+    "title": "South Carolina State Veterans Cemeteries",
+    "summary": "State-operated veterans cemeteries providing burial options for eligible veterans and family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility generally aligns with VA national cemetery requirements."
+    },
+    "eligibilityNotes": "Includes multiple cemetery locations throughout South Carolina. Contact SCDVA for specific locations and pre-need arrangements.",
+    "sourceUrl": "https://veterans.sc.gov/benefits-and-services/cemeteries",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-24"
+  }
+]

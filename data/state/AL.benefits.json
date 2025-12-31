@@ -1,0 +1,225 @@
+[
+  {
+    "id": "al_property_tax_exemption_permanently_totally_disabled_homestead",
+    "scope": "state",
+    "state": "AL",
+    "title": "Homestead / Principal Residence Property Tax Exemption (Permanently & Totally Disabled)",
+    "summary": "Exemption from all ad valorem (property) taxes on a qualifying principal residence (and up to 160 adjacent acres) for taxpayers who are permanently and totally disabled.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": false,
+      "requiresPermanentTotal": true,
+      "notes": "Alabama’s homestead/principal residence exemption includes a category for taxpayers who are permanently and totally disabled (no income limitation)."
+    },
+    "eligibilityNotes": "Must own and occupy the home as a principal residence. Apply through your county tax assessor/officials; documentation of permanent & total disability is required per local procedures.",
+    "sourceUrl": "https://www.revenue.alabama.gov/property-tax/homestead-exemptions/",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "al_income_tax_exemption_military_retirement_pay",
+    "scope": "state",
+    "state": "AL",
+    "title": "Military Retirement Pay Exempt from Alabama Income Tax",
+    "summary": "Military retirement pay is listed as income exempt from Alabama income taxation.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": false,
+      "requiresPermanentTotal": false,
+      "notes": "Applies to military retirement pay generally (not limited to disability rating)."
+    },
+    "eligibilityNotes": "Applies to recipients of military retirement pay when filing Alabama income taxes.",
+    "sourceUrl": "https://www.revenue.alabama.gov/individual-corporate/income-exempt-from-alabama-income-taxation/",
+    "tags": ["tax", "income", "retirement"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "al_disabled_veteran_license_plate_registration_fee_relief",
+    "scope": "state",
+    "state": "AL",
+    "title": "Disabled Veteran License Plate: Registration Fee Relief (First Plate) + Reduced Subsequent Plate Fee",
+    "summary": "Alabama provides registration fee and plate issuance fee relief for qualifying disabled veterans on the first plate, with reduced annual fees for additional plates depending on disability rating and circumstances.",
+    "requirements": {
+      "minDisability": 10,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": false,
+      "notes": "Example schedule published by AL DOR: first plate fee relief for DV plates; different thresholds apply (e.g., 10–50% vs 51%+), and ad valorem tax treatment varies."
+    },
+    "eligibilityNotes": "Rules vary by disability percentage and plate type; some DV plates are not exempt from ad valorem taxes (property tax on the vehicle) unless a separate statutory exemption applies. Apply through your county licensing official/probate office with VA documentation.",
+    "sourceUrl": "https://www.revenue.alabama.gov/license-plates/disabled-veteran-us-air-force/",
+    "tags": ["vehicle", "dmv", "license_plate", "fee_waiver"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "al_vehicle_tax_and_fees_exemption_va_assistive_vehicle",
+    "scope": "state",
+    "state": "AL",
+    "title": "Motor Vehicle Exemption (Vehicle All or Partly Paid by VA): Registration Fees and Ad Valorem Taxes",
+    "summary": "If the veteran’s vehicle is all or partly paid for with funds furnished by the U.S. Department of Veterans Affairs for that purpose, Alabama provides an exemption from registration fees and ad valorem taxes for that vehicle (private use requirement applies).",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Exemption described by AL DOR and referenced to Ala. Code § 40-12-254; limited to qualifying VA-funded vehicles and private use."
+    },
+    "eligibilityNotes": "Bring documentation showing the vehicle qualifies as VA-funded for that purpose. County licensing officials administer the plate/tax handling.",
+    "sourceUrl": "https://www.revenue.alabama.gov/license-plates/disabled-veteran-us-air-force/",
+    "tags": ["vehicle", "tax", "dmv"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "al_veteran_designation_driver_license_id",
+    "scope": "state",
+    "state": "AL",
+    "title": "Veteran Designation on Alabama Driver License / ID",
+    "summary": "Eligible veterans can add a Veteran designation to an Alabama driver license or ID by presenting acceptable proof of service.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": false,
+      "requiresPermanentTotal": false,
+      "notes": "Requires DD-214 showing “honorable” or “general under honorable conditions.”"
+    },
+    "eligibilityNotes": "Available through Alabama Law Enforcement Agency (ALEA) Driver License examining offices and certain county offices (license commissioner/probate).",
+    "sourceUrl": "https://www.alea.gov/dps/driver-license/driver-license-information",
+    "tags": ["id", "dmv", "license"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "al_gi_dependent_scholarship_program",
+    "scope": "state",
+    "state": "AL",
+    "title": "Alabama G.I. Dependent Scholarship Program",
+    "summary": "State scholarship program for eligible dependents of qualifying veterans, administered by the Alabama Department of Veterans Affairs.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Program is for eligible dependents; applicants must meet Alabama residency and program rules (e.g., FAFSA and satisfactory academic progress per ADVA guidance)."
+    },
+    "eligibilityNotes": "Eligibility details depend on the veteran’s qualifying service/status and the dependent relationship. Apply through ADVA and follow institution processes.",
+    "sourceUrl": "https://va.alabama.gov/dependents-scholarship/",
+    "tags": ["education", "dependents", "tuition", "scholarship"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "al_state_parks_free_admission_veterans_active_duty",
+    "scope": "state",
+    "state": "AL",
+    "title": "Alabama State Parks: Free Admission for Veterans and Active-Duty (Parks for Patriots)",
+    "summary": "Free admission for veterans and active-duty military personnel at Alabama State Parks that charge entrance/day-use fees.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": false,
+      "requiresPermanentTotal": false,
+      "notes": "May be asked to show ID or documentation at gated/day-use facilities."
+    },
+    "eligibilityNotes": "Ask for complimentary admission at participating parks/facilities.",
+    "sourceUrl": "https://www.alapark.com/parks-patriots",
+    "tags": ["recreation", "state_parks"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "al_state_parks_veteran_discount_overnight_accommodations",
+    "scope": "state",
+    "state": "AL",
+    "title": "Alabama State Parks: Veteran Discount on Overnight Accommodations",
+    "summary": "Discount on overnight accommodations managed and operated by the Alabama State Park System for veterans and active-duty military.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": false,
+      "requiresPermanentTotal": false,
+      "notes": "Alabama State Parks lists a 15% daily discount for veterans/active military on overnight accommodations."
+    },
+    "eligibilityNotes": "Applies to qualifying accommodations operated by the State Park System; verification may be required.",
+    "sourceUrl": "https://www.alapark.com/rules-policies-and-discounts",
+    "tags": ["recreation", "state_parks", "discount"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "al_hunting_license_military_veterans_appreciation_disabled",
+    "scope": "state",
+    "state": "AL",
+    "title": "Outdoor Alabama: Military Veteran’s Appreciation Hunting License (Disabled Veterans)",
+    "summary": "Special hunting license option for resident disabled veterans meeting minimum disability thresholds (including 100% disabled).",
+    "requirements": {
+      "minDisability": 50,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": false,
+      "notes": "Outdoor Alabama indicates resident veterans can qualify with a minimum disability threshold (and also includes a 100% disabled category) with VA documentation."
+    },
+    "eligibilityNotes": "Available via local probate office or by mail from DCNR; must show VA letter stating disability level.",
+    "sourceUrl": "https://www.outdooralabama.com/licenses/license-faqs",
+    "tags": ["recreation", "hunting", "license"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "al_fishing_license_military_veterans_appreciation_disabled",
+    "scope": "state",
+    "state": "AL",
+    "title": "Outdoor Alabama: Military Veteran’s Appreciation Fishing License (Disabled Veterans)",
+    "summary": "Special fishing license option for resident disabled veterans meeting a minimum disability threshold, with separate freshwater/saltwater options.",
+    "requirements": {
+      "minDisability": 20,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": false,
+      "notes": "Outdoor Alabama indicates a Military Veteran’s Appreciation License for resident veterans with a minimum disability percentage; requires VA documentation."
+    },
+    "eligibilityNotes": "Apply online or through local probate judge/license commissioner; must present VA letter stating disability level. Freshwater and saltwater options exist.",
+    "sourceUrl": "https://www.outdooralabama.com/licenses/license-faqs",
+    "tags": ["recreation", "fishing", "license"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "al_state_veterans_homes",
+    "scope": "state",
+    "state": "AL",
+    "benefitType": "facility",
+    "title": "Alabama State Veterans Home Program",
+    "summary": "State veterans homes providing long-term care options for eligible veterans (and in some cases eligible family members), administered by the Alabama Department of Veterans Affairs.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Admissions depend on eligibility, care needs, and availability; applications available through ADVA and local veterans service offices."
+    },
+    "eligibilityNotes": "ADVA provides facility contacts and application pathways. Eligibility generally aligns with veteran status and care needs.",
+    "sourceUrl": "https://va.alabama.gov/vets-home-program/",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "al_state_veterans_memorial_cemetery_spanish_fort",
+    "scope": "state",
+    "state": "AL",
+    "benefitType": "facility",
+    "title": "Alabama State Veterans Memorial Cemetery (Spanish Fort)",
+    "summary": "State-operated veterans memorial cemetery providing interment options for eligible veterans and certain family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Eligibility and services administered by Alabama Department of Veterans Affairs."
+    },
+    "eligibilityNotes": "ADVA provides cemetery information, services, and guidance on eligibility and arrangements.",
+    "sourceUrl": "https://va.alabama.gov/veterans-memorial-cemetery/",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+  "id": "al_angeap",
+  "scope": "state",
+  "state": "AL",
+  "title": "Alabama National Guard Educational Assistance Program (ANGEAP)",
+  "summary": "Need-based tuition and fee assistance for Alabama National Guard members attending Alabama public postsecondary institutions. Maximum annual award $12,035 (2024-25).",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be active AL Army or Air National Guard member in good standing. Must have completed basic training. Need-based - requires minimum $100 cost after other aid. 4-year service commitment after receiving last assistance."
+  },
+  "eligibilityNotes": "State grant program for AL National Guard members enrolled in certificate/degree programs at accredited AL community colleges, technical colleges, or universities. Maximum award $12,035/year (2024-25), with semester/quarter caps of $6,227.50 (semester) or $4,151.33 (quarter). Last-dollar payer after federal TA, grants, scholarships, other aid. Must show financial need of at least $100 after other benefits applied. Covers tuition and fees only (not ancillary costs like books/supplies). Lifetime limits: 120 undergraduate hours, 60 graduate hours. Must maintain 2.0 GPA, complete FAFSA each year. Recoupment required if separate from Guard within 4 years of last assistance. Apply through AL National Guard unit with Alabama Commission on Higher Education approval. Deadlines vary by semester.",
+  "sourceUrl": "https://www.ache.edu/index.php/military-educational-benefits/",
+  "tags": ["education", "tuition", "national_guard", "grant", "need_based"],
+  "lastReviewed": "2025-12-25"
+}
+]

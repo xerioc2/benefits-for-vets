@@ -1,0 +1,403 @@
+[
+  {
+    "id": "fl_property_tax_exemption_100_disabled_veteran",
+    "scope": "state",
+    "state": "FL",
+    "title": "Total Property Tax Exemption (100% Disabled Veterans)",
+    "summary": "Florida offers full property tax exemption for 100% permanently and totally disabled veterans on their primary residence.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresPermanentTotal": true,
+      "requiresServiceConnected": true,
+      "notes": "Full exemption applies to homestead (primary residence) only."
+    },
+    "eligibilityNotes": "Apply through the County Property Appraiser. Documentation from the VA is required. Unremarried surviving spouses also eligible.",
+    "sourceUrl": "https://floridarevenue.com/property/Pages/Veterans.aspx",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_property_tax_discount_combat_disabled",
+    "scope": "state",
+    "state": "FL",
+    "title": "Property Tax Discount for Combat-Disabled Veterans (10%+)",
+    "summary": "$5,000 discount on home's assessed value for veterans with 10% or more combat-related service-connected disability.",
+    "requirements": {
+      "minDisability": 10,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Combat-related disability of 10% or more qualifies. Unremarried surviving spouse married for at least 5 years may also receive."
+    },
+    "eligibilityNotes": "Apply through County Property Appraiser. Must provide VA documentation of combat-related disability.",
+    "sourceUrl": "https://floridarevenue.com/property/Pages/Veterans.aspx",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_vehicle_registration_fee_exemption",
+    "scope": "state",
+    "state": "FL",
+    "title": "Motor Vehicle Registration Fee Exemption (Disabled Veterans)",
+    "summary": "Eligible disabled veterans may receive an exemption from certain vehicle registration fees in Florida.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresPermanentTotal": true,
+      "requiresServiceConnected": true,
+      "notes": "Applies to one vehicle owned by the veteran."
+    },
+    "eligibilityNotes": "Disabled Veteran license plates are required. Apply through the Florida DHSMV.",
+    "sourceUrl": "https://www.flhsmv.gov/motor-vehicles-tags-titles/license-plates-registration/military-and-veterans/",
+    "tags": ["vehicle", "tax", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_disabled_veteran_license_plate",
+    "scope": "state",
+    "state": "FL",
+    "title": "Disabled Veteran License Plate",
+    "summary": "Special license plate for veterans with qualifying service-connected disabilities, providing parking and fee benefits.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true
+    },
+    "eligibilityNotes": "Issued by the Florida DHSMV with VA disability verification.",
+    "sourceUrl": "https://www.flhsmv.gov/motor-vehicles-tags-titles/license-plates-registration/military-and-veterans/",
+    "tags": ["vehicle", "parking", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_free_driver_license_100_disabled",
+    "scope": "state",
+    "state": "FL",
+    "title": "Free Driver's License for 100% Disabled Veterans",
+    "summary": "Permanently and totally disabled veterans receive free driver's license renewals in Florida.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresPermanentTotal": true,
+      "requiresServiceConnected": true,
+      "notes": "Must apply before current license expires. Does not apply to commercial licenses."
+    },
+    "eligibilityNotes": "Contact DHSMV driver license office. Must provide proof of 100% P&T VA disability rating. Can renew without fee as long as disability qualification continues.",
+    "sourceUrl": "https://www.flhsmv.gov/driver-licenses-id-cards/",
+    "tags": ["vehicle", "license", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_state_park_pass_disabled_veteran_lifetime",
+    "scope": "state",
+    "state": "FL",
+    "title": "Military Entrance Pass - Free Lifetime (Service-Connected Disabled)",
+    "summary": "Free lifetime admission to Florida State Parks for veterans with service-connected disabilities.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Also available to surviving spouses and parents of service members who died in combat."
+    },
+    "eligibilityNotes": "Pass issued by Florida State Parks with VA documentation. Eligible veterans must apply in person at a Florida State Park with staffed ranger station.",
+    "sourceUrl": "https://www.floridastateparks.org/learn/lifetime-pass",
+    "tags": ["recreation", "state_parks"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_state_park_pass_veteran_discount",
+    "scope": "state",
+    "state": "FL",
+    "title": "State Parks 25% Discount (All Honorably Discharged Veterans)",
+    "summary": "Honorably discharged veterans and active-duty members receive a 25% discounted annual pass to all Florida state parks.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Available to all honorably discharged veterans and active-duty military."
+    },
+    "eligibilityNotes": "Purchase annual pass at discounted rate. Must show proof of veteran status or military ID.",
+    "sourceUrl": "https://www.floridastateparks.org/learn/annual-pass",
+    "tags": ["recreation", "state_parks", "discount"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_camping_discount_50_percent",
+    "scope": "state",
+    "state": "FL",
+    "title": "50% Camping Discount (100% Disabled or 65+)",
+    "summary": "50% discount on campsites for Florida residents who are either 65+ or have 100% disability.",
+    "requirements": {
+      "anyOf": [
+        {
+          "allOf": [
+            { "minDisability": 100 },
+            { "requiresServiceConnected": true }
+          ]
+        },
+        {
+          "allOf": [
+            { "field": "age", "op": ">=", "value": 65 }
+          ]
+        }
+      ],
+      "notes": "Must be Florida resident. Proof of age, disability, and residency required upon arrival."
+    },
+    "eligibilityNotes": "Available at Florida state park campgrounds. Present documentation when making reservation.",
+    "sourceUrl": "https://www.floridastateparks.org/learn/camping",
+    "tags": ["recreation", "state_parks", "camping", "discount"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_hunting_fishing_license_exemption",
+    "scope": "state",
+    "state": "FL",
+    "title": "Free 5-Year Hunting & Fishing License (50%+ Disabled Veterans)",
+    "summary": "Eligible disabled veterans may receive free 5-year hunting and fishing licenses in Florida.",
+    "requirements": {
+      "minDisability": 50,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "100% permanently and totally disabled service-connected veterans receive free licenses. Some licenses may require additional endorsements."
+    },
+    "eligibilityNotes": "Issued through the Florida Fish and Wildlife Conservation Commission (FWC). Resident veterans who are at least 50% disabled qualify.",
+    "sourceUrl": "https://myfwc.com/license/recreational/veterans/",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_military_gold_sportsman_license",
+    "scope": "state",
+    "state": "FL",
+    "title": "Military Gold Sportsman's License ($20)",
+    "summary": "Comprehensive hunting and fishing license package for resident active or retired service members at greatly reduced cost.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must have current military ID card. Available to active-duty and retired military Florida residents."
+    },
+    "eligibilityNotes": "$20 license covers hunting, freshwater and saltwater fishing, and variety of associated permits. Available only at tax collectors' offices.",
+    "sourceUrl": "https://myfwc.com/license/recreational/military-gold/",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_csddv_scholarship",
+    "scope": "state",
+    "state": "FL",
+    "title": "Scholarships for Children & Spouses of Deceased or Disabled Veterans (CSDDV)",
+    "summary": "Full tuition for up to 4 years at Florida public colleges/universities for dependents and spouses of qualifying veterans.",
+    "requirements": {
+      "anyOf": [
+        {
+          "allOf": [
+            { "minDisability": 100 },
+            { "requiresServiceConnected": true },
+            { "requiresPermanentTotal": true }
+          ]
+        },
+        {
+          "allOf": [
+            { "field": "veteranStatus", "op": "==", "value": "died_service_connected" }
+          ]
+        },
+        {
+          "allOf": [
+            { "field": "veteranStatus", "op": "==", "value": "MIA_POW" }
+          ]
+        }
+      ],
+      "notes": "Veteran must be 100% permanently and totally disabled, OR died from service-connected disability, OR MIA/POW."
+    },
+    "eligibilityNotes": "Dependent children and spouses of qualifying Florida veterans receive full tuition waiver (total of 120 credit hours or 3,600 clock hours). Florida residency or duty post in FL required.",
+    "sourceUrl": "https://www.fldoe.org/schools/higher-ed/fl-college-system/veterans.stml",
+    "tags": ["education", "tuition", "dependents", "scholarship"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_purple_heart_tuition_waiver",
+    "scope": "state",
+    "state": "FL",
+    "title": "Purple Heart & Combat Decoration Tuition Waiver",
+    "summary": "Undergraduate-level tuition waived at Florida state universities, community colleges, and career training for Purple Heart recipients and higher combat decorations.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Recipient of Purple Heart or higher combat decoration."
+    },
+    "eligibilityNotes": "Available to Florida Purple Heart recipients and recipients of higher combat decorations for undergraduate education at public institutions.",
+    "sourceUrl": "https://www.fldoe.org/schools/higher-ed/fl-college-system/veterans.stml",
+    "tags": ["education", "tuition", "purple_heart"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_bill_young_tuition_waiver",
+    "scope": "state",
+    "state": "FL",
+    "title": "C.W. Bill Young Veteran Tuition Waiver Act",
+    "summary": "Waives out-of-state tuition for veterans, spouses, and dependents living in Florida and enrolled in public institutions.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Applies to veterans, spouses, and dependents who are Florida residents."
+    },
+    "eligibilityNotes": "Allows veterans and families to pay in-state tuition rates at Florida public colleges and universities.",
+    "sourceUrl": "https://www.fldoe.org/schools/higher-ed/fl-college-system/veterans.stml",
+    "tags": ["education", "tuition"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_veterans_preference_employment",
+    "scope": "state",
+    "state": "FL",
+    "title": "Florida Veterans' Preference in Employment",
+    "summary": "Eligible veterans may receive hiring preference for public employment in Florida.",
+    "requirements": {
+      "requiresWartimeService": true,
+      "notes": "Disabled veterans (10-point preference), wartime veterans (10-point preference), and spouses/surviving spouses of totally disabled veterans (10-point preference)."
+    },
+    "eligibilityNotes": "Applies to state, county, and municipal government positions. Documentation required during application. If disabled veteran cannot work, spouse receives preference.",
+    "sourceUrl": "https://www.floridavets.org/benefits-services/employment/",
+    "tags": ["employment", "preference", "civil_service"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_teaching_certificate_waiver",
+    "scope": "state",
+    "state": "FL",
+    "title": "Teaching Certificate Fee Waiver",
+    "summary": "Veterans and spouses may receive waiver of fee to obtain teaching certificate in Florida.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Available to veterans and spouses."
+    },
+    "eligibilityNotes": "Fee waiver for obtaining Florida teaching certification. Veterans without bachelor's degree may be eligible for 5-year temporary certificate with 60+ college credits and subject exam.",
+    "sourceUrl": "https://www.fldoe.org/teaching/certification/",
+    "tags": ["employment", "education", "teaching"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_agriculture_internship",
+    "scope": "state",
+    "state": "FL",
+    "title": "Veterans Florida Agriculture Program",
+    "summary": "Paid 6-month agriculture industry experience for veterans and service members at University of Florida facilities.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Available to veterans and service members."
+    },
+    "eligibilityNotes": "Provides veterans with paid work experience in agriculture at UF Institute of Food and Agricultural Sciences research facilities.",
+    "sourceUrl": "https://www.floridavets.org/benefits-services/employment/",
+    "tags": ["employment", "agriculture", "internship"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_disabled_parking_permit",
+    "scope": "state",
+    "state": "FL",
+    "title": "Disabled Parking Permit (No Fee)",
+    "summary": "Permanently disabled parking permit issued at no cost for disabled veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must meet medical criteria for disabled parking (mobility limitation)."
+    },
+    "eligibilityNotes": "Complete Application by Disabled Person Parking Permit (HSMV form 83039) and submit to local motor vehicle service center. No fee for permanently disabled permit.",
+    "sourceUrl": "https://www.flhsmv.gov/driver-licenses-id-cards/disabled-parking-permit/",
+    "tags": ["vehicle", "parking", "accessibility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_high_school_diploma",
+    "scope": "state",
+    "state": "FL",
+    "title": "High School Diploma for Veterans",
+    "summary": "Florida awards high school diplomas to honorably discharged veterans who left school to serve without graduating.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must have left high school before graduation to enter military service."
+    },
+    "eligibilityNotes": "Available to veterans of all eras who were inducted before completing high school education.",
+    "sourceUrl": "https://www.fldoe.org/academics/career-adult-edu/veterans-diplomas.stml",
+    "tags": ["education", "diploma"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_veterans_homes",
+    "scope": "state",
+    "state": "FL",
+    "benefitType": "facility",
+    "title": "Florida State Veterans' Homes",
+    "summary": "State-operated long-term care facilities for eligible veterans and eligible spouses.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Admission depends on eligibility determination, medical need, and bed availability."
+    },
+    "eligibilityNotes": "9 locations: Daytona Beach, Land O' Lakes, Orlando, Pembroke Pines, Panama City, Port Charlotte, Port St. Lucie, St. Augustine, Lake City (assisted living). Applicants must meet VA and Florida eligibility requirements. Spouses may be eligible in certain cases.",
+    "sourceUrl": "https://www.floridavets.org/locations/state-veterans-homes/",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_veterans_cemeteries",
+    "scope": "state",
+    "state": "FL",
+    "benefitType": "facility",
+    "title": "Florida National & State Veterans Cemeteries",
+    "summary": "Veterans cemeteries providing burial options for eligible veterans and family members in Florida.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility generally mirrors VA national cemetery rules."
+    },
+    "eligibilityNotes": "Pre-need eligibility determination is recommended. Availability varies by location.",
+    "sourceUrl": "https://www.floridavets.org/benefits-services/cemeteries/",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "fl_priority_course_registration",
+    "scope": "state",
+    "state": "FL",
+    "title": "Priority Course Registration for Veterans Using GI Bill",
+    "summary": "Veterans receiving GI Bill educational benefits receive priority course registration at Florida colleges and universities.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must be receiving GI Bill benefits and enrolled at Florida College System institution or state university."
+    },
+    "eligibilityNotes": "Ensures timely access to required classes. Florida law requires institutions offering priority registration to include GI Bill recipients.",
+    "sourceUrl": "https://www.fldoe.org/schools/higher-ed/fl-college-system/veterans.stml",
+    "tags": ["education", "registration"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+  "id": "fl_edd_family",
+  "scope": "state",
+  "state": "FL",
+  "title": "Educational Dollars for Duty - Family Member Benefit",
+  "summary": "Up to 50% tuition assistance for spouses and children of active Florida National Guard members. New program effective July 1, 2025.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Spouse or child of active FL National Guard member. Member must be in good standing with Florida National Guard."
+  },
+  "eligibilityNotes": "Established by SB 336 effective July 1, 2025. Provides tuition assistance to spouses and children of active FL National Guard members. $500,000 set aside annually to cover up to 50% of tuition costs. Legislature may increase funding in future years. Department of Military Affairs oversees implementation and establishes application procedures. Contact FL National Guard Education Office for application details.",
+  "sourceUrl": "https://dma.myflorida.com/programs/edd/",
+  "tags": ["education", "tuition", "dependent", "family", "national_guard"],
+  "lastReviewed": "2025-12-25"
+}
+]

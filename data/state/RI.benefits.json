@@ -1,0 +1,204 @@
+{
+  "state": "Rhode Island",
+  "stateCode": "RI",
+  "benefits": [
+    {
+      "id": "ri-guard-tuition-waiver",
+      "category": "Education",
+      "name": "RI National Guard State Tuition Assistance (STAP)",
+      "description": "RI National Guard members in good standing receive tuition waiver for up to 5 COURSES PER SEMESTER at any RI state college or university. Basic tuition/general fee charges waived. Available for associate, bachelor's, or master's degrees. Must enter contractual enlistment commitment: 1 year obligated service for every 12 credits (4 three-credit courses). Guard member's ETS must be after end of class date. Can be used with GI Bill and federal TA.",
+      "eligibility": "Active RI National Guard members in good standing, student in good standing at institution",
+      "value": "FREE tuition for 5 courses/semester at RI state colleges/universities",
+      "source": "https://vets.ri.gov/i-am-find-your-benefits/world-war-ii-korean-war-veteran/state-tuition-assistance-program"
+    },
+    {
+      "id": "ri-disabled-veteran-tuition-waiver",
+      "category": "Education",
+      "name": "Disabled Veteran Tuition Waiver",
+      "description": "RI resident veterans with 10%+ service-related VA disability receive FREE TUITION at all RI state colleges and universities. Waiver applies to tuition only - fees still charged. Massive savings for disabled veterans pursuing education. All waiver recipients in degree programs required to apply for financial aid. Any scholarship aid reduces waiver by scholarship amount.",
+      "eligibility": "RI resident veterans with 10%+ VA service-connected disability rating",
+      "value": "FREE tuition at all RI state colleges/universities",
+      "source": "https://www.military.com/benefits/veteran-state-benefits/rhode-island-state-veterans-benefits.html"
+    },
+    {
+      "id": "ri-gold-star-dependent-tuition",
+      "category": "Education",
+      "name": "Gold Star Family Tuition Assistance",
+      "description": "RI will pay tuition at RI state institution for up to FOUR YEARS for surviving spouse or child of RI National Guard member who died in the line of duty. Significant benefit worth tens of thousands in tuition coverage for Gold Star families.",
+      "eligibility": "Surviving spouse or child of RI National Guard member killed in line of duty",
+      "value": "FREE state college tuition for up to 4 years",
+      "source": "https://www.military.com/benefits/veteran-state-benefits/rhode-island-state-veterans-benefits.html"
+    },
+    {
+      "id": "ri-military-retirement-tax-exempt",
+      "category": "Tax",
+      "name": "Military Retirement Pay Tax Exemption",
+      "description": "Beginning January 1, 2023, military retired pay is EXEMPT from Rhode Island personal income tax. Permanent annual tax savings for all military retirees. Major benefit for retirement planning.",
+      "eligibility": "Military retirees receiving retirement pay",
+      "value": "ZERO state income tax on military retirement (effective 2023)",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/Rhode-Island"
+    },
+    {
+      "id": "ri-survivor-benefits-tax-exempt",
+      "category": "Tax",
+      "name": "Military Survivor Benefits Tax Exemption",
+      "description": "Survivor Benefit Plan (SBP), Reserve Component Survivor Benefit Plan (RCSBP), and Retired Serviceman's Family Protection Plan (RSFPP) annuities are EXEMPT from RI state income taxes. Surviving spouses can deduct up to $15,000 ($20,000 for 2023+) in retirement pension income. Additional 2% tax credit (up to $500 max) for surviving spouses 65+ with AGI under $25,000.",
+      "eligibility": "Recipients of SBP/RCSBP/RSFPP annuities, surviving spouses",
+      "value": "ZERO state tax on survivor benefits + $15K-$20K pension deduction + potential $500 credit",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/Rhode-Island"
+    },
+    {
+      "id": "ri-nonresident-spouse-tax-exempt",
+      "category": "Tax",
+      "name": "Nonresident Military Spouse Income Tax Exemption",
+      "description": "Income earned in RI by nonresident spouse of nonresident service member stationed in RI is EXEMPT from state income taxes. Spouses only eligible if in RI because service member spouse is stationed there. Major tax savings for military families.",
+      "eligibility": "Nonresident spouses of nonresident service members stationed in RI",
+      "value": "ZERO state income tax on spouse's RI earnings",
+      "source": "https://vetsguardian.com/veteran-benefits-for-rhode-island/"
+    },
+    {
+      "id": "ri-property-tax-exemptions",
+      "category": "Tax",
+      "name": "Property Tax Exemptions for Veterans",
+      "description": "RI offers multiple property tax exemptions that vary by municipality: (1) Veterans' regular exemption for wartime veterans (WWII, Korea, Vietnam, recognized conflicts post-Vietnam) with other-than-dishonorable discharge, (2) Totally disabled through service-connected disability (Providence: $614 exemption), (3) Partially disabled through service-connected disability (tiered by rating - East Providence example: 1-30% = $243.56, 31-60% = $299.76, 61-99% = $355.96), (4) Gold Star parents' exemption, (5) POW exemption, (6) Specially adapted housing exemption. Exemptions also available to unmarried widow/widower of qualified veteran. Amounts and eligibility vary significantly by city/town - contact local tax assessor.",
+      "eligibility": "Wartime veterans, service-connected disabled veterans, Gold Star parents, POWs, unmarried surviving spouses",
+      "value": "Property tax exemptions (amounts vary by municipality and disability rating)",
+      "source": "https://vets.ri.gov/i-am-find-your-benefits/world-war-ii-korean-war-veteran/property-tax-exemptions"
+    },
+    {
+      "id": "ri-free-vehicle-registration",
+      "category": "Vehicle",
+      "name": "Free Vehicle Registration for Disabled/Amputee Veterans",
+      "description": "Veterans who lost limb(s) by amputation, lost use of limb(s) from permanent injury, received motor vehicle under VA grant, OR have 100% service-connected disability are FOREVER EXEMPT from annual vehicle registration fees and license fees for ONE vehicle. Benefit transfers to unremarried surviving spouse for their lifetime. Lifetime savings on vehicle costs.",
+      "eligibility": "Veterans with amputation, lost use of limbs, VA vehicle grant, 100% service-connected disability, unremarried surviving spouses",
+      "value": "LIFETIME exemption from vehicle registration + license fees (1 vehicle)",
+      "source": "https://law.justia.com/codes/rhode-island/2012/title-31/chapter-31-6/chapter-31-6-8"
+    },
+    {
+      "id": "ri-veteran-license-plates",
+      "category": "Vehicle",
+      "name": "Veteran Designation License Plates",
+      "description": "RI offers multiple veteran license plates: (1) Veteran, (2) Disabled Veteran (100% service-connected only), (3) Purple Heart, (4) Ex-POW, (5) National Guard, (6) Gold Star Family, (7) Bronze Star (started 2023). Plates show waving American flag design with branch of service. Wartime veterans eligible for 'War Veteran' sticker. Plates transfer to unremarried surviving spouse. Initial plates provided at NO FEE. Veterans who served in multiple conflicts can get plates equal to number of conflicts served (limited to vehicles owned). Available for vehicles up to 12,000 lbs GVWR and motorcycles.",
+      "eligibility": "Veterans (honorable discharge, 20+ years Guard/Reserve, wartime service), disabled veterans (100%), Purple Heart recipients, POWs, Guard members, Gold Star families, Bronze Star recipients",
+      "value": "FREE initial veteran designation license plates (multiple types available)",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/Rhode-Island"
+    },
+    {
+      "id": "ri-disabled-parking-placard",
+      "category": "Vehicle",
+      "name": "Veteran Disability Parking Placard",
+      "description": "100% service-connected disabled veterans can receive veteran disability parking placard. Must submit Veteran Disability Parking Placard Application for approval. If approved, notified by mail. Provides accessible parking at all locations.",
+      "eligibility": "100% service-connected disabled veterans",
+      "value": "Accessible parking placard",
+      "source": "https://dmv.ri.gov/military-veteran/veteran-placard-plates-and-registration-information"
+    },
+    {
+      "id": "ri-veteran-drivers-license",
+      "category": "Vehicle",
+      "name": "Veteran Designation on Driver's License/ID",
+      "description": "RI driver's licenses and IDs available with veteran designation at NO CHARGE. Simple way to show veteran status on official identification.",
+      "eligibility": "Veterans with honorable discharge",
+      "value": "FREE veteran designation on license/ID",
+      "source": "https://vadisabilitygroup.com/rhode-island-state-benefits-for-100-disabled-veterans/"
+    },
+    {
+      "id": "ri-employment-preference",
+      "category": "Employment",
+      "name": "State Employment Veteran Preference",
+      "description": "Veterans receive preference points when applying for RI state jobs: (1) Veterans: 5 POINTS added to final test score, (2) Disabled veterans: 10 POINTS added to final test score. Applies to honorably discharged veterans with 30+ days active duty. Significant hiring advantage for state government positions.",
+      "eligibility": "Veterans with honorable discharge and 30+ days active duty (5 points), disabled veterans (10 points)",
+      "value": "5 or 10-point hiring preference for state jobs",
+      "source": "https://www.military.com/benefits/veteran-state-benefits/rhode-island-state-veterans-benefits.html"
+    },
+    {
+      "id": "ri-free-hunting-fishing-100-disabled",
+      "category": "Recreation",
+      "name": "Free Hunting and Fishing Licenses for 100% Disabled",
+      "description": "Veterans with 100% VA disability rating receive FREE Rhode Island hunting AND fishing licenses INDEFINITELY. No residency requirement - available to 100% disabled veterans from ANY state. Major annual savings on outdoor recreation.",
+      "eligibility": "Veterans with 100% VA disability rating (ANY state residency)",
+      "value": "FREE lifetime hunting + fishing licenses",
+      "source": "https://www.military.com/benefits/veteran-state-benefits/rhode-island-state-veterans-benefits.html"
+    },
+    {
+      "id": "ri-nonresident-military-license-rates",
+      "category": "Recreation",
+      "name": "Resident License Rates for Nonresident Military",
+      "description": "Nonresident service members stationed in RI may purchase hunting and fishing licenses at RESIDENT PRICES (vs higher nonresident rates). Significant savings for stationed military on outdoor recreation.",
+      "eligibility": "Nonresident military members stationed in Rhode Island",
+      "value": "Resident hunting/fishing license rates (vs nonresident prices)",
+      "source": "https://www.military.com/benefits/veteran-state-benefits/rhode-island-state-veterans-benefits.html"
+    },
+    {
+      "id": "ri-license-extension-active-duty",
+      "category": "Recreation",
+      "name": "Hunting/Fishing License Extension for Active Duty",
+      "description": "If RI resident has valid hunting or fishing license when joining U.S. Armed Forces, license remains VALID until SIX MONTHS after discharge. Ensures licenses don't expire during military service.",
+      "eligibility": "RI residents joining U.S. Armed Forces with valid hunting/fishing license",
+      "value": "License valid through service + 6 months post-discharge",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/Rhode-Island"
+    },
+    {
+      "id": "ri-free-state-parks-100-disabled",
+      "category": "Recreation",
+      "name": "Free State Park Admission for 100% Disabled Veterans",
+      "description": "Veterans with 100% service-connected VA disability receive FREE ADMISSION to all RI state parks and state-owned beaches. Annual State Park Disability Pass good at any state recreational facility. Camping, picnic, and equestrian fees still charged. NO residency requirement - available to 100% disabled veterans nationwide.",
+      "eligibility": "Veterans with 100% service-connected VA disability (ANY state)",
+      "value": "FREE annual state park + beach admission pass",
+      "source": "https://www.military.com/benefits/veteran-state-benefits/rhode-island-state-veterans-benefits.html"
+    },
+    {
+      "id": "ri-veterans-home",
+      "category": "Healthcare",
+      "name": "Rhode Island Veterans Home - Bristol",
+      "description": "State-of-the-art 256,000 sq ft facility on 110 acres overlooking Mount Hope Bay. 208 BEDS providing quality nursing and residential care. Officially opened 2017 with modern design. Services: (1) Comprehensive medical care with on-site X-ray, dental, pharmacy, (2) Physical and occupational therapy, (3) Assisted living and nursing care, (4) Secure units for Alzheimer's/dementia care, (5) Palliative care, (6) Social work services, (7) Transportation to Providence VA Medical Center, (8) Transitional supportive program for homeless veterans (6 months-1 year), (9) Activities: movies, crafts, games, bingo, parties, cookouts, day trips. Modern facility with 6 residential 'neighborhoods', common areas, dining hall, chapel, medical suite, library, aqua therapy room. Eligibility: Honorably discharged wartime veterans with 90+ days active duty. Must be RI resident 2+ consecutive years OR entered military service from RI. Cannot have active psychosis, substance addiction, or contagious disease.",
+      "eligibility": "Honorably discharged wartime veterans (90+ days), 2+ years RI residency OR RI enlistment, medically qualified",
+      "value": "208-bed modern long-term care facility (opened 2017)",
+      "source": "https://vets.ri.gov/find-your-benefits/ri-veterans-home"
+    },
+    {
+      "id": "ri-veterans-cemetery",
+      "category": "Burial",
+      "name": "Rhode Island Veterans Memorial Cemetery - Exeter",
+      "description": "280-acre state veterans cemetery established 1976. Beautiful grounds with 40+ monuments dedicated to veterans of specific wars/conflicts. FREE BURIAL for eligible veterans (includes plot, opening/closing grave, military honors, headstone). Spouses and dependent children may be buried with fees charged. Offers: (1) In-ground casket burial, (2) In-ground cremation burial, (3) Above-ground columbarium cremation sites, (4) 15-minute committal services with military honors. Eligibility same as VA National Cemeteries: RI residency requirement (2 consecutive years prior to death OR entered military service from RI), honorably discharged RI wartime veterans, 20-year retirees of RI National Guard/Reserve. Some spouses/dependents eligible (dependent children limited to unmarried under 21, or 23 if full-time student, or lifelong disability before 21). Gravesite locations assigned at time of death - all gravesites equal with uniform flat granite markers.",
+      "eligibility": "Honorably discharged RI wartime veterans, 20-year RI Guard/Reserve retirees, 2+ years RI residency OR RI enlistment, eligible spouses/dependents",
+      "value": "FREE veteran burial + plot + headstone + military honors (spouse/dependent fees apply)",
+      "source": "https://vets.ri.gov/find-your-benefits/veterans-memorial-cemetery"
+    },
+    {
+      "id": "ri-burial-at-public-expense",
+      "category": "Burial",
+      "name": "Burial at Public Expense",
+      "description": "Rhode Island pays funeral expenses of honorably discharged wartime veterans who do not have ability to pay for funeral. Ensures dignified burial for all eligible veterans regardless of financial situation.",
+      "eligibility": "Honorably discharged wartime veterans without financial means",
+      "value": "State-paid funeral expenses for indigent veterans",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/Rhode-Island"
+    },
+    {
+      "id": "ri-military-funeral-honors",
+      "category": "Burial",
+      "name": "Military Funeral Honors",
+      "description": "When requested by family of honorably discharged wartime veteran, RI Adjutant General provides firing squad and, when possible, live bugler to play 'Taps' (not synthesized/pre-recorded). Ensures proper military honors for deceased veterans.",
+      "eligibility": "Honorably discharged wartime veterans (family must request)",
+      "value": "Firing squad + live bugler for military funeral honors",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/Rhode-Island"
+    },
+    {
+      "id": "ri-housing-preference",
+      "category": "Housing",
+      "name": "Public Housing Veteran Preference",
+      "description": "City Housing Authorities' Veterans' Preference gives wartime-disabled veterans FIRST PLACEMENT when space available in public housing for elderly. Contact local housing authority for details.",
+      "eligibility": "Wartime-disabled veterans",
+      "value": "Priority placement in elderly public housing",
+      "source": "https://www.audacy.com/connectingvets/articles/veteran-benefits-state-rhode-island"
+    },
+    {
+      "id": "ri-family-relief-fund",
+      "category": "Financial",
+      "name": "Rhode Island Family Relief Fund",
+      "description": "Helps RI National Guard or Reserve members and their families with one-time grant of up to $5,000. Emergency financial assistance for Guard/Reserve families facing hardship.",
+      "eligibility": "RI National Guard or Reserve members and families",
+      "value": "One-time grant up to $5,000",
+      "source": "https://www.audacy.com/connectingvets/articles/veteran-benefits-state-rhode-island"
+    }
+  ]
+}

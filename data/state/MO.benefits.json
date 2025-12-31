@@ -1,0 +1,157 @@
+[
+  {
+    "id": "mo_property_tax_credit_100_percent_disabled",
+    "scope": "state",
+    "state": "MO",
+    "title": "Missouri Property Tax Credit (includes 100% disabled individuals)",
+    "summary": "Tax credit for certain seniors and 100% disabled individuals for a portion of real estate taxes or rent paid.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": false,
+      "requiresPermanentTotal": null,
+      "notes": "Credit maximums listed by DOR (e.g., up to $750 renters and $1,100 owners); actual credit depends on taxes/rent and income."
+    },
+    "eligibilityNotes": "Missouri DOR program; check current year instructions for documentation and household income rules.",
+    "sourceUrl": "https://dor.mo.gov/taxation/individual/tax-types/property-tax-credit/",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "mo_veteran_designation_driver_license_id",
+    "scope": "state",
+    "state": "MO",
+    "title": "Veteran Designation on Missouri Driver License / Non-Driver ID",
+    "summary": "Adds a VETERAN designation to a Missouri driver or nondriver license.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Requires documentation to verify veteran status when requesting the designation."
+    },
+    "eligibilityNotes": "Any U.S. military veteran may request the designation with acceptable proof of service/discharge per DOR guidance.",
+    "sourceUrl": "https://dor.mo.gov/faq/driver-license/veteran-designation.html",
+    "tags": ["id", "dmv", "license"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "mo_disabled_veteran_license_plates",
+    "scope": "state",
+    "state": "MO",
+    "title": "Disabled Veteran (DV) License Plates",
+    "summary": "Missouri disabled veteran specialty license plates for eligible veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Eligibility and required documentation are specified by Missouri DOR; DV plates alone do not automatically grant accessible parking unless they include the wheelchair symbol."
+    },
+    "eligibilityNotes": "Missouri resident, served and honorably discharged; see DOR DV plate page for specifics and documentation.",
+    "sourceUrl": "https://dor.mo.gov/motor-vehicle/plates/disabled-veteran.html",
+    "tags": ["vehicle", "plates", "dmv", "parking"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "mo_returning_heroes_education_act",
+    "scope": "state",
+    "state": "MO",
+    "title": "Missouri Returning Heroes’ Education Act (Combat Veterans)",
+    "summary": "Limits tuition charged to qualified combat veterans at Missouri public colleges/universities (commonly cited as $50 per credit hour).",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Applies to qualifying combat veterans; details and eligible programs/institutions apply."
+    },
+    "eligibilityNotes": "Often administered through the institution; confirm eligibility documentation and program coverage with your school’s veterans office.",
+    "sourceUrl": "https://www.umsl.edu/veterans/gi-bill-benefits/missouri-returning-heroes-act.html",
+    "tags": ["education", "tuition", "combat_veteran"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "mo_conservation_veteran_benefits_hunting_fishing",
+    "scope": "state",
+    "state": "MO",
+    "title": "Missouri Department of Conservation – Veteran Permit Benefits",
+    "summary": "Veteran-focused permit benefits (including discounted permit options and special events) through Missouri Department of Conservation.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "See MDC rules for eligible categories, pricing, and required documentation."
+    },
+    "eligibilityNotes": "MDC publishes veteran benefit details; some activities may still require specific permits/stamps depending on what you hunt/fish.",
+    "sourceUrl": "https://mdc.mo.gov/permits/veteran-benefits",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "mo_state_parks_military_discount_camping",
+    "scope": "state",
+    "state": "MO",
+    "title": "Missouri State Parks – Military/Veteran Camping Discount",
+    "summary": "Discount on camping for veterans and military members at Missouri State Parks (with valid ID).",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Discount amount and rules are defined by Missouri State Parks; proof of status required at check-in."
+    },
+    "eligibilityNotes": "Available to veterans and eligible military categories; bring acceptable proof (e.g., DD-214 or other listed ID forms).",
+    "sourceUrl": "https://mostateparks.com/msp-honors-vets",
+    "tags": ["recreation", "state_parks", "camping"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "mo_veterans_homes_program",
+    "scope": "state",
+    "state": "MO",
+    "benefitType": "facility",
+    "title": "Missouri Veterans Homes Program",
+    "summary": "State veterans homes providing long-term skilled nursing care for eligible veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Admissions criteria, medical need, and bed availability apply."
+    },
+    "eligibilityNotes": "Missouri Veterans Commission homes are located in multiple cities statewide; see MVC homes page for locations and admissions info.",
+    "sourceUrl": "https://mvc.dps.mo.gov/homes/",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "mo_veterans_cemeteries_program",
+    "scope": "state",
+    "state": "MO",
+    "benefitType": "facility",
+    "title": "Missouri Veterans Cemeteries Program",
+    "summary": "Network of state veterans cemeteries operated by the Missouri Veterans Commission.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Eligibility and documentation rules apply; locations vary."
+    },
+    "eligibilityNotes": "MVC lists operational cemeteries statewide and provides program details and location pages.",
+    "sourceUrl": "https://mvc.dps.mo.gov/cemeteries/",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+  "id": "mo_state_ta",
+  "scope": "state",
+  "state": "MO",
+  "title": "Missouri National Guard State Tuition Assistance",
+  "summary": "100% tuition coverage (not fees) for up to 39 credit hours annually at Missouri institutions. NEW 2025-26: Tuition and fee waiver option added for public institutions receiving state appropriations.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be active MO National Guard member in good standing with certificate of satisfactory service. Eligible immediately upon enlistment (for classes starting 1+ day later). 2.5 GPA minimum."
+  },
+  "eligibilityNotes": "MO state program provides 100% tuition (not general fees, technology fees, etc.) up to 39 credit hours annually. Estimated value $41,000+ over 4 years. NEW effective 2025-26 academic year (SB 1322): Tuition and fee waiver option at MO public institutions receiving state appropriations. Waiver is last-dollar after State TA, federal TA, GI Bill, scholarships, grants. Maximum 120 credit hours for waiver. Waiver not available if state appropriation decreases vs. previous fiscal year. Members automatically granted in-state tuition rates. Must maintain 2.5 GPA, provide commanding officer certificate, complete FAFSA. Recoupment required if cease active affiliation during semester (except death/disability/medical DQ). Apply through MO National Guard before each semester. Administered by Office of the Adjutant General.",
+  "sourceUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=173.239",
+  "tags": ["education", "tuition", "national_guard"],
+  "lastReviewed": "2025-12-25"
+}
+]

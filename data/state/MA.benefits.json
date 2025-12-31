@@ -1,0 +1,446 @@
+[
+  {
+    "id": "ma_ng_tuition_waiver",
+    "state": "Massachusetts",
+    "name": "National Guard State Tuition/Fee Waiver",
+    "category": "Education",
+    "description": "100% tuition and fees waived at 28 Massachusetts state colleges and universities for National Guard members. Maximum 130 credit hours. Must obtain Certificate of Eligibility every 30 credits. Commonwealth-funded program.",
+    "eligibility": [
+      "Active Massachusetts National Guard member in good standing",
+      "Enrolled at participating MA public institution",
+      "Obtain Certificate of Eligibility every 30 credits from Education Office"
+    ],
+    "benefit_amount": "100% tuition + fees for up to 130 credit hours",
+    "how_to_apply": "Contact MA National Guard Education Office at massnationalguard.org",
+    "source_name": "Massachusetts National Guard",
+    "source_url": "https://massnationalguard.org/education-benefits/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_free_tuition_veterans",
+    "state": "Massachusetts",
+    "name": "Free Tuition for Veterans and Active Duty",
+    "category": "Education",
+    "description": "Veterans and active-duty service members who are permanent legal Massachusetts residents receive FREE tuition at state institutions of higher education.",
+    "eligibility": [
+      "Veteran OR active-duty service member",
+      "Permanent legal Massachusetts resident",
+      "Attending MA state institution"
+    ],
+    "benefit_amount": "FREE tuition at Massachusetts state institutions",
+    "how_to_apply": "Submit DD-214 or active duty orders to institution's veterans office",
+    "source_name": "Massachusetts Executive Office of Veterans Services",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_soldiers_legacy",
+    "state": "Massachusetts",
+    "name": "Massachusetts Soldiers Legacy Fund",
+    "category": "Education",
+    "description": "Educational assistance funds for children of Massachusetts service members who died in the Global War on Terror. Provides financial support for college expenses.",
+    "eligibility": [
+      "Child of MA service member who died in Global War on Terror",
+      "Massachusetts resident",
+      "Enrolled in educational institution"
+    ],
+    "benefit_amount": "Educational assistance funds (amount varies)",
+    "how_to_apply": "Apply through Massachusetts EOVS Office of Student and Family Support",
+    "source_name": "Massachusetts Executive Office of Veterans Services",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_ng_dependent_transfer",
+    "state": "Massachusetts",
+    "name": "National Guard Dependent Education Transfer",
+    "category": "Education",
+    "description": "National Guard members may be able to transfer unused education benefits to dependents. Certain restrictions and limits apply.",
+    "eligibility": [
+      "Massachusetts National Guard member",
+      "Unused education benefits available",
+      "Eligible dependent child or spouse",
+      "Meet Guard transfer requirements"
+    ],
+    "benefit_amount": "Transfer of unused education benefits to dependents",
+    "how_to_apply": "Contact Massachusetts National Guard Education Office",
+    "source_name": "Massachusetts National Guard",
+    "source_url": "https://massnationalguard.org/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_property_tax_400",
+    "state": "Massachusetts",
+    "name": "Clause 22 - $400 Property Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "$400 annual property tax exemption for veterans, their spouses, surviving spouses, or Gold Star parents. Must have served during wartime or received expeditionary medal.",
+    "eligibility": [
+      "Veteran OR spouse OR surviving spouse OR Gold Star parent",
+      "MA resident 6 months before service OR 5 years after",
+      "Property occupied as domicile",
+      "Served during wartime OR expeditionary medal"
+    ],
+    "benefit_amount": "$400 annual property tax exemption",
+    "how_to_apply": "File annually by April 1 with local assessor with DD-214",
+    "source_name": "Massachusetts Executive Office of Veterans Services",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_property_tax_750",
+    "state": "Massachusetts",
+    "name": "Clause 22A-E - $750 Property Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "$750 annual property tax exemption for veterans with specific service-connected disabilities including loss of limbs, paraplegic, Purple Heart recipients, or Medal of Honor recipients.",
+    "eligibility": [
+      "Veteran with qualifying disability: loss of limb, paraplegic, Purple Heart, or Medal of Honor",
+      "MA resident 6 months before service OR 5 years after",
+      "Property occupied as domicile"
+    ],
+    "benefit_amount": "$750 annual property tax exemption",
+    "how_to_apply": "File annually by April 1 with local assessor with VA documentation",
+    "source_name": "Massachusetts Executive Office of Veterans Services",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_property_tax_1000",
+    "state": "Massachusetts",
+    "name": "Clause 22F - $1,000 Property Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "$1,000 annual property tax exemption for veterans rated 100% disabled by the VA.",
+    "eligibility": [
+      "100% VA disability rating",
+      "Massachusetts resident 6 months before service OR 5 years after",
+      "Property occupied as domicile"
+    ],
+    "benefit_amount": "$1,000 annual property tax exemption",
+    "how_to_apply": "File annually by April 1 with local assessor with VA rating letter",
+    "source_name": "Massachusetts Executive Office of Veterans Services",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_property_tax_1250",
+    "state": "Massachusetts",
+    "name": "Clause 22G - $1,250 Property Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "$1,250 annual property tax exemption for veterans with specific severe disabilities including loss of both arms/legs/eyes or permanently bedridden.",
+    "eligibility": [
+      "Veteran with severe disability: loss of both arms/legs/eyes OR permanently bedridden",
+      "MA resident 6 months before service OR 5 years after",
+      "Property occupied as domicile"
+    ],
+    "benefit_amount": "$1,250 annual property tax exemption",
+    "how_to_apply": "File annually by April 1 with local assessor with VA documentation",
+    "source_name": "Massachusetts Executive Office of Veterans Services",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_property_tax_1500",
+    "state": "Massachusetts",
+    "name": "Clause 22H - $1,500 Property Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "$1,500 annual property tax exemption for veterans rated permanently and totally disabled by VA AND living in specially adapted housing.",
+    "eligibility": [
+      "100% P&T VA disability rating",
+      "Living in specially adapted housing",
+      "MA resident 6 months before service OR 5 years after",
+      "Property occupied as domicile"
+    ],
+    "benefit_amount": "$1,500 annual property tax exemption",
+    "how_to_apply": "File annually by April 1 with local assessor with VA SAH documentation",
+    "source_name": "Massachusetts Executive Office of Veterans Services",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_retirement_tax_free",
+    "state": "Massachusetts",
+    "name": "Military Retirement Pay Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "All military retirement pay is completely exempt from Massachusetts state income tax.",
+    "eligibility": [
+      "Receiving military retirement pay",
+      "Massachusetts resident"
+    ],
+    "benefit_amount": "100% exemption on all military retirement income",
+    "how_to_apply": "Exclude from Massachusetts income tax return",
+    "source_name": "Massachusetts Department of Revenue",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_sbp_tax_free",
+    "state": "Massachusetts",
+    "name": "Survivor Benefit Plan Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Survivor pensions (SBP, RCSBP, RSFPP) paid to surviving spouse age 62+ are not taxed in Massachusetts.",
+    "eligibility": [
+      "Surviving spouse age 62 or older",
+      "Receiving SBP, RCSBP, or RSFPP",
+      "Massachusetts resident"
+    ],
+    "benefit_amount": "100% exemption on survivor benefit plans",
+    "how_to_apply": "Exclude from Massachusetts income tax return",
+    "source_name": "Massachusetts Department of Revenue",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_combat_pay_exempt",
+    "state": "Massachusetts",
+    "name": "Combat Pay and Combat Zone Tax Extension",
+    "category": "Tax Benefits",
+    "description": "Military pay from combat zone excluded from federal adjusted gross income is also exempt from MA income tax. Service members have 180 days from combat zone return to file taxes.",
+    "eligibility": [
+      "Massachusetts resident service member",
+      "Serving in combat zone",
+      "Pay excluded from federal AGI"
+    ],
+    "benefit_amount": "100% exemption on combat zone pay + 180-day filing extension",
+    "how_to_apply": "Follows federal exclusion automatically",
+    "source_name": "Massachusetts Department of Revenue",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_vehicle_excise_exempt",
+    "state": "Massachusetts",
+    "name": "Motor Vehicle Excise Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Resident service members deployed or stationed outside MA for 180+ continuous days in a calendar year are eligible for one motor vehicle excise tax exemption. Service members wounded or killed do not need to meet 180-day requirement.",
+    "eligibility": [
+      "MA resident service member",
+      "Active or reserve component",
+      "Deployed/stationed outside MA 180+ days OR wounded/killed in conflict"
+    ],
+    "benefit_amount": "Exemption on one vehicle's excise tax",
+    "how_to_apply": "Apply to local tax assessor with military orders",
+    "source_name": "Massachusetts Registry of Motor Vehicles",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_vehicle_sales_exempt",
+    "state": "Massachusetts",
+    "name": "Vehicle Sales Tax Exemption for Disabled Veterans",
+    "category": "Tax Benefits",
+    "description": "Disabled veterans with loss or permanent loss of use of both legs/arms, or one leg and one arm, may receive motor vehicle sales tax exemption on one vehicle for personal non-commercial use.",
+    "eligibility": [
+      "Loss or permanent loss of use of both legs/arms OR one leg and one arm",
+      "OR approved for MA Disabled Veteran license plate",
+      "Vehicle for personal non-commercial use"
+    ],
+    "benefit_amount": "Sales tax exemption on one vehicle",
+    "how_to_apply": "Apply through MA RMV with VA disability documentation",
+    "source_name": "Massachusetts Registry of Motor Vehicles",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_annuity",
+    "state": "Massachusetts",
+    "name": "Massachusetts Disabled Veteran Annuity",
+    "category": "Financial Assistance",
+    "description": "Annual annuity payment for qualifying disabled veterans. HERO Act increased annuity from $2,000 to $2,500 phased over 2 years. $1,250 paid February 2025, then $2,500 annually starting August 2025 in one payment.",
+    "eligibility": [
+      "MA resident at application and ongoing",
+      "Honorable discharge",
+      "Blind, paralyzed, double amputee certified by VA OR 100% VA disability rating"
+    ],
+    "benefit_amount": "$2,500 per year (one annual payment starting August 2025)",
+    "how_to_apply": "Apply through Massachusetts EOVS",
+    "source_name": "Massachusetts Executive Office of Veterans Services",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_gold_star_annuity",
+    "state": "Massachusetts",
+    "name": "Gold Star Parent/Spouse Annuity",
+    "category": "Financial Assistance",
+    "description": "$2,500 annual annuity for parents or unremarried surviving spouse of service member who died in line of duty or from service-connected cause.",
+    "eligibility": [
+      "Parent OR unremarried surviving spouse",
+      "Service member died in line of duty OR from service-connected cause",
+      "MA resident at application and ongoing"
+    ],
+    "benefit_amount": "$2,500 per year (one annual payment starting August 2025)",
+    "how_to_apply": "Apply through Massachusetts EOVS",
+    "source_name": "Massachusetts Executive Office of Veterans Services",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_wartime_bonus",
+    "state": "Massachusetts",
+    "name": "Wartime Service Bonus",
+    "category": "Financial Assistance",
+    "description": "One-time bonus for Massachusetts veterans of designated campaigns. Amount ranges from $200 to $1,000 depending on operation and length of service. In case of veteran's death, spouse and children may be eligible.",
+    "eligibility": [
+      "Living in MA immediately before entry into armed forces",
+      "Served in designated campaign",
+      "OR surviving family of deceased veteran"
+    ],
+    "benefit_amount": "$200 to $1,000 one-time bonus",
+    "how_to_apply": "Apply through Massachusetts EOVS",
+    "source_name": "Massachusetts Executive Office of Veterans Services",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_chapter_115",
+    "state": "Massachusetts",
+    "name": "Chapter 115 Benefits",
+    "category": "Financial Assistance",
+    "description": "Means-tested financial, medical, and dental assistance for eligible veterans and dependents. Provides support for food, shelter, clothing, fuel, and medical care. HERO Act expanded coverage.",
+    "eligibility": [
+      "Massachusetts resident veteran or dependent",
+      "Demonstrated financial need",
+      "Administered through municipal Veterans Services offices"
+    ],
+    "benefit_amount": "Financial support for basic needs based on means test",
+    "how_to_apply": "Contact local Veterans Service Officer (all 351 MA municipalities have VSOs)",
+    "source_name": "Massachusetts Executive Office of Veterans Services",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_hero_act_behavioral",
+    "state": "Massachusetts",
+    "name": "HERO Act Behavioral Health Treatment Reimbursement",
+    "category": "Healthcare",
+    "description": "NEW HERO Act provision: Veterans can be reimbursed for visits to outpatient behavioral health providers, expanding access to mental health treatment.",
+    "eligibility": [
+      "Massachusetts resident veteran",
+      "Receiving outpatient behavioral health treatment",
+      "Meet HERO Act requirements"
+    ],
+    "benefit_amount": "Reimbursement for outpatient behavioral health visits",
+    "how_to_apply": "Apply through Massachusetts EOVS for reimbursement",
+    "source_name": "Massachusetts Executive Office of Veterans Services",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_employment_preference",
+    "state": "Massachusetts",
+    "name": "Veterans Employment Hiring Preference",
+    "category": "Employment",
+    "description": "Veterans hiring preference for Massachusetts state government positions. Provides priority consideration in civil service hiring.",
+    "eligibility": [
+      "Honorably discharged veteran",
+      "Massachusetts resident",
+      "Applying for state civil service position"
+    ],
+    "benefit_amount": "Hiring preference for state positions",
+    "how_to_apply": "Indicate veteran status on state job applications with DD-214",
+    "source_name": "Massachusetts Human Resources Division",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_tax_credit_employers",
+    "state": "Massachusetts",
+    "name": "VET-HIRE Tax Credit for Employers (HERO Act)",
+    "category": "Employment",
+    "description": "HERO Act increased tax credit to $2,500 for small businesses hiring veterans. Incentivizes veteran employment across Commonwealth.",
+    "eligibility": [
+      "Small business in Massachusetts",
+      "Hiring qualified veteran",
+      "Meet HERO Act requirements"
+    ],
+    "benefit_amount": "$2,500 tax credit per veteran hired (increased by HERO Act)",
+    "how_to_apply": "Employers apply through MA Department of Revenue",
+    "source_name": "Massachusetts Department of Revenue",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_cdl_waiver",
+    "state": "Massachusetts",
+    "name": "Commercial Driver License (CDL) Skills Test Waiver",
+    "category": "Employment",
+    "description": "Veterans with military experience operating vehicles equivalent to commercial motor vehicles can apply for CDL without skills testing. Knowledge tests cannot be waived. School bus and passenger endorsements not transferable.",
+    "eligibility": [
+      "Currently licensed OR employed within past year operating military equivalent of CMV",
+      "Veteran status",
+      "MA resident"
+    ],
+    "benefit_amount": "Waiver of CDL skills test",
+    "how_to_apply": "Submit CDL skills test waiver form to Massachusetts RMV",
+    "source_name": "Massachusetts Registry of Motor Vehicles",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_hunting_fishing_disabled",
+    "state": "Massachusetts",
+    "name": "Free Hunting and Fishing Licenses for Disabled Persons",
+    "category": "Recreation",
+    "description": "Disabled Massachusetts residents (blind, paraplegic, or intellectually disabled) may qualify for free freshwater fishing and hunting licenses.",
+    "eligibility": [
+      "Massachusetts resident",
+      "Blind, paraplegic, or intellectually disabled",
+      "First-time applicants submit application and physician letter"
+    ],
+    "benefit_amount": "FREE hunting and fishing licenses",
+    "how_to_apply": "Submit application to MA Division of Fisheries & Wildlife Boston office",
+    "source_name": "Massachusetts Division of Fisheries and Wildlife",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_hunting_fishing_nonresident",
+    "state": "Massachusetts",
+    "name": "Resident License Fees for Stationed Service Members",
+    "category": "Recreation",
+    "description": "Nonresident service members stationed in Massachusetts are eligible to purchase hunting, trapping, and fishing licenses at resident prices.",
+    "eligibility": [
+      "Active duty service member",
+      "Stationed in Massachusetts",
+      "Nonresident status"
+    ],
+    "benefit_amount": "Resident prices on hunting/fishing/trapping licenses",
+    "how_to_apply": "Purchase at resident rates with military ID and station orders",
+    "source_name": "Massachusetts Division of Fisheries and Wildlife",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_burial_cemeteries",
+    "state": "Massachusetts",
+    "name": "Massachusetts Veterans' Cemeteries",
+    "category": "Burial Benefits",
+    "description": "Two state veterans' cemeteries in Agawam and Winchendon. Eligible veterans may be buried at no cost. Modest fee for burial of spouses and eligible dependents.",
+    "eligibility": [
+      "Honorably discharged veteran",
+      "Massachusetts resident OR died while MA resident",
+      "Spouses and dependents eligible with fee"
+    ],
+    "benefit_amount": "FREE burial for veterans; modest fee for spouses/dependents",
+    "how_to_apply": "Contact Massachusetts EOVS for burial arrangements",
+    "source_name": "Massachusetts Executive Office of Veterans Services",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ma_license_plates",
+    "state": "Massachusetts",
+    "name": "Veteran License Plates and ID Indicators",
+    "category": "Other",
+    "description": "Special veteran license plates and Veteran indicator on driver's license, learner's permit, MA ID card, or Liquor ID card. Word 'Veteran' appears on card. No additional fees beyond regular transaction fees. Must visit full-service Registry branch (cannot be added online).",
+    "eligibility": [
+      "Massachusetts resident veteran",
+      "Honorable discharge",
+      "Valid vehicle registration or ID"
+    ],
+    "benefit_amount": "Special veteran plates and ID indicators (no extra fee)",
+    "how_to_apply": "Visit full-service RMV branch with DD-214",
+    "source_name": "Massachusetts Registry of Motor Vehicles",
+    "source_url": "https://www.mass.gov/",
+    "last_verified": "2025-12-25"
+  }
+]

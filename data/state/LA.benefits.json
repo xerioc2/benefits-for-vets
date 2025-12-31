@@ -1,0 +1,206 @@
+[
+  {
+    "id": "la_step",
+    "state": "Louisiana",
+    "name": "State Tuition Exemption Program (STEP)",
+    "category": "Education",
+    "description": "FREE tuition for Louisiana National Guard members for 5 academic years or until degree completion (associate, bachelor, master, or professional degree). One of the most comprehensive Guard education programs in the nation.",
+    "eligibility": [
+      "Active Louisiana National Guard member in good standing",
+      "Enrolled at Louisiana public institution",
+      "Pursuing associate, bachelor, master, or professional degree"
+    ],
+    "benefit_amount": "FREE tuition for 5 academic years or until degree",
+    "how_to_apply": "Apply through geauxguard.la.gov/state-tuition-exemption-program-step/",
+    "source_name": "Louisiana National Guard",
+    "source_url": "https://geauxguard.la.gov/state-tuition-exemption-program-step/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "la_patriot_scholarship",
+    "state": "Louisiana",
+    "name": "Patriot Scholarship (NEW August 2023)",
+    "category": "Education",
+    "description": "NEW program launched August 2023 covering mandatory fees for undergraduate Louisiana National Guard members. Works WITH STEP program to provide debt-free undergraduate education.",
+    "eligibility": [
+      "Active Louisiana National Guard member",
+      "Undergraduate student",
+      "Enrolled at Louisiana public institution",
+      "Can combine with STEP"
+    ],
+    "benefit_amount": "Covers mandatory fees (STEP covers tuition) = debt-free undergrad",
+    "how_to_apply": "Apply through Louisiana National Guard Education Office at geauxguard.la.gov",
+    "source_name": "Louisiana National Guard",
+    "source_url": "https://geauxguard.la.gov/education/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "la_title_29_dependent",
+    "state": "Louisiana",
+    "name": "Louisiana Title 29 Dependents' Educational Assistance",
+    "category": "Education",
+    "description": "Tuition and school-imposed fee exemption for surviving spouses of deceased veterans, children of veterans with 90%+ disability, and children of 100% unemployable veterans. Valid for 4 years (must complete within 5 years). Covers any state college, university, trade, or vocational/technical school.",
+    "eligibility": [
+      "Surviving spouse of deceased LA veteran OR child of 90%+ disabled LA veteran OR child of 100% unemployable LA veteran",
+      "Veteran lived in LA for 12 months before entering service",
+      "Student-imposed fees NOT exempt (school-imposed fees ARE exempt)"
+    ],
+    "benefit_amount": "FREE tuition + school-imposed fees for 4 years (5 year window)",
+    "how_to_apply": "Apply through Louisiana Department of Veterans Affairs",
+    "source_name": "Louisiana Department of Veterans Affairs",
+    "source_url": "https://vetaffairs.la.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "la_instate_tuition",
+    "state": "Louisiana",
+    "name": "In-State Tuition for Veterans and Dependents",
+    "category": "Education",
+    "description": "In-state tuition rates granted to veterans, active-duty service members, and their dependents attending any Louisiana public college or university. Eligibility requirements apply.",
+    "eligibility": [
+      "Veteran OR active-duty service member OR dependent",
+      "Attending Louisiana public institution",
+      "Meet residency requirements"
+    ],
+    "benefit_amount": "In-state tuition rates (saves $15,000-$25,000/year)",
+    "how_to_apply": "Submit military documentation to institution's admissions/veterans office",
+    "source_name": "Louisiana Board of Regents",
+    "source_url": "https://regents.la.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "la_property_tax_homestead",
+    "state": "Louisiana",
+    "name": "Homestead Property Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Property tax exemption on first $7,500 assessed value available to qualifying veterans. Homestead exemption applies to primary residence.",
+    "eligibility": [
+      "Louisiana resident veteran",
+      "Property is primary residence (homestead)",
+      "Meet local parish requirements"
+    ],
+    "benefit_amount": "$7,500 assessed value exemption",
+    "how_to_apply": "Apply with local parish assessor's office",
+    "source_name": "Louisiana Tax Commission",
+    "source_url": "https://revenue.louisiana.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "la_property_tax_disabled",
+    "state": "Louisiana",
+    "name": "Additional Exemption for Disabled Veterans",
+    "category": "Tax Benefits",
+    "description": "Additional $7,500 property tax exemption (total $15,000) for disabled veterans, active-duty KIA, or 100% service-connected/unemployable/totally disabled. Unremarried surviving spouse also eligible if remains owner and occupant.",
+    "eligibility": [
+      "Disabled veteran OR active-duty KIA OR 100% VA rating",
+      "OR unremarried surviving spouse",
+      "Owns and occupies property",
+      "Additional eligibility requirements apply"
+    ],
+    "benefit_amount": "Additional $7,500 exemption (total $15,000 with homestead)",
+    "how_to_apply": "Apply with local parish assessor with VA documentation",
+    "source_name": "Louisiana Tax Commission",
+    "source_url": "https://revenue.louisiana.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "la_combat_pay_exempt",
+    "state": "Louisiana",
+    "name": "Combat Pay Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Military pay exempt from federal taxation (combat pay, hazardous duty pay) is also exempt from Louisiana state taxation.",
+    "eligibility": [
+      "Louisiana resident service member",
+      "Receiving federally tax-exempt combat/hazardous duty pay"
+    ],
+    "benefit_amount": "100% exemption on combat and hazardous duty pay",
+    "how_to_apply": "Exclude from Louisiana income tax return (follows federal)",
+    "source_name": "Louisiana Department of Revenue",
+    "source_url": "https://revenue.louisiana.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "la_retirement_tax_exempt",
+    "state": "Louisiana",
+    "name": "Military Retirement Benefits Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Military retirement benefits are completely exempt from Louisiana state income tax.",
+    "eligibility": [
+      "Receiving military retirement benefits",
+      "Louisiana resident"
+    ],
+    "benefit_amount": "100% exemption on all military retirement income",
+    "how_to_apply": "Exclude from Louisiana income tax return",
+    "source_name": "Louisiana Department of Revenue",
+    "source_url": "https://revenue.louisiana.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "la_professional_licensing",
+    "state": "Louisiana",
+    "name": "Professional Licensure for Military Training",
+    "category": "Employment",
+    "description": "Louisiana veterans with military training and experience are granted civilian professional licensure and/or certification when awarded military occupational credentials. Accelerates transition to civilian employment.",
+    "eligibility": [
+      "Louisiana resident veteran",
+      "Military occupational specialty with civilian equivalent",
+      "Awarded military credentials"
+    ],
+    "benefit_amount": "Professional license/certification credit for military training",
+    "how_to_apply": "Apply through relevant Louisiana licensing board with military credentials",
+    "source_name": "Louisiana Department of Veterans Affairs",
+    "source_url": "https://vetaffairs.la.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "la_veterans_homes",
+    "state": "Louisiana",
+    "name": "Louisiana Veterans' Homes",
+    "category": "Healthcare",
+    "description": "State-operated veterans' homes providing long-term nursing care and assisted living for eligible Louisiana veterans.",
+    "eligibility": [
+      "Louisiana resident veteran",
+      "Need for long-term care",
+      "Honorable discharge"
+    ],
+    "benefit_amount": "Subsidized long-term care (rates vary by income)",
+    "how_to_apply": "Contact Louisiana Department of Veterans Affairs",
+    "source_name": "Louisiana Department of Veterans Affairs",
+    "source_url": "https://vetaffairs.la.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "la_emergency_assistance",
+    "state": "Louisiana",
+    "name": "Veterans Assistance Foundation Emergency Financial Aid",
+    "category": "Financial Assistance",
+    "description": "Emergency financial assistance for Louisiana veterans facing hardships including housing, utility bills, and emergency needs.",
+    "eligibility": [
+      "Louisiana resident veteran",
+      "Demonstrated financial emergency",
+      "Exhausted other resources"
+    ],
+    "benefit_amount": "Emergency grants (varies by need)",
+    "how_to_apply": "Contact Veterans Assistance Foundation of Louisiana (VAFL)",
+    "source_name": "Veterans Assistance Foundation of Louisiana",
+    "source_url": "https://vetaffairs.la.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "la_license_plates",
+    "state": "Louisiana",
+    "name": "Veteran License Plates",
+    "category": "Other",
+    "description": "Special veteran license plates available for Louisiana veterans with various designs for different service branches and medals.",
+    "eligibility": [
+      "Louisiana resident veteran",
+      "Honorable discharge",
+      "Valid vehicle registration"
+    ],
+    "benefit_amount": "Special veteran license plates",
+    "how_to_apply": "Apply through Louisiana OMV with DD-214",
+    "source_name": "Louisiana Office of Motor Vehicles",
+    "source_url": "https://www.expresslane.org/",
+    "last_verified": "2025-12-25"
+  }
+]

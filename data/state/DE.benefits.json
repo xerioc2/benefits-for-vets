@@ -1,0 +1,112 @@
+[
+  {
+    "id": "de_veterans_trust_fund_emergency_assistance",
+    "scope": "state",
+    "state": "DE",
+    "title": "Delaware Veteran’s Trust Fund (Emergency Financial Assistance)",
+    "summary": "Financial assistance for Delaware veterans and families facing verified emergency financial hardship (housing, utilities, health/welfare needs, etc.), based on fund availability.",
+    "requirements": {
+      "notes": "Eligibility is verified by Delaware Office of Veterans Services / Commission of Veterans Affairs; assistance depends on fund availability."
+    },
+    "eligibilityNotes": "Apply through Delaware Office of Veterans Services / Veterans Service Officer. Intended for verified emergency hardship; awards depend on available funds.",
+    "sourceUrl": "https://vets.delaware.gov/veterans-trust-fund/",
+    "tags": [
+      "financial",
+      "emergency",
+      "housing",
+      "utilities"
+    ],
+    "lastReviewed": "2025-12-30"
+  },
+  {
+    "id": "de_disabled_veterans_school_property_tax_credit",
+    "scope": "state",
+    "state": "DE",
+    "title": "Disabled Veterans School Property Tax Credit",
+    "summary": "Tax credit against 100% of non-vocational school district property tax for qualified disabled veterans (primary residence only).",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "notes": "Applications due by April 30 for upcoming tax year (per Delaware Dept. of Finance program page)."
+    },
+    "eligibilityNotes": "Applies only to non-vocational school district property tax on your primary residence. Submit application per Delaware Dept. of Finance guidance and deadlines.",
+    "sourceUrl": "https://finance.delaware.gov/disabled-veterans/",
+    "tags": [
+      "tax",
+      "property",
+      "housing",
+      "disabled"
+    ],
+    "lastReviewed": "2025-12-30"
+  },
+  {
+    "id": "de_dnrec_hunting_trapping_license_exemption_disabled_veteran",
+    "scope": "state",
+    "state": "DE",
+    "title": "Hunting & Trapping License Exemption (60%+ Service-Connected Disabled Veteran)",
+    "summary": "License exemption for hunting and trapping for honorably discharged veterans certified by the VA as at least 60% service-connected disabled (Delaware DNREC).",
+    "requirements": {
+      "minDisability": 60,
+      "requiresServiceConnected": true
+    },
+    "eligibilityNotes": "Use DNREC’s disabled veteran exemption application. Requires VA documentation of 60%+ service-connected disability and honorable discharge.",
+    "sourceUrl": "https://documents.dnrec.delaware.gov/fw/Licensing/Disabled-Veterans-Exempt-Application.pdf",
+    "tags": [
+      "recreation",
+      "hunting",
+      "trapping",
+      "disabled"
+    ],
+    "lastReviewed": "2025-12-30"
+  },
+  {
+    "id": "de_dmv_military_specialty_license_plates",
+    "scope": "state",
+    "state": "DE",
+    "title": "Delaware DMV Military & Veteran Specialty Plates",
+    "summary": "Specialty plates for veterans/service members (e.g., Purple Heart, Disabled Veteran, former POW, etc.) through Delaware DMV.",
+    "requirements": {
+      "notes": "Eligibility varies by plate type; documentation required."
+    },
+    "eligibilityNotes": "Select the plate type you qualify for and follow Delaware DMV application instructions/document requirements.",
+    "sourceUrl": "https://dmv.de.gov/VehicleServices/tags/specialty-plates/pages.shtml?dc=military",
+    "tags": [
+      "dmv",
+      "license-plates",
+      "recognition"
+    ],
+    "lastReviewed": "2025-12-30"
+  },
+  {
+    "id": "de_state_parks_military_pass_discount",
+    "scope": "state",
+    "state": "DE",
+    "title": "Delaware State Parks Military Pass",
+    "summary": "Discounted annual Delaware State Parks pass (Delaware Military Pass) available for eligible military/veterans.",
+    "requirements": {
+      "notes": "Pricing and eligibility are managed by Delaware State Parks; see current pass information."
+    },
+    "eligibilityNotes": "Purchase the Delaware Military Pass through Delaware State Parks channels; provides discounted access during the fee season.",
+    "sourceUrl": "https://news.delaware.gov/2024/11/27/2025-delaware-state-parks-annual-passes-surf-fishing-permits-to-go-on-sale-dec-3/",
+    "tags": [
+      "recreation",
+      "state-parks"
+    ],
+    "lastReviewed": "2025-12-30"
+  },
+  {
+    "id": "de_state_veterans_benefits_portal",
+    "scope": "state",
+    "state": "DE",
+    "title": "Delaware Veterans Benefits (State Benefits Portal)",
+    "summary": "Central page from Delaware Office of Veterans Services listing major state-provided veteran benefits and links (plates, programs, and services).",
+    "requirements": {},
+    "eligibilityNotes": "Use this as the authoritative hub to discover Delaware-specific programs and find the correct application links.",
+    "sourceUrl": "https://vets.delaware.gov/veterans-benefits/",
+    "tags": [
+      "info",
+      "state-veterans-affairs"
+    ],
+    "lastReviewed": "2025-12-30"
+  }
+]

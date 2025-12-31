@@ -1,0 +1,74 @@
+[
+  {
+    "id": "mt_honorably_discharged_veteran_tuition_waiver",
+    "scope": "state",
+    "state": "MT",
+    "title": "Montana Honorably Discharged Veteran Tuition Waiver (MUS)",
+    "summary": "Last-dollar tuition waiver for eligible honorably discharged veterans attending Montana University System (MUS) campuses; covers tuition only (limitations apply).",
+    "requirements": {
+      "notes": "Calculated on in-state tuition; other grants/scholarships applied to tuition reduce the waiver; not available for some flat-fee courses (see fact sheet)."
+    },
+    "eligibilityNotes": "Apply via AwardMontana / MUS process. Typically requires honorable discharge, Montana residency, and proof that VA education benefits were used and exhausted/expired (see campus guidance/fact sheet).",
+    "sourceUrl": "https://www.mus.edu/Prepare/Pay/Waivers/VTW-FACT-SHEET%20and%20Application%20instructions.pdf",
+    "tags": [
+      "education",
+      "tuition",
+      "university"
+    ],
+    "lastReviewed": "2025-12-30"
+  },
+  {
+    "id": "mt_montana_national_guard_tuition_waiver",
+    "scope": "state",
+    "state": "MT",
+    "title": "Montana National Guard Tuition Waiver (MUS)",
+    "summary": "Tuition waiver for eligible Montana National Guard members attending eligible Montana postsecondary institutions (MUS campuses and community colleges).",
+    "requirements": {
+      "notes": "Eligibility criteria and participating institutions are listed in MUS program documentation."
+    },
+    "eligibilityNotes": "Guard members apply under the MUS/OCHE process; tuition waiver applies per program rules and only at eligible institutions.",
+    "sourceUrl": "https://www.mus.edu/Prepare/Pay/MNGTW-Eligibility-and-Procedures.pdf",
+    "tags": [
+      "education",
+      "tuition",
+      "national-guard"
+    ],
+    "lastReviewed": "2025-12-30"
+  },
+  {
+    "id": "mt_applymontana_national_guard_waiver_overview",
+    "scope": "state",
+    "state": "MT",
+    "title": "Montana National Guard Waiver Overview (ApplyMontana)",
+    "summary": "Program overview and eligibility checklist for the Montana National Guard tuition waiver.",
+    "requirements": {},
+    "eligibilityNotes": "Use this page as a quick eligibility reference and to find the official application flow links.",
+    "sourceUrl": "https://applymontana.mus.edu/paying-for-school/tuition-waivers/who-qualifies.html",
+    "tags": [
+      "education",
+      "tuition",
+      "national-guard",
+      "info"
+    ],
+    "lastReviewed": "2025-12-30"
+  },
+  {
+    "id": "mt_fwp_combat_disabled_hunting_licenses",
+    "scope": "state",
+    "state": "MT",
+    "title": "Montana FWP Disabled/Combat-Disabled Hunting & Fishing Licenses (Selected Programs)",
+    "summary": "Montana Fish, Wildlife & Parks (FWP) provides certain discounted license options for qualifying combat-disabled veterans (limited quantities/eligibility rules apply).",
+    "requirements": {
+      "notes": "See FWP rules for combat-disabled eligibility and annual application windows/limits."
+    },
+    "eligibilityNotes": "Review FWP eligibility criteria and submit the relevant annual application(s) for the specific program/license.",
+    "sourceUrl": "https://fwp.mt.gov/buyandapply/hunting-licenses/disabled-licenses",
+    "tags": [
+      "recreation",
+      "hunting",
+      "fishing",
+      "disabled"
+    ],
+    "lastReviewed": "2025-12-30"
+  }
+]

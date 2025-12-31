@@ -1,0 +1,339 @@
+[
+  {
+    "id": "nv_ng_tuition",
+    "state": "Nevada",
+    "name": "Nevada National Guard Tuition Waiver",
+    "category": "Education",
+    "description": "100% waiver of resident tuition and certain lab fees at Nevada state-supported institutions for active Nevada National Guard members in good standing. Transferable to immediate family members (spouse or dependent child). NOT available at: William S. Boyd School of Law, UNR School of Medicine, UNLV School of Dental Medicine. Must maintain 2.0 GPA.",
+    "eligibility": [
+      "Active Nevada National Guard member in good standing",
+      "OR immediate family (transferable benefit)",
+      "Maintain 2.0 GPA",
+      "At beginning and throughout entire semester"
+    ],
+    "benefit_amount": "100% tuition + lab fee waiver (excludes law, medicine, dental schools)",
+    "how_to_apply": "Contact institution's veterans office; call 775-887-7326",
+    "source_name": "Nevada National Guard / University of Nevada System",
+    "source_url": "https://nshe.nevada.edu/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nv_purple_heart_tuition",
+    "state": "Nevada",
+    "name": "Purple Heart FREE Tuition",
+    "category": "Education",
+    "description": "Veterans awarded the Purple Heart receive FREE tuition at ANY Nevada state school. Veteran does NOT need to be Nevada resident. Registration, laboratory, and other mandatory fees are waived. Student deemed bona fide Nevada resident for tuition purposes.",
+    "eligibility": [
+      "Awarded Purple Heart for U.S. Armed Forces service",
+      "Does NOT require Nevada residency"
+    ],
+    "benefit_amount": "FREE tuition + registration + lab + mandatory fees (all state schools)",
+    "how_to_apply": "Submit Purple Heart documentation to Nevada institution",
+    "source_name": "Nevada System of Higher Education",
+    "source_url": "https://nshe.nevada.edu/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nv_ng_kia_tuition",
+    "state": "Nevada",
+    "name": "Tuition Waiver for Children/Spouse of KIA National Guard",
+    "category": "Education",
+    "description": "Children or surviving spouse of Nevada National Guard member killed in line of duty receive waiver of resident tuition and lab fees at state institutions. Child: 10 years after age 18. Surviving spouse: 10 years after member's death. NOT available at law, medicine, or dental schools.",
+    "eligibility": [
+      "Child OR surviving spouse of NV National Guard member KIA",
+      "Child: within 10 years after turning 18",
+      "Spouse: within 10 years of member's death"
+    ],
+    "benefit_amount": "Tuition + lab fee waiver (excludes law/medicine/dental)",
+    "how_to_apply": "Contact Nevada System of Higher Education with KIA documentation",
+    "source_name": "Nevada System of Higher Education",
+    "source_url": "https://nshe.nevada.edu/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nv_active_duty_kia_grant",
+    "state": "Nevada",
+    "name": "Financial Grant for Dependents of Active Duty KIA",
+    "category": "Financial Assistance",
+    "description": "Dependents of active-duty member killed in line of duty while permanently stationed in Nevada may be eligible for financial grant that does NOT require repayment.",
+    "eligibility": [
+      "Dependent of active duty member",
+      "Member killed in line of duty",
+      "Member permanently stationed in Nevada"
+    ],
+    "benefit_amount": "Financial grant (no repayment required)",
+    "how_to_apply": "Contact Nevada Department of Veterans Services",
+    "source_name": "Nevada Department of Veterans Services",
+    "source_url": "https://veterans.nv.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nv_instate_tuition_active",
+    "state": "Nevada",
+    "name": "In-State Tuition for Active Duty and Dependents",
+    "category": "Education",
+    "description": "Military personnel receive waiver of non-resident fees. Spouses and children of active duty and Nevada National Guard members receive waiver of nonresident fees. If active duty member receives PCS to state other than Nevada, spouses/dependent children REMAIN Nevada residents for tuition as long as continuously enrolled.",
+    "eligibility": [
+      "Active duty stationed in Nevada OR spouse/child",
+      "OR Nevada National Guard member spouse/child",
+      "Continuous enrollment maintained if PCS out of state"
+    ],
+    "benefit_amount": "In-state tuition rates (non-resident fee waiver)",
+    "how_to_apply": "Submit military orders/ID to Nevada institution",
+    "source_name": "Nevada System of Higher Education",
+    "source_url": "https://nshe.nevada.edu/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nv_property_tax_wartime",
+    "state": "Nevada",
+    "name": "Wartime Veteran Property Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Annual property tax exemption for Nevada veterans who served in U.S. Armed Forces during wartime period. 2024-2025: $3,440 assessed value deduction. Can apply to vehicle privilege tax OR real property tax. Minimum 90 continuous days active duty with one day during wartime. Surviving spouses also eligible.",
+    "eligibility": [
+      "Nevada resident veteran",
+      "90+ continuous days active duty",
+      "At least 1 day during wartime period",
+      "Honorable discharge",
+      "OR unremarried surviving spouse"
+    ],
+    "benefit_amount": "$3,440 assessed value deduction (2024-2025) for vehicle OR property tax",
+    "how_to_apply": "Apply annually with County Assessor; valid NV license/ID + DD-214",
+    "source_name": "Nevada Department of Taxation",
+    "source_url": "https://tax.nv.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nv_disabled_property_60",
+    "state": "Nevada",
+    "name": "Disabled Veteran Property Tax Exemption (60%+)",
+    "category": "Tax Benefits",
+    "description": "Property tax exemption for veterans with permanent service-connected disability of 60% or higher. Amount depends on degree of disability. Can apply to vehicle tax OR personal property tax. Surviving spouse may also be eligible.",
+    "eligibility": [
+      "Nevada resident veteran",
+      "60% or higher permanent service-connected disability",
+      "Honorable discharge",
+      "OR surviving spouse of eligible veteran"
+    ],
+    "benefit_amount": "Exemption amount based on disability percentage (60%-100%)",
+    "how_to_apply": "Apply with County Assessor; NV license/ID + DD-214 + VA disability documentation",
+    "source_name": "Nevada Department of Taxation",
+    "source_url": "https://tax.nv.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nv_vehicle_exemption_donate",
+    "state": "Nevada",
+    "name": "Motor Vehicle Registration Fee Reduction (OR Donation)",
+    "category": "Tax Benefits",
+    "description": "Veterans entitled to property tax exemption without sufficient property to claim full exemption may pay motor vehicle registration fees at TWO-THIRDS the usual rate. Alternatively, can DONATE exemption to Gift Account for Veterans Home in Southern Nevada.",
+    "eligibility": [
+      "Nevada resident veteran entitled to property tax exemption",
+      "Insufficient property to claim full exemption"
+    ],
+    "benefit_amount": "2/3 rate on vehicle registration OR donate to Veterans Home",
+    "how_to_apply": "Apply at DMV with exemption number OR request paper voucher from Assessor",
+    "source_name": "Nevada DMV",
+    "source_url": "https://dmv.nv.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nv_ng_sales_tax_nevada_day",
+    "state": "Nevada",
+    "name": "Nevada Day 3-Day Sales Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Nevada National Guard members and their immediate families eligible for 3-day sales tax exemption for Nevada Day holiday.",
+    "eligibility": [
+      "Nevada National Guard member",
+      "OR immediate family member"
+    ],
+    "benefit_amount": "3-day sales tax exemption during Nevada Day",
+    "how_to_apply": "Present Guard ID during Nevada Day holiday period",
+    "source_name": "Nevada Department of Taxation",
+    "source_url": "https://tax.nv.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nv_employment_5_10_points",
+    "state": "Nevada",
+    "name": "Veterans Employment Preference Points",
+    "category": "Employment",
+    "description": "Veterans and surviving spouses of line-of-duty deaths receive 10 points added to passing exam grade. Guard/Reserve members and other surviving spouses receive 5 points. Disabled veterans GUARANTEED interview. Non-disabled veterans must make up 22% of those interviewed for any open state job.",
+    "eligibility": [
+      "Nevada veteran (10 pts) OR Guard/Reserve (5 pts)",
+      "OR surviving spouse line-of-duty (10 pts) OR other spouse (5 pts)",
+      "Other-than-dishonorable discharge"
+    ],
+    "benefit_amount": "5-10 preference points + guaranteed interview (disabled) + 22% interview requirement",
+    "how_to_apply": "Declare intent at application; submit proof of eligibility",
+    "source_name": "Nevada Department of Administration",
+    "source_url": "https://hr.nv.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nv_state_employee_military_leave",
+    "state": "Nevada",
+    "name": "State Employee Military Leave + Differential Pay",
+    "category": "Employment",
+    "description": "Nevada state employees in reserve components authorized 15 working days WITH PAY per year for approved training/deployment. If military pay less than state salary, receive DIFFERENCE between salary and military pay for those hours.",
+    "eligibility": [
+      "Nevada state employee",
+      "Reserve component member",
+      "Training or deployment orders"
+    ],
+    "benefit_amount": "15 paid days/year + differential pay (if military < state salary)",
+    "how_to_apply": "Follow state employee military leave procedures with orders",
+    "source_name": "Nevada Department of Administration",
+    "source_url": "https://hr.nv.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nv_employment_services",
+    "state": "Nevada",
+    "name": "Nevada Employment Security Division Veteran Services",
+    "category": "Employment",
+    "description": "Veteran Employment Services designed to assist veterans and spouses with career development, job placement, training services.",
+    "eligibility": [
+      "Nevada resident veteran OR military spouse",
+      "Seeking employment or training"
+    ],
+    "benefit_amount": "Free employment services and career assistance",
+    "how_to_apply": "Contact Nevada Employment Security Division",
+    "source_name": "Nevada Department of Employment, Training and Rehabilitation",
+    "source_url": "https://detr.nv.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nv_omla_legal",
+    "state": "Nevada",
+    "name": "Office of Military Legal Assistance (OMLA)",
+    "category": "Other",
+    "description": "FREE (pro bono) legal assistance and representation to active duty, Reserve, and Guard members in wide range of civil law matters. Also provides wills and powers of attorney to ALL veterans (not just active/Guard/Reserve). Statewide program combining legal aid, private sponsors, State Bar of Nevada.",
+    "eligibility": [
+      "Active duty OR Reserve OR Guard (civil law + wills/POA)",
+      "OR veteran (wills and powers of attorney)"
+    ],
+    "benefit_amount": "FREE legal assistance, representation, wills, powers of attorney",
+    "how_to_apply": "Call 775-687-2140 or email nvagomla@ag.nv.gov",
+    "source_name": "Nevada Attorney General's Office",
+    "source_url": "https://ag.nv.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nv_hunting_fishing_100",
+    "state": "Nevada",
+    "name": "Combination Hunting/Fishing License ($15) for 50%+ Disabled",
+    "category": "Recreation",
+    "description": "Nevada resident veterans with 50% or higher service-connected disability receive combination hunting and fishing license for only $15.",
+    "eligibility": [
+      "Nevada resident veteran",
+      "50% or higher VA service-connected disability"
+    ],
+    "benefit_amount": "Combination hunting/fishing license for $15",
+    "how_to_apply": "Apply through Nevada Department of Wildlife with VA documentation",
+    "source_name": "Nevada Department of Wildlife",
+    "source_url": "https://www.ndow.org/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nv_stationed_outside_hunting",
+    "state": "Nevada",
+    "name": "$15 Combo License for Service Members Stationed Outside Nevada",
+    "category": "Recreation",
+    "description": "Nevada resident service members stationed outside Nevada receive discounted $15 combination hunting and fishing license. Must show military ID and proof of duty station.",
+    "eligibility": [
+      "Nevada resident service member",
+      "Stationed outside Nevada",
+      "Military ID + proof of duty station"
+    ],
+    "benefit_amount": "$15 combination hunting/fishing license",
+    "how_to_apply": "Purchase from Nevada Department of Wildlife with military ID + duty station proof",
+    "source_name": "Nevada Department of Wildlife",
+    "source_url": "https://www.ndow.org/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nv_on_leave_hunting",
+    "state": "Nevada",
+    "name": "Discounted License for Residents Home on Leave",
+    "category": "Recreation",
+    "description": "Nevada residents stationed outside Nevada and home on leave receive discounted combination hunting and fishing license.",
+    "eligibility": [
+      "Nevada resident service member",
+      "Stationed outside Nevada",
+      "Home on leave"
+    ],
+    "benefit_amount": "Discounted combination hunting/fishing license",
+    "how_to_apply": "Apply with Nevada Department of Wildlife; show military ID + leave papers",
+    "source_name": "Nevada Department of Wildlife",
+    "source_url": "https://www.ndow.org/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nv_license_plates",
+    "state": "Nevada",
+    "name": "Nevada Veterans License Plates",
+    "category": "Other",
+    "description": "Special veteran license plates available. $17 one-time fee for most plates plus annual vehicle license fee. FREE plates for: 100% disabled, POWs, Purple Heart, Pearl Harbor survivors, VA auto grant recipients. Various branch-specific and recognition plates.",
+    "eligibility": [
+      "Nevada honorably discharged veteran",
+      "Proof of service and eligibility",
+      "Some plates FREE (100% disabled, POW, Purple Heart, etc.)"
+    ],
+    "benefit_amount": "$17 one-time fee (most plates) OR FREE (qualifying veterans)",
+    "how_to_apply": "Apply at Nevada DMV with proof of service/eligibility",
+    "source_name": "Nevada DMV",
+    "source_url": "https://dmv.nv.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nv_gold_star_plates",
+    "state": "Nevada",
+    "name": "Gold Star Family License Plates",
+    "category": "Other",
+    "description": "Gold Star Family License Plate available for families with son, daughter, stepson, stepdaughter, parent, or step-parent killed in combat. 4-plate limit per family.",
+    "eligibility": [
+      "Family member killed in combat",
+      "Includes: son, daughter, stepson, stepdaughter, parent, step-parent",
+      "Maximum 4 plates per family"
+    ],
+    "benefit_amount": "Gold Star Family special license plates",
+    "how_to_apply": "Apply at Nevada DMV with casualty documentation",
+    "source_name": "Nevada DMV",
+    "source_url": "https://dmv.nv.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nv_veterans_homes",
+    "state": "Nevada",
+    "name": "Nevada State Veterans Homes",
+    "category": "Healthcare",
+    "description": "Two state veterans homes: Northern (Sparks - 96 beds, private rooms, opened 2018) and Southern (Boulder City - 180 beds, nursing services, Alzheimer's/dementia care).",
+    "eligibility": [
+      "Nevada resident veteran",
+      "Honorable discharge",
+      "Medical need demonstrated"
+    ],
+    "benefit_amount": "Subsidized skilled nursing care (2 locations, 276 total beds)",
+    "how_to_apply": "Contact Nevada Department of Veterans Services for admissions",
+    "source_name": "Nevada Department of Veterans Services",
+    "source_url": "https://veterans.nv.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nv_cemeteries",
+    "state": "Nevada",
+    "name": "Nevada State Veterans Cemeteries",
+    "category": "Other",
+    "description": "Three state veterans cemeteries in Angel Fire, Fort Stanton, and Gallup. Open to honorably discharged veterans and spouses.",
+    "eligibility": [
+      "Honorably discharged veteran",
+      "OR spouse of eligible veteran"
+    ],
+    "benefit_amount": "Burial at state veterans cemetery (3 locations)",
+    "how_to_apply": "Contact Nevada Department of Veterans Services",
+    "source_name": "Nevada Department of Veterans Services",
+    "source_url": "https://veterans.nv.gov/",
+    "last_verified": "2025-12-30"
+  }
+]

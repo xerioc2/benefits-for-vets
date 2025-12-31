@@ -1,0 +1,284 @@
+[
+  {
+    "id": "nc_property_tax_exclusion_disabled_veteran",
+    "scope": "state",
+    "state": "NC",
+    "title": "Disabled Veteran Property Tax Exclusion",
+    "summary": "Property tax exclusion excluding the first $45,000 of appraised value for qualifying disabled veterans and surviving spouses in North Carolina.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null,
+      "notes": "Excludes the first $45,000 of appraised value of the primary residence from property taxes."
+    },
+    "eligibilityNotes": "Applies to veterans rated 100% service-connected and totally disabled by the VA, or qualifying surviving spouses who receive Dependency and Indemnity Compensation from VA. Apply through the county tax assessor by June 1 annually.",
+    "sourceUrl": "https://www.ncdor.gov/taxes-forms/property-tax/property-tax-exclusions-and-exemptions/disabled-veteran-exclusion",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "nc_vehicle_property_tax_exemption_disabled_vet",
+    "scope": "state",
+    "state": "NC",
+    "title": "Motor Vehicle Property Tax Exemption (Disabled Veteran)",
+    "summary": "Property tax exemption on one motor vehicle owned by a qualifying disabled veteran.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null,
+      "notes": "Applies to one vehicle owned and registered by the veteran."
+    },
+    "eligibilityNotes": "Must be rated 100% service-connected and totally disabled. Apply through the county tax office.",
+    "sourceUrl": "https://www.ncdor.gov/taxes-forms/property-tax/property-tax-exclusions-and-exemptions/disabled-veteran-exclusion",
+    "tags": ["tax", "vehicle"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "nc_children_wartime_veterans_scholarship",
+    "scope": "state",
+    "state": "NC",
+    "title": "NC Scholarship for Children of Wartime Veterans",
+    "summary": "Free tuition, room and board, and exemption from certain mandatory fees at NC public institutions for up to 8 semesters (four academic years) for children of qualifying wartime veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "5 eligibility classes based on veteran status: I-A (died in wartime/service-connected), I-B (POW 90+ days), II (combat), III (20%+ disabled wartime), IV (wartime service). Must be under 25 at application."
+    },
+    "eligibilityNotes": "Class I-A: Free tuition at public colleges OR $4,500/year at private/junior colleges. Classes I-B through IV: Free tuition at public institutions or varying amounts at private colleges. Child must be NC resident and veteran must have been NC resident at service entry or child born in NC.",
+    "sourceUrl": "https://www.ncdva.mil/",
+    "tags": ["education", "scholarship", "dependents", "tuition"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "nc_national_guard_tuition",
+    "scope": "state",
+    "state": "NC",
+    "title": "North Carolina National Guard Tuition Assistance",
+    "summary": "Tuition reimbursement for active NC Army or Air National Guard members pursuing approved degrees.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must be active Guard member with no disciplinary actions, attending approved certificate/degree program, with 2 years remaining on contract."
+    },
+    "eligibilityNotes": "Tuition may be reimbursed for associate, bachelor, or graduate degrees at approved institutions. Funding limited and dependent on annual appropriations. Satisfactory academic progress required.",
+    "sourceUrl": "https://nc.ng.mil/",
+    "tags": ["education", "tuition", "national_guard"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "nc_in_state_tuition_veterans",
+    "scope": "state",
+    "state": "NC",
+    "title": "In-State Tuition for Veterans and GI Bill Recipients",
+    "summary": "Veterans and GI Bill recipients residing in NC receive in-state tuition rates without 12-month residency requirement.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must have served 90+ days active duty with honorable discharge, AND either stationed in NC 90+ days OR using transferred GI Bill while transferor on active duty."
+    },
+    "eligibilityNotes": "Active duty stationed in NC and spouses/dependents using GI Bill receive in-state tuition. Veterans separated within 36 months also eligible. Choice Act covers Post-9/11 GI Bill, Fry Scholarship, MGIB, VR&E, and DEA recipients.",
+    "sourceUrl": "https://veterans.ncsu.edu/benefits/residency/",
+    "tags": ["education", "tuition"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "nc_military_occupational_licensing",
+    "scope": "state",
+    "state": "NC",
+    "title": "Military Occupational Licensing Credit",
+    "summary": "Military experience counts toward educational requirements for professional licenses if substantially equivalent to or exceeds licensure requirements.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Military career specialty must be substantially equivalent to license requirements."
+    },
+    "eligibilityNotes": "Veterans may qualify for professional licensing credit based on military training and experience. Contact appropriate licensing board.",
+    "sourceUrl": "https://www.ncdva.mil/",
+    "tags": ["employment", "licensing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "nc4me_employment_program",
+    "scope": "state",
+    "state": "NC",
+    "title": "NC4ME Employment Program",
+    "summary": "Free employment resources, hiring events, and business education for veterans, transitioning service members, Guard/Reserve, and military spouses.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Free for all veterans, transitioning service members, Guard/Reserve members, and military spouses."
+    },
+    "eligibilityNotes": "Educates business leaders on value of hiring military workforce, hosts hiring events, connects to education/training opportunities. All tools and services free.",
+    "sourceUrl": "https://www.ncdva.mil/",
+    "tags": ["employment", "job_placement"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "nc_hunting_fishing_license_disabled_veteran",
+    "scope": "state",
+    "state": "NC",
+    "title": "Disabled Veteran Lifetime Hunting & Fishing License",
+    "summary": "Lifetime hunting and fishing licenses available at various price points ($10-$110) for disabled veterans based on disability rating.",
+    "requirements": {
+      "minDisability": 50,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Veteran must be a North Carolina resident. Price varies by license type and disability level."
+    },
+    "eligibilityNotes": "Available to veterans with a service-connected disability of 50% or greater. Range of lifetime licenses available from $10 to $110 depending on type. Issued through the NC Wildlife Resources Commission.",
+    "sourceUrl": "https://www.ncwildlife.org/Licensing/Licenses/Disabled-Veteran-Licenses",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "nc_state_parks_disabled_veteran_pass",
+    "scope": "state",
+    "state": "NC",
+    "title": "North Carolina State Parks Free Annual Pass for Disabled Veterans",
+    "summary": "Free annual pass to state parks with discounted equipment rentals for veterans with service-connected disabilities.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Must have service-connected disability. Discounts vary by park and facility."
+    },
+    "eligibilityNotes": "Veterans with service-connected disabilities receive free annual pass to NC state parks plus discounted camping and equipment rentals. Proof of VA disability required at time of reservation or check-in.",
+    "sourceUrl": "https://www.ncparks.gov/about-us/fees/fee-exemptions",
+    "tags": ["recreation", "state_parks", "camping"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "nc_employment_preference",
+    "scope": "state",
+    "state": "NC",
+    "title": "North Carolina Veterans Employment Preference",
+    "summary": "Up to 10 points on competitive exams for state government positions for qualifying veterans and family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": true,
+      "notes": "Disabled veterans may receive additional preference. Extends to spouses and dependents of disabled/deceased veterans."
+    },
+    "eligibilityNotes": "Applies to qualifying veterans seeking North Carolina state employment for initial hire and may extend to promotions/reassignments. Documentation such as DD-214 required. Spouses of disabled veterans and surviving spouses/dependents of those who died on active duty also eligible.",
+    "sourceUrl": "https://oshr.nc.gov/work-nc/veterans-employment-preference",
+    "tags": ["employment", "preference", "civil_service"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "nc_driver_license_veteran_designation",
+    "scope": "state",
+    "state": "NC",
+    "title": "Veteran Designation on NC Driver License / ID",
+    "summary": "Veterans may add a Veteran designation to a North Carolina driver license or ID card.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Requires verification of veteran status through the NC Division of Veterans Affairs."
+    },
+    "eligibilityNotes": "Veterans must obtain verification from NCDVA before visiting the DMV. Can renew by mail if out of state on military orders.",
+    "sourceUrl": "https://www.ncdva.mil/services/driver-license-veteran-designation",
+    "tags": ["id", "dmv", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "nc_free_veteran_license_plates",
+    "scope": "state",
+    "state": "NC",
+    "title": "Free or Reduced-Cost Veteran License Plates",
+    "summary": "North Carolina offers free or reduced-cost license plates for qualifying veterans and disabled veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Disabled veteran plates are at no cost. Standard veteran plates may have reduced fees."
+    },
+    "eligibilityNotes": "Military discharge paperwork required. For disabled veterans, most recent VA award letter also required.",
+    "sourceUrl": "https://www.ncdva.mil/",
+    "tags": ["vehicle", "license_plate", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "nc_state_veterans_homes",
+    "scope": "state",
+    "state": "NC",
+    "benefitType": "facility",
+    "title": "North Carolina State Veterans Homes",
+    "summary": "Long-term skilled nursing care facilities for eligible veterans at multiple locations throughout NC.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Admission depends on medical need, eligibility, and bed availability."
+    },
+    "eligibilityNotes": "Applicants must meet VA and state eligibility criteria. Homes located in multiple regions of North Carolina. 10-year NC residency requirement OR resident at time of death for burial.",
+    "sourceUrl": "https://www.ncdva.mil/services/nc-state-veterans-homes",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "nc_state_veterans_cemeteries",
+    "scope": "state",
+    "state": "NC",
+    "benefitType": "facility",
+    "title": "North Carolina State Veterans Cemeteries",
+    "summary": "State-operated veterans cemeteries providing free burial for eligible veterans (modest fee for spouses/dependents).",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility generally aligns with VA national cemetery rules. Residency requirement: 10+ years NC resident OR resident at time of death."
+    },
+    "eligibilityNotes": "Four cemetery locations: Black Mountain, Goldsboro, Jacksonville, and Spring Lake. Services include burial plot, opening/closing grave, marker and installation, perpetual care at no cost for veterans. Pre-need eligibility determination recommended.",
+    "sourceUrl": "https://www.ncdva.mil/services/cemeteries",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "nc_va_medical_transportation",
+    "scope": "state",
+    "state": "NC",
+    "title": "Transportation to VA Medical Centers",
+    "summary": "State-provided transportation to federal VA medical centers within range of certain state VA facilities.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Available from certain state VA facility locations."
+    },
+    "eligibilityNotes": "North Carolina provides transportation assistance to VA medical centers for eligible veterans. Contact local VA facility for details.",
+    "sourceUrl": "https://www.ncdva.mil/",
+    "tags": ["transportation", "healthcare"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "nc_ncvvi_scholarship",
+    "scope": "state",
+    "state": "NC",
+    "title": "NC Vietnam Veterans Inc. Grant Scholarships",
+    "summary": "Grant scholarships from $250 to $1,500 for Vietnam veterans pursuing undergraduate study.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "For Vietnam-era veterans. Amounts subject to change based on funding."
+    },
+    "eligibilityNotes": "Available for undergraduate study at approved colleges, junior colleges, community colleges, or trade schools. Contact NC Vietnam Veterans Inc. for current amounts and application.",
+    "sourceUrl": "https://www.ncdva.mil/",
+    "tags": ["education", "scholarship", "vietnam"],
+    "lastReviewed": "2025-12-24"
+  }
+]

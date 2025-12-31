@@ -1,0 +1,123 @@
+[
+  {
+    "id": "in_property_tax_deduction_totally_disabled_veteran",
+    "scope": "state",
+    "state": "IN",
+    "title": "Disabled Veteran Property Tax Deduction ($24,960 assessed value deduction)",
+    "summary": "Deduction from assessed value for a veteran with a total disability (reduces property tax burden).",
+    "requirements": {
+      "minDisability": 0,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": true,
+      "notes": "Indiana law allows an eligible individual to deduct $24,960 from assessed value under specified criteria."
+    },
+    "eligibilityNotes": "Eligibility details and documentation are governed by Indiana statute and administered locally (typically through the county).",
+    "sourceUrl": "https://codes.findlaw.com/in/title-6-taxation/in-code-sect-6-1-1-12-13/",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "in_child_of_deceased_or_disabled_veteran_tuition_program",
+    "scope": "state",
+    "state": "IN",
+    "title": "Child of Deceased or Disabled Veteran – Tuition & Fee Coverage",
+    "summary": "Covers up to 100% of tuition and regularly assessed fees at Indiana public colleges (and up to a cap at eligible private non-profit schools).",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Program details include credit-hour limits and different rules depending on institution type."
+    },
+    "eligibilityNotes": "Indiana Commission for Higher Education program; coverage includes public institutions and capped assistance at eligible private non-profit schools.",
+    "sourceUrl": "https://www.in.gov/che/state-financial-aid/state-financial-aid-by-program/",
+    "tags": ["education", "dependents", "tuition"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "in_purple_heart_or_wounded_veteran_child_tuition_program",
+    "scope": "state",
+    "state": "IN",
+    "title": "Child of Purple Heart Recipient or Wounded Veteran – Tuition & Fee Coverage",
+    "summary": "Tuition and regularly assessed fee coverage for eligible children at Indiana public colleges and capped support at certain private non-profit schools.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Program rules include maximum credit hours and eligible institution rules."
+    },
+    "eligibilityNotes": "Administered as part of Indiana’s state financial aid programs; see program page for details and application path.",
+    "sourceUrl": "https://www.in.gov/che/state-financial-aid/state-financial-aid-by-program/",
+    "tags": ["education", "dependents", "tuition"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "in_indiana_veterans_home",
+    "scope": "state",
+    "state": "IN",
+    "benefitType": "facility",
+    "title": "Indiana Veterans’ Home (IVH) – Long-Term Care",
+    "summary": "State veterans home providing nursing care and related services for eligible veterans (and in some cases spouses).",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Residency requirements, background check, medical need, and bed availability may apply."
+    },
+    "eligibilityNotes": "Applicants generally must meet IVH eligibility requirements and submit an admissions packet; see IVH admissions pages for details.",
+    "sourceUrl": "https://www.in.gov/ivh/admissions-information/how-do-i-apply/",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "in_veterans_memorial_cemetery_madison",
+    "scope": "state",
+    "state": "IN",
+    "benefitType": "facility",
+    "title": "Indiana Veterans Memorial Cemetery (Madison) – Burial Benefits",
+    "summary": "State veterans cemetery program with eligibility information and pre-need determination options.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Eligibility and required documentation apply; pre-need eligibility determination available."
+    },
+    "eligibilityNotes": "Operated by Indiana DVA; see the cemetery page for applications and eligibility requirements.",
+    "sourceUrl": "https://www.in.gov/dva/veterans-memorial-cemetery/",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "in_military_cdl_skills_waiver",
+    "scope": "state",
+    "state": "IN",
+    "title": "Military CDL Skills Examination Waiver (Indiana BMV)",
+    "summary": "Eligible service members/veterans may qualify for a waiver of the CDL skills test under the military skills waiver program.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "CDL eligibility requirements apply; waiver details are provided on the Indiana BMV CDL pages."
+    },
+    "eligibilityNotes": "Use Indiana BMV guidance for the Military CDL Skills Examination Waiver Program requirements and process.",
+    "sourceUrl": "https://www.in.gov/bmv/licenses-permits-ids/commercial-drivers-license-overview/",
+    "tags": ["employment", "dmv", "cdl"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+  "id": "in_ngsg",
+  "scope": "state",
+  "state": "IN",
+  "title": "National Guard Supplemental Grant (NGSG)",
+  "summary": "Guarantees up to 100% tuition and regularly assessed fees for Indiana National Guard members attending Indiana public institutions for their first associate, bachelor, or master degree.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be IN Guard member BEFORE applying. Must be IN resident, high school graduate or GED. Part-time (3-11 hours) or full-time (12-15 hours) enrollment. Unit certification required each semester."
+  },
+  "eligibilityNotes": "IN state grant program for active IN Army/Air National Guard members in good standing. Covers up to 100% tuition and regularly assessed fees at IN public institutions for first associate, bachelor, or master degree. Must file FAFSA by March 10 (error-free by May 15) annually. Must maintain Satisfactory Academic Progress (SAP) per institution. Must be IN Guard member before applying - cannot join retroactively. Unit commander certification required each semester. Annual application resets every June. Applications due no later than 5 days before classes start. Apply through ScholarTrack.IN.gov. Contact unit education office or ng.in.arng.list.j1arp-eds@army.mil for questions.",
+  "sourceUrl": "https://www.in.gov/indiana-national-guard/troop-family-resources/education-services/national-guard-supplemental-grant-ngsg/",
+  "tags": ["education", "tuition", "national_guard", "grant"],
+  "lastReviewed": "2025-12-25"
+}
+]

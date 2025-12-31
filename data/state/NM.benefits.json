@@ -1,0 +1,307 @@
+[
+  {
+    "id": "nm_nmgef",
+    "state": "New Mexico",
+    "name": "New Mexico Guard Education Fund (NMGEF)",
+    "category": "Education",
+    "description": "Pays 100% of tuition and fees at ANY New Mexico public post-secondary institution for New Mexico National Guard members. Covers undergraduate, graduate, and doctoral programs. Can be used IN ADDITION to federal tuition assistance. Members must maintain 2.0 GPA and continue Guard service.",
+    "eligibility": [
+      "New Mexico National Guard member in good standing",
+      "Enrolled in New Mexico public college/university",
+      "Maintain 2.0+ GPA",
+      "Not under adverse action"
+    ],
+    "benefit_amount": "100% tuition + fees (all levels) + federal TA",
+    "how_to_apply": "Apply through New Mexico National Guard Education Office",
+    "source_name": "New Mexico National Guard",
+    "source_url": "https://nm.ng.mil/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nm_vietnam_scholarship",
+    "state": "New Mexico",
+    "name": "Vietnam Veterans Scholarship",
+    "category": "Education",
+    "description": "Children of Vietnam veterans who are New Mexico residents receive scholarship covering tuition, fees, and books at New Mexico public colleges and universities. Veteran parent must have been New Mexico resident at time of military entry.",
+    "eligibility": [
+      "Child of Vietnam veteran",
+      "Parent was New Mexico resident at military entry",
+      "Attending New Mexico public institution"
+    ],
+    "benefit_amount": "Tuition + fees + books",
+    "how_to_apply": "Apply through New Mexico Higher Education Department",
+    "source_name": "New Mexico Higher Education Department",
+    "source_url": "https://hed.nm.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nm_wartime_scholarship",
+    "state": "New Mexico",
+    "name": "Children of Deceased and Disabled Veterans Scholarship",
+    "category": "Education",
+    "description": "Children (under 26) of veterans who died on active duty during wartime OR have 100% service-connected disability receive FREE tuition and fees at New Mexico public colleges/universities. Private institutions may offer similar benefits.",
+    "eligibility": [
+      "Child under 26 years old",
+      "Parent died on active duty during wartime OR 100% service-connected disabled",
+      "Parent was New Mexico resident at military entry"
+    ],
+    "benefit_amount": "FREE tuition + fees at public institutions",
+    "how_to_apply": "Apply through New Mexico Higher Education Department",
+    "source_name": "New Mexico Higher Education Department",
+    "source_url": "https://hed.nm.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nm_instate_tuition",
+    "state": "New Mexico",
+    "name": "In-State Tuition for Veterans and Dependents",
+    "category": "Education",
+    "description": "Veterans using GI Bill benefits and their dependents qualify for in-state tuition rates at New Mexico public colleges regardless of residency. Includes active duty service members and spouses.",
+    "eligibility": [
+      "Veteran using GI Bill OR dependent using transferred benefits",
+      "OR active duty service member/spouse",
+      "Attending New Mexico public institution"
+    ],
+    "benefit_amount": "In-state tuition rates (saves $8,000-$12,000/year)",
+    "how_to_apply": "Submit eligibility documentation to New Mexico institution",
+    "source_name": "New Mexico Higher Education Department",
+    "source_url": "https://hed.nm.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nm_property_exemption_new_2025",
+    "state": "New Mexico",
+    "name": "Disabled Veteran Property Tax Exemption (NEW 2025)",
+    "category": "Tax Benefits",
+    "description": "NEW as of January 1, 2025! Veterans with service-connected disability receive property tax exemption on primary residence. Amount: $10,000 PLUS adjustments for inflation since 2020. Applies to honorably discharged veterans with ANY disability rating. Must own and occupy property as primary residence.",
+    "eligibility": [
+      "New Mexico resident veteran",
+      "Honorably discharged",
+      "Service-connected disability (any rating)",
+      "Primary residence (owner-occupied)",
+      "Effective: January 1, 2025"
+    ],
+    "benefit_amount": "$10,000 + inflation adjustments (starting 2025)",
+    "how_to_apply": "Apply with County Assessor with VA disability documentation",
+    "source_name": "New Mexico Taxation and Revenue Department",
+    "source_url": "https://www.tax.newmexico.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nm_property_exemption_proportional_2026",
+    "state": "New Mexico",
+    "name": "Proportional Disabled Veteran Property Exemption (Effective 2026)",
+    "category": "Tax Benefits",
+    "description": "Starting January 1, 2026: Property tax exemption becomes PROPORTIONAL to disability rating. For example, 50% disabled = 50% of exemption amount. Replaces flat $10,000 exemption with disability-based scaling. Still includes inflation adjustments.",
+    "eligibility": [
+      "New Mexico resident veteran",
+      "Honorably discharged",
+      "Service-connected disability (proportional to rating)",
+      "Primary residence (owner-occupied)",
+      "Effective: January 1, 2026"
+    ],
+    "benefit_amount": "Proportional exemption based on disability % (effective 2026)",
+    "how_to_apply": "Apply with County Assessor starting 2026 with VA disability documentation",
+    "source_name": "New Mexico Taxation and Revenue Department",
+    "source_url": "https://www.tax.newmexico.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nm_property_exemption_100",
+    "state": "New Mexico",
+    "name": "100% Disabled Veteran Full Property Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Veterans with 100% service-connected disability may qualify for FULL property tax exemption on primary residence (up to $400,000 assessed value as of 2024). Not subject to maximum $10,000 cap.",
+    "eligibility": [
+      "New Mexico resident veteran",
+      "100% service-connected disability",
+      "Primary residence",
+      "Property value limits apply"
+    ],
+    "benefit_amount": "Full exemption up to $400,000 assessed value",
+    "how_to_apply": "Apply with County Assessor with 100% VA disability documentation",
+    "source_name": "New Mexico Taxation and Revenue Department",
+    "source_url": "https://www.tax.newmexico.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nm_military_pay_exempt",
+    "state": "New Mexico",
+    "name": "Military Pay Income Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Active duty military pay is exempt from New Mexico state income tax for service members who are legal residents of New Mexico.",
+    "eligibility": [
+      "New Mexico resident service member",
+      "Receiving active duty military pay"
+    ],
+    "benefit_amount": "100% exemption on active duty military pay",
+    "how_to_apply": "Exclude from New Mexico income tax return",
+    "source_name": "New Mexico Taxation and Revenue Department",
+    "source_url": "https://www.tax.newmexico.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nm_retirement_pay_exempt",
+    "state": "New Mexico",
+    "name": "Military Retirement Pay Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Military retirement pay is 100% exempt from New Mexico state income tax. Includes Armed Forces retirement, National Guard retirement, and Reserve retirement.",
+    "eligibility": [
+      "Receiving military retirement pay",
+      "New Mexico resident"
+    ],
+    "benefit_amount": "100% exemption on military retirement income",
+    "how_to_apply": "Exclude from New Mexico income tax return",
+    "source_name": "New Mexico Taxation and Revenue Department",
+    "source_url": "https://www.tax.newmexico.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nm_sbp_exempt",
+    "state": "New Mexico",
+    "name": "Survivor Benefit Plan (SBP) Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Survivor Benefit Plan payments to surviving spouses are exempt from New Mexico state income tax.",
+    "eligibility": [
+      "Surviving spouse receiving SBP payments",
+      "New Mexico resident"
+    ],
+    "benefit_amount": "100% exemption on SBP income",
+    "how_to_apply": "Exclude from New Mexico income tax return",
+    "source_name": "New Mexico Taxation and Revenue Department",
+    "source_url": "https://www.tax.newmexico.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nm_employment_preference",
+    "state": "New Mexico",
+    "name": "Veterans Employment Preference",
+    "category": "Employment",
+    "description": "New Mexico state agencies must give hiring preference to honorably discharged veterans when qualifications are equal. Includes preference for veterans with disabilities.",
+    "eligibility": [
+      "New Mexico resident veteran",
+      "Honorably discharged",
+      "Applying for state government positions"
+    ],
+    "benefit_amount": "Hiring preference over non-veterans (equal qualifications)",
+    "how_to_apply": "Indicate veteran status on state job applications with DD-214",
+    "source_name": "New Mexico State Personnel Office",
+    "source_url": "https://www.spo.state.nm.us/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nm_veteran_business_certification",
+    "state": "New Mexico",
+    "name": "Veteran-Owned Business Certification",
+    "category": "Employment",
+    "description": "Certification program for veteran-owned businesses. Provides access to state procurement opportunities and contract preferences.",
+    "eligibility": [
+      "Veteran-owned business (51%+ veteran ownership)",
+      "Business operating in New Mexico"
+    ],
+    "benefit_amount": "Access to state contracts and procurement preferences",
+    "how_to_apply": "Apply through New Mexico Taxation and Revenue Department",
+    "source_name": "New Mexico Taxation and Revenue Department",
+    "source_url": "https://www.tax.newmexico.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nm_state_parks_free_2025",
+    "state": "New Mexico",
+    "name": "FREE State Parks Annual Pass (NEW 2025)",
+    "category": "Recreation",
+    "description": "NEW as of 2025! Honorably discharged veterans with New Mexico ID receive FREE annual pass to all New Mexico State Parks. Pass covers vehicle entry and camping discounts.",
+    "eligibility": [
+      "Honorably discharged veteran",
+      "New Mexico resident with state ID",
+      "Effective: 2025"
+    ],
+    "benefit_amount": "FREE annual state parks pass (vehicle entry + camping discounts)",
+    "how_to_apply": "Present DD-214 and NM ID at state parks",
+    "source_name": "New Mexico State Parks",
+    "source_url": "https://www.emnrd.nm.gov/spd/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nm_hunting_fishing_disabled",
+    "state": "New Mexico",
+    "name": "Disabled Veteran Hunting and Fishing Licenses",
+    "category": "Recreation",
+    "description": "Disabled veterans (40%+ rating) receive discounted or FREE hunting and fishing licenses. 100% disabled veterans receive FREE lifetime licenses.",
+    "eligibility": [
+      "New Mexico resident veteran",
+      "40%+ VA disability for discounts",
+      "100% disability for FREE lifetime licenses"
+    ],
+    "benefit_amount": "Discounted licenses (40%+) or FREE lifetime (100%)",
+    "how_to_apply": "Apply through New Mexico Department of Game & Fish with VA documentation",
+    "source_name": "New Mexico Department of Game & Fish",
+    "source_url": "https://www.wildlife.state.nm.us/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nm_hunting_combo_draw",
+    "state": "New Mexico",
+    "name": "Disabled Veteran Hunting Draw Preference",
+    "category": "Recreation",
+    "description": "Disabled veterans receive preference in draw applications for big game hunting licenses. Increases odds of receiving coveted hunting tags.",
+    "eligibility": [
+      "New Mexico resident veteran",
+      "Service-connected disability",
+      "Applying for draw hunts"
+    ],
+    "benefit_amount": "Draw preference for big game hunting licenses",
+    "how_to_apply": "Indicate veteran status on draw applications",
+    "source_name": "New Mexico Department of Game & Fish",
+    "source_url": "https://www.wildlife.state.nm.us/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nm_veteran_license_plates",
+    "state": "New Mexico",
+    "name": "Special Veteran License Plates",
+    "category": "Other",
+    "description": "Special veteran license plates available for qualifying veterans including: general veteran plates, disabled veteran plates, Purple Heart plates, Medal of Honor plates, POW plates, and branch-specific plates. Some FREE, others reduced fee.",
+    "eligibility": [
+      "New Mexico resident veteran",
+      "Honorably discharged",
+      "Meet specific plate criteria"
+    ],
+    "benefit_amount": "FREE or reduced fee specialty plates",
+    "how_to_apply": "Apply at New Mexico MVD with DD-214 and qualifying documentation",
+    "source_name": "New Mexico Motor Vehicle Division",
+    "source_url": "https://www.mvd.newmexico.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nm_veterans_service_offices",
+    "state": "New Mexico",
+    "name": "New Mexico Veterans Service Offices",
+    "category": "Other",
+    "description": "Network of Veterans Service Officers throughout New Mexico providing FREE assistance with VA claims, benefits applications, and veteran resources. Offices in every county.",
+    "eligibility": [
+      "New Mexico resident veteran or family member"
+    ],
+    "benefit_amount": "FREE VA claims assistance and benefits counseling",
+    "how_to_apply": "Contact local county Veterans Service Office",
+    "source_name": "New Mexico Department of Veterans Services",
+    "source_url": "https://www.nmdvs.org/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "nm_veterans_cemetery",
+    "state": "New Mexico",
+    "name": "New Mexico Veterans Memorial Cemetery",
+    "category": "Other",
+    "description": "State veterans cemetery in Angel Fire providing burial services for eligible veterans and spouses. No cost to families.",
+    "eligibility": [
+      "Eligible veteran OR spouse",
+      "Honorably discharged"
+    ],
+    "benefit_amount": "FREE burial services and plot",
+    "how_to_apply": "Contact New Mexico Veterans Memorial Cemetery",
+    "source_name": "New Mexico Department of Veterans Services",
+    "source_url": "https://www.nmdvs.org/",
+    "last_verified": "2025-12-30"
+  }
+]

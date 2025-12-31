@@ -1,0 +1,170 @@
+[
+  {
+    "id": "ky_ng_tuition",
+    "state": "Kentucky",
+    "name": "Kentucky National Guard Tuition Award Program",
+    "category": "Education",
+    "description": "100% tuition at on-campus rates for Kentucky National Guard members. $40,000 lifetime cap at 4-year comprehensive universities. Deadlines: April 1 (fall semester), October 1 (spring semester).",
+    "eligibility": [
+      "Active Kentucky National Guard member in good standing",
+      "Enrolled at participating Kentucky institution",
+      "Meet application deadlines"
+    ],
+    "benefit_amount": "100% tuition at on-campus rates ($40K lifetime cap at 4-year universities)",
+    "how_to_apply": "Apply through Kentucky National Guard Personnel Services/Education Office by deadlines",
+    "source_name": "Kentucky National Guard",
+    "source_url": "https://ky.ng.mil/Personnel-Services/Education-and-Incentives/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ky_dependent_tuition",
+    "state": "Kentucky",
+    "name": "Dependent Fee Waiver for 100% Disabled Veterans",
+    "category": "Education",
+    "description": "Tuition fee waivers for dependents (spouses and children) of Kentucky veterans who are 100% disabled. Designed for family members to receive education benefits.",
+    "eligibility": [
+      "Dependent (spouse or child) of Kentucky veteran",
+      "Veteran must have 100% VA disability rating",
+      "Kentucky resident"
+    ],
+    "benefit_amount": "Tuition fee waiver for dependents",
+    "how_to_apply": "Apply through Kentucky Department of Veterans Affairs",
+    "source_name": "Kentucky Department of Veterans Affairs",
+    "source_url": "https://veterans.ky.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ky_retirement_tax_exempt",
+    "state": "Kentucky",
+    "name": "Military Retired Pay Income Tax Deduction",
+    "category": "Tax Benefits",
+    "description": "Veterans can exclude up to $31,110 of military retired pay from Kentucky income tax.",
+    "eligibility": [
+      "Receiving military retirement pay",
+      "Kentucky resident"
+    ],
+    "benefit_amount": "Up to $31,110 excluded from state income tax",
+    "how_to_apply": "Claim deduction on Kentucky income tax return",
+    "source_name": "Kentucky Department of Revenue",
+    "source_url": "https://revenue.ky.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ky_disability_pay_exempt",
+    "state": "Kentucky",
+    "name": "Military Disability Retirement Pay Exemption",
+    "category": "Tax Benefits",
+    "description": "Military disability retirement pay should not be included in taxable income if presented as annuity, pension, or allowance for service-connected injury or disability.",
+    "eligibility": [
+      "Receiving military disability retirement pay",
+      "Service-connected disability",
+      "Kentucky resident"
+    ],
+    "benefit_amount": "100% exemption on disability retirement pay",
+    "how_to_apply": "Exclude from Kentucky income tax return",
+    "source_name": "Kentucky Department of Revenue",
+    "source_url": "https://revenue.ky.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ky_property_tax_varying",
+    "state": "Kentucky",
+    "name": "Property Tax Exemption for Disabled and Senior Veterans",
+    "category": "Tax Benefits",
+    "description": "Totally disabled veterans or veterans 65+ can receive varying levels of property tax exemption based on disability status and age.",
+    "eligibility": [
+      "Kentucky resident veteran",
+      "Totally disabled OR age 65+",
+      "Property is primary residence"
+    ],
+    "benefit_amount": "Property tax exemption (varies by disability level and age)",
+    "how_to_apply": "Apply with local county assessor with VA disability documentation",
+    "source_name": "Kentucky Department of Revenue",
+    "source_url": "https://revenue.ky.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ky_hunting_fishing",
+    "state": "Kentucky",
+    "name": "Disabled Sportsman's License",
+    "category": "Recreation",
+    "description": "Three-year disabled sportsman's license for $12 for Kentucky residents with 50% or higher service-connected disability. Covers hunting, fishing, all deer permits, turkey permits, migratory bird/waterfowl, and trout permits.",
+    "eligibility": [
+      "Kentucky resident veteran",
+      "50% or higher VA service-connected disability rating",
+      "Valid for 3 years"
+    ],
+    "benefit_amount": "$12 for 3-year comprehensive hunting/fishing license",
+    "how_to_apply": "Apply online through Kentucky Fish & Wildlife Resources with VA disability documentation",
+    "source_name": "Kentucky Department of Fish & Wildlife Resources",
+    "source_url": "https://fw.ky.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ky_hunting_leave",
+    "state": "Kentucky",
+    "name": "Free Hunting/Fishing on Leave",
+    "category": "Recreation",
+    "description": "Kentucky resident service members on leave for 3 or more days do not need a license to hunt or fish.",
+    "eligibility": [
+      "Kentucky resident service member",
+      "On authorized leave 3+ days",
+      "Must show military ID and leave papers"
+    ],
+    "benefit_amount": "FREE hunting and fishing while on leave (3+ days)",
+    "how_to_apply": "No application needed - show military ID and leave documentation",
+    "source_name": "Kentucky Department of Fish & Wildlife Resources",
+    "source_url": "https://fw.ky.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ky_state_parks_discount",
+    "state": "Kentucky",
+    "name": "State Park Camping and Lodging Discount",
+    "category": "Recreation",
+    "description": "10% discount for active military and veterans at Kentucky State Park campgrounds for one campsite or rental unit per visit. 100% disabled Kentucky resident veterans can camp or stay FREE for up to 3 nights per year.",
+    "eligibility": [
+      "Active military OR veteran",
+      "For FREE nights: Kentucky resident + 100% disabled",
+      "Valid military ID or veteran documentation"
+    ],
+    "benefit_amount": "10% discount for all vets; FREE 3 nights/year for 100% disabled KY residents",
+    "how_to_apply": "Show military ID or veteran documentation at state park",
+    "source_name": "Kentucky State Parks",
+    "source_url": "https://parks.ky.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ky_veterans_homes",
+    "state": "Kentucky",
+    "name": "Kentucky Veterans' Homes",
+    "category": "Healthcare",
+    "description": "Four state veterans' homes providing skilled nursing care for Kentucky veterans in need. Located throughout the state offering 24-hour care.",
+    "eligibility": [
+      "Kentucky resident veteran",
+      "Need for skilled nursing care",
+      "Priority based on service and disability"
+    ],
+    "benefit_amount": "Subsidized skilled nursing care (rates vary)",
+    "how_to_apply": "Contact Kentucky Department of Veterans Affairs for admission",
+    "source_name": "Kentucky Department of Veterans Affairs",
+    "source_url": "https://veterans.ky.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ky_women_veterans_program",
+    "state": "Kentucky",
+    "name": "Kentucky Women Veterans Program",
+    "category": "Other",
+    "description": "Dedicated program ensuring women veterans have equitable access to Kentucky veteran benefits and services. Provides advocacy and support specifically for women veterans.",
+    "eligibility": [
+      "Woman veteran",
+      "Kentucky resident"
+    ],
+    "benefit_amount": "Advocacy, support services, and equitable access to benefits",
+    "how_to_apply": "Contact Kentucky Department of Veterans Affairs Women Veterans Program",
+    "source_name": "Kentucky Department of Veterans Affairs",
+    "source_url": "https://veterans.ky.gov/",
+    "last_verified": "2025-12-25"
+  }
+]

@@ -1,0 +1,267 @@
+[
+  {
+    "id": "ok_ng_tuition",
+    "state": "Oklahoma",
+    "name": "Oklahoma National Guard Tuition Waiver",
+    "category": "Education",
+    "description": "Resident tuition waived up to 18 credits per semester at Oklahoma public institutions for National Guard members in good standing.",
+    "eligibility": [
+      "Active Oklahoma National Guard member in good standing",
+      "Enrolled at Oklahoma public institution",
+      "Up to 18 credits per semester"
+    ],
+    "benefit_amount": "100% tuition waiver (up to 18 credits/semester)",
+    "how_to_apply": "Apply through Oklahoma National Guard Education Office at ok.ng.mil/eap/",
+    "source_name": "Oklahoma National Guard",
+    "source_url": "https://ok.ng.mil/eap/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ok_heroes_promise",
+    "state": "Oklahoma",
+    "name": "Heroes Promise Scholarship",
+    "category": "Education",
+    "description": "Tuition scholarship for children of Oklahoma military members killed in action on or after January 1, 2000. Service member must have filed Oklahoma tax return for year of death or year prior. Student must enroll before age 21 in Oklahoma State System of Higher Education.",
+    "eligibility": [
+      "Child of Oklahoma military member KIA after Jan 1, 2000",
+      "Service member filed OK tax return year of/before death",
+      "Oklahoma resident",
+      "Enroll before age 21 in OK state institution"
+    ],
+    "benefit_amount": "Tuition assistance at Oklahoma public institutions",
+    "how_to_apply": "Call Heroes Promise staff at (405) 225-9131",
+    "source_name": "Oklahoma State Regents for Higher Education",
+    "source_url": "https://oklahoma.gov/okstep/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ok_military_credit",
+    "state": "Oklahoma",
+    "name": "Credit for Military Training and Experience",
+    "category": "Education",
+    "description": "Veterans with honorable discharge may receive credit for education, training, and experience from military service toward degree from Oklahoma college. Must enroll within 3 years of discharge.",
+    "eligibility": [
+      "Oklahoma resident veteran",
+      "Honorable discharge",
+      "Enroll within 3 years of discharge",
+      "Military training relevant to degree program"
+    ],
+    "benefit_amount": "Academic credit for military training/experience",
+    "how_to_apply": "Work with Oklahoma institution admissions/veterans office",
+    "source_name": "Oklahoma State Regents for Higher Education",
+    "source_url": "https://oklahoma.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ok_property_tax_100",
+    "state": "Oklahoma",
+    "name": "100% Disabled Veteran Property Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "FULL property tax exemption (entire fair cash value of homestead) for 100% permanently disabled veterans and surviving spouses. Disability must be sustained through military action, accident, or disease during active service. Annual refiling required.",
+    "eligibility": [
+      "100% permanent VA disability (service-connected)",
+      "OR unremarried surviving spouse",
+      "Disability from military action/accident/disease",
+      "Oklahoma resident",
+      "Own and occupy homestead as primary residence",
+      "Deed recorded by Feb 1"
+    ],
+    "benefit_amount": "100% property tax exemption on full homestead value",
+    "how_to_apply": "File OTC Form 998 annually with county assessor",
+    "source_name": "Oklahoma Tax Commission",
+    "source_url": "https://oklahoma.gov/tax/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ok_active_pay_tax_free",
+    "state": "Oklahoma",
+    "name": "Active Duty Military Pay Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "100% of income received as active duty military pay by Oklahoma resident is completely exempt from Oklahoma state income tax. This applies to ALL components of Armed Forces.",
+    "eligibility": [
+      "Oklahoma resident",
+      "Active duty in any component of U.S. Armed Forces",
+      "Receiving military pay"
+    ],
+    "benefit_amount": "100% exemption on ALL active duty military pay",
+    "how_to_apply": "Exclude from Oklahoma income tax return",
+    "source_name": "Oklahoma Tax Commission",
+    "source_url": "https://oklahoma.gov/tax/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ok_retirement_tax_exempt",
+    "state": "Oklahoma",
+    "name": "Military Retirement Pay Partial Exemption",
+    "category": "Tax Benefits",
+    "description": "Retirement benefits from military service exempt from Oklahoma income tax in amount not to exceed the GREATER of 75% of benefits OR $10,000.",
+    "eligibility": [
+      "Receiving military retirement benefits",
+      "Oklahoma resident"
+    ],
+    "benefit_amount": "Greater of 75% of retirement pay OR $10,000 exempt",
+    "how_to_apply": "Claim exemption on Oklahoma income tax return",
+    "source_name": "Oklahoma Tax Commission",
+    "source_url": "https://oklahoma.gov/tax/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ok_sales_tax_exempt",
+    "state": "Oklahoma",
+    "name": "100% Disabled Veteran Sales Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Annual sales tax exemption (including city and county) up to $25,000 for 100% permanently disabled veterans. Unremarried surviving spouses eligible for up to $1,000/year. Exempts SALES taxes only (city and county), NOT excise taxes.",
+    "eligibility": [
+      "100% permanent VA disability (service-connected)",
+      "OR unremarried surviving spouse",
+      "Oklahoma resident",
+      "Sales tax exemption card required"
+    ],
+    "benefit_amount": "$25,000/year for veteran; $1,000/year for surviving spouse",
+    "how_to_apply": "Apply online at oklahoma.gov/tax/ or Form 13-5; can add household member card",
+    "source_name": "Oklahoma Tax Commission",
+    "source_url": "https://oklahoma.gov/tax/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ok_vehicle_excise_exempt",
+    "state": "Oklahoma",
+    "name": "Motor Vehicle Excise Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "100% disabled veterans exempt from motor vehicle excise tax. Exemption may be claimed on one vehicle in consecutive 3-year period. Vehicle must be purchased on/after July 1, 2005.",
+    "eligibility": [
+      "100% VA disability rating",
+      "Oklahoma resident",
+      "Vehicle purchased on/after 7/1/05",
+      "Veteran listed as owner on title",
+      "One vehicle per 3 years"
+    ],
+    "benefit_amount": "Excise tax exemption on one vehicle every 3 years",
+    "how_to_apply": "Present VA letter to local tag agency when registering vehicle",
+    "source_name": "Oklahoma Tax Commission",
+    "source_url": "https://oklahoma.gov/tax/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ok_employment_5_pts",
+    "state": "Oklahoma",
+    "name": "Veterans Employment Preference - 5 Points",
+    "category": "Employment",
+    "description": "Veterans or their unremarried surviving spouses receive 5 points added to state employment examination scores.",
+    "eligibility": [
+      "Honorably discharged veteran OR unremarried surviving spouse",
+      "Oklahoma resident",
+      "Applying for state position"
+    ],
+    "benefit_amount": "5 points added to employment test scores",
+    "how_to_apply": "Indicate veteran status on state job application",
+    "source_name": "Oklahoma Employment Security Commission",
+    "source_url": "https://oklahoma.gov/oesc/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ok_employment_10_pts",
+    "state": "Oklahoma",
+    "name": "Disabled War Veterans Employment Preference - 10 Points",
+    "category": "Employment",
+    "description": "Disabled war veterans receive 10 points added to state employment exams. Veterans with 30%+ disability automatically placed at TOP of selection list (Absolute Preference).",
+    "eligibility": [
+      "Disabled war veteran",
+      "Oklahoma resident",
+      "Applying for state position",
+      "30%+ disability = automatic top placement"
+    ],
+    "benefit_amount": "10 points on exams; 30%+ disability = TOP of hiring list",
+    "how_to_apply": "Submit veteran and disability documentation with state application",
+    "source_name": "Oklahoma Employment Security Commission",
+    "source_url": "https://oklahoma.gov/oesc/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ok_state_parks_free",
+    "state": "Oklahoma",
+    "name": "Free State Parks and Museums Admission",
+    "category": "Recreation",
+    "description": "ALL honorably discharged veterans who are Oklahoma residents receive FREE admission to all state-owned or state-operated parks and museums.",
+    "eligibility": [
+      "Honorably discharged veteran",
+      "Current Oklahoma resident",
+      "Valid veteran identification"
+    ],
+    "benefit_amount": "FREE admission to all OK state parks and museums",
+    "how_to_apply": "Show DD-214 or veteran ID at park/museum entrance",
+    "source_name": "Oklahoma Tourism & Recreation Department",
+    "source_url": "https://oklahoma.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ok_hunting_fishing_60",
+    "state": "Oklahoma",
+    "name": "Disabled Veteran Hunting and Fishing Licenses",
+    "category": "Recreation",
+    "description": "Legal resident veterans with 60%+ disability exempt from Wildlife Land Stamp requirements. License fees: $200 for under 60% disability; $25 for 60%+ disability; FREE for 100% disabled.",
+    "eligibility": [
+      "Oklahoma resident veteran with disability",
+      "VA disability rating certification",
+      "60%+ exempt from Wildlife Land Stamp"
+    ],
+    "benefit_amount": "$200 (under 60%); $25 (60%+); FREE (100%)",
+    "how_to_apply": "Apply through Oklahoma Wildlife Department with VA documentation",
+    "source_name": "Oklahoma Department of Wildlife Conservation",
+    "source_url": "https://oklahoma.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ok_veterans_homes",
+    "state": "Oklahoma",
+    "name": "Oklahoma Veterans' Homes",
+    "category": "Healthcare",
+    "description": "Seven state veterans' homes providing skilled nursing care located in Ardmore, Claremore, Clinton, Lawton, Norman, Sulphur, and Sallisaw.",
+    "eligibility": [
+      "Oklahoma resident veteran",
+      "Need for skilled nursing care",
+      "Honorable discharge",
+      "Priority for wartime veterans"
+    ],
+    "benefit_amount": "Subsidized skilled nursing care (7 locations statewide)",
+    "how_to_apply": "Contact Oklahoma Department of Veterans Affairs",
+    "source_name": "Oklahoma Department of Veterans Affairs",
+    "source_url": "https://oklahoma.gov/veterans/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ok_financial_assistance",
+    "state": "Oklahoma",
+    "name": "ODVA Financial Assistance Program",
+    "category": "Financial Assistance",
+    "description": "Oklahoma Department of Veterans Affairs provides financial assistance to veterans and families in times of financial hardship, covering emergency needs like rent, utilities, and medical bills.",
+    "eligibility": [
+      "Oklahoma resident veteran or family",
+      "Demonstrated financial emergency",
+      "Exhausted other resources"
+    ],
+    "benefit_amount": "Emergency financial assistance (varies by need)",
+    "how_to_apply": "Contact Oklahoma Department of Veterans Affairs county office",
+    "source_name": "Oklahoma Department of Veterans Affairs",
+    "source_url": "https://oklahoma.gov/veterans/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "ok_license_plates",
+    "state": "Oklahoma",
+    "name": "Special Veteran License Plates",
+    "category": "Other",
+    "description": "Oklahoma Tax Commission issues many official special license plates for veterans. FREE license and renewal for 100% disabled military/veteran. Plates may not be transferred but can be moved to another vehicle after re-registration. Applications by October 1 for following calendar year.",
+    "eligibility": [
+      "Oklahoma resident veteran",
+      "Honorable discharge",
+      "100% disabled = FREE plates and renewal",
+      "Valid vehicle registration"
+    ],
+    "benefit_amount": "Special veteran plates; FREE for 100% disabled",
+    "how_to_apply": "Apply through Oklahoma Tax Commission by October 1",
+    "source_name": "Oklahoma Tax Commission",
+    "source_url": "https://oklahoma.gov/tax/",
+    "last_verified": "2025-12-25"
+  }
+]

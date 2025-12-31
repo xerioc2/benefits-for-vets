@@ -1,0 +1,229 @@
+[
+  {
+    "id": "co_dtap_dependent_tuition_assistance",
+    "scope": "state",
+    "state": "CO",
+    "audience": "dependents",
+    "title": "Dependent Tuition Assistance Program (DTAP)",
+    "summary": "Tuition and room/board assistance for dependents of deceased or permanently disabled Colorado National Guard members, law enforcement officers, firefighters, POWs, or MIA.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Parent/sponsor must be deceased or permanently disabled while acting in official capacity, or POW/MIA."
+    },
+    "eligibilityNotes": "Dependents must enroll before age 24, maintain 2.5 GPA, complete FAFSA annually. Up to 8 semesters (6 years to complete). Covers tuition at public institutions PLUS room/board at base rates for standard double-occupancy. Non-public institutions: tuition comparable to public institution + room/board not to exceed public rates. Out-of-state: tuition only (no room/board). Does NOT cover summer/winter terms or institutional fees.",
+    "sourceUrl": "https://cdhe.colorado.gov/dependent-tuition-assistance-program",
+    "tags": ["education", "tuition", "dependents", "room_board"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "co_national_guard_tuition_waiver",
+    "scope": "state",
+    "state": "CO",
+    "title": "Colorado National Guard State Tuition Waiver",
+    "summary": "Up to 100% tuition coverage at designated Colorado public institutions for active Colorado National Guard members (NEW program effective July 1, 2025).",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Replaces previous State Tuition Assistance ($5,000/semester) program. First-degree seekers prioritized."
+    },
+    "eligibilityNotes": "Must be active CONG member, accepted to Designated Institution of Higher Education, submit FAFSA/CASFA annually, maintain Satisfactory Academic Progress. Does NOT cover mandatory fees, textbooks, or expenses. Use Federal TA, GI Bill, or grants for remaining costs. 2-year service obligation per year of benefits received. No guarantee of award for subsequent semesters - each application evaluated independently. Apply during 20-day open enrollment periods (shortened from 30 days).",
+    "sourceUrl": "https://dmva.colorado.gov/tuition-waiver",
+    "tags": ["education", "tuition", "national_guard", "waiver"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "co_disabled_veteran_property_tax_exemption",
+    "scope": "state",
+    "state": "CO",
+    "title": "Disabled Veteran Property Tax Exemption",
+    "summary": "50% exemption of the first $200,000 in actual property value for qualifying disabled veterans on their primary residence.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "notes": "Must be 100% permanently disabled (VA unemployability does NOT qualify). Applies to primary residence only."
+    },
+    "eligibilityNotes": "Veteran or spouse must have owned and occupied property as primary residence on January 1. If spouse is owner and veteran is not, veteran can still qualify if married on/before January 1 and both occupied as primary residence. Apply to Division of Veterans Affairs between January 1 - July 1 of qualifying year. Unremarried surviving spouses may continue exemption.",
+    "sourceUrl": "https://cdva.colorado.gov/property-tax-exemption",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "co_state_parks_free_access",
+    "scope": "state",
+    "state": "CO",
+    "title": "Free State Parks Access for Veterans",
+    "summary": "Free admission to Colorado state parks for all active duty and veterans during August and on Veterans Day. Year-round free access for disabled veterans with special plates.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "August + Veterans Day: ALL active duty and veterans free. Year-round: Disabled veterans with state DV license plate."
+    },
+    "eligibilityNotes": "No residency requirement for August/Veterans Day access. Disabled veterans (50%+ rating) with Colorado DV license plate receive year-round free admission and campground discounts. 60%+ disability: free small-game hunting.",
+    "sourceUrl": "https://cpw.state.co.us/",
+    "tags": ["recreation", "state_parks"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "co_lifetime_fishing_license_disabled",
+    "scope": "state",
+    "state": "CO",
+    "title": "Free Lifetime Fishing License for Disabled Veterans",
+    "summary": "Permanently disabled or individually unemployable veterans receive free lifetime fishing license.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "notes": "Must be permanently disabled or individually unemployable as determined by VA. Resident patient at military/VA medical facility also eligible."
+    },
+    "eligibilityNotes": "Apply through Colorado Parks and Wildlife with VA documentation. Lifetime license covers fishing privileges.",
+    "sourceUrl": "https://cpw.state.co.us/",
+    "tags": ["recreation", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "co_wartime_veteran_bonus",
+    "scope": "state",
+    "state": "CO",
+    "title": "Colorado Wartime Veteran Bonus",
+    "summary": "One-time $250 bonus per wartime deployment for qualifying Colorado veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": true,
+      "notes": "One bonus per wartime deployment. Colorado residency required."
+    },
+    "eligibilityNotes": "Veterans may receive $250 bonus for each qualifying wartime deployment. Apply through Colorado Division of Veterans Affairs.",
+    "sourceUrl": "https://cdva.colorado.gov/",
+    "tags": ["financial_assistance", "bonus"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "co_vehicle_registration_disabled_veteran",
+    "scope": "state",
+    "state": "CO",
+    "title": "Vehicle Registration Fee Exemption for Disabled Veterans",
+    "summary": "Colorado provides vehicle registration fee exemptions for qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 50,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Eligibility thresholds and covered fees may vary; applies to one vehicle."
+    },
+    "eligibilityNotes": "Veterans must meet disability requirements and apply through their County Motor Vehicle Office.",
+    "sourceUrl": "https://cdva.colorado.gov/dmv-benefits",
+    "tags": ["vehicle", "dmv", "tax"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "co_disabled_veteran_license_plate",
+    "scope": "state",
+    "state": "CO",
+    "title": "Disabled Veteran License Plate",
+    "summary": "Special license plates for eligible disabled veterans, which include parking and fee benefits.",
+    "requirements": {
+      "minDisability": 50,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Disability threshold and benefits depend on plate type."
+    },
+    "eligibilityNotes": "Issued by the Colorado DMV with verification of VA disability status. Provides parking privileges and state parks access.",
+    "sourceUrl": "https://dmv.colorado.gov/disabled-veteran-license-plates",
+    "tags": ["vehicle", "parking", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "co_state_parks_disabled_veteran_pass",
+    "scope": "state",
+    "state": "CO",
+    "title": "Colorado State Parks Disabled Veteran Pass",
+    "summary": "Free or discounted access to Colorado State Parks for qualifying disabled veterans with 50%+ disability.",
+    "requirements": {
+      "minDisability": 50,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Pass types and eligibility thresholds vary. 50%+: campground discounts. 60%+: additional hunting privileges."
+    },
+    "eligibilityNotes": "Apply through Colorado Parks and Wildlife with proof of disability. Disabled veterans with DV plates receive enhanced benefits.",
+    "sourceUrl": "https://cpw.state.co.us/buyapply/Pages/DisabledVeteranPass.aspx",
+    "tags": ["recreation", "state_parks"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "co_hunting_fishing_license_disabled_veteran",
+    "scope": "state",
+    "state": "CO",
+    "title": "Reduced-Fee Hunting & Fishing Licenses for Disabled Veterans",
+    "summary": "Colorado offers reduced-fee hunting and fishing licenses to qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 60,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Eligibility depends on VA disability rating and residency. 60%+: reduced fees. 100%: free fishing."
+    },
+    "eligibilityNotes": "Licenses are issued through Colorado Parks and Wildlife. 60%+ disability: free small-game hunting. 100% P&T: free lifetime fishing.",
+    "sourceUrl": "https://cpw.state.co.us/buyapply/Pages/MilitaryVeterans.aspx",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "co_veteran_employment_preference",
+    "scope": "state",
+    "state": "CO",
+    "title": "Colorado Veterans Employment Preference",
+    "summary": "Veterans and certain family members may receive preference in hiring for Colorado state government positions.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": true,
+      "notes": "Disabled veterans may receive additional preference points (10 points vs 5 points)."
+    },
+    "eligibilityNotes": "Applies to qualifying veterans seeking state employment. Documentation such as DD-214 may be required. Surviving spouses may also qualify for preference under certain conditions.",
+    "sourceUrl": "https://cdva.colorado.gov/employment-preference",
+    "tags": ["employment", "preference", "civil_service"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "co_veterans_homes",
+    "scope": "state",
+    "state": "CO",
+    "benefitType": "facility",
+    "title": "Colorado State Veterans Community Living Centers",
+    "summary": "Long-term care facilities providing nursing and assisted living services for eligible veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Admission depends on medical need, eligibility determination, and bed availability."
+    },
+    "eligibilityNotes": "Colorado operates Community Living Centers in: Aurora (Fitzsimons), Florence (Bruce McCandless), Homelake, Rifle, and Walsenburg (Spanish Peaks). Contact Colorado DMVA for admission criteria.",
+    "sourceUrl": "https://cdva.colorado.gov/veterans-community-living-centers",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "co_veterans_cemeteries",
+    "scope": "state",
+    "state": "CO",
+    "benefitType": "facility",
+    "title": "Colorado State Veterans Cemeteries",
+    "summary": "State-operated cemeteries providing burial options for eligible veterans and family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility generally mirrors VA national cemetery rules."
+    },
+    "eligibilityNotes": "Cemeteries: Veterans Memorial Cemetery of Western Colorado (Grand Junction) and Colorado State Veterans Center at Homelake Cemetery. Free burial for eligible veterans and dependents.",
+    "sourceUrl": "https://cdva.colorado.gov/state-veterans-cemeteries",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-24"
+  }
+]

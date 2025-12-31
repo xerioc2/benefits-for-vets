@@ -1,0 +1,399 @@
+[
+  {
+    "id": "me_guard_tuition_waiver",
+    "state": "Maine",
+    "name": "Maine National Guard 100% Tuition Waiver",
+    "category": "Education",
+    "description": "Maine National Guard members receive 100% tuition waiver at ANY Maine state postsecondary institution (University of Maine System, Maine Community College System, Maine Maritime Academy). Full-time or part-time enrollment. Use for one credential: bachelor's, associate, OR certificate/licensure. Up to 130 credit hours. Must exhaust other benefits first (federal TA, employer tuition, Pell Grant). Does NOT include books, housing, lab fees, or mandatory fees.",
+    "eligibility": [
+      "Maine National Guard member (Army or Air)",
+      "Complete Basic Training or commissioned",
+      "Satisfactory participant (<9 unexcused absences)",
+      "1-year service commitment after term ends",
+      "Exhaust federal TA, employer tuition, Pell Grant first"
+    ],
+    "benefit_amount": "100% tuition waiver (up to 130 credit hours, one credential)",
+    "how_to_apply": "Contact Maine National Guard Education Office (207) 430-5922 or ng.me.arng.list.j1-esos@mail.mil. Deadline: July 31 (Fall), November 30 (Spring)",
+    "source_name": "Maine National Guard",
+    "source_url": "https://www.maine.gov/dvem/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_dependents_100_tuition_waiver",
+    "state": "Maine",
+    "name": "100% Tuition Waiver for Dependents of Disabled/Deceased Veterans",
+    "category": "Education",
+    "description": "Dependents (children and spouses) of Maine veterans who are permanently and totally disabled, missing in action, died of service-connected disability, OR killed in action receive 100% waiver of tuition AND fees at Maine state schools. Veteran must have entered service from Maine OR been Maine resident for 5 years before application. Veteran (if living) must continue Maine residency during benefit use.",
+    "eligibility": [
+      "Child or spouse of Maine veteran",
+      "Veteran: 100% P&T disabled, MIA, died service-connected, OR KIA",
+      "Veteran entered service from Maine OR 5-year resident before application",
+      "Veteran (if living) continues Maine residency"
+    ],
+    "benefit_amount": "100% tuition + fees waiver at Maine state schools",
+    "how_to_apply": "Apply through Maine State Approving Agency for Veterans Education",
+    "source_name": "Maine Department of Defense, Veterans and Emergency Management",
+    "source_url": "https://www.maine.gov/dvem/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_instate_tuition",
+    "state": "Maine",
+    "name": "In-State Tuition for Military and Veterans",
+    "category": "Education",
+    "description": "In-state tuition rates available for active duty service members, veterans, and dependents at Maine public institutions under federal Veterans Access, Choice, and Accountability Act.",
+    "eligibility": [
+      "Active duty service member OR veteran OR dependent",
+      "Attending Maine public institution"
+    ],
+    "benefit_amount": "In-state tuition rates (saves $8,000-$12,000/year)",
+    "how_to_apply": "Contact Maine institution financial aid office",
+    "source_name": "Maine Higher Education",
+    "source_url": "https://www.maine.edu/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_property_tax_6000",
+    "state": "Maine",
+    "name": "Veteran Property Tax Exemption ($6,000)",
+    "category": "Tax Benefits",
+    "description": "Maine resident veterans eligible for $6,000 property tax exemption if: age 62+ AND served during federally recognized war period OR received Armed Forces Expeditionary Medal OR receiving 100% VA disability OR became 100% disabled while serving. Unremarried surviving spouses also eligible. File once - automatically continues unless homestead changes.",
+    "eligibility": [
+      "Maine resident veteran",
+      "Other-than-dishonorable discharge",
+      "(Age 62+ AND wartime/AFEM) OR 100% disabled",
+      "OR unremarried surviving spouse"
+    ],
+    "benefit_amount": "$6,000 property tax exemption",
+    "how_to_apply": "Apply to local Assessor's Office by April 1 (one-time application)",
+    "source_name": "Maine Revenue Services",
+    "source_url": "https://www.maine.gov/revenue/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_property_tax_50000_paraplegic",
+    "state": "Maine",
+    "name": "Paraplegic Veteran Property Tax Exemption ($50,000)",
+    "category": "Tax Benefits",
+    "description": "Paraplegic veterans who received federal VA grant for specially adapted housing unit receive $50,000 property tax exemption. Also available to qualifying spouses.",
+    "eligibility": [
+      "Maine resident paraplegic veteran",
+      "Other-than-dishonorable discharge",
+      "Received federal VA grant for specially adapted housing",
+      "OR qualifying spouse"
+    ],
+    "benefit_amount": "$50,000 property tax exemption",
+    "how_to_apply": "Apply to local Assessor's Office by April 1 with VA grant documentation",
+    "source_name": "Maine Revenue Services",
+    "source_url": "https://www.maine.gov/revenue/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_property_tax_fairness_credit",
+    "state": "Maine",
+    "name": "Property Tax Fairness Credit (Expanded for Veterans 2022)",
+    "category": "Tax Benefits",
+    "description": "In 2022, Maine Legislature enacted expanded benefit for veterans through Property Tax Fairness Credit. While based on property tax paid, administered through individual income tax return. Provides additional property tax relief beyond exemptions.",
+    "eligibility": [
+      "Maine resident veteran",
+      "Meet income requirements",
+      "Paid property taxes"
+    ],
+    "benefit_amount": "Income tax credit based on property taxes paid (amount varies)",
+    "how_to_apply": "Claim on Maine individual income tax return (Form 1040ME)",
+    "source_name": "Maine Revenue Services",
+    "source_url": "https://www.maine.gov/revenue/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_vehicle_excise_tax_exempt",
+    "state": "Maine",
+    "name": "Motor Vehicle Excise Tax Exemption (100% Disabled)",
+    "category": "Tax Benefits",
+    "description": "Veterans receiving benefits based on total service-connected disability exempt from motor vehicle excise tax. Even if not displaying disabled plates.",
+    "eligibility": [
+      "Maine resident veteran",
+      "Receiving benefits for total (100%) service-connected disability"
+    ],
+    "benefit_amount": "Exempt from motor vehicle excise tax",
+    "how_to_apply": "Contact Maine Bureau of Veterans' Services",
+    "source_name": "Maine Bureau of Motor Vehicles",
+    "source_url": "https://www.maine.gov/sos/bmv/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_military_pay_outofstate_exempt",
+    "state": "Maine",
+    "name": "Military Pay Tax Exemption (Stationed Out-of-State)",
+    "category": "Tax Benefits",
+    "description": "Military pay received by Maine resident service member serving active duty OUTSIDE Maine is EXEMPT from Maine state income tax. Military pay for Maine residents stationed IN Maine IS taxable.",
+    "eligibility": [
+      "Maine resident service member",
+      "Active duty stationed outside Maine"
+    ],
+    "benefit_amount": "100% exemption on military pay (if outside Maine)",
+    "how_to_apply": "Exclude from Maine income tax return",
+    "source_name": "Maine Revenue Services",
+    "source_url": "https://www.maine.gov/revenue/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_military_spouse_income_exempt",
+    "state": "Maine",
+    "name": "Nonresident Military Spouse Income Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Eligible nonresident military spouses do NOT have to pay Maine income tax for wages earned in Maine under Military Spouses Residency Relief Act.",
+    "eligibility": [
+      "Nonresident military spouse",
+      "In Maine solely to be with service member spouse",
+      "Meet MSRRA requirements"
+    ],
+    "benefit_amount": "100% exemption on Maine wages",
+    "how_to_apply": "File exemption with Maine employer",
+    "source_name": "Maine Revenue Services",
+    "source_url": "https://www.maine.gov/revenue/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_retirement_pay_exempt",
+    "state": "Maine",
+    "name": "Military Retirement Pay Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Maine does NOT tax military retired pay. 100% exempt from Maine state income tax.",
+    "eligibility": [
+      "Maine resident",
+      "Receiving military retirement pay"
+    ],
+    "benefit_amount": "100% exemption on military retirement pay",
+    "how_to_apply": "Exclude from Maine income tax return",
+    "source_name": "Maine Revenue Services",
+    "source_url": "https://www.maine.gov/revenue/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_disability_retirement_exempt",
+    "state": "Maine",
+    "name": "Military Disability Retirement Pay Exemption",
+    "category": "Tax Benefits",
+    "description": "Military Disability Retirement Pay received as pension, annuity, or similar allowance for personal injury/sickness from active service should NOT be included in Maine taxable income.",
+    "eligibility": [
+      "Receiving military disability retirement pay",
+      "Personal injury/sickness from active service"
+    ],
+    "benefit_amount": "100% exemption on disability retirement pay",
+    "how_to_apply": "Exclude from Maine income tax return",
+    "source_name": "Maine Revenue Services",
+    "source_url": "https://www.maine.gov/revenue/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_sbp_exempt",
+    "state": "Maine",
+    "name": "Survivor Benefit Plans Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "SBP, RCSBP, and RSFPP annuities are NOT taxed in Maine. 100% exempt.",
+    "eligibility": [
+      "Receiving SBP/RCSBP/RSFPP payments",
+      "Maine resident"
+    ],
+    "benefit_amount": "100% exemption on survivor benefit annuities",
+    "how_to_apply": "Exclude from Maine income tax return",
+    "source_name": "Maine Revenue Services",
+    "source_url": "https://www.maine.gov/revenue/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_combat_zone_pay_exempt",
+    "state": "Maine",
+    "name": "Combat Zone Pay Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Maine follows federal tax rules for combat zone pay. Pay excluded from federal AGI because earned in combat zone also excluded from Maine income tax. Service members who die in terrorist act, combat, or from combat injuries exempt from Maine taxes for year of death - previously paid taxes refunded.",
+    "eligibility": [
+      "Service member serving in combat zone",
+      "Receiving hostile fire/imminent danger pay"
+    ],
+    "benefit_amount": "100% exemption on combat zone pay + death year exemption",
+    "how_to_apply": "Follow federal combat zone exclusion rules on Maine return",
+    "source_name": "Maine Revenue Services",
+    "source_url": "https://www.maine.gov/revenue/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_combat_zone_filing_extension",
+    "state": "Maine",
+    "name": "Combat Zone Filing Extension",
+    "category": "Tax Benefits",
+    "description": "Deadline for filing Maine income tax returns and paying taxes extended 180 days after: last day of continuous hospitalization for combat zone injury OR last day of qualifying service in combat zone. Extension includes days left to file when entering combat zone.",
+    "eligibility": [
+      "Service member serving in combat zone OR",
+      "Hospitalized for combat zone injury"
+    ],
+    "benefit_amount": "180-day filing/payment extension + days remaining at entry",
+    "how_to_apply": "Automatic extension applies",
+    "source_name": "Maine Revenue Services",
+    "source_url": "https://www.maine.gov/revenue/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_employment_preference",
+    "state": "Maine",
+    "name": "Veterans Employment Preference (State Jobs)",
+    "category": "Employment",
+    "description": "Maine state government provides hiring preference for honorably discharged veterans. Additional consideration for disabled veterans.",
+    "eligibility": [
+      "Maine resident veteran",
+      "Honorably discharged",
+      "Applying for state government position"
+    ],
+    "benefit_amount": "Hiring preference (additional for disabled veterans)",
+    "how_to_apply": "Indicate veteran status on Maine state job applications with DD-214",
+    "source_name": "Maine Bureau of Human Resources",
+    "source_url": "https://www.maine.gov/bhr/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_hunting_fishing_free_50",
+    "state": "Maine",
+    "name": "FREE Lifetime Hunting/Fishing License (50%+ Disabled)",
+    "category": "Recreation",
+    "description": "Maine resident veterans with 50%+ service-connected disability receive FREE license to fish, trap, or hunt (including archery, muzzle-loading, pheasant stamps). License valid for LIFE as long as residency requirements continue.",
+    "eligibility": [
+      "Maine resident veteran",
+      "50%+ service-connected disability",
+      "Continue to meet residency requirements"
+    ],
+    "benefit_amount": "FREE lifetime hunting/fishing/trapping license + stamps",
+    "how_to_apply": "Apply through Maine Department of Inland Fisheries and Wildlife with VA documentation",
+    "source_name": "Maine Department of Inland Fisheries and Wildlife",
+    "source_url": "https://www.maine.gov/ifw/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_nonresident_military_resident_rates",
+    "state": "Maine",
+    "name": "Resident Hunting/Fishing Rates for Military",
+    "category": "Recreation",
+    "description": "Nonresident service members permanently stationed in Maine AND their dependents may purchase Maine hunting, fishing, or trapping licenses at RESIDENT prices.",
+    "eligibility": [
+      "Nonresident service member OR dependent",
+      "Permanently stationed in Maine"
+    ],
+    "benefit_amount": "Resident license pricing (saves $100-$200 vs nonresident)",
+    "how_to_apply": "Present military ID at Maine Inland Fisheries and Wildlife",
+    "source_name": "Maine Department of Inland Fisheries and Wildlife",
+    "source_url": "https://www.maine.gov/ifw/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_active_duty_discounted_license",
+    "state": "Maine",
+    "name": "Discounted Hunting/Fishing Licenses (Active Duty + Dependents)",
+    "category": "Recreation",
+    "description": "Active-duty Maine residents and their dependents can purchase discounted hunting, fishing, or combination hunting-fishing licenses.",
+    "eligibility": [
+      "Maine resident active duty service member OR dependent"
+    ],
+    "benefit_amount": "Discounted license rates",
+    "how_to_apply": "Apply through Maine Department of Inland Fisheries and Wildlife",
+    "source_name": "Maine Department of Inland Fisheries and Wildlife",
+    "source_url": "https://www.maine.gov/ifw/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_hunter_safety_exemption",
+    "state": "Maine",
+    "name": "Hunter Safety Course Exemption (Active Duty on Leave)",
+    "category": "Recreation",
+    "description": "Maine resident active duty service members permanently stationed outside U.S. and home on leave are EXEMPT from hunter, archery, and crossbow safety course requirements.",
+    "eligibility": [
+      "Maine resident active duty",
+      "Permanently stationed outside U.S.",
+      "On authorized leave in Maine"
+    ],
+    "benefit_amount": "Exempt from hunter/archery/crossbow safety course requirements",
+    "how_to_apply": "Present military ID and leave papers",
+    "source_name": "Maine Department of Inland Fisheries and Wildlife",
+    "source_url": "https://www.maine.gov/ifw/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_disabled_veterans_moose_hunt",
+    "state": "Maine",
+    "name": "Disabled Veterans Controlled Moose Hunt (25 Permits)",
+    "category": "Recreation",
+    "description": "Maine Department of Inland Fisheries and Wildlife allocates 25 moose hunting permits to disabled veterans for Controlled Moose Hunt in Aroostook County. Once-in-a-lifetime hunting opportunity.",
+    "eligibility": [
+      "Maine disabled veteran"
+    ],
+    "benefit_amount": "25 moose hunting permits allocated (Aroostook County, one-time)",
+    "how_to_apply": "Apply through Maine Department of Inland Fisheries and Wildlife",
+    "source_name": "Maine Department of Inland Fisheries and Wildlife",
+    "source_url": "https://www.maine.gov/ifw/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_state_parks_free",
+    "state": "Maine",
+    "name": "FREE State Parks/Museums/Sites Admission",
+    "category": "Recreation",
+    "description": "FREE admission to Maine state parks, museums, and sites for: resident veterans (other-than-dishonorable), 100% disabled resident veterans and dependents, Maine resident enlisted active duty members and dependents.",
+    "eligibility": [
+      "Maine resident veteran (not dishonorable) OR",
+      "100% disabled resident veteran + dependents OR",
+      "Maine resident enlisted active duty + dependents"
+    ],
+    "benefit_amount": "FREE admission to state parks, museums, sites",
+    "how_to_apply": "Present veteran ID or military ID at Maine state facilities",
+    "source_name": "Maine Bureau of Parks and Lands",
+    "source_url": "https://www.maine.gov/dacf/parks/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_license_plates",
+    "state": "Maine",
+    "name": "Special Veteran License Plates",
+    "category": "Other",
+    "description": "Multiple veteran specialty license plate options available for Maine veterans including general veteran plates, disabled veteran plates, and branch-specific plates.",
+    "eligibility": [
+      "Maine resident veteran",
+      "Honorably discharged",
+      "Meet specific plate criteria"
+    ],
+    "benefit_amount": "Specialty veteran license plates (fees vary)",
+    "how_to_apply": "Apply at Maine Bureau of Motor Vehicles with DD-214",
+    "source_name": "Maine Bureau of Motor Vehicles",
+    "source_url": "https://www.maine.gov/sos/bmv/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_veterans_cemetery",
+    "state": "Maine",
+    "name": "Maine Veterans' Memorial Cemetery",
+    "category": "Other",
+    "description": "State veterans cemetery in Augusta. Eligibility same as federal VA cemeteries. FREE burial for eligible Maine veterans and spouses.",
+    "eligibility": [
+      "Eligible veteran OR spouse",
+      "Meet federal cemetery eligibility"
+    ],
+    "benefit_amount": "FREE burial services",
+    "how_to_apply": "Contact Maine Veterans' Memorial Cemetery in Augusta",
+    "source_name": "Maine Bureau of Veterans' Services",
+    "source_url": "https://www.maine.gov/dvem/bvs",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "me_legal_assistance",
+    "state": "Maine",
+    "name": "Pine Tree Legal Assistance",
+    "category": "Other",
+    "description": "FREE legal assistance for Maine military members and veterans through Pine Tree Legal Assistance. Provides civil legal services.",
+    "eligibility": [
+      "Maine military member or veteran"
+    ],
+    "benefit_amount": "FREE civil legal services",
+    "how_to_apply": "Contact Pine Tree Legal Assistance",
+    "source_name": "Pine Tree Legal Assistance",
+    "source_url": "https://www.ptla.org/",
+    "last_verified": "2025-12-30"
+  }
+]

@@ -1,0 +1,291 @@
+[
+  {
+    "id": "va_property_tax_exemption_100_disabled",
+    "scope": "state",
+    "state": "VA",
+    "title": "Total Property Tax Exemption for 100% Disabled Veterans",
+    "summary": "Complete exemption from real property taxes on primary residence for veterans rated 100% service-connected permanently and totally disabled.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresPermanentTotal": true,
+      "requiresServiceConnected": true,
+      "notes": "Must be 100% service-connected P&T OR Individual Unemployability (IU) at 100% rate."
+    },
+    "eligibilityNotes": "Applies to primary residence and up to one acre of land. Apply through local Commissioner of the Revenue. Surviving spouses who have not remarried also qualify.",
+    "sourceUrl": "https://www.dvs.virginia.gov/benefits-services/tax-exemptions",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_vehicle_tax_exemption_100_disabled",
+    "scope": "state",
+    "state": "VA",
+    "title": "Personal Property Tax Exemption for One Vehicle",
+    "summary": "Exemption from personal property taxes on one passenger car or pickup truck for 100% disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresPermanentTotal": true,
+      "requiresServiceConnected": true,
+      "notes": "Applies to one automobile or pickup truck used primarily by or for the veteran."
+    },
+    "eligibilityNotes": "Vehicle must be owned by veteran or jointly with spouse. Effective January 1, 2021. Apply through Commissioner of the Revenue. Does not transfer to surviving spouse.",
+    "sourceUrl": "https://www.dvs.virginia.gov/benefits-services/tax-exemptions",
+    "tags": ["tax", "vehicle"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_vmsdep_education_dependents",
+    "scope": "state",
+    "state": "VA",
+    "title": "Virginia Military Survivors & Dependents Education Program (VMSDEP)",
+    "summary": "Full tuition and mandatory fees waiver at Virginia public colleges and universities for spouses and children of qualifying veterans or service members.",
+    "requirements": {
+      "minDisability": 90,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": true,
+      "notes": "Veteran must be 90-100% permanently disabled, or KIA/MIA/POW. Virginia must be home of record for 5+ years."
+    },
+    "eligibilityNotes": "Covers 8 semesters (4 academic years). Children must be 16-29 years old. Includes stipend for books, room, and board. Apply through DVS portal each semester.",
+    "sourceUrl": "https://www.dvs.virginia.gov/benefits-services/education/virginia-military-survivors-dependents-education-program-vmsdep",
+    "tags": ["education", "tuition", "college", "dependents"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_hunting_fishing_license_lifetime_free",
+    "scope": "state",
+    "state": "VA",
+    "title": "Free Lifetime Hunting & Fishing License (100% Disabled)",
+    "summary": "Free lifetime hunting and freshwater fishing license for Virginia resident veterans who are 100% permanently and totally disabled.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresPermanentTotal": true,
+      "requiresServiceConnected": true,
+      "notes": "Must be Virginia resident."
+    },
+    "eligibilityNotes": "Includes lifetime hunting license and freshwater fishing license. Additional licenses required for trout waters and state/national forests. Apply through Virginia DWR.",
+    "sourceUrl": "https://dwr.virginia.gov/veterans/",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_hunting_fishing_license_lifetime_discounted",
+    "scope": "state",
+    "state": "VA",
+    "title": "Discounted Lifetime Hunting & Fishing License (30-99% Disabled)",
+    "summary": "Reduced-cost lifetime hunting and fishing licenses for Virginia resident veterans with 30-99% service-connected disabilities.",
+    "requirements": {
+      "minDisability": 30,
+      "requiresServiceConnected": true,
+      "notes": "Cost varies by rating: 70-99%=$50, 50-69%=$75, 30-49%=$100."
+    },
+    "eligibilityNotes": "Must be Virginia resident. Tiered pricing based on disability rating. Includes hunting and freshwater fishing. Apply through Virginia DWR.",
+    "sourceUrl": "https://dwr.virginia.gov/veterans/",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_state_park_passport_100_disabled",
+    "scope": "state",
+    "state": "VA",
+    "title": "Free Virginia State Parks Passport (100% Disabled)",
+    "summary": "Free admission, parking, boat launch, and 50% discount on camping and rentals at all Virginia state parks for 100% disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Does not require Virginia residency. Includes veteran and anyone needed to assist them."
+    },
+    "eligibilityNotes": "Free entry and parking for passholder and assistant. 50% discount on camping, swimming, shelters, and equipment rental. Apply at any Virginia State Park.",
+    "sourceUrl": "https://www.dcr.virginia.gov/state-parks/passes#veteran-disability-passport",
+    "tags": ["recreation", "state_parks"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_disabled_veteran_license_plates",
+    "scope": "state",
+    "state": "VA",
+    "title": "Disabled Veteran License Plates",
+    "summary": "Free special license plates with disabled parking privileges for 100% permanently and totally disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresPermanentTotal": true,
+      "requiresServiceConnected": true,
+      "notes": "Must have permanent and total disability designation."
+    },
+    "eligibilityNotes": "Allows use of disabled parking spaces. Apply through Virginia DMV with VA documentation. Registration fees may be waived.",
+    "sourceUrl": "https://www.dmv.virginia.gov/",
+    "tags": ["vehicle", "license_plates", "parking"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_veteran_id_card",
+    "scope": "state",
+    "state": "VA",
+    "title": "Veterans Identification Card (VIC)",
+    "summary": "Special identification card available to qualified veterans for a one-time fee of $10.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "notes": "Available to all honorably discharged veterans."
+    },
+    "eligibilityNotes": "Issued by Virginia DMV. Can be used to verify veteran status for benefits and discounts. One-time $10 fee.",
+    "sourceUrl": "https://www.dmv.virginia.gov/",
+    "tags": ["id", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_cdl_skills_test_waiver",
+    "scope": "state",
+    "state": "VA",
+    "title": "Commercial Driver's License (CDL) Skills Test Waiver",
+    "summary": "Waiver of CDL road skills test for military personnel and veterans with 2+ years of heavy truck/bus driving experience.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "notes": "Must have 2+ years military heavy truck/bus driving experience. Must be separated for 12 months or less."
+    },
+    "eligibilityNotes": "Knowledge test still required. Road skills test waived for qualified military drivers. Troops to Trucks program. Apply through Virginia DMV.",
+    "sourceUrl": "https://www.dmv.virginia.gov/drivers/#troops_trucks.asp",
+    "tags": ["license", "employment", "cdl"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_veterans_care_centers",
+    "scope": "state",
+    "state": "VA",
+    "benefitType": "facility",
+    "title": "Virginia Veterans Care Centers (State Veterans Homes)",
+    "summary": "Four state-operated skilled nursing care facilities providing long-term care, dementia care, and rehabilitative services for Virginia veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "notes": "Honorable discharge, Virginia resident at admission or entry into active duty from Virginia, must meet medical requirements for nursing home care."
+    },
+    "eligibilityNotes": "Four locations: Roanoke (Davis & McDaniel), Richmond (Sitter & Barfoot), Virginia Beach (Jones & Cabacoy), and Fauquier County (Puller - newly opened). All private rooms. VA per diem benefits help cover costs.",
+    "sourceUrl": "https://www.dvs.virginia.gov/healthcare/veteran-skilled-nursing-facilities-state-veterans-homes",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_employment_preference",
+    "scope": "state",
+    "state": "VA",
+    "title": "Veterans Employment Preference (State Jobs)",
+    "summary": "Veterans receive preference points when applying for Virginia state government positions.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "notes": "5% preference for veterans, 10% preference for service-connected disabled veterans. Purple Heart recipients and Gold Star families also receive enhanced consideration."
+    },
+    "eligibilityNotes": "State agencies must interview at least one veteran if they meet minimum qualifications. Virginia Values Veterans (V3) Program encourages veteran hiring.",
+    "sourceUrl": "https://www.dvs.virginia.gov/",
+    "tags": ["employment", "preference", "civil_service"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "va_military_retirement_income_subtraction",
+    "scope": "state",
+    "state": "VA",
+    "title": "Military Retirement Income Tax Subtraction",
+    "summary": "Phased elimination of state income tax on military retirement pay for veterans age 55 and older.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "notes": "As of 2024, veterans 55+ can deduct up to $40,000. Increases annually toward full exemption."
+    },
+    "eligibilityNotes": "Applies to military retirement income, Survivor Benefit Plan payments, and military benefits paid to surviving spouses. Virginia is phasing out all taxes on military retirement.",
+    "sourceUrl": "https://www.dvs.virginia.gov/benefits-services/tax-exemptions",
+    "tags": ["tax", "income", "retirement"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+  "id": "va_values_veterans_v3",
+  "scope": "state",
+  "state": "VA",
+  "title": "Virginia Values Veterans (V3) Program",
+  "summary": "State employment initiative encouraging veteran hiring with enhanced interview requirements for state agencies.",
+  "requirements": {
+    "minDisability": null,
+    "requiresPermanentTotal": null,
+    "requiresServiceConnected": null,
+    "notes": "State agencies must interview at least one veteran if they meet minimum qualifications."
+  },
+  "eligibilityNotes": "Virginia Values Veterans (V3) Program promotes veteran employment throughout state agencies. Enhanced consideration for Purple Heart recipients and Gold Star families.",
+  "sourceUrl": "https://www.dvs.virginia.gov/",
+  "tags": ["employment", "preference", "hiring"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "va_guard_tuition_assistance",
+  "scope": "state",
+  "state": "VA",
+  "title": "Virginia National Guard Tuition Assistance Program",
+  "summary": "State-funded tuition assistance for Virginia National Guard members.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be active member of Virginia National Guard."
+  },
+  "eligibilityNotes": "Provides tuition assistance for Guard members attending Virginia institutions.",
+  "sourceUrl": "https://www.vdh.virginia.gov/",
+  "tags": ["education", "tuition", "national_guard"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "va_military_retirement_phased_elimination",
+  "scope": "state",
+  "state": "VA",
+  "title": "Military Retirement Income Tax Subtraction (Phased Elimination)",
+  "summary": "Virginia is phasing out all state income tax on military retirement pay. Currently $40,000 deduction for age 55+, increasing toward full exemption.",
+  "requirements": {
+    "minDisability": null,
+    "requiresPermanentTotal": null,
+    "requiresServiceConnected": null,
+    "notes": "As of 2024: veterans 55+ can deduct up to $40,000. Amount increases annually toward full exemption."
+  },
+  "eligibilityNotes": "Applies to military retirement income, Survivor Benefit Plan payments, and military benefits paid to surviving spouses. Virginia is eliminating all taxes on military retirement over time.",
+  "sourceUrl": "https://www.dvs.virginia.gov/benefits-services/tax-exemptions",
+  "tags": ["tax", "income", "retirement"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "va_vmsdep_stipend_details",
+  "scope": "state",
+  "state": "VA",
+  "title": "VMSDEP Stipend for Books, Room & Board",
+  "summary": "In addition to tuition waiver, VMSDEP provides stipend for books, room, and board for eligible dependents.",
+  "requirements": {
+    "minDisability": 90,
+    "requiresPermanentTotal": null,
+    "requiresServiceConnected": true,
+    "notes": "Veteran must be 90-100% permanently disabled, or KIA/MIA/POW. Virginia must be home of record for 5+ years."
+  },
+  "eligibilityNotes": "Covers 8 semesters (4 academic years). Children must be 16-29 years old. Includes stipend beyond tuition. Apply through DVS portal each semester.",
+  "sourceUrl": "https://www.dvs.virginia.gov/benefits-services/education/virginia-military-survivors-dependents-education-program-vmsdep",
+  "tags": ["education", "tuition", "stipend", "dependents"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "va_stap",
+  "scope": "state",
+  "state": "VA",
+  "title": "State Tuition Assistance Program (STAP)",
+  "summary": "Up to $4,500 per semester in tuition grants for Virginia National Guard members attending accredited institutions with physical locations in Virginia.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must have minimum 2 years remaining service obligation. Must have completed required initial active duty service. Must be satisfactorily performing duty. 2-year commitment incurred upon completion of last term."
+  },
+  "eligibilityNotes": "Virginia National Guard (Army or Air) members enrolled in good standing at VA public institutions or accredited nonprofit private institutions with physical location in Virginia. Spring 2026 cap is $4,500/semester (reduced from previous $10,000 due to surge in enrollment). Covers TUITION ONLY (not fees, books, room/board). Must complete FAFSA/CASFA and maintain Satisfactory Academic Progress. Grants paid directly to school by Department of Military Affairs. Recoupment required for failed/incomplete/withdrawn courses or incomplete document packets. Apply through https://statetuition.vangweb.com. Request windows: Fall (May 15-Jul 1), Spring (Sep 15-Nov 1), Summer (Feb 15-Apr 1).",
+  "sourceUrl": "https://statetuition.vangweb.com/",
+  "tags": ["education", "tuition", "national_guard"],
+  "lastReviewed": "2025-12-25"
+}
+]

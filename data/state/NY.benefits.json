@@ -1,0 +1,371 @@
+[
+  {
+    "id": "ny_property_tax_exemptions_veterans",
+    "scope": "state",
+    "state": "NY",
+    "title": "Veterans Property Tax Exemptions",
+    "summary": "New York offers multiple local property tax exemptions for eligible veterans, including combat, wartime, and disabled veteran exemptions.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": true,
+      "notes": "Exemptions and amounts vary by municipality. Local governments must opt in."
+    },
+    "eligibilityNotes": "Eligibility depends on military service, discharge status, and whether the local municipality has adopted the exemption. Disabled veterans may qualify for higher exemptions.",
+    "sourceUrl": "https://veterans.ny.gov/content/property-tax-exemptions-veterans",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ny_vehicle_registration_fee_exemption",
+    "scope": "state",
+    "state": "NY",
+    "title": "Vehicle Registration Fee Exemptions for Disabled Veterans",
+    "summary": "Certain vehicle registration fees may be exempt for qualifying disabled veterans in New York.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": true,
+      "requiresWartimeService": null,
+      "notes": "Eligibility and exemptions depend on DMV rules and veteran disability status."
+    },
+    "eligibilityNotes": "Disabled veterans must meet DMV eligibility criteria and provide documentation verifying service-connected disability.",
+    "sourceUrl": "https://dmv.ny.gov/more-info/vehicle-registrations-and-title-certificates-members-military",
+    "tags": ["vehicle", "dmv", "tax"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ny_thruway_ezpass_disabled_veteran",
+    "scope": "state",
+    "state": "NY",
+    "title": "New York Thruway E-ZPass Discount for Disabled Veterans",
+    "summary": "Eligible disabled veterans may receive toll-free travel on the New York State Thruway with an approved E-ZPass account.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresPermanentTotal": true,
+      "requiresServiceConnected": true,
+      "requiresWartimeService": null,
+      "notes": "Applies to NY State Thruway only; other toll authorities may have separate programs."
+    },
+    "eligibilityNotes": "Veterans must apply through the New York State Thruway Authority and meet disability requirements.",
+    "sourceUrl": "https://www.thruway.ny.gov/ezpass/veterans.html",
+    "tags": ["transportation", "toll", "vehicle"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ny_hunting_fishing_license_veterans",
+    "scope": "state",
+    "state": "NY",
+    "title": "Hunting, Fishing, and Trapping License Benefits for Veterans",
+    "summary": "New York offers reduced-fee or free hunting, fishing, and trapping licenses for certain veterans and service members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility varies by license type and service status."
+    },
+    "eligibilityNotes": "Veterans must meet New York residency requirements and provide proof of service or disability when applying through DEC.",
+    "sourceUrl": "https://www.dec.ny.gov/outdoor/7860.html",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ny_state_park_pass_veterans",
+    "scope": "state",
+    "state": "NY",
+    "title": "New York State Parks Pass for Veterans",
+    "summary": "Certain veterans and eligible family members may receive free or reduced-cost access to New York State Parks.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": true,
+      "notes": "Pass eligibility varies by program (e.g., wartime service, disability, Gold Star family)."
+    },
+    "eligibilityNotes": "Veterans must meet eligibility criteria and apply through New York State Parks or designated agencies.",
+    "sourceUrl": "https://parks.ny.gov/admission/military-and-veterans.aspx",
+    "tags": ["recreation", "state_parks"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ny_veterans_tuition_award",
+    "scope": "state",
+    "state": "NY",
+    "title": "New York Veterans Tuition Awards",
+    "summary": "Tuition assistance for eligible veterans enrolled in approved undergraduate or graduate programs in New York.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": true,
+      "notes": "Award amounts and eligibility depend on enrollment status and service history."
+    },
+    "eligibilityNotes": "Veterans must be New York residents and enrolled in approved programs. Awards may supplement GI Bill benefits.",
+    "sourceUrl": "https://veterans.ny.gov/content/veterans-tuition-awards",
+    "tags": ["education", "tuition", "financial_aid"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ny_state_veterans_homes",
+    "scope": "state",
+    "state": "NY",
+    "benefitType": "facility",
+    "title": "New York State Veterans Homes",
+    "summary": "State-operated long-term care facilities providing nursing and residential care for eligible veterans and certain family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": null,
+      "notes": "Admission depends on medical need, eligibility determination, and bed availability."
+    },
+    "eligibilityNotes": "Applicants must meet VA and New York eligibility criteria. Homes are located throughout the state.",
+    "sourceUrl": "https://veterans.ny.gov/programs/veterans-homes",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ny_state_veterans_cemeteries",
+    "scope": "state",
+    "state": "NY",
+    "benefitType": "facility",
+    "title": "New York State Veterans Cemeteries",
+    "summary": "State-operated veterans cemeteries offering burial options for eligible veterans and family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility generally mirrors VA national cemetery eligibility."
+    },
+    "eligibilityNotes": "Cemetery availability and services vary by location. Pre-need eligibility determination is recommended.",
+    "sourceUrl": "https://veterans.ny.gov/programs/veterans-cemeteries",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ny_supplemental_burial_allowance",
+    "scope": "state",
+    "state": "NY",
+    "title": "New York State Supplemental Burial Allowance",
+    "summary": "Financial assistance to help cover burial and funeral costs for eligible veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": null,
+      "notes": "Allowance amounts and eligibility depend on circumstances and county administration."
+    },
+    "eligibilityNotes": "Administered through county veterans service agencies. May supplement federal VA burial benefits.",
+    "sourceUrl": "https://veterans.ny.gov/content/new-york-state-supplemental-burial-allowance",
+    "tags": ["burial", "death_benefits", "reimbursement"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+  "id": "ny_lifetime_liberty_pass",
+  "scope": "state",
+  "state": "NY",
+  "title": "Lifetime Liberty Pass (40%+ Disabled Wartime Veterans)",
+  "summary": "Comprehensive free benefits including vehicle entry to state parks, free golf at 28 courses, free swimming at 36 pools, and discounted camping.",
+  "requirements": {
+    "minDisability": 40,
+    "requiresServiceConnected": true,
+    "requiresWartimeService": true,
+    "notes": "For wartime veterans with 40% or greater service-connected disability."
+  },
+  "eligibilityNotes": "Benefits include: free vehicle entry to state parks and DEC day-use areas, state boat launches, historic sites; free golf at 28 state park golf courses; free swimming at 36 state park pools; discounted camping and cabin rentals.",
+  "sourceUrl": "https://parks.ny.gov/admission/military-and-veterans.aspx",
+  "tags": ["recreation", "state_parks", "golf", "swimming"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_merit_scholarship",
+  "scope": "state",
+  "state": "NY",
+  "title": "MERIT Scholarship for Military Dependents",
+  "summary": "Up to $24,250 annually for children, spouses, and dependents of severely and permanently disabled service members.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": true,
+    "requiresPermanentTotal": true,
+    "notes": "For dependents of military members who became severely and permanently disabled or died as result of military service."
+  },
+  "eligibilityNotes": "Covers tuition (up to SUNY in-state rate), room and board, and books for 4 years of full-time undergraduate study (5 years for approved programs). Must be enrolled at approved NY postsecondary institution with 12+ credits per semester.",
+  "sourceUrl": "https://www.hesc.ny.gov/pay-for-college/military-corner/military-enhanced-recognition-incentive-and-tribute-merit-scholarship.html",
+  "tags": ["education", "scholarship", "dependents"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_children_of_veterans_award",
+  "scope": "state",
+  "state": "NY",
+  "title": "Children of Veterans Award",
+  "summary": "Up to $450 per year for college for children of eligible veterans.",
+  "requirements": {
+    "anyOf": [
+      {"minDisability": 40, "requiresServiceConnected": true},
+      {"field": "veteranStatus", "op": "==", "value": "died_due_to_service"}
+    ],
+    "notes": "Veterans must have died due to service OR have 40%+ service-connected disability."
+  },
+  "eligibilityNotes": "Apply by June 30 of current academic year. Children of qualifying New York State veterans eligible.",
+  "sourceUrl": "https://veterans.ny.gov/content/veterans-tuition-awards",
+  "tags": ["education", "scholarship", "dependents"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_blind_annuity_program",
+  "scope": "state",
+  "state": "NY",
+  "title": "New York State Blind Annuity Program",
+  "summary": "Annual annuity payment of $1,395.36 ($116.28 monthly) for legally blind wartime veterans or unmarried surviving spouses.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresWartimeService": true,
+    "notes": "Blindness need not be service-connected. Legal blindness standard applies."
+  },
+  "eligibilityNotes": "Available to legally blind New York State wartime veterans or unmarried surviving spouse. If veteran met criteria but never received benefit during lifetime, unmarried surviving spouse may still be eligible.",
+  "sourceUrl": "https://veterans.ny.gov/content/new-york-state-blind-annuity-program",
+  "tags": ["financial_assistance", "disability", "annuity"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_peddlers_license_free",
+  "scope": "state",
+  "state": "NY",
+  "title": "Free Lifetime Veterans Peddler's License",
+  "summary": "Free lifetime license for veterans who served overseas to peddle, vend, and sell goods on highways.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresWartimeService": null,
+    "notes": "Must have served overseas and have other than dishonorable discharge."
+  },
+  "eligibilityNotes": "Provides right to peddle, vend, sell goods, wares, or merchandise, or solicit trade on highways within specific jurisdiction. Surviving spouses also eligible. Contact County Clerk's Office for application.",
+  "sourceUrl": "https://veterans.ny.gov/content/new-york-state-peddler's-license",
+  "tags": ["business", "license", "fee_waiver"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_emergency_housing_assistance",
+  "scope": "state",
+  "state": "NY",
+  "title": "Veterans Emergency Housing Assistance Fund",
+  "summary": "Up to $2,000 for emergency housing needs under certain circumstances.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "For emergency housing situations."
+  },
+  "eligibilityNotes": "Provides financial assistance for emergency housing needs. Contact NY Division of Veterans' Services.",
+  "sourceUrl": "https://veterans.ny.gov/programs",
+  "tags": ["housing", "emergency", "financial_assistance"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_access_to_home_heroes",
+  "scope": "state",
+  "state": "NY",
+  "title": "Access to Home for Heroes/Veterans Program",
+  "summary": "Financial assistance to make dwellings accessible for low/moderate-income disabled veterans.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": true,
+    "requiresPermanentTotal": null,
+    "notes": "Permanently disabled veterans whose income is at or below 120% of area median income."
+  },
+  "eligibilityNotes": "Provides financial assistance for home modifications to improve accessibility.",
+  "sourceUrl": "https://veterans.ny.gov/programs",
+  "tags": ["housing", "accessibility", "financial_assistance"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_homes_for_veterans_mortgage",
+  "scope": "state",
+  "state": "NY",
+  "title": "Homes for Veterans Mortgage Program",
+  "summary": "Fixed-rate mortgages with interest rates 0.375% below already-low state mortgage rates, plus down payment assistance.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Available to active duty, reserve, National Guard, and honorably discharged veterans."
+  },
+  "eligibilityNotes": "Administered through SONYMA in conjunction with NY State Division of Veterans' Affairs. Contact participating lenders statewide.",
+  "sourceUrl": "https://www.nyhomes.org/programs/homes-for-veterans",
+  "tags": ["housing", "loan", "mortgage"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_operation_recognition",
+  "scope": "state",
+  "state": "NY",
+  "title": "Operation Recognition - High School Diploma",
+  "summary": "Free high school diploma for veterans of all eras who left school without graduating to serve in the U.S. military.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must have left high school before graduation to enter military service."
+  },
+  "eligibilityNotes": "Available to veterans of all eras who were inducted before completing high school education.",
+  "sourceUrl": "https://veterans.ny.gov/programs",
+  "tags": ["education", "diploma"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_paid_family_deployment_leave",
+  "scope": "state",
+  "state": "NY",
+  "title": "Paid Family Deployment Leave",
+  "summary": "10 weeks of paid time off under NY Paid Family Leave to address issues related to family member's military deployment.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "For workers addressing deployment-related family issues."
+  },
+  "eligibilityNotes": "Available under New York Paid Family Leave Act for various reasons including military deployment situations.",
+  "sourceUrl": "https://paidfamilyleave.ny.gov/",
+  "tags": ["employment", "family_leave", "deployment"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_cold_war_veterans_exemption",
+  "scope": "state",
+  "state": "NY",
+  "title": "Cold War Veterans' Property Tax Exemption",
+  "summary": "10% or 15% reduction in assessed value for Cold War veterans (as adopted by taxing jurisdiction), with additional reduction for service-connected disabilities.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Cold War service period: Sept 2, 1945 - Dec 26, 1991. Additional reduction for service-connected disability equal to one-half of disability rating."
+  },
+  "eligibilityNotes": "Local option exemption - must be adopted by taxing jurisdiction. Apply through local assessor. Maximum limits exist in each community.",
+  "sourceUrl": "https://veterans.ny.gov/content/property-tax-exemptions-veterans",
+  "tags": ["tax", "property", "cold_war"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "ny_rirp",
+  "scope": "state",
+  "state": "NY",
+  "title": "Recruitment Incentive and Retention Program (RIRP)",
+  "summary": "100% tuition at SUNY or CUNY, or $2,485 per semester at private New York institutions for NY National Guard and Naval Militia members.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be in good standing with State Military Forces (attend or make-up all drills and annual training). NY resident for 186 days prior to using program (excluding Active Duty periods)."
+  },
+  "eligibilityNotes": "NY State program for Army and Air National Guard and Naval Militia members. Pays 100% tuition at any SUNY or CUNY institution, or $2,485/semester at private schools located within NYS. Must be enrolled in undergraduate degree-granting program for minimum 6 credit hours/semester or 4/quarter. Must complete FAFSA (obtain Student Aid Report) and TAP application (obtain original TAP Award Certificate). Cannot be used for Summer or Winter semesters. Apply through unit administrator or education service representative. Contact: ng.ny.nyarng.mbx.rirpny@army.mil",
+  "sourceUrl": "https://dmna.ny.gov/education/?id=rirp",
+  "tags": ["education", "tuition", "national_guard"],
+  "lastReviewed": "2025-12-25"
+}
+]

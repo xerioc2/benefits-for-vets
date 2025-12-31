@@ -1,0 +1,363 @@
+[
+  {
+    "id": "tn_property_tax_relief_disabled_vet_pt",
+    "scope": "state",
+    "state": "TN",
+    "title": "Property Tax Relief for Disabled Veterans",
+    "summary": "Property tax relief for qualifying disabled veterans in Tennessee.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null,
+      "notes": "Must be rated 100% Permanent and Total (P&T) by the VA."
+    },
+    "eligibilityNotes": "Must be rated 100% Permanent and Total (P&T) by the VA. See official page for application details and required documentation.",
+    "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/homeowners/property-tax-relief-for-disabled-veterans.html",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-23"
+  },
+  {
+    "id": "tn_state_parks_free_day",
+    "scope": "state",
+    "state": "TN",
+    "title": "Free Day at Tennessee State Parks",
+    "summary": "Free admission on designated dates and certain complimentary camping/golf offers tied to service branch birthdays (see official page for current dates).",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility depends on the specific commemorative dates/offers and documentation rules listed on the official page."
+    },
+    "eligibilityNotes": "Dates and offers vary by year and service branch. See the official page for the current schedule, documentation requirements, and reservation details.",
+    "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/state-parks/free-day.html",
+    "tags": ["recreation", "state_parks", "camping", "golf"],
+    "lastReviewed": "2025-12-23"
+  },
+  {
+    "id": "tn_state_parks_offseason_discount",
+    "scope": "state",
+    "state": "TN",
+    "title": "State Parks: Offseason Discount",
+    "summary": "Offseason discounts may be available to eligible Tennessee residents at participating state parks (see official page for dates and details).",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Discount rules vary; verify residency/eligibility, eligible parks, and dates on the official page."
+    },
+    "eligibilityNotes": "Verify residency requirements, eligible parks, and current discount rules on the official page. Bring required documentation when booking/purchasing.",
+    "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/state-parks/discounted-rates.html",
+    "tags": ["recreation", "state_parks", "discount"],
+    "lastReviewed": "2025-12-23"
+  },
+  {
+    "id": "tn_state_parks_lodging_100_sc",
+    "scope": "state",
+    "state": "TN",
+    "title": "State Parks: Lodging Benefit for 100% Service-Connected Veterans",
+    "summary": "Certain lodging/camping benefits may be available for veterans rated 100% service-connected (see official page for details).",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Must be rated 100% service-connected; see the official page for details."
+    },
+    "eligibilityNotes": "Check eligible locations/rates and required documentation on the official page. Present proof when booking.",
+    "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/state-parks/discounted-rates.html",
+    "tags": ["recreation", "state_parks", "lodging"],
+    "lastReviewed": "2025-12-23"
+  },
+  {
+    "id": "tn_hunting_fishing_license_disabled_vet",
+    "scope": "state",
+    "state": "TN",
+    "title": "Disabled Veteran Hunting & Fishing License (One-time $10)",
+    "summary": "Eligible Tennessee residents may obtain a permanent sport combination hunting and fishing license with a one-time $10 fee.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "anyOf": [
+        {
+          "allOf": [
+            { "minDisability": 100 },
+            { "requiresPermanentTotal": true },
+            { "requiresServiceConnected": true }
+          ]
+        },
+        {
+          "allOf": [
+            { "minDisability": 30 },
+            { "requiresWartimeService": true }
+          ]
+        }
+      ],
+      "notes": "See official page for exact eligibility language and required documentation."
+    },
+    "eligibilityNotes": "Requires Tennessee residency and qualifying disability/service criteria. See the official page for exact eligibility language and required documentation.",
+    "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/state-parks/hunting-and-fishing-licenses.html",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-23"
+  },
+  {
+    "id": "tn_property_tax_relief_surviving_spouse",
+    "scope": "state",
+    "state": "TN",
+    "audience": "surviving_spouse",
+    "title": "Property Tax Relief for Surviving Spouses",
+    "summary": "Property tax relief may be available to surviving spouses of eligible disabled veterans, subject to specific conditions.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "allOf": [
+        { "field": "isSurvivingSpouse", "op": "==", "value": true },
+        { "field": "hasRemarried", "op": "==", "value": false },
+        { "field": "ownsHome", "op": "==", "value": true },
+        { "field": "isPrimaryResidence", "op": "==", "value": true }
+      ],
+      "notes": "This benefit has spouse-specific conditions and may also depend on the deceased veteran’s eligibility. Verify on official sources."
+    },
+    "eligibilityNotes": "Generally requires the surviving spouse to not remarry and to own and use the home as a primary residence. Apply through your County Trustee. See official sources for details and additional eligibility rules.",
+    "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/homeowners/property-tax-relief-for-surviving-spouses.html",
+    "tags": ["tax", "property", "housing", "survivor"],
+    "lastReviewed": "2025-12-23"
+  },
+  {
+    "id": "tn_driver_license_veteran_designation",
+    "scope": "state",
+    "state": "TN",
+    "title": "Veteran Designation on TN Driver License / Photo ID",
+    "summary": "Veterans can add a veteran designation to a Tennessee driver license or photo ID by presenting acceptable documentation (fees may apply).",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Requires acceptable proof of veteran status (e.g., DD-214) and payment of standard/duplicate fees per TN rules."
+    },
+    "eligibilityNotes": "Visit a Driver Services Center with acceptable documentation (e.g., DD-214). Standard issuance/renewal fees apply; duplicate fees may apply if not renewing.",
+    "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/motor-services/veteran-id.html",
+    "tags": ["id", "license"],
+    "lastReviewed": "2025-12-23"
+  },
+  {
+    "id": "tn_county_motor_vehicle_privilege_tax_relief_pt",
+    "scope": "state",
+    "state": "TN",
+    "title": "County Motor Vehicle Privilege Tax Relief for Disabled Veterans",
+    "summary": "County motor vehicle privilege tax relief for qualifying disabled veterans in Tennessee.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null,
+      "notes": "Must be rated 100% Permanent and Total (P&T) by the VA."
+    },
+    "eligibilityNotes": "Must be rated 100% Permanent and Total (P&T) by the VA. See official page for documentation and application steps.",
+    "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/motor-services/county-motor-vehicle-privilege-tax.html",
+    "tags": ["tax", "vehicle"],
+    "lastReviewed": "2025-12-23"
+  },
+  {
+    "id": "tn_highways_for_heroes_cdl_skills_waiver",
+    "scope": "state",
+    "state": "TN",
+    "title": "Highways for Heroes (CDL Skills Test Waiver)",
+    "summary": "Tennessee program that may allow qualified military personnel and veterans to waive the CDL road skills test.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Typically requires qualifying military driving experience and completion of required forms; verify exact criteria on the official page."
+    },
+    "eligibilityNotes": "Eligibility and required forms/documentation vary. See official page for qualification criteria and application instructions.",
+    "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-benefits/motor-services/commercial-driver-s-license-issuance.html",
+    "tags": ["employment", "cdl", "vehicle", "license"],
+    "lastReviewed": "2025-12-23"
+  },
+  {
+    "id": "tn_veterans_homes",
+    "scope": "state",
+    "state": "TN",
+    "benefitType": "facility",
+    "title": "Tennessee State Veterans Homes",
+    "summary": "Long-term care facilities for eligible veterans and eligible spouses.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Admission depends on eligibility determination, care needs, bed availability, and program-specific requirements (including spouse eligibility in certain cases)."
+    },
+    "eligibilityNotes": "Applicants must meet VA and state eligibility criteria. Spouses may be eligible in certain cases.",
+    "sourceUrl": "https://www.tn.gov/veteran/veteran-benefits/tn-state-veterans-homes.html",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-23"
+  },
+  {
+  "id": "tn_veterans_cemeteries_all",
+  "scope": "state",
+  "state": "TN",
+  "benefitType": "facility",
+  "title": "Tennessee State Veterans Cemeteries (All 5 Locations)",
+  "summary": "Five state-operated veterans cemeteries providing burial options throughout Tennessee.",
+  "requirements": {
+    "minDisability": null,
+    "requiresPermanentTotal": null,
+    "requiresServiceConnected": null,
+    "requiresWartimeService": null,
+    "notes": "Eligibility generally mirrors VA national cemetery requirements."
+  },
+  "eligibilityNotes": "Locations: Knoxville (2 cemeteries: East TN State Veterans Cemetery & John Sevier State Veterans Cemetery), Memphis (West TN State Veterans Cemetery), Nashville (Middle TN State Veterans Cemetery), Parkers Crossroads (West TN State Veterans Cemetery at Parkers Crossroads). No fee for veteran interment, small fee for dependents.",
+  "sourceUrl": "https://www.tn.gov/veteran/burial-benefits/tn-veterans-cemeteries.html",
+  "tags": ["burial", "cemetery", "memorial", "facility"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tn_business_tax_exemption",
+  "scope": "state",
+  "state": "TN",
+  "title": "Business Tax Exemption for Disabled Veterans",
+  "summary": "Disabled veterans exempt from certain business taxes listed in Tennessee business tax law.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": true,
+    "requiresPermanentTotal": null,
+    "notes": "Exemption applies to certain business activities under TN business tax law."
+  },
+  "eligibilityNotes": "Disabled veterans may be exempt from specific business taxes. Consult TN Department of Revenue for qualifying activities.",
+  "sourceUrl": "https://www.tn.gov/revenue/taxes/business-tax.html",
+  "tags": ["tax", "business"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tn_professional_privilege_tax_exemption",
+  "scope": "state",
+  "state": "TN",
+  "title": "Professional Privilege Tax Exemption (Active Military 181+ Days)",
+  "summary": "Active military members with 181+ days of service skip professional privilege tax for certain professions.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "For active military with 181+ days service. Applies to attorneys, lobbyists, and other licensed professionals."
+  },
+  "eligibilityNotes": "Exemption from professional privilege tax for qualifying active service members in certain professions.",
+  "sourceUrl": "https://www.tn.gov/revenue/",
+  "tags": ["tax", "professional", "military"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tn_sales_tax_refund",
+  "scope": "state",
+  "state": "TN",
+  "title": "Sales Tax Refund for Disabled/Seniors",
+  "summary": "Yearly sales tax refund for seniors 65+ or disabled individuals with low income.",
+  "requirements": {
+    "anyOf": [
+      {"field": "age", "op": ">=", "value": 65},
+      {"minDisability": null, "field": "disabledWithLowIncome", "op": "==", "value": true}
+    ],
+    "notes": "Must meet low-income criteria. Refund checks start in September."
+  },
+  "eligibilityNotes": "Seniors or disabled with low income can claim yearly sales tax refund through Tennessee Department of Revenue.",
+  "sourceUrl": "https://www.tn.gov/revenue/taxes/sales-and-use-tax.html",
+  "tags": ["tax", "sales_tax", "refund"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tn_national_guard_tuition",
+  "scope": "state",
+  "state": "TN",
+  "title": "Tennessee National Guard Tuition Assistance",
+  "summary": "State-funded tuition assistance program for Tennessee National Guard members.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be active member of Tennessee National Guard."
+  },
+  "eligibilityNotes": "Tuition assistance for Guard members attending Tennessee institutions. Separate from federal Guard benefits.",
+  "sourceUrl": "https://www.tn.gov/military/",
+  "tags": ["education", "tuition", "national_guard"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tn_kia_dependents_scholarship",
+  "scope": "state",
+  "state": "TN",
+  "title": "Scholarship for KIA Veterans' Survivors",
+  "summary": "Full cost of college at Tennessee state institution for survivors of veterans killed in action.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Veteran must have been killed in action or died as result of injuries suffered in war."
+  },
+  "eligibilityNotes": "Survivors receive full tuition coverage at Tennessee public colleges and universities.",
+  "sourceUrl": "https://www.tn.gov/veteran/",
+  "tags": ["education", "scholarship", "dependents", "survivors"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tn_veterans_homes_all_locations",
+  "scope": "state",
+  "state": "TN",
+  "benefitType": "facility",
+  "title": "Tennessee State Veterans Homes (All 4 Locations)",
+  "summary": "Four state-operated long-term care facilities for eligible veterans throughout Tennessee.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "requiresWartimeService": null,
+    "notes": "Admission depends on eligibility, care needs, and bed availability."
+  },
+  "eligibilityNotes": "Locations: Clarksville (Tennessee State Veterans' Home at Clarksville), Cleveland (Tennessee State Veterans' Home at Humboldt - relocated), Murfreesboro (Tennessee State Veterans' Home at Murfreesboro), Knoxville (Tennessee State Veterans' Home at Knoxville). Tennessee residents or natives eligible. Spouses, surviving spouses, and Gold Star parents may be eligible. Fee applies.",
+  "sourceUrl": "https://www.tn.gov/veteran/tn-state-veterans-homes.html",
+  "tags": ["housing", "long_term_care", "facility"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tn_veterans_preference_spouse",
+  "scope": "state",
+  "state": "TN",
+  "title": "Veteran Employment Preference for Spouse",
+  "summary": "State employment preference extended to spouses of disabled veterans.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Available to spouses of service-connected disabled veterans."
+  },
+  "eligibilityNotes": "Spouses of disabled veterans receive state employment preference in Tennessee.",
+  "sourceUrl": "https://www.tn.gov/veteran/",
+  "tags": ["employment", "preference", "spouse"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tn_strong_act",
+  "scope": "state",
+  "state": "TN",
+  "title": "Tennessee STRONG Act State Tuition Assistance",
+  "summary": "Tuition reimbursement program covering up to 100% of remaining tuition costs (after federal TA and other aid) at UT Knoxville resident rates, plus course/program fee reimbursement for Tennessee National Guard members.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be active drilling TN Army or Air National Guard member in good standing. Must serve during applicable academic term."
+  },
+  "eligibilityNotes": "Last-dollar reimbursement program for TN National Guard members. Covers remaining tuition after federal TA, scholarships, grants up to UT Knoxville resident rate. NEW effective July 2025: Course/program fee reimbursement of $3,500/fiscal year (undergraduate) or $7,500/fiscal year (graduate). Lifetime limits: 130 undergraduate semester hours or 40 graduate semester hours. Must maintain 2.0 GPA (undergrad) or 3.0 GPA (graduate). Available at any TN public or private regionally accredited institution (private schools reimbursed at public rates). Must complete FAFSA and use Federal TA if eligible. Application packet must be submitted within 45 days of course completion. Apply through TN National Guard Education Services.",
+  "sourceUrl": "https://www.tn.gov/military/programs-benefits/education-incentives/state-ta.html",
+  "tags": ["education", "tuition", "national_guard", "reimbursement"],
+  "lastReviewed": "2025-12-25"
+}
+]

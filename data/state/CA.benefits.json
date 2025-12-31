@@ -1,0 +1,352 @@
+[
+  {
+    "id": "ca_property_tax_exemption_disabled_veteran",
+    "scope": "state",
+    "state": "CA",
+    "title": "Disabled Veterans Property Tax Exemption",
+    "summary": "Property tax exemption for qualifying disabled veterans or their surviving spouses in California.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "notes": "California offers basic ($100K compounded) and low-income ($150K compounded) exemption levels; amounts vary annually."
+    },
+    "eligibilityNotes": "Generally requires 100% service-connected disability or qualifying circumstances. Surviving spouses may be eligible. Apply through the County Assessor.",
+    "sourceUrl": "https://boe.ca.gov/proptaxes/dv_exemption.htm",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_vehicle_registration_fee_waiver",
+    "scope": "state",
+    "state": "CA",
+    "title": "Vehicle Registration Fee Waiver (Disabled Veteran)",
+    "summary": "Waiver of vehicle registration and license fees for qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "notes": "Applies to one vehicle used by or for the veteran."
+    },
+    "eligibilityNotes": "Requires Disabled Veteran license plates issued by the California DMV.",
+    "sourceUrl": "https://www.dmv.ca.gov/portal/vehicle-registration/registration-fees/disabled-veterans/",
+    "tags": ["vehicle", "tax", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_disabled_veteran_license_plates",
+    "scope": "state",
+    "state": "CA",
+    "title": "Disabled Veteran License Plates",
+    "summary": "Special license plates providing parking and fee benefits to qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true
+    },
+    "eligibilityNotes": "Issued by the California DMV upon verification of VA disability status.",
+    "sourceUrl": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/disabled-veteran-dv-license-plates/",
+    "tags": ["vehicle", "parking", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_college_fee_waiver_plan_a_b",
+    "scope": "state",
+    "state": "CA",
+    "title": "College Fee Waiver for Veteran Dependents (Plan A & B)",
+    "summary": "Tuition and fee waivers at California public colleges for eligible dependents of veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Plan A generally requires service-connected disability or death; Plan B is income-based."
+    },
+    "eligibilityNotes": "Applies to dependents and spouses in qualifying circumstances. Administered by the California Department of Veterans Affairs.",
+    "sourceUrl": "https://www.calvet.ca.gov/VetServices/Pages/College-Fee-Waiver.aspx",
+    "tags": ["education", "dependents", "tuition"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_100_percent_tuition_waiver",
+    "scope": "state",
+    "state": "CA",
+    "title": "100% Disabled Veteran Tuition Waiver",
+    "summary": "Full tuition and fee waiver at CSU, UC, and California Community Colleges for 100% disabled veterans and qualifying dependents.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Veteran must be 100% disabled OR receive compensation at 100% due to unemployability."
+    },
+    "eligibilityNotes": "Spouses, registered domestic partners, and children of 100% disabled veterans, veterans who died of service-connected causes, or were MIA/POW also eligible.",
+    "sourceUrl": "https://www.calvet.ca.gov/VetServices/Pages/College-Fee-Waiver.aspx",
+    "tags": ["education", "tuition", "dependents"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_national_guard_education_assistance",
+    "scope": "state",
+    "state": "CA",
+    "title": "California National Guard Education Assistance Award Program",
+    "summary": "Covers all or portion of costs at selected California state institutions for active Guard members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Guard members must remain in active status while attending school. GPA, academic program, and enrollment requirements apply."
+    },
+    "eligibilityNotes": "Available to California National Guard members in good standing.",
+    "sourceUrl": "https://www.calguard.ca.gov/benefits",
+    "tags": ["education", "tuition", "national_guard"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_state_veterans_homes",
+    "scope": "state",
+    "state": "CA",
+    "benefitType": "facility",
+    "title": "California State Veterans Homes",
+    "summary": "Long-term care homes providing housing and medical services for eligible veterans and certain spouses.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Admission depends on medical need, eligibility determination, and bed availability. 8 locations statewide."
+    },
+    "eligibilityNotes": "Applicants must meet VA and California eligibility criteria. Locations: Barstow, Chula Vista, Fresno, Lancaster, Redding, Ventura, West Los Angeles, Yountville. Spouses may qualify in limited cases.",
+    "sourceUrl": "https://www.calvet.ca.gov/VetHomes",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_distinguished_veteran_pass",
+    "scope": "state",
+    "state": "CA",
+    "title": "Distinguished Veteran Pass (50%+ Disabled)",
+    "summary": "Free lifetime entry to all California state parks, beaches, and boat launches for disabled veterans.",
+    "requirements": {
+      "minDisability": 50,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Also available to former POWs and Medal of Honor recipients."
+    },
+    "eligibilityNotes": "Includes camping and day use. Not valid for special events, group campsites, or commercial use. May have convenience fee for online reservations. Apply at any CA State Park.",
+    "sourceUrl": "https://www.parks.ca.gov/pages/737/files/DVP%20Application.pdf",
+    "tags": ["recreation", "state_parks"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_employment_preference",
+    "scope": "state",
+    "state": "CA",
+    "title": "California Veterans Employment Preference",
+    "summary": "Veterans may receive preference points when applying for California state civil service positions.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": true,
+      "notes": "Preference eligibility depends on discharge status and wartime service; disabled veterans may receive additional points."
+    },
+    "eligibilityNotes": "Honorably discharged veterans automatically rank at top of eligibility list when they pass a test for state employment. Documentation such as DD-214 is required.",
+    "sourceUrl": "https://www.calvet.ca.gov/VetServices/Pages/Employment-Services.aspx",
+    "tags": ["employment", "preference", "civil_service"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_hunting_fishing_license_free_70_percent",
+    "scope": "state",
+    "state": "CA",
+    "title": "Free Annual Sport Fishing & Hunting License (70%+ Disabled)",
+    "summary": "Free annual sport fishing and hunting license for veterans with 70% or higher service-connected disability.",
+    "requirements": {
+      "minDisability": 70,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Veteran must be California resident with VA disability rating of 70% or greater."
+    },
+    "eligibilityNotes": "Requires proof of VA disability rating and proof of California residence. Licenses are issued through California Department of Fish and Wildlife.",
+    "sourceUrl": "https://wildlife.ca.gov/Licensing/Veteran-Licenses",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_hunting_fishing_license_reduced_50_percent",
+    "scope": "state",
+    "state": "CA",
+    "title": "Reduced-Fee Hunting & Fishing Licenses (50-69% Disabled Veterans)",
+    "summary": "California offers reduced-fee hunting and fishing licenses to veterans with 50-69% service-connected disability.",
+    "requirements": {
+      "minDisability": 50,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Veteran must have a service-connected disability rating between 50-69%."
+    },
+    "eligibilityNotes": "Requires California residency and VA disability documentation. Licenses are issued through California Department of Fish and Wildlife.",
+    "sourceUrl": "https://wildlife.ca.gov/Licensing/Veteran-Licenses",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_dmv_veteran_designation",
+    "scope": "state",
+    "state": "CA",
+    "title": "Veteran Designation on California Driver License / ID",
+    "summary": "Eligible veterans may add a Veteran designation to a California driver license or identification card.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": null,
+      "notes": "Requires verification of veteran status through CalVet prior to DMV visit."
+    },
+    "eligibilityNotes": "Veterans must obtain a Veteran Status Verification Form from CalVet and present it at a DMV office.",
+    "sourceUrl": "https://www.calvet.ca.gov/VetServices/Pages/Veteran-Designation.aspx",
+    "tags": ["id", "dmv", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_toll_bridge_discounts",
+    "scope": "state",
+    "state": "CA",
+    "title": "California Toll Bridge Discounts for Disabled Veterans",
+    "summary": "Disabled veterans may qualify for toll bridge discounts or exemptions on certain California toll facilities.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresPermanentTotal": true,
+      "requiresServiceConnected": true,
+      "requiresWartimeService": null,
+      "notes": "Eligibility and benefits vary by region and toll authority."
+    },
+    "eligibilityNotes": "Discounts are region-specific (e.g., Bay Area bridges). Veterans must apply through the appropriate toll authority.",
+    "sourceUrl": "https://www.calvet.ca.gov/VetServices/Pages/Transportation-Benefits.aspx",
+    "tags": ["transportation", "toll", "vehicle"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_veterans_cemeteries",
+    "scope": "state",
+    "state": "CA",
+    "benefitType": "facility",
+    "title": "California State Veterans Cemeteries",
+    "summary": "State-operated veterans cemeteries providing burial options for eligible veterans and family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility generally mirrors VA national cemetery eligibility; availability varies by location."
+    },
+    "eligibilityNotes": "Locations: Igo, Seaside, Riverside National Cemetery. Pre-need eligibility determination is recommended.",
+    "sourceUrl": "https://www.calvet.ca.gov/VetServices/Pages/Cemeteries.aspx",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_dvbe_program",
+    "scope": "state",
+    "state": "CA",
+    "title": "Disabled Veteran Business Enterprise (DVBE) Program",
+    "summary": "3% state contracting preference for businesses at least 51% owned by disabled veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Business must be 51% owned by one or more disabled veterans who are California residents."
+    },
+    "eligibilityNotes": "Provides certified disabled veteran-owned businesses an advantage in state contracting. Business certification required through CA Department of General Services.",
+    "sourceUrl": "https://www.dgs.ca.gov/PD/About/Page-Content/PD-Branch-Intro-Accordion-List/Office-of-Small-Business-and-DVBE-Services",
+    "tags": ["business", "contracting", "employment"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_business_license_fee_waiver",
+    "scope": "state",
+    "state": "CA",
+    "title": "Business License Fee Waiver for Veteran Peddlers",
+    "summary": "Waiver of municipal, county, and state business license fees for honorably discharged veterans who peddle goods.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Applies to veterans who hawk, peddle, or vend goods from a fixed location."
+    },
+    "eligibilityNotes": "Honorably discharged veterans may receive waiver of business license fees as well as other related taxes and fees.",
+    "sourceUrl": "https://www.calvet.ca.gov/VetServices/Pages/State-Benefits.aspx",
+    "tags": ["business", "license", "fee_waiver"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_calvet_home_loans",
+    "scope": "state",
+    "state": "CA",
+    "title": "CalVet Home Loan Program",
+    "summary": "Low-interest home, farm, and mobile home loans for California veterans with competitive rates and quick processing.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must have honorable discharge and minimum 90 days active service. Includes flood, earthquake, and disaster coverage."
+    },
+    "eligibilityNotes": "Available for home purchase, farm purchase, mobile home, construction, and home improvement. Loans processed quickly with competitive rates.",
+    "sourceUrl": "https://www.calvet.ca.gov/VetServices/Pages/Home-Loans.aspx",
+    "tags": ["housing", "loan", "finance"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_veterans_basic_property_exemption",
+    "scope": "state",
+    "state": "CA",
+    "title": "Basic Veterans Property Tax Exemption ($4,000)",
+    "summary": "$4,000 real property or personal property exemption for honorably discharged veterans or qualifying family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Veteran or spouse/pensioned-parent of deceased honorably discharged veteran. Not eligible if property valued at $5,000+ ($10,000+ married)."
+    },
+    "eligibilityNotes": "Available to veterans, spouses, or pensioned parents of deceased honorably discharged veterans.",
+    "sourceUrl": "https://boe.ca.gov/proptaxes/exempt.htm",
+    "tags": ["tax", "property"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ca_military_family_relief_fund",
+    "scope": "state",
+    "state": "CA",
+    "title": "California Military Family Relief Fund (CMFRF)",
+    "summary": "Short-term financial assistance grants for California Guard members and families affected by mobilization and deployment.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "For state Guard members and/or families affected by mobilization and deployment."
+    },
+    "eligibilityNotes": "Provides grants for short-term financial assistance during deployment-related hardship.",
+    "sourceUrl": "https://www.calvet.ca.gov/VetServices/Pages/State-Benefits.aspx",
+    "tags": ["financial_assistance", "emergency", "national_guard"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+  "id": "ca_cmd_gi_bill",
+  "scope": "state",
+  "state": "CA",
+  "title": "California Military Department GI Bill Award Program",
+  "summary": "Up to 100% tuition and fees at California public universities, CSU, community colleges, and eligible private institutions for active California National Guard, State Guard, and Naval Militia members.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be active member with 2+ years service. Must maintain 3+ units/semester and 2.0 GPA."
+  },
+  "eligibilityNotes": "Active members of California Army or Air National Guard, California State Guard, or California Naval Militia. Must serve 2 years in unit, agree to remain active throughout participation, and pursue certificate/degree not currently possessed. Must maintain 3+ academic units per semester and 2.0 cumulative GPA. Must be California resident for at least 1 year. Priority deadline April 30 annually; applications accepted first-come first-served after that until funds exhausted. Apply through California Student Aid Commission.",
+  "sourceUrl": "https://calguard.ca.gov/education/",
+  "tags": [
+    "education",
+    "tuition",
+    "national_guard",
+    "waiver"
+  ],
+  "lastReviewed": "2025-12-25"
+}
+]

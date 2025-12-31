@@ -1,0 +1,181 @@
+[
+  {
+    "id": "mi_children_veterans_tuition_grant",
+    "scope": "state",
+    "state": "MI",
+    "audience": "dependents",
+    "title": "Children of Veterans Tuition Grant",
+    "summary": "Undergraduate tuition assistance up to $2,800 per academic year for children of deceased or totally disabled Michigan veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "notes": "Veteran must have died or became totally and permanently disabled as result of military service."
+    },
+    "eligibilityNotes": "Natural or adopted children ages 16-26 of Michigan veterans. Veteran must have died or become totally disabled from service. Full-time students: up to $2,800/year. Half-time: up to $1,400/year or actual tuition (whichever is less). Michigan residency required. Apply through Michigan Department of Treasury.",
+    "sourceUrl": "https://www.michigan.gov/mistudentaid/programs/children-of-veterans-tuition-grant",
+    "tags": ["education", "tuition", "dependents", "grant"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "mi_national_guard_state_tuition_assistance",
+    "scope": "state",
+    "state": "MI",
+    "title": "Michigan National Guard State Tuition Assistance Program (STAP)",
+    "summary": "Tuition assistance up to $6,000 per academic year for active Michigan National Guard members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must be active Guard member including traditional service (1 weekend/month, 2 weeks/year). Up to $600/credit hour."
+    },
+    "eligibilityNotes": "Available for public, private colleges, universities, vocational, technical, and trade schools in Michigan. This is a repayment program - members whose Post-9/11 GI Bill pays 100% of tuition/fees do not qualify. Contact Michigan National Guard Education Services.",
+    "sourceUrl": "https://www.michigan.gov/dmva/",
+    "tags": ["education", "tuition", "national_guard"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "mi_state_parks_free_disabled_veteran",
+    "scope": "state",
+    "state": "MI",
+    "title": "Free State Parks Access for Disabled Veterans",
+    "summary": "100% permanently and totally disabled veterans receive free entry to Michigan state parks without purchasing Recreation Passport.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "notes": "Must have valid Michigan specialty license plate: DV, POW, Medal of Honor, or Congressional Medal of Honor."
+    },
+    "eligibilityNotes": "Veterans with qualifying specialty plates on Michigan registered vehicles receive free state parks entry. No Recreation Passport purchase required.",
+    "sourceUrl": "https://www.michigan.gov/dnr/",
+    "tags": ["recreation", "state_parks"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "mi_in_state_tuition_veterans",
+    "scope": "state",
+    "state": "MI",
+    "title": "In-State Tuition for Veterans and Military-Connected Students",
+    "summary": "Michigan universities extend in-state tuition rates to most military-connected students including veterans and dependents.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Includes dependents using transferred benefits. Institution-specific policies apply."
+    },
+    "eligibilityNotes": "MSU and other Michigan institutions extend in-state rates to veterans, active duty, and dependents. Contact individual schools for specific policies and application procedures.",
+    "sourceUrl": "https://www.michigan.gov/mvaa/",
+    "tags": ["education", "tuition"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "mi_property_tax_exemption_disabled_veteran",
+    "scope": "state",
+    "state": "MI",
+    "title": "Disabled Veteran Property Tax Exemption",
+    "summary": "Michigan provides a full property tax exemption for qualifying disabled veterans or their surviving spouses.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null,
+      "notes": "Applies to the veteran's primary residence. Surviving spouses may remain eligible if they do not remarry."
+    },
+    "eligibilityNotes": "Veteran must be rated 100% service-connected and totally disabled by the VA. Apply through the local assessor with VA documentation. Unremarried surviving spouses may continue exemption.",
+    "sourceUrl": "https://www.michigan.gov/taxes/property/exemptions/veterans",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "mi_tuition_grant_veterans",
+    "scope": "state",
+    "state": "MI",
+    "title": "Michigan Veterans Tuition Grant",
+    "summary": "Need-based tuition assistance for eligible Michigan veterans attending approved colleges.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": true,
+      "notes": "Requires honorable service during a period of war and Michigan residency."
+    },
+    "eligibilityNotes": "Administered by the Michigan Department of Treasury. Covers tuition assistance, not housing or books.",
+    "sourceUrl": "https://www.michigan.gov/mistudentaid/programs/veterans",
+    "tags": ["education", "tuition", "grant"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "mi_hunting_fishing_license_disabled_vet",
+    "scope": "state",
+    "state": "MI",
+    "title": "Free Hunting & Fishing Licenses for Disabled Veterans",
+    "summary": "Michigan offers free hunting and fishing licenses to qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null,
+      "notes": "Includes base licenses; some permits or stamps may still require payment."
+    },
+    "eligibilityNotes": "Veterans must provide VA documentation showing 100% service-connected disability or individually unemployable. Base hunting and fishing licenses are free.",
+    "sourceUrl": "https://www.michigan.gov/dnr/buy-and-apply/licenses/veterans",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "mi_driver_license_veteran_designation",
+    "scope": "state",
+    "state": "MI",
+    "title": "Veteran Designation on Michigan Driver License / ID",
+    "summary": "Eligible veterans may add a Veteran designation to a Michigan driver license or state ID.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Requires proof of honorable service such as DD-214."
+    },
+    "eligibilityNotes": "Apply at a Secretary of State office with acceptable veteran documentation.",
+    "sourceUrl": "https://www.michigan.gov/sos/all-services/veteran-designation",
+    "tags": ["id", "license", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "mi_veterans_homes",
+    "scope": "state",
+    "state": "MI",
+    "benefitType": "facility",
+    "title": "Michigan Veterans Homes",
+    "summary": "State-operated veterans homes providing long-term care, skilled nursing, and assisted living services.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Admission depends on care needs, eligibility determination, and bed availability."
+    },
+    "eligibilityNotes": "Michigan operates multiple veterans homes. Spouses may be eligible in certain circumstances. Contact Michigan Veterans Affairs Agency for locations and admission criteria.",
+    "sourceUrl": "https://www.michigan.gov/mvaa/services/veterans-homes",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "mi_veterans_cemeteries",
+    "scope": "state",
+    "state": "MI",
+    "benefitType": "facility",
+    "title": "Michigan Veterans Cemeteries",
+    "summary": "State-operated veterans cemeteries offering burial options for eligible veterans and family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility generally mirrors VA national cemetery eligibility."
+    },
+    "eligibilityNotes": "Includes multiple cemetery locations throughout Michigan. Pre-need eligibility is recommended. Contact Michigan Veterans Affairs Agency for details.",
+    "sourceUrl": "https://www.michigan.gov/mvaa/services/cemeteries",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-24"
+  }
+]

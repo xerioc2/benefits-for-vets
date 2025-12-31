@@ -1,0 +1,204 @@
+{
+  "state": "Hawaii",
+  "stateCode": "HI",
+  "benefits": [
+    {
+      "id": "hi-guard-stap",
+      "category": "Education",
+      "name": "Hawaii National Guard State Tuition Assistance Program (STAP)",
+      "description": "Hawaii Army National Guard provides 100% tuition coverage at University of Hawaii community colleges and 50% tuition at 4-year University of Hawaii schools. Reimbursement program for undergraduate degree courses with grade of C- or higher. Can combine with federal TA and GI Bill. Payment based on priority level and available funding. Air Guard members receive up to 12 credits/semester coverage after Tech School.",
+      "eligibility": "Active Hawaii National Guard members who completed BCT and AIT, good standing, satisfactory unit training",
+      "value": "100% tuition at community colleges, 50% at 4-year UH schools (reimbursement after course completion)",
+      "source": "https://dod.hawaii.gov/hiarng/resources/education/"
+    },
+    {
+      "id": "hi-instate-tuition",
+      "category": "Education",
+      "name": "In-State Tuition for Military",
+      "description": "Active duty service members, Guard, and Reserve stationed in Hawaii, plus their dependents, qualify for in-state tuition rates at all Hawaii institutions. Available to both residents and nonresidents stationed in Hawaii.",
+      "eligibility": "Active duty, National Guard, Reserve members stationed in Hawaii, and their dependents",
+      "value": "In-state tuition rates (significant savings over nonresident rates)",
+      "source": "https://dod.hawaii.gov/hiarng/resources/education/"
+    },
+    {
+      "id": "hi-kupono-diploma",
+      "category": "Education",
+      "name": "Kupono Diploma Program for Wartime Veterans",
+      "description": "Hawaii Department of Education awards honorary high school diplomas to WWII, Korean War, and Vietnam War veterans who left Hawaii public high school before graduation to serve. Veterans with GED also eligible. Diplomas may be awarded posthumously to deceased veterans. Family members can apply for eligible deceased/incapacitated veterans.",
+      "eligibility": "WWII/Korean/Vietnam veterans enrolled in Hawaii public high school prior to enlisting, or their families",
+      "value": "FREE honorary high school diploma",
+      "source": "https://vetsguardian.com/veteran-benefits-for-hawaii/"
+    },
+    {
+      "id": "hi-property-tax-exemption",
+      "category": "Tax",
+      "name": "Property Tax Exemption for Totally Disabled Veterans",
+      "description": "Veterans with 100% service-connected disability (totally disabled) are exempt from all property taxes (except special assessments) on their primary residence. Exemption transfers to unremarried surviving spouse who continues to own and occupy the home. Benefits vary by county. Requires annual application with VA disability certification.",
+      "eligibility": "100% service-connected disabled veterans, primary residence, unremarried surviving spouse eligible",
+      "value": "FULL property tax exemption (except special assessments)",
+      "source": "https://realproperty.honolulu.gov/tax-relief-and-forms/exemptions/totally-disabled-veterans/"
+    },
+    {
+      "id": "hi-vehicle-registration-exemption",
+      "category": "Tax",
+      "name": "Vehicle Registration Fee Exemption",
+      "description": "Veterans with 100% service-connected disability receive $45 exemption on annual vehicle registration fee (applies to 1 vehicle only). Must request exemption letter annually from Office of Veterans Services with current disability rating documentation. Vehicle must have current registration and safety check. DMV only accepts original letter (not previous year's letter).",
+      "eligibility": "100% service-connected disabled veterans, Hawaii resident",
+      "value": "$45 annual vehicle registration fee exemption (1 vehicle)",
+      "source": "https://dod.hawaii.gov/ovs/benefits-and-services/"
+    },
+    {
+      "id": "hi-va-vehicle-tax-exemption",
+      "category": "Tax",
+      "name": "VA-Subsidized Vehicle Tax Exemption",
+      "description": "Specially adapted vehicles provided to service-connected disabled veterans by the VA are exempt from all Hawaii property and vehicle taxes. Veterans must own the vehicle and it must be subsidized by Department of Veterans Affairs.",
+      "eligibility": "Disabled veterans with VA-subsidized specially adapted vehicles",
+      "value": "FULL exemption from all Hawaii vehicle taxes",
+      "source": "https://vetsguardian.com/veteran-benefits-for-hawaii/"
+    },
+    {
+      "id": "hi-motor-vehicle-weight-tax",
+      "category": "Tax",
+      "name": "Motor Vehicle Weight Tax Exemption",
+      "description": "Nonresident active-duty service members stationed in Hawaii are exempt from Hawaii's motor vehicle weight taxes for one vehicle registered in their name.",
+      "eligibility": "Nonresident active duty stationed in Hawaii",
+      "value": "Exemption from motor vehicle weight taxes (1 vehicle)",
+      "source": "https://www.military.com/benefits/veteran-state-benefits/hawaii-state-veterans-benefits.html"
+    },
+    {
+      "id": "hi-military-retirement-tax",
+      "category": "Tax",
+      "name": "Military Retirement Pay Tax Exemption",
+      "description": "Military retired pay is exempt from Hawaii state income taxes. Survivor Benefit Plan (SBP), Reserve Component Survivor Benefit Plan (RCSBP), and Retired Serviceman's Family Protection Plan (RSFPP) payments are not taxed in Hawaii. VA disability retirement pay is also tax-exempt.",
+      "eligibility": "Military retirees, survivors receiving SBP/RCSBP/RSFPP, veterans with disability retirement",
+      "value": "FULL exemption from Hawaii state income tax on military retirement + survivor benefits",
+      "source": "https://vetsguardian.com/veteran-benefits-for-hawaii/"
+    },
+    {
+      "id": "hi-guard-drill-pay-tax",
+      "category": "Tax",
+      "name": "Guard & Reserve Drill Pay Tax Exemption",
+      "description": "Income received by Hawaii National Guard and U.S. Armed Forces Reserve members equivalent to 48 drills (12 weekends) and 15 days of annual training duty is exempt from Hawaii state income taxes. Applies to E-5 or below with 8 years of service.",
+      "eligibility": "Hawaii National Guard and U.S. Armed Forces Reserve members, E-5 or below, 8+ years service",
+      "value": "State tax exemption on 48 drills + 15 days training pay annually",
+      "source": "https://vetsguardian.com/veteran-benefits-for-hawaii/"
+    },
+    {
+      "id": "hi-employment-preference",
+      "category": "Employment",
+      "name": "State Employment Veteran Preference",
+      "description": "Non-disabled veterans receive 5 preference points, disabled veterans receive 10 points on state employment applications. Preference applies to open competitive positions. Eligible groups: honorably discharged veterans with service-connected disabilities, Purple Heart recipients, spouses of disabled veterans unable to work, unremarried surviving spouses. Must submit VA statement within 12 months confirming eligibility.",
+      "eligibility": "Veterans (5 points), disabled veterans/Purple Heart/eligible spouses/surviving spouses (10 points)",
+      "value": "5 or 10 preference points on state job applications",
+      "source": "https://vadisabilitygroup.com/hawaii-state-benefits-for-100-disabled-veterans/"
+    },
+    {
+      "id": "hi-priority-service",
+      "category": "Employment",
+      "name": "Priority of Service Employment Programs",
+      "description": "Hawaii Workforce Development Division provides priority of service for veterans and eligible spouses in all qualified Department of Labor employment and job-training programs. Specialized DVOP (Disabled Veterans Outreach Program) and LVER (Local Veterans Employment Representative) staff at American Job Centers provide individualized career services, comprehensive assessments, job counseling, resume assistance, and job placement services. All staff are military veterans with specialized NVTI training.",
+      "eligibility": "Veterans with honorable discharge, eligible spouses and caregivers",
+      "value": "FREE priority employment services + specialized veteran career counselors",
+      "source": "https://labor.hawaii.gov/wdd/job-seekers/vets/"
+    },
+    {
+      "id": "hi-license-plates",
+      "category": "Vehicle",
+      "name": "Specialty Veteran License Plates",
+      "description": "Hawaii offers 10 distinctive specialty license plates for veterans at the same cost as regular plates (no premium). Available plates: Veteran, Combat, Combat Wounded, Pearl Harbor Survivor, Former POW, World War II Veteran, Korea Veteran, Vietnam Veteran, Persian Gulf Veteran, Gold Star Family. Plates also available for motorcycles. Supporting documentation required (DD214, VA award letters). Process varies by county.",
+      "eligibility": "Veterans meeting specific criteria for each plate type (proof of service/awards required)",
+      "value": "Specialty plates at regular plate cost (10 distinctive options)",
+      "source": "https://dod.hawaii.gov/ovs/benefits-and-services/"
+    },
+    {
+      "id": "hi-veteran-dl",
+      "category": "Vehicle",
+      "name": "Veteran Driver's License Designation",
+      "description": "Veterans who served in uniformed services with other-than-dishonorable discharge can have veteran status designated on their Hawaii driver's license and instruction permits (effective October 1, 2014). Provides easy identification for veteran-specific discounts and services.",
+      "eligibility": "Veterans with other-than-dishonorable discharge",
+      "value": "Veteran designation on driver's license/permit",
+      "source": "https://www.vrl.hawaiicounty.gov/driver-s-licensing/veteran-designation-general-information"
+    },
+    {
+      "id": "hi-hunting-resident-rates",
+      "category": "Recreation",
+      "name": "Resident Hunting Licenses for Military",
+      "description": "Active-duty military personnel and their dependents stationed in Hawaii are considered residents for hunting license purposes. Resident hunting license costs $10 compared to $95 nonresident license. Significant savings for military families stationed in Hawaii.",
+      "eligibility": "Active duty service members and dependents stationed in Hawaii",
+      "value": "$10 resident license (vs $95 nonresident) - $85 savings",
+      "source": "https://veteran.com/hawaii-veterans-benefits/"
+    },
+    {
+      "id": "hi-veterans-home-hilo",
+      "category": "Healthcare",
+      "name": "Yukio Okutsu State Veterans Home - Hilo",
+      "description": "State-operated 95-bed veterans home in Hilo (opened 2007) providing skilled nursing, long-term care, rehabilitation services, respite care, adult day health services (~35/day capacity), and hospice care. VA and Medicare/Medicaid certified. Named for Yukio Okutsu, Congressional Medal of Honor recipient. Eligible veterans responsible for costs not covered by VA or Medicare/Medicaid. Provides 24-hour nursing care, transportation to medical appointments, recreational activities, community outings.",
+      "eligibility": "Hawaii resident veterans 55+ requiring skilled nursing/long-term care, VA requirements for eligible veteran",
+      "value": "Comprehensive long-term care + VA/Medicare support",
+      "source": "https://www.yukiookutsustateveteranshome.org/"
+    },
+    {
+      "id": "hi-veterans-home-kapolei",
+      "category": "Healthcare",
+      "name": "Daniel K. Akaka State Veterans Home - Kapolei",
+      "description": "NEW 120-bed state-of-the-art veterans home in Kapolei (opened March 2025, $93 million facility). Provides skilled nursing, intermediate care, long-term care, geriatric mental health/dementia/Alzheimer's care, rehabilitation therapies, hospice, respite care, and adult day care. Targets both long-term and short-term stays. Open to eligible veterans, their spouses, and Gold Star parents. Operated by Ohana Pacific Health. Located near Daniel K. Akaka VA Clinic.",
+      "eligibility": "Hawaii veterans, eligible spouses, Gold Star parents",
+      "value": "State-of-the-art long-term care facility (120 beds, opened 2025)",
+      "source": "https://www.va.gov/pacific-islands-health-care/stories/aloha-to-healing-a-new-veterans-home-for-hawaiis-heroes/"
+    },
+    {
+      "id": "hi-burial-oahu",
+      "category": "Burial",
+      "name": "Hawaii State Veterans Cemetery - Oahu",
+      "description": "Primary Hawaii State Veterans Cemetery located at 45-349 Kamehameha Highway in Kaneohe, Oahu. Provides burial for eligible veterans, spouses, minor children, and certain unmarried adult children with disabilities. Government standard flat granite markers for ground burial and bronze niche markers for columbarium. Small fee may be charged for burial.",
+      "eligibility": "Eligible veterans, spouses, minor children, qualifying dependent adult children",
+      "value": "State veterans cemetery burial with provided markers",
+      "source": "https://dod.hawaii.gov/ovs/veteran-cemeteries/"
+    },
+    {
+      "id": "hi-burial-neighbor-islands",
+      "category": "Burial",
+      "name": "Hawaii State Veterans Cemeteries - Neighbor Islands",
+      "description": "Six additional state veterans cemeteries located across Hawaiian Islands: East Hawaii (Hilo - closed to new burials), West Hawaii (Kailua-Kona), Kauai (Hanapepe), Maui (Makawao), Molokai (Hoolehua), Lanai (Lanai City). All managed by respective county departments. Provide burial for eligible veterans, spouses, minor children, and certain dependent adult children. Small fee may be charged for burial.",
+      "eligibility": "Eligible veterans, spouses, minor children, qualifying dependent adult children",
+      "value": "7 state veterans cemeteries statewide (neighbor island access)",
+      "source": "https://dod.hawaii.gov/ovs/veteran-cemeteries/"
+    },
+    {
+      "id": "hi-dd214-copies",
+      "category": "Legal",
+      "name": "Free DD-214 Certified Copies",
+      "description": "Hawaii Office of Veterans Services provides free certified copies of DD-214 (Military Discharge paperwork) if on file. Helps veterans access benefits requiring proof of service without paying for copies from National Personnel Records Center.",
+      "eligibility": "Veterans with DD-214 on file with Hawaii OVS",
+      "value": "FREE certified DD-214 copies",
+      "source": "https://dod.hawaii.gov/ovs/benefits-and-services/"
+    },
+    {
+      "id": "hi-work-for-warriors",
+      "category": "Employment",
+      "name": "Work For Warriors HI Employment Program",
+      "description": "Hawaii National Guard Employment Services program increasing career opportunities for Guard members, their families, Reservists, and Veterans. Employment Coordinators provide resume development, career opportunities, referral services, interview techniques, employment resources, and career assessments. All coordinators are Certified Federal Job Search Trainers and Federal Career Coaches through The Resume Place.",
+      "eligibility": "Hawaii National Guard members and families, Reservists, Veterans",
+      "value": "FREE comprehensive employment services + federal job coaching",
+      "source": "https://www.workforwarriorshi.org/"
+    },
+    {
+      "id": "hi-credential-assistance",
+      "category": "Education",
+      "name": "Credentialing Assistance (CA)",
+      "description": "Hawaii National Guard members receive up to $2,000 for professional certifications covering classes, books, supplies, and exams. Pilot licenses capped at $1,000 for all Army components. Federal TA and CA may be combined up to $4,500 total. Helps Guard members develop marketable civilian skills aligned with military training.",
+      "eligibility": "Active Hawaii National Guard members",
+      "value": "Up to $2,000 for certifications ($1,000 for pilot licenses)",
+      "source": "https://dod.hawaii.gov/hiarng/resources/education/"
+    },
+    {
+      "id": "hi-mgib-kicker",
+      "category": "Education",
+      "name": "Montgomery GI Bill Select Reserve with Kicker",
+      "description": "Hawaii National Guard soldiers who commit to 6-year contract receive Montgomery GI Bill Select Reserve benefits with Kicker benefits up to $350/month. Available for new enlistees, re-enlisting soldiers, and commissioned Officers/Warrant Officers. Can be combined with Federal TA if attending school at minimum half-time.",
+      "eligibility": "Hawaii National Guard members with 6-year service commitment",
+      "value": "MGIB-SR + up to $350/month Kicker bonus",
+      "source": "https://dod.hawaii.gov/hiarng/resources/education/"
+    }
+  ]
+}

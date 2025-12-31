@@ -1,0 +1,222 @@
+{
+  "state": "South Dakota",
+  "stateCode": "SD",
+  "benefits": [
+    {
+      "id": "sd-guard-tuition-reduction",
+      "category": "Education",
+      "name": "SD National Guard 100% Tuition Reduction",
+      "description": "SD National Guard members eligible for 100% REDUCTION in tuition charges at ANY state-supported university or in-state nonprofit postsecondary university. Covers undergraduate programs (up to 128 credits) and graduate programs (up to 32 credits). OR one program of study at any state vocational college (100% tuition reduction). Receipt of federal educational benefits does NOT affect eligibility. Must be Guard member in good standing, completed initial basic training, maintain 90%+ attendance at drill/training. Federal benefits must be used first before state benefits.",
+      "eligibility": "SD Army/Air National Guard members in good standing, completed IADT, 90%+ drill attendance",
+      "value": "100% tuition reduction (128 undergrad credits or 32 grad credits)",
+      "source": "https://vetaffairs.sd.gov/benefits/State/State%20Education%20Programs.aspx"
+    },
+    {
+      "id": "sd-free-tuition-wartime-veterans",
+      "category": "Education",
+      "name": "Free Tuition for Wartime Veterans",
+      "description": "Eligible veterans receive ONE MONTH of FREE TUITION for each month of qualifying wartime service (minimum 1 year, maximum 4 academic years). Qualifying service: time served on active duty between beginning/ending dates of conflict during which veteran earned eligibility. Must use all VA educational benefits before eligible for this program. Applies to state-supported schools. 10%+ disability veterans qualify.",
+      "eligibility": "Veterans with wartime service (qualifying conflicts), must exhaust VA benefits first",
+      "value": "FREE tuition (1 month per month served, max 4 years)",
+      "source": "https://vetaffairs.sd.gov/benefits/State/State%20Education%20Programs.aspx"
+    },
+    {
+      "id": "sd-free-tuition-kia-children",
+      "category": "Education",
+      "name": "Free Tuition for Children of KIA/Deceased Service Members",
+      "description": "Children under 25 who are SD residents whose mother/father was killed in action or died of other causes while on active duty are eligible for FREE TUITION at state-supported school. Deceased parent must have been SD resident for 6+ months immediately before entering active service. Must earn degree or certificate.",
+      "eligibility": "SD resident children under 25 of parents KIA/died on active duty (parent was 6+ month SD resident)",
+      "value": "FREE tuition at state-supported schools",
+      "source": "https://vetaffairs.sd.gov/benefits/State/State%20Education%20Programs.aspx"
+    },
+    {
+      "id": "sd-free-tuition-guard-dependents",
+      "category": "Education",
+      "name": "Free Tuition for Guard Dependents (KIA/100% Disabled)",
+      "description": "Children under 25 OR spouse/surviving spouse of SD National Guard member who died or became 100% permanently disabled from Guard duty (state/federal active duty or authorized training) receive FREE TUITION at any state university or technical college. Comprehensive benefit for Gold Star families and families of totally disabled Guard members.",
+      "eligibility": "SD resident children under 25, spouses, surviving spouses of Guard members KIA/100% P&T disabled from duty",
+      "value": "FREE tuition at all state universities + technical colleges",
+      "source": "https://vetaffairs.sd.gov/benefits/State/State%20Education%20Programs.aspx"
+    },
+    {
+      "id": "sd-free-tuition-pow-mia-dependents",
+      "category": "Education",
+      "name": "Free Tuition for Dependents of POWs/MIAs",
+      "description": "Children and spouses of prisoners of war OR persons listed as missing in action are entitled to attend state-supported school WITHOUT payment of tuition or mandatory fees. Available provided they are not eligible for equal or greater federal benefits.",
+      "eligibility": "Children and spouses of POWs/MIAs (if not eligible for greater federal benefits)",
+      "value": "FREE tuition + mandatory fees at state schools",
+      "source": "https://vetaffairs.sd.gov/benefits/State/State%20Education%20Programs.aspx"
+    },
+    {
+      "id": "sd-helping-heroes-grant",
+      "category": "Education",
+      "name": "Helping Heroes Grant",
+      "description": "$1,000 grant available to recipients of Iraq Campaign Medal or Global War on Terrorism Expeditionary Medal. Up to 375 veterans per year on first-come, first-served basis for students completing programs at state institutions.",
+      "eligibility": "Iraq Campaign Medal or GWOT Expeditionary Medal recipients",
+      "value": "$1,000 grant (up to 375 veterans/year, first-come first-served)",
+      "source": "https://www.military.com/benefits/veteran-state-benefits/south-dakota-state-veterans-benefits.html"
+    },
+    {
+      "id": "sd-no-state-income-tax",
+      "category": "Tax",
+      "name": "NO State Income Tax",
+      "description": "South Dakota has ZERO individual income tax. Massive benefit for ALL residents including veterans, military retirees, active duty. NO tax on military pay, retirement pay, TSP distributions, VA disability, SBP, pensions, wages, or any other income. Permanent annual tax savings for everyone.",
+      "eligibility": "All SD residents",
+      "value": "ZERO state income tax on ALL income sources",
+      "source": "https://www.military.com/benefits/veteran-state-benefits/south-dakota-state-veterans-benefits.html"
+    },
+    {
+      "id": "sd-property-tax-exemption-100-disabled",
+      "category": "Tax",
+      "name": "Property Tax Exemption for 100% Disabled Veterans",
+      "description": "100% Permanent & Total disabled veterans receive property tax exemption on first $200,000 of home valuation (house, garage, lot up to 1 acre). Unremarried surviving spouses also eligible. Approved exemption remains until property transferred/sold. Must apply with county assessor by November 1st annually. Major annual tax savings.",
+      "eligibility": "100% P&T service-connected disabled veterans, unremarried surviving spouses",
+      "value": "Property tax exemption on first $200,000 home valuation",
+      "source": "https://vetaffairs.sd.gov/benefits/State/Property%20Taxes.aspx"
+    },
+    {
+      "id": "sd-property-tax-exemption-paraplegic",
+      "category": "Tax",
+      "name": "Property Tax Exemption for Paraplegic Veterans",
+      "description": "Paraplegic veterans OR veterans with loss/loss of use of both lower extremities receive FULL/COMPLETE property tax exemption on dwelling specifically designed for wheelchair use (house, garage, lot up to 1 acre). Unremarried widow/widower also eligible. Must own and occupy property for 1 full calendar year before exemption effective. 100% exemption from ALL property taxes. Apply with county assessor by November 1st.",
+      "eligibility": "Paraplegic veterans, loss/loss of use of both lower extremities, unremarried surviving spouses",
+      "value": "FULL/COMPLETE property tax exemption (wheelchair-accessible home)",
+      "source": "https://vetaffairs.sd.gov/benefits/State/Property%20Taxes.aspx"
+    },
+    {
+      "id": "sd-sales-property-tax-refund",
+      "category": "Tax",
+      "name": "Sales or Property Tax Refund for Seniors/Disabled",
+      "description": "Seniors (65+ by Jan 1) OR disabled individuals (per Social Security Act - generally 60%+ VA disability) with low income receive yearly refund of sales OR property taxes. Income limits: $18,470 (single) or $23,087 (multiple-member household). Returns calculated on income. Refund checks issued beginning September. Apply May 1 - July 1. Veterans with disabilities can qualify even if under 65.",
+      "eligibility": "Age 65+ OR disabled (SS Act definition, ~60%+ VA), SD resident full year, meet income limits",
+      "value": "Annual sales or property tax refund (income-based)",
+      "source": "https://dor.sd.gov/individuals/taxes/property-tax/relief-programs/"
+    },
+    {
+      "id": "sd-employment-preference",
+      "category": "Employment",
+      "name": "State Employment Veteran Preference",
+      "description": "Veterans receive hiring preference for appointments, employment, and promotions at ALL LEVELS of government (state, counties, municipalities, school districts). Veterans possessing minimum qualifications guaranteed interview. Disabled veterans given preference over non-disabled veterans. Unremarried surviving spouse of eligible veteran receives comparable preference. If disabled veteran unable to use preference due to disability, spouse may use it.",
+      "eligibility": "Veterans with honorable discharge (minimum qualifications), disabled veterans (priority), surviving spouses, spouses of disabled veterans",
+      "value": "Interview guarantee + hiring preference (all government levels)",
+      "source": "https://www.military.com/benefits/veteran-state-benefits/south-dakota-state-veterans-benefits.html"
+    },
+    {
+      "id": "sd-state-employee-military-leave-credit",
+      "category": "Employment",
+      "name": "State Employee Military Leave Credited Service",
+      "description": "State employees may receive 'credited service' for authorized military leave of absence related to initial tour of duty. 'Credited service' = period of time working for SDRS-participating employer. Helps with retirement calculations and benefits.",
+      "eligibility": "State employees on authorized military leave (initial tour)",
+      "value": "Credited service toward retirement for military leave",
+      "source": "https://collegerecon.com/south-dakota-veterans-benefits/"
+    },
+    {
+      "id": "sd-reduced-hunting-fishing-license",
+      "category": "Recreation",
+      "name": "Reduced Fee Hunting & Fishing License for Disabled/POWs",
+      "description": "SD resident disabled veterans and former POWs receive 4-YEAR hunting and fishing license for only $10. Replaces resident small game + fishing licenses. Eligibility: (1) VA Level K Special Monthly Compensation, (2) 40%+ service-connected disability, (3) 40%+ Social Security disability + active duty service, (4) Former POW. Must submit verification + $10 fee. Massive savings over regular license costs.",
+      "eligibility": "SD resident veterans (VA Special Compensation, 40%+ VA disability, 40%+ SS disability + service, POWs)",
+      "value": "$10 for 4-year hunting + fishing license",
+      "source": "https://www.myairforcebenefits.us.af.mil/Benefit-Library/State/Territory-Benefits/South-Dakota"
+    },
+    {
+      "id": "sd-free-hunting-fishing-active-duty-leave",
+      "category": "Recreation",
+      "name": "Free Hunting/Fishing for Active Duty on Leave",
+      "description": "SD resident service members stationed OUTSIDE SD do NOT require license to hunt or fish while home on leave. Must have current orders assigning them outside SD + military ID. Migratory bird stamps still required. Significant savings during leave periods.",
+      "eligibility": "SD resident active duty stationed outside SD (on leave, with orders + military ID)",
+      "value": "FREE hunting + fishing while on leave (no license required)",
+      "source": "https://www.myairforcebenefits.us.af.mil/Benefit-Library/State/Territory-Benefits/South-Dakota"
+    },
+    {
+      "id": "sd-resident-license-rates-military",
+      "category": "Recreation",
+      "name": "Resident License Rates for Nonresident Military/Veterans",
+      "description": "SD offers resident hunting/fishing license prices to: (1) Nonresident service members + spouses stationed in SD, (2) Veterans who are patients at SD VA hospitals. Major savings over nonresident rates.",
+      "eligibility": "Nonresident service members/spouses stationed in SD, veterans in SD VA hospitals",
+      "value": "Resident license rates (vs higher nonresident prices)",
+      "source": "https://vetsguardian.com/veteran-benefits-for-south-dakota/"
+    },
+    {
+      "id": "sd-big-game-license-out-of-state-military",
+      "category": "Recreation",
+      "name": "Big Game License for Out-of-State Military Families",
+      "description": "Resident service members and dependents stationed OUT OF STATE during application period/lottery drawings eligible for deer, turkey, and antelope licenses. Must meet all other licensing requirements. Ensures hunting opportunities for deployed/stationed families.",
+      "eligibility": "SD resident service members + dependents stationed out of state",
+      "value": "Eligible for deer/turkey/antelope licenses despite being out of state",
+      "source": "https://vetsguardian.com/veteran-benefits-for-south-dakota/"
+    },
+    {
+      "id": "sd-handicapped-hunter-provisions",
+      "category": "Recreation",
+      "name": "Special Provisions for Handicapped Hunters",
+      "description": "SD resident disabled hunters with special accommodations: (1) Lost upper limb/use of limb or wheelchair users may use crossbow or draw-lock, (2) Legally blind or quadriplegic residents authorized to have assistant while hunting. Ensures hunting accessible to all disabled veterans.",
+      "eligibility": "SD resident disabled hunters (upper limb loss/wheelchair/blind/quadriplegic)",
+      "value": "Crossbow/draw-lock use + hunting assistant authorization",
+      "source": "https://www.myairforcebenefits.us.af.mil/Benefit-Library/State/Territory-Benefits/South-Dakota"
+    },
+    {
+      "id": "sd-free-state-parks-disabled-pows",
+      "category": "Recreation",
+      "name": "Free State Park Admission for Disabled Veterans/POWs",
+      "description": "SD resident veterans with: (1) VA Special Monthly Compensation, (2) Former POWs, (3) Social Security Disability, (4) 40%+ VA disability receive FREE LIFETIME state park entrance license PLUS 50% discount on camping fees and electrical hookup fees. Significant annual savings on outdoor recreation.",
+      "eligibility": "SD resident veterans (VA Special Comp, POWs, SS Disability, 40%+ VA disability)",
+      "value": "FREE lifetime state park admission + 50% off camping/electrical fees",
+      "source": "https://www.military.com/benefits/veteran-state-benefits/south-dakota-state-veterans-benefits.html"
+    },
+    {
+      "id": "sd-veterans-home",
+      "category": "Healthcare",
+      "name": "Michael J. Fitzmaurice State Veterans Home - Hot Springs",
+      "description": "State veterans home with 24 living beds + 76 skilled nursing beds (100 total). Provides long-term residential care to military veterans, spouses, surviving spouses. Costs based on income. Eligibility: Honorably discharged SD resident veterans OR resident in past 5 years, income not more than $1,000 above VA Pension rate. Spouse must be admitted with veteran (married/living together 1+ year) unless veteran institutionalized elsewhere. Unremarried surviving spouse (60+ years, married 1+ year). Home cannot provide assisted living - applicants must be ambulatory and able to care for themselves/living areas OR need long-term nursing care. Spouses/surviving spouses admitted only if non-veteran population doesn't exceed 25% total.",
+      "eligibility": "Honorably discharged SD veterans (current or 5-year resident), spouses, surviving spouses (60+), income limits, ambulatory or nursing care need",
+      "value": "100 beds (24 living, 76 skilled nursing, income-based costs)",
+      "source": "https://www.military.com/benefits/veteran-state-benefits/south-dakota-state-veterans-benefits.html"
+    },
+    {
+      "id": "sd-state-veterans-cemetery",
+      "category": "Burial",
+      "name": "South Dakota State Veterans Cemetery - Sioux Falls",
+      "description": "60-acre state veterans cemetery in Sioux Falls. FREE burial for veterans (includes grave liner, headstone/niche cover/memorial marker). Fee for spouse/eligible dependent burial: $807 (cannot be prepaid, subject to change). Accommodations for casketed remains, cremation graves, scattering garden, columbaria niche. NO RESIDENCY REQUIREMENT. Eligibility same as VA National Cemeteries. Cemetery assigns gravesites at time of death.",
+      "eligibility": "Eligible veterans (same as VA National Cemeteries - NO residency requirement), spouses, eligible dependents",
+      "value": "FREE veteran burial + grave liner + headstone (spouse/dependent $807)",
+      "source": "https://www.myairforcebenefits.us.af.mil/Benefit-Library/State/Territory-Benefits/South-Dakota"
+    },
+    {
+      "id": "sd-burial-allowance",
+      "category": "Burial",
+      "name": "State Burial Allowance",
+      "description": "Payment up to $100 to help defray burial/funeral expenses of honorably discharged veteran, spouse, or surviving spouse when estate or immediate family lacks funds. Provides assistance for indigent veteran families.",
+      "eligibility": "Honorably discharged veterans, spouses, surviving spouses without financial means",
+      "value": "Up to $100 burial/funeral expense assistance",
+      "source": "https://www.military.com/benefits/veteran-state-benefits/south-dakota-state-veterans-benefits.html"
+    },
+    {
+      "id": "sd-headstone-setting-fee",
+      "category": "Burial",
+      "name": "Headstone Setting Fee Assistance",
+      "description": "State pays $300 toward cost of etching and setting government headstone or marker at grave of veteran who was SD resident for 1 year before entering military service OR 1 year before death. Helps families afford proper memorialization.",
+      "eligibility": "Veterans who were SD residents (1 year pre-service or 1 year pre-death)",
+      "value": "$300 toward headstone etching + setting costs",
+      "source": "https://www.military.com/benefits/veteran-state-benefits/south-dakota-state-veterans-benefits.html"
+    },
+    {
+      "id": "sd-veterans-bonus",
+      "category": "Financial",
+      "name": "South Dakota Veterans Bonus",
+      "description": "One-time bonus up to $500 to current/former military members who were legal SD residents 6+ months immediately before active duty period. Criteria vary by service period: (1) Aug 2, 1990 - Mar 3, 1991: All active service counts, (2) Mar 4, 1991 - Dec 31, 1992: Only service in hostile area qualifying for Southwest Asia Service Medal counts. State residency required.",
+      "eligibility": "SD residents (6+ months pre-service) who served during qualifying periods (1990-1992)",
+      "value": "One-time bonus up to $500",
+      "source": "https://www.military.com/benefits/veteran-state-benefits/south-dakota-state-veterans-benefits.html"
+    },
+    {
+      "id": "sd-motor-vehicle-tax-exemption",
+      "category": "Vehicle",
+      "name": "Motor Vehicle Excise Tax Exemption",
+      "description": "Veterans with 100% service-connected disability OR former POWs exempt from paying excise tax on purchase of ONE vehicle. Privilege tax exemption for totally disabled veterans. Significant savings on vehicle purchase.",
+      "eligibility": "100% service-connected disabled veterans, former POWs",
+      "value": "Excise tax exemption on 1 vehicle purchase",
+      "source": "https://fortheveteran.com/south-dakota-veteran-benefits"
+    }
+  ]
+}

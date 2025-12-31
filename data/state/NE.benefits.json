@@ -1,0 +1,499 @@
+[
+  {
+    "id": "ne_ngtap",
+    "state": "Nebraska",
+    "name": "Nebraska National Guard Tuition Assistance Program (NGTAP)",
+    "category": "Education",
+    "description": "Pays 75% of tuition at resident rate for Nebraska National Guard members attending any Nebraska accredited institution (public or private/not-for-profit). Private school tuition capped at UNL rate. Must exhaust federal TA first. Enlisted members only, to bachelor's level only. Use within first 10 years of Guard membership. 3-year service obligation after completion. Cap: 1,200 members per fiscal year.",
+    "eligibility": [
+      "Nebraska National Guard enlisted member (officers NOT eligible except prior enlisted)",
+      "Complete Basic Training and MOS training",
+      "Use within 10 years of joining Guard",
+      "Exhaust federal TA first",
+      "Agree to serve 3 additional years"
+    ],
+    "benefit_amount": "75% tuition (up to resident rate)",
+    "how_to_apply": "Apply through Nebraska National Guard Education Office",
+    "source_name": "Nebraska National Guard",
+    "source_url": "https://ne.ng.mil/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_reserve_tuition_credit",
+    "state": "Nebraska",
+    "name": "Active Reserve Tuition Credit (50%)",
+    "category": "Education",
+    "description": "Enlisted members of Nebraska-based Active Reserve units receive 50% tuition credit at University of Nebraska campuses, Nebraska state colleges, and Nebraska community colleges. Limited to 200 new applicants per calendar year. Must have 2+ years remaining on enlistment at start of term.",
+    "eligibility": [
+      "Enlisted member Nebraska-based Active Reserve unit",
+      "2+ years remaining on enlistment",
+      "First 200 applicants per calendar year",
+      "Nebraska resident"
+    ],
+    "benefit_amount": "50% tuition credit",
+    "how_to_apply": "Apply through institution's financial aid office",
+    "source_name": "Nebraska Department of Veterans' Affairs",
+    "source_url": "https://veterans.nebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_kia_dependents_waiver",
+    "state": "Nebraska",
+    "name": "Waiver of Tuition for Children/Spouses of Deceased Veterans",
+    "category": "Education",
+    "description": "Children and spouses of veterans who died of service-connected illness or injury receive 100% waiver of tuition and tuition-related fees (excludes lab fees, athletic tickets, student union). Valid for ONE community college degree/diploma/certificate AND ONE baccalaureate degree from university or state college. Must be Nebraska resident eligible for in-state tuition.",
+    "eligibility": [
+      "Child (biological, adopted, or step) OR spouse/surviving spouse",
+      "Veteran parent/spouse died from service-connected illness or injury",
+      "VA disability rating decision date BEFORE start of term",
+      "Nebraska resident eligible for in-state tuition"
+    ],
+    "benefit_amount": "100% tuition + tuition fees waiver (1 community college + 1 bachelor's)",
+    "how_to_apply": "Apply through Nebraska Department of Veterans' Affairs BEFORE term start",
+    "source_name": "Nebraska Department of Veterans' Affairs",
+    "source_url": "https://veterans.nebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_instate_tuition",
+    "state": "Nebraska",
+    "name": "In-State Tuition for Veterans and Dependents",
+    "category": "Education",
+    "description": "Veterans, service members, and their dependents eligible for in-state tuition rates at Nebraska public institutions regardless of state residency under Veterans Access, Choice, and Accountability Act.",
+    "eligibility": [
+      "Veteran using GI Bill OR dependent using transferred benefits",
+      "OR active duty service member/spouse",
+      "Attending Nebraska public institution"
+    ],
+    "benefit_amount": "In-state tuition rates (saves $8,000-$12,000/year)",
+    "how_to_apply": "Submit eligibility documentation to Nebraska institution",
+    "source_name": "Nebraska Higher Education",
+    "source_url": "https://ccpe.nebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_property_exemption_100_service",
+    "state": "Nebraska",
+    "name": "Homestead Exemption (100% Service-Connected Disability)",
+    "category": "Tax Benefits",
+    "description": "Veterans with 100% service-connected disability receive 100% property tax exemption on homestead and 1 acre of land regardless of home value or income. Must own and occupy property January 1 through August 15 of tax year. Apply every 5 years (years ending in 0 or 5: 2025, 2030, etc.).",
+    "eligibility": [
+      "Nebraska resident veteran",
+      "100% service-connected disability",
+      "Own and occupy homestead January 1 through August 15",
+      "Honorable or general discharge"
+    ],
+    "benefit_amount": "100% property tax exemption (no value or income limit)",
+    "how_to_apply": "Apply with County Assessor February 2-June 30 (every 5 years)",
+    "source_name": "Nebraska Department of Revenue",
+    "source_url": "https://revenue.nebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_property_exemption_50_service",
+    "state": "Nebraska",
+    "name": "Homestead Exemption (50%+ Service-Connected Disability)",
+    "category": "Tax Benefits",
+    "description": "NEW 2024! Veterans with 50%+ service-connected disability receive property tax exemption based on sliding scale income limits. Minimum payment $1,200/year. Household assets must be ≤$1 million in prior 3 years. Must be receiving Social Security or retirement benefits.",
+    "eligibility": [
+      "Nebraska resident veteran",
+      "50%+ service-connected disability",
+      "Income limits apply (sliding scale)",
+      "Assets ≤$1 million (prior 3 years)",
+      "Own and occupy homestead January 1 through August 15"
+    ],
+    "benefit_amount": "Partial exemption (minimum $1,200/year payment, based on income)",
+    "how_to_apply": "Apply with County Assessor February 2-June 30 annually",
+    "source_name": "Nebraska Department of Revenue",
+    "source_url": "https://revenue.nebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_property_exemption_wartime_nonservice",
+    "state": "Nebraska",
+    "name": "Homestead Exemption (Wartime Veteran Totally Disabled Non-Service)",
+    "category": "Tax Benefits",
+    "description": "Wartime veterans totally disabled by non-service-connected illness or accident receive partial property tax exemption based on income limits. Must have served during WWII (12/7/41-12/31/46), Korean War (6/25/50-1/31/55), or Vietnam War (2/28/61-5/7/75 in Vietnam). Income limits on sliding scale.",
+    "eligibility": [
+      "Nebraska resident wartime veteran",
+      "Totally disabled (non-service-connected)",
+      "Served during WWII, Korea, or Vietnam",
+      "Own and occupy homestead January 1 through August 15",
+      "Income limits apply"
+    ],
+    "benefit_amount": "Partial exemption based on income (sliding scale)",
+    "how_to_apply": "Apply with County Assessor February 2-June 30 annually",
+    "source_name": "Nebraska Department of Revenue",
+    "source_url": "https://revenue.nebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_property_exemption_paraplegic",
+    "state": "Nebraska",
+    "name": "Homestead Exemption (Paraplegic/Multiple Amputee VA Home)",
+    "category": "Tax Benefits",
+    "description": "Veterans who are paraplegic or have multiple amputations whose home was substantially contributed to by VA receive 100% property tax exemption regardless of home value or income. Also available to unremarried surviving spouse (or remarried after age 57).",
+    "eligibility": [
+      "Nebraska resident veteran",
+      "Paraplegic OR multiple amputations",
+      "Home substantially contributed by VA",
+      "OR unremarried surviving spouse (or remarried after 57)"
+    ],
+    "benefit_amount": "100% property tax exemption (no value or income limit)",
+    "how_to_apply": "Apply with County Assessor February 2-June 30",
+    "source_name": "Nebraska Department of Revenue",
+    "source_url": "https://revenue.nebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_motor_vehicle_exemption_2026",
+    "state": "Nebraska",
+    "name": "Disabled Veteran Motor Vehicle Tax Exemption (NEW 2026)",
+    "category": "Tax Benefits",
+    "description": "Starting January 1, 2026: ALL disabled and/or blind veterans receive exemption from Motor Vehicle Tax AND Motor Vehicle Fee for ONE vehicle owned and used for personal transportation. Exemption does NOT cover plate fees, sales tax, or wheel tax. Previously only for lost use/amputation of 2+ limbs or blindness.",
+    "eligibility": [
+      "Nebraska resident veteran",
+      "Honorable or general discharge",
+      "ANY VA disability rating OR blind",
+      "Vehicle owned and used for personal transportation",
+      "Effective: January 1, 2026"
+    ],
+    "benefit_amount": "Exemption from motor vehicle tax + motor vehicle fee (1 vehicle)",
+    "how_to_apply": "Apply with County Treasurer in county of residence",
+    "source_name": "Nebraska Department of Veterans' Affairs",
+    "source_url": "https://veterans.nebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_military_pay_taxed",
+    "state": "Nebraska",
+    "name": "Military Pay Income Tax (TAXED)",
+    "category": "Tax Benefits",
+    "description": "Nebraska IS one of few states that TAXES active duty military pay for residents. Military pay earned by Nebraska residents IS subject to state income tax.",
+    "eligibility": [
+      "Nebraska resident service member",
+      "Receiving active duty military pay"
+    ],
+    "benefit_amount": "TAXABLE (no exemption)",
+    "how_to_apply": "Include on Nebraska income tax return",
+    "source_name": "Nebraska Department of Revenue",
+    "source_url": "https://revenue.nebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_retirement_pay_options",
+    "state": "Nebraska",
+    "name": "Military Retirement Pay Tax Options (Choose Once)",
+    "category": "Tax Benefits",
+    "description": "Veterans must choose retirement pay tax treatment within 2 years of separation (CANNOT change later). OPTION 1: Exclude 40% of retirement pay for 7 consecutive years starting election year. OPTION 2: Exclude 15% of retirement pay starting at age 67 for life.",
+    "eligibility": [
+      "Nebraska resident",
+      "Receiving military retirement pay",
+      "Must elect within 2 years of separation"
+    ],
+    "benefit_amount": "40% exempt for 7 years OR 15% exempt age 67+ (choose once)",
+    "how_to_apply": "Elect on Nebraska income tax return within 2 years",
+    "source_name": "Nebraska Department of Revenue",
+    "source_url": "https://revenue.nebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_sbp_rcsbp_exempt",
+    "state": "Nebraska",
+    "name": "Survivor Benefit Plans Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "SBP (Survivor Benefit Plan), RCSBP (Reserve Component SBP), and RSFPP (Retired Serviceman's Family Protection Plan) annuities are 100% exempt from Nebraska state income tax.",
+    "eligibility": [
+      "Receiving SBP, RCSBP, or RSFPP payments",
+      "Nebraska resident"
+    ],
+    "benefit_amount": "100% exemption on survivor benefit annuities",
+    "how_to_apply": "Exclude from Nebraska income tax return",
+    "source_name": "Nebraska Department of Revenue",
+    "source_url": "https://revenue.nebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_tsp_exempt",
+    "state": "Nebraska",
+    "name": "Thrift Savings Plan (TSP) Retirement Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "TSP distributions after retirement are NOT subject to Nebraska state taxes. Early distributions may incur higher federal taxes. TSP does not withhold for state/local taxes.",
+    "eligibility": [
+      "Receiving TSP retirement distributions",
+      "Nebraska resident"
+    ],
+    "benefit_amount": "TSP retirement distributions exempt (early may have penalties)",
+    "how_to_apply": "Exclude retirement TSP distributions from Nebraska tax return",
+    "source_name": "Nebraska Department of Revenue",
+    "source_url": "https://revenue.nebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_employment_preference_5_10",
+    "state": "Nebraska",
+    "name": "Veterans Employment Preference (5% or 10%)",
+    "category": "Employment",
+    "description": "Honorably discharged veterans with passing exam scores receive 5% added to final score on state/county/municipal employment exams. Disabled veterans OR Purple Heart recipients receive ADDITIONAL 5% (total 10%). Preference also available to: spouses of active duty (during + 180 days after separation), spouses of 100% disabled veterans.",
+    "eligibility": [
+      "Nebraska resident veteran with passing exam score (5%)",
+      "OR disabled veteran/Purple Heart (+5 more = 10% total)",
+      "OR qualifying spouse",
+      "Honorable or general discharge"
+    ],
+    "benefit_amount": "5% or 10% added to employment exam scores",
+    "how_to_apply": "Indicate veteran status on state/county/municipal job applications with DD-214",
+    "source_name": "Nebraska Department of Administrative Services",
+    "source_url": "https://das.nebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_occupational_licensing",
+    "state": "Nebraska",
+    "name": "Military Experience for Occupational Licensing",
+    "category": "Employment",
+    "description": "Veterans and active duty members may receive occupational licenses based on military experience and training. Eligible for expedited and temporary license approvals. Spouse portability also available.",
+    "eligibility": [
+      "Nebraska veteran or active duty member",
+      "OR military spouse",
+      "Relevant military training/experience"
+    ],
+    "benefit_amount": "Expedited/temporary licensing + military experience credit",
+    "how_to_apply": "Contact relevant Nebraska licensing board with military credentials",
+    "source_name": "Nebraska Department of Veterans' Affairs",
+    "source_url": "https://veterans.nebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_hunting_fishing_free_50",
+    "state": "Nebraska",
+    "name": "FREE Lifetime Hunting/Fishing/Fur Harvest (50%+ Disabled)",
+    "category": "Recreation",
+    "description": "Nebraska resident veterans with 50%+ service-connected disability OR receiving VA pension for 100% non-service-connected disability receive FREE lifetime combo fishing/fur-harvesting/hunting permit + habitat stamp + aquatic habitat stamp + migratory waterfowl stamp. Must renew annually for $5 after initial free permit.",
+    "eligibility": [
+      "Nebraska resident veteran",
+      "50%+ service-connected disability OR 100% non-service pension",
+      "Honorable or general discharge"
+    ],
+    "benefit_amount": "FREE lifetime hunt/fish/fur permit + all stamps ($5 annual renewal)",
+    "how_to_apply": "Apply through VA office (3800 Village Drive, Lincoln) or Nebraska Game and Parks",
+    "source_name": "Nebraska Game and Parks Commission",
+    "source_url": "https://outdoornebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_hunting_fishing_64",
+    "state": "Nebraska",
+    "name": "$5 Veteran Hunting/Fishing/Fur Harvest (Age 64+)",
+    "category": "Recreation",
+    "description": "Nebraska resident veterans age 64+ receive Annual Small Game Hunt/Fish/Fur Harvest Permit for only $5 (includes all state stamps). Must have served on active duty beyond basic training. Annual renewal for $5.",
+    "eligibility": [
+      "Nebraska resident veteran age 64+",
+      "Served on active duty beyond basic training",
+      "Honorable or general discharge"
+    ],
+    "benefit_amount": "$5 annual hunt/fish/fur permit (includes all stamps)",
+    "how_to_apply": "Apply at Nebraska Game and Parks office/service center with DD-214",
+    "source_name": "Nebraska Game and Parks Commission",
+    "source_url": "https://outdoornebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_hunting_fishing_deployed",
+    "state": "Nebraska",
+    "name": "$5 Deployed Military Hunt/Fish Permit (One-Time)",
+    "category": "Recreation",
+    "description": "Nebraska residents deployed out of state within last 12 months receive one-time Annual Small Game Hunt/Fish/Fur Harvest Permit for $5 (includes all stamps) upon return.",
+    "eligibility": [
+      "Nebraska resident",
+      "Deployed out of state within last 12 months",
+      "One-time benefit upon return"
+    ],
+    "benefit_amount": "$5 hunt/fish/fur permit (one-time, includes all stamps)",
+    "how_to_apply": "Apply at Game and Parks office with deployment papers",
+    "source_name": "Nebraska Game and Parks Commission",
+    "source_url": "https://outdoornebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_veterans_day_hunt_free",
+    "state": "Nebraska",
+    "name": "FREE Veterans Day Hunting Permits",
+    "category": "Recreation",
+    "description": "Honorably discharged Nebraska resident veterans receive FREE one-day hunt permit + habitat stamp + Nebraska Migratory Waterfowl Stamp to hunt on Veterans Day (November 11) annually. Federal Duck Stamp and HIP registration still required for waterfowl.",
+    "eligibility": [
+      "Nebraska resident veteran",
+      "Honorably discharged",
+      "Veterans Day (November 11)"
+    ],
+    "benefit_amount": "FREE one-day hunt permit + stamps (Veterans Day)",
+    "how_to_apply": "Purchase online or at Game and Parks office",
+    "source_name": "Nebraska Game and Parks Commission",
+    "source_url": "https://outdoornebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_waterfowl_bonus_weekend",
+    "state": "Nebraska",
+    "name": "Veteran Bonus Waterfowl Weekend",
+    "category": "Recreation",
+    "description": "Special annual waterfowl hunting weekend for qualifying resident and nonresident veterans. Must have veteran status in Nebraska Game and Parks Permit System OR veteran designation on state driver's license.",
+    "eligibility": [
+      "Veteran (resident or nonresident)",
+      "Veteran status in permit system OR state DL designation"
+    ],
+    "benefit_amount": "Special waterfowl hunting weekend access",
+    "how_to_apply": "Register in Nebraska Game and Parks Permit System",
+    "source_name": "Nebraska Game and Parks Commission",
+    "source_url": "https://outdoornebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_active_duty_resident_permits",
+    "state": "Nebraska",
+    "name": "Active Duty Resident Hunting/Fishing Rates",
+    "category": "Recreation",
+    "description": "Nonresident active duty service members stationed in Nebraska for 30+ days may purchase hunting and fishing permits at RESIDENT prices.",
+    "eligibility": [
+      "Active duty service member (nonresident)",
+      "Stationed in Nebraska 30+ days"
+    ],
+    "benefit_amount": "Resident permit pricing (saves $100-$200 vs nonresident)",
+    "how_to_apply": "Present military ID at Game and Parks office",
+    "source_name": "Nebraska Game and Parks Commission",
+    "source_url": "https://outdoornebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_active_duty_state_parks_5",
+    "state": "Nebraska",
+    "name": "$5 Active Duty State Parks Annual Pass",
+    "category": "Recreation",
+    "description": "Active duty service members stationed in Nebraska receive annual vehicle park entry permit to 76+ Nebraska State Parks for $5 (valid January 1-December 31).",
+    "eligibility": [
+      "Active duty service member",
+      "Stationed in Nebraska"
+    ],
+    "benefit_amount": "$5 annual state parks pass (76+ parks)",
+    "how_to_apply": "Purchase at Nebraska State Parks with military ID",
+    "source_name": "Nebraska Game and Parks Commission",
+    "source_url": "https://outdoornebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_disabled_veteran_parks_free",
+    "state": "Nebraska",
+    "name": "FREE Lifetime State Parks Pass (Disabled Veterans)",
+    "category": "Recreation",
+    "description": "Nebraska resident disabled veterans (50%+ service-connected OR 100% non-service pension) receive FREE Disabled Veteran's Lifetime Park Entry Permit. Authorizes free entry to all Nebraska State Parks. Lost/stolen permits not replaceable.",
+    "eligibility": [
+      "Nebraska resident veteran",
+      "50%+ service-connected disability OR 100% non-service pension"
+    ],
+    "benefit_amount": "FREE lifetime state parks entry",
+    "how_to_apply": "Apply through VA office (3800 Village Drive, Lincoln) or permit section",
+    "source_name": "Nebraska Game and Parks Commission",
+    "source_url": "https://outdoornebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_vets_get_pets",
+    "state": "Nebraska",
+    "name": "Vets Get Pets Adoption Fee Assistance",
+    "category": "Other",
+    "description": "Nebraska Department of Veterans' Affairs program covers up to $350 maximum of eligible veteran's pet adoption fees. Funding dependent on Vets Get Pets license plate sales.",
+    "eligibility": [
+      "Eligible Nebraska veteran",
+      "Adopting pet from participating shelter",
+      "Funds available"
+    ],
+    "benefit_amount": "Up to $350 pet adoption fee coverage",
+    "how_to_apply": "Contact Nebraska Department of Veterans' Affairs",
+    "source_name": "Nebraska Department of Veterans' Affairs",
+    "source_url": "https://veterans.nebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_license_plates",
+    "state": "Nebraska",
+    "name": "Special Veteran License Plates",
+    "category": "Other",
+    "description": "Multiple veteran license plate options: Disabled American Veteran plates (100% disabled), Military Honor plates (all branches), general veteran plates. Some FREE, others standard fee. Disabled American Veteran plates DO NOT equal motor vehicle tax exemption (separate applications).",
+    "eligibility": [
+      "Nebraska resident veteran",
+      "Enrolled in Nebraska Veterans' Registry",
+      "Honorable or general discharge",
+      "Meet specific plate criteria"
+    ],
+    "benefit_amount": "FREE or standard fee specialty plates",
+    "how_to_apply": "First register with Nebraska Veterans' Registry, then apply at County Treasurer DMV",
+    "source_name": "Nebraska Department of Motor Vehicles",
+    "source_url": "https://dmv.nebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_drivers_license_designation",
+    "state": "Nebraska",
+    "name": "Veteran Designation on Driver's License/ID",
+    "category": "Other",
+    "description": "Nebraska veterans can request 'veteran' designation on driver's license and state ID card for no additional fee at renewal OR standard replacement fee anytime. Must first register with Nebraska Department of Veterans' Affairs Military and Veterans' Registry.",
+    "eligibility": [
+      "Nebraska resident veteran",
+      "Registered with NDVA Veterans' Registry"
+    ],
+    "benefit_amount": "Veteran designation on DL/ID (no fee at renewal)",
+    "how_to_apply": "Register with NDVA first (402-471-2458), then request at DMV",
+    "source_name": "Nebraska Department of Motor Vehicles",
+    "source_url": "https://dmv.nebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_veterans_homes",
+    "state": "Nebraska",
+    "name": "Nebraska Veterans Homes (4 Locations)",
+    "category": "Healthcare",
+    "description": "Four state veterans homes in Scottsbluff, Grand Island, Bellevue, and Norfolk. Provide various therapies, memory care, and hospice services. Eligible dependents include spouses, unremarried surviving spouses, and Gold Star parents. Fees based on ability to pay ($0 to $4,000+/month).",
+    "eligibility": [
+      "Eligible veteran OR eligible dependent",
+      "Meet admission requirements",
+      "Fees based on ability to pay"
+    ],
+    "benefit_amount": "Subsidized residential and nursing care",
+    "how_to_apply": "Apply directly to home, through VSO, or recognized veterans service organization",
+    "source_name": "Nebraska Department of Veterans' Affairs",
+    "source_url": "https://veterans.nebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_veterans_cemetery",
+    "state": "Nebraska",
+    "name": "Nebraska Veterans Cemetery (Alliance)",
+    "category": "Other",
+    "description": "State veterans cemetery in Alliance. Follows same eligibility as federal VA cemeteries but may have residency requirements. Burial at no cost to families for eligible veterans and dependents.",
+    "eligibility": [
+      "Eligible veteran OR eligible dependent",
+      "Meet federal cemetery eligibility",
+      "May have residency requirements"
+    ],
+    "benefit_amount": "FREE burial services",
+    "how_to_apply": "Contact Nebraska Veterans Cemetery in Alliance",
+    "source_name": "Nebraska Department of Veterans' Affairs",
+    "source_url": "https://veterans.nebraska.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ne_legal_clinic",
+    "state": "Nebraska",
+    "name": "University of Nebraska Law School Civil Clinic",
+    "category": "Other",
+    "description": "Free legal services offered to Nebraska veterans through UNL College of Law Civil Clinic.",
+    "eligibility": [
+      "Nebraska resident veteran"
+    ],
+    "benefit_amount": "FREE civil legal services",
+    "how_to_apply": "Contact University of Nebraska College of Law Civil Clinic",
+    "source_name": "University of Nebraska College of Law",
+    "source_url": "https://law.unl.edu/",
+    "last_verified": "2025-12-30"
+  }
+]

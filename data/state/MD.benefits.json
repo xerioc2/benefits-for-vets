@@ -1,0 +1,327 @@
+[
+  {
+    "id": "md_property_tax_exemption_100_percent_disabled",
+    "scope": "state",
+    "state": "MD",
+    "title": "100% Disabled Veteran Property Tax Exemption",
+    "summary": "Full exemption from Maryland real property tax for qualifying 100% service-connected disabled veterans on their primary residence (home and surrounding yard).",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null,
+      "notes": "Administered through local assessment offices (SDAT). Surviving spouses may qualify under certain circumstances."
+    },
+    "eligibilityNotes": "Apply through the local Maryland Department of Assessments & Taxation assessment office with VA disability documentation and required forms.",
+    "sourceUrl": "https://veterans.maryland.gov/Benefits/TaxExemptions/Pages/State-Property-Tax-Exemptions.aspx",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "md_military_retirement_income_subtraction",
+    "scope": "state",
+    "state": "MD",
+    "title": "Military Retirement Income Tax Subtraction",
+    "summary": "Maryland allows an income subtraction for military retirement income, with different maximums depending on age.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Per MDVA guidance: taxpayers age 55+ may subtract up to $20,000; taxpayers under 55 may subtract up to $12,500 (subject to current rules). Claim via Maryland income tax return instructions."
+    },
+    "eligibilityNotes": "Claim on Maryland Form 502 following the resident tax booklet instructions for the relevant tax year.",
+    "sourceUrl": "https://veterans.maryland.gov/Benefits/TaxExemptions/Pages/Retirement-Pay-and-Pension-Tax-Deductions-and-Exclusion.aspx",
+    "tags": ["tax", "income", "retirement"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "md_veteran_designation_driver_license_id",
+    "scope": "state",
+    "state": "MD",
+    "title": "Veteran Designation on Maryland Driver License / ID",
+    "summary": "Eligible veterans can add a Veteran designation to a Maryland driver license or identification card.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Must provide acceptable proof of veteran status as required by MDOT MVA."
+    },
+    "eligibilityNotes": "Request through MDOT MVA with required documentation (e.g., DD-214 or equivalent proof).",
+    "sourceUrl": "https://veterans.maryland.gov/Benefits/Pages/Motor-Vehicles.aspx",
+    "tags": ["id", "dmv", "license"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "md_disabled_veteran_license_plates_100_percent_permanent_registration",
+    "scope": "state",
+    "state": "MD",
+    "title": "Disabled Veteran Plates (100% / IU P&T) with Permanent Registration",
+    "summary": "Disabled Veteran plates issued free of charge to qualifying 100% disabled veterans (or those compensated at the 100% rate due to Individual Unemployability) who are permanent and total; includes permanent registration credentials so renewals aren't required.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null,
+      "notes": "Eligibility includes 100% disabled OR compensated at 100% due to individual unemployability (P&T). Plates may be issued with or without the wheelchair symbol; qualified veterans receive permanent registration cards and stickers."
+    },
+    "eligibilityNotes": "Apply via MDOT MVA with VA documentation meeting the stated criteria.",
+    "sourceUrl": "https://veterans.maryland.gov/Benefits/Pages/Motor-Vehicle-Administration-Benefits-and-Vehicle-Registration.aspx",
+    "tags": ["vehicle", "dmv", "parking", "fee_waiver"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "md_disabled_veteran_license_plates_50_to_99_free_plates",
+    "scope": "state",
+    "state": "MD",
+    "title": "Disabled Veteran Plates (50–99%): Plates Issued Free (Registration Fees Still Apply)",
+    "summary": "MDOT MVA issues Disabled Veteran plates free of charge for eligible veterans rated 50–99% disabled, though normal registration fees/surcharges still apply.",
+    "requirements": {
+      "minDisability": 50,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Applies to 50–99% service-connected disability or qualifying unemployability rating as defined by MVA for DV plates."
+    },
+    "eligibilityNotes": "Apply through MDOT MVA with required disability documentation.",
+    "sourceUrl": "https://mva.maryland.gov/Pages/License-Plates-Military.aspx",
+    "tags": ["vehicle", "dmv", "license_plates"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "md_state_parks_day_use_fee_waiver_all_veterans",
+    "scope": "state",
+    "state": "MD",
+    "title": "Maryland State Parks Day-Use Entrance Fee Waiver (All Veterans)",
+    "summary": "All applicable day-use entrance charges are waived for all U.S. Armed Forces veterans at Maryland state parks day-use areas.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Waiver applies to the veteran only. If a per-vehicle fee is in effect, the per-vehicle fee is waived. Other facility/service charges are not waived."
+    },
+    "eligibilityNotes": "Be prepared to show proof of veteran status as requested at entry.",
+    "sourceUrl": "https://dnr.maryland.gov/publiclands/pages/veterans-admission-waiver.aspx",
+    "tags": ["recreation", "state_parks"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "md_free_lifetime_fishing_license_pow_dav_iu",
+    "scope": "state",
+    "state": "MD",
+    "title": "Complimentary Lifetime Fishing License (Former POW / 100% SC Disabled / IU)",
+    "summary": "Complimentary lifetime fishing license for Maryland residents who are 100% service-connected disabled veterans, former POWs, or veterans deemed unemployable by the U.S. Department of Veterans Affairs.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Includes non-tidal angler’s license, trout stamp, Chesapeake Bay sport fishing license, and recreational oyster license (per DNR description). Must be obtained through DNR Licensing & Registration Service Centers."
+    },
+    "eligibilityNotes": "Provide VA disability/unemployability documentation and apply through a Maryland DNR Licensing & Registration Service Center.",
+    "sourceUrl": "https://dnr.maryland.gov/pages/service_fishing_license.aspx",
+    "tags": ["recreation", "fishing", "license"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "md_free_lifetime_hunting_license_pow_dav_iu",
+    "scope": "state",
+    "state": "MD",
+    "title": "Complimentary Lifetime Hunting License (Former POW / 100% SC Disabled / IU)",
+    "summary": "Complimentary lifetime hunting license for Maryland residents who are 100% service-connected disabled veterans, former POWs, or veterans deemed unemployable by the U.S. Department of Veterans Affairs.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Per DNR: applicants must furnish a letter of disability/certification from VA and a completed Hunting License Application; submit to DNR Licensing & Registration Service Centers."
+    },
+    "eligibilityNotes": "Apply through a Maryland DNR Licensing & Registration Service Center with required VA documentation.",
+    "sourceUrl": "https://dnr.maryland.gov/pages/service_hunting_license.aspx",
+    "tags": ["recreation", "hunting", "license"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "md_discount_hunting_fishing_purple_heart",
+    "scope": "state",
+    "state": "MD",
+    "title": "Discounted Hunting & Fishing Licenses for Purple Heart Recipients",
+    "summary": "Maryland offers discounted hunting and fishing licenses for resident Purple Heart recipients (per DNR veteran resources).",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "DNR guidance indicates Purple Heart recipients may qualify for discounted license pricing; program details and included items vary by license type."
+    },
+    "eligibilityNotes": "Verify eligibility and purchase through Maryland DNR licensing channels with proof of Purple Heart award.",
+    "sourceUrl": "https://news.maryland.gov/dnr/2019/11/08/maryland-department-of-natural-resources-offers-resources-to-veterans/",
+    "tags": ["recreation", "hunting", "fishing", "discount"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "md_conroy_memorial_scholarship",
+    "scope": "state",
+    "state": "MD",
+    "title": "Edward T. and Mary A. Conroy Memorial Scholarship",
+    "summary": "Education financial assistance for certain Maryland residents based on eligible military service or qualifying relationship to an eligible service member/veteran (including disabled veterans and certain dependents/surviving spouses).",
+    "requirements": {
+      "minDisability": 25,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "MHEC program includes multiple eligibility pathways; one pathway includes veterans with 25%+ service-connected disability who have exhausted or are no longer eligible for federal veterans’ educational benefits; another includes dependents/surviving spouses of members who died or suffered 100% service-connected permanent disability."
+    },
+    "eligibilityNotes": "Apply through the Maryland Higher Education Commission (MHEC) and follow current program instructions for documentation and renewal requirements.",
+    "sourceUrl": "https://mhec.maryland.gov/preparing/pages/financialaid/programdescriptions/prog_conroy.aspx",
+    "tags": ["education", "tuition", "dependents", "scholarship"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "md_national_guard_state_tuition_waiver_and_star",
+    "scope": "state",
+    "state": "MD",
+    "title": "Maryland National Guard Education Benefits (State Tuition Waiver & STAR Reimbursement)",
+    "summary": "Maryland National Guard programs that can reduce tuition via a State Tuition Waiver and/or reimburse tuition through STAR (State Tuition Assistance Reimbursement), subject to eligibility and process requirements.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Program guidance and timelines apply (e.g., documentation and submission deadlines). Benefits depend on drilling/active status and program rules."
+    },
+    "eligibilityNotes": "Work through Maryland Military Department / MDNG education office to obtain the waiver letter/forms and submit to your school per instructions.",
+    "sourceUrl": "https://military.maryland.gov/NG/Pages/tuition-assistance.aspx",
+    "tags": ["education", "tuition", "national_guard"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "md_state_employment_veterans_credit",
+    "scope": "state",
+    "state": "MD",
+    "title": "Maryland State Employment Veterans Credit (Selection Test Points)",
+    "summary": "Maryland state hiring can apply additional credit points on selection tests for eligible veterans and certain spouses/surviving spouses; former POWs can receive additional points.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Per DBM guidance: 10-point credit for eligible veteran or qualifying spouse/surviving spouse; +2 additional points for former POW (as described)."
+    },
+    "eligibilityNotes": "When applying for Maryland state positions, follow DBM instructions to claim and document the veterans credit.",
+    "sourceUrl": "https://dbm.maryland.gov/jobseekers/pages/determineeligibilityveteranscredit.aspx",
+    "tags": ["employment", "preference", "civil_service"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "md_private_employer_veteran_hiring_promotion_preference_law",
+    "scope": "state",
+    "state": "MD",
+    "title": "Private Employer Hiring & Promotion Preference (Maryland Law)",
+    "summary": "Maryland law permits private employers to grant a hiring and promotion preference to eligible veterans and certain spouses/surviving spouses (as defined by the statute guidance).",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Maryland Department of Labor guidance describes categories including eligible veterans, spouses of eligible veterans with a service-connected disability, and surviving spouses of deceased eligible veterans."
+    },
+    "eligibilityNotes": "This is an employer-implemented preference; applicability varies by employer policy and role.",
+    "sourceUrl": "https://labor.maryland.gov/labor/wages/vethiring.shtml",
+    "tags": ["employment", "hiring", "preference"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "md_expedited_occupational_professional_licensing_veterans",
+    "scope": "state",
+    "state": "MD",
+    "title": "Expedited Occupational & Professional Licensing (Veterans / Service Members / Spouses)",
+    "summary": "Maryland’s Occupational and Professional Licensing boards provide expedited licensure processing for veterans, service members, and eligible family members under the Veterans Full Employment Act updates.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Maryland Department of Labor guidance indicates expedited licenses are to be issued within 60 days after receiving completed applications, subject to rules and board requirements."
+    },
+    "eligibilityNotes": "Apply through the relevant Maryland Department of Labor occupational/professional licensing board and request expedited processing under the program criteria.",
+    "sourceUrl": "https://www.labor.maryland.gov/license/opvetlic.shtml",
+    "tags": ["employment", "licensing", "professional"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "md_maryland_veterans_trust_fund_grants",
+    "scope": "state",
+    "state": "MD",
+    "title": "Maryland Veterans Trust Fund (Financial Hardship Grants)",
+    "summary": "One-time grants to help veterans, military families, Gold Star parents/spouses, and Maryland National Guard members overcome temporary financial hardships.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "MDVA describes MVTF as providing one-time grant awards; applicants outside listed categories may request a waiver for consideration during intake."
+    },
+    "eligibilityNotes": "Apply through the Maryland Veterans Trust Fund intake/application process and provide supporting documentation for the hardship and eligibility category.",
+    "sourceUrl": "https://veterans.maryland.gov/Benefits/FinancialSupport/Pages/default.aspx",
+    "tags": ["financial_assistance", "emergency", "housing", "utilities"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "md_state_veterans_cemeteries",
+    "scope": "state",
+    "state": "MD",
+    "benefitType": "facility",
+    "title": "Maryland State Veterans Cemeteries",
+    "summary": "State-operated veterans cemeteries providing burial options for eligible veterans and certain family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility generally aligns with veterans cemetery program requirements; availability and scheduling vary by location."
+    },
+    "eligibilityNotes": "Contact Maryland Department of Veterans Affairs for cemetery locations, eligibility, and interment scheduling.",
+    "sourceUrl": "https://veterans.maryland.gov/Benefits/Pages/Burial.aspx",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-25"
+  },
+  [
+  {
+    "id": "md_star",
+    "scope": "state",
+    "state": "MD",
+    "title": "State Tuition Assistance Reimbursement (STAR)",
+    "summary": "Up to $8,500 per fiscal year in tuition and fee reimbursement for Maryland National Guard members. Two-part reimbursement process during each semester.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must have at least 2 years left on contract from course end date. Must pass courses with C (2.0 GPA) or better for undergraduate, B- or higher for graduate."
+    },
+    "eligibilityNotes": "MD National Guard state reimbursement program covering tuition and fees up to $8,500 per fiscal year (subject to availability of state funds). Does NOT cover books or course supplies. Requires 2-part submission: Initial STAR (within 45 days of semester start) with completed forms, itemized bill, class schedule. Final STAR (within 45 days of semester end) with itemized bill showing $0 balance and final grades. Must extend contract if less than 2 years remaining. Recoupment required for failed courses (under C or 2.0 GPA). Apply through MD National Guard Education Services at [email protected] or 667-296-4144/4137/4139.",
+    "sourceUrl": "https://military.maryland.gov/NG/Pages/tuition-assistance.aspx",
+    "tags": ["education", "tuition", "national_guard", "reimbursement"],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "md_stw",
+    "scope": "state",
+    "state": "MD",
+    "title": "State Tuition Waiver (STW)",
+    "summary": "Up to 50% tuition waived at Maryland partner schools for active Maryland National Guard members enrolled in undergraduate or graduate programs.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must be active MD Army or Air National Guard member. Available only at designated MD partner schools."
+    },
+    "eligibilityNotes": "MD National Guard tuition waiver program providing up to 50% tuition reduction at Maryland partner institutions. Available for both undergraduate and graduate programs. STW letters issued by MD National Guard Education Services via email. List of partner schools available at military.maryland.gov/NG/Pages/Partner-Schools.aspx. Can be combined with other aid programs. Apply by contacting MD NG Education Office at [email protected] or 667-296-4144/4137/4139. Some partner schools (like Johns Hopkins, Stevenson University) may offer enhanced discounts up to 50% for first 6 credit hours per semester.",
+    "sourceUrl": "https://military.maryland.gov/NG/Pages/tuition-assistance.aspx",
+    "tags": ["education", "tuition", "national_guard", "waiver"],
+    "lastReviewed": "2025-12-25"
+  }
+]
+]

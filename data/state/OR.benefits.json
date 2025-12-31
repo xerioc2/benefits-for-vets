@@ -1,0 +1,308 @@
+[
+  {
+    "id": "or_ongsta",
+    "state": "Oregon",
+    "name": "Oregon National Guard State Tuition Assistance (ONGSTA)",
+    "category": "Education",
+    "description": "100% tuition at resident rates plus fees and book allowance for Oregon National Guard members. Private schools receive up to $274 per credit hour. Maximum of 90-180 credits depending on degree level.",
+    "eligibility": [
+      "Active Oregon National Guard member in good standing",
+      "Enrolled in eligible Oregon institution",
+      "Maintaining satisfactory academic progress"
+    ],
+    "benefit_amount": "100% tuition at resident rates + fees + book allowance; up to $274/credit at private schools",
+    "how_to_apply": "Apply through Oregon Student Aid - oregonstudentaid.gov",
+    "source_name": "Oregon Student Aid",
+    "source_url": "https://oregonstudentaid.gov/grants/oregon-national-guard-state-tuition-assistance/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "or_instate_tuition",
+    "state": "Oregon",
+    "name": "In-State Tuition for ALL Veterans",
+    "category": "Education",
+    "description": "In-state tuition rates at all Oregon public institutions for ANY veteran regardless of state of residence. Applies to veterans using GI Bill benefits or paying out-of-pocket.",
+    "eligibility": [
+      "Honorably discharged veteran",
+      "Enrolled in Oregon public institution",
+      "Using VA education benefits OR paying own tuition"
+    ],
+    "benefit_amount": "In-state tuition rates (saves $10,000-$20,000/year)",
+    "how_to_apply": "Submit DD-214 to institution's veterans office",
+    "source_name": "Oregon Department of Veterans' Affairs",
+    "source_url": "https://www.oregon.gov/odva/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "or_dependent_waiver",
+    "state": "Oregon",
+    "name": "Dependent Tuition Waiver Program",
+    "category": "Education",
+    "description": "100% tuition waiver at Oregon public institutions for children and spouses of 100% disabled or KIA veterans.",
+    "eligibility": [
+      "Dependent or spouse of Oregon veteran",
+      "Veteran must be 100% P&T disabled OR killed in action",
+      "Veteran must have been Oregon resident"
+    ],
+    "benefit_amount": "100% tuition waiver at public institutions",
+    "how_to_apply": "Apply through Oregon Department of Veterans' Affairs with VA documentation",
+    "source_name": "Oregon Department of Veterans' Affairs",
+    "source_url": "https://www.oregon.gov/odva/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "or_bridge_grant",
+    "state": "Oregon",
+    "name": "Oregon Veterans' Educational Bridge Grant",
+    "category": "Education",
+    "description": "$5,000 grant to help student veterans transition to higher education. Can be used for tuition, fees, books, or living expenses.",
+    "eligibility": [
+      "Oregon resident veteran",
+      "Enrolling in Oregon institution",
+      "Demonstrate financial need"
+    ],
+    "benefit_amount": "$5,000 one-time grant",
+    "how_to_apply": "Apply through Oregon Student Aid",
+    "source_name": "Oregon Student Aid",
+    "source_url": "https://oregonstudentaid.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "or_voyager",
+    "state": "Oregon",
+    "name": "Voyager Program",
+    "category": "Education",
+    "description": "Priority registration and enhanced support services for veterans who served in combat zones. Provides academic advising, career counseling, and wraparound support.",
+    "eligibility": [
+      "Veteran who served in combat zone",
+      "Enrolled in participating Oregon institution"
+    ],
+    "benefit_amount": "Priority registration + enhanced support services",
+    "how_to_apply": "Contact institution's veterans resource center",
+    "source_name": "Oregon Department of Veterans' Affairs",
+    "source_url": "https://www.oregon.gov/odva/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "or_property_tax_disabled",
+    "state": "Oregon",
+    "name": "Disabled Veterans Property Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "$23,000 to $28,000 property tax exemption for veterans with 40% or higher service-connected disability rating. Amount increases with disability percentage.",
+    "eligibility": [
+      "Oregon resident veteran",
+      "40% or higher VA disability rating",
+      "Property is primary residence"
+    ],
+    "benefit_amount": "$23,000-$28,000 assessed value exemption based on disability rating",
+    "how_to_apply": "File with county assessor annually with VA rating documentation",
+    "source_name": "Oregon Department of Revenue",
+    "source_url": "https://www.oregon.gov/dor/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "or_property_tax_100",
+    "state": "Oregon",
+    "name": "100% Property Tax Exemption for 65+ and 100% Disabled",
+    "category": "Tax Benefits",
+    "description": "100% property tax exemption for veterans who are both age 65 or older AND 100% disabled. Applies to primary residence and up to one acre of land.",
+    "eligibility": [
+      "Age 65 or older",
+      "100% VA disability rating",
+      "Oregon resident",
+      "Property is primary residence"
+    ],
+    "benefit_amount": "100% property tax exemption on home + 1 acre",
+    "how_to_apply": "Apply through county assessor with age and VA disability proof",
+    "source_name": "Oregon Department of Revenue",
+    "source_url": "https://www.oregon.gov/dor/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "or_property_tax_active",
+    "state": "Oregon",
+    "name": "Active Duty Property Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Property tax exemption for service members on active duty for 178 or more consecutive days in a year.",
+    "eligibility": [
+      "Active duty service member",
+      "On duty 178+ consecutive days",
+      "Oregon resident"
+    ],
+    "benefit_amount": "Property tax exemption during active duty deployment",
+    "how_to_apply": "File with county assessor with military orders",
+    "source_name": "Oregon Department of Revenue",
+    "source_url": "https://www.oregon.gov/dor/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "or_property_tax_deferral",
+    "state": "Oregon",
+    "name": "Property Tax Deferral for Disabled Veterans",
+    "category": "Tax Benefits",
+    "description": "Property tax deferral program allows disabled veterans to defer property taxes with minimal interest, preventing foreclosure due to tax burden.",
+    "eligibility": [
+      "Oregon resident veteran",
+      "Service-connected disability",
+      "Meet income requirements",
+      "Property is primary residence"
+    ],
+    "benefit_amount": "Defer property taxes with low interest rate",
+    "how_to_apply": "Apply through Oregon Department of Revenue",
+    "source_name": "Oregon Department of Revenue",
+    "source_url": "https://www.oregon.gov/dor/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "or_retirement_tax_exempt",
+    "state": "Oregon",
+    "name": "Military Retirement Pay Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "All military retirement pay is fully exempt from Oregon state income tax.",
+    "eligibility": [
+      "Receiving military retirement pay",
+      "Oregon resident"
+    ],
+    "benefit_amount": "100% exemption on all military retirement income",
+    "how_to_apply": "Exclude from Oregon income tax return",
+    "source_name": "Oregon Department of Revenue",
+    "source_url": "https://www.oregon.gov/dor/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "or_employment_preference",
+    "state": "Oregon",
+    "name": "Veterans Preference in State Employment",
+    "category": "Employment",
+    "description": "5-10 point preference on state employment exams for veterans. Disabled veterans receive 10 points, all other veterans receive 5 points.",
+    "eligibility": [
+      "Honorably discharged veteran",
+      "Oregon resident",
+      "Applying for state position"
+    ],
+    "benefit_amount": "5-10 point preference on hiring exams",
+    "how_to_apply": "Submit veteran preference form with DD-214 when applying for state jobs",
+    "source_name": "Oregon Department of Administrative Services",
+    "source_url": "https://www.oregon.gov/das/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "or_professional_licensing",
+    "state": "Oregon",
+    "name": "Professional Licensing Credit for Military Experience",
+    "category": "Employment",
+    "description": "Oregon grants professional licensing credit and fee waivers for veterans whose military training and experience relates to civilian licensing requirements.",
+    "eligibility": [
+      "Oregon resident veteran",
+      "Military training/experience relevant to Oregon license",
+      "Honorable discharge"
+    ],
+    "benefit_amount": "Expedited licensing + fee waivers + experience credit",
+    "how_to_apply": "Apply through relevant Oregon licensing board with military credentials",
+    "source_name": "Oregon Department of Veterans' Affairs",
+    "source_url": "https://www.oregon.gov/odva/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "or_hunting_fishing_free",
+    "state": "Oregon",
+    "name": "Free Hunting and Fishing Licenses",
+    "category": "Recreation",
+    "description": "FREE lifetime hunting and fishing licenses for 100% disabled Oregon veterans.",
+    "eligibility": [
+      "Oregon resident veteran",
+      "100% VA disability rating",
+      "Apply through Oregon Fish and Wildlife"
+    ],
+    "benefit_amount": "FREE lifetime hunting and fishing licenses",
+    "how_to_apply": "Apply through Oregon Department of Fish and Wildlife with VA disability documentation",
+    "source_name": "Oregon Department of Fish and Wildlife",
+    "source_url": "https://www.dfw.state.or.us/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "or_camping_free",
+    "state": "Oregon",
+    "name": "Free Camping for Disabled Veterans",
+    "category": "Recreation",
+    "description": "Free camping at Oregon state parks for disabled veterans with 50% or higher disability rating.",
+    "eligibility": [
+      "Oregon resident veteran",
+      "50% or higher VA disability rating",
+      "Oregon State Parks veteran camping permit"
+    ],
+    "benefit_amount": "Free camping at all Oregon state parks",
+    "how_to_apply": "Obtain veteran camping permit from Oregon Parks and Recreation",
+    "source_name": "Oregon Parks and Recreation Department",
+    "source_url": "https://oregonstateparks.org/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "or_emergency_grants",
+    "state": "Oregon",
+    "name": "Emergency Financial Assistance Grants",
+    "category": "Financial Assistance",
+    "description": "Emergency grants for Oregon veterans facing financial hardship including rent, utilities, medical bills, and transportation costs.",
+    "eligibility": [
+      "Oregon resident veteran",
+      "Demonstrable financial emergency",
+      "Exhausted other resources"
+    ],
+    "benefit_amount": "Varies by need - typically $500-$3,000 per emergency",
+    "how_to_apply": "Contact Oregon Department of Veterans' Affairs county office",
+    "source_name": "Oregon Department of Veterans' Affairs",
+    "source_url": "https://www.oregon.gov/odva/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "or_veterans_homes",
+    "state": "Oregon",
+    "name": "Oregon Veterans' Homes",
+    "category": "Healthcare",
+    "description": "Two state-operated veterans' homes providing skilled nursing care and domiciliary care at reduced rates for eligible veterans. Located in The Dalles and Lebanon.",
+    "eligibility": [
+      "Honorably discharged veteran",
+      "Oregon resident",
+      "Need for nursing or domiciliary care"
+    ],
+    "benefit_amount": "Subsidized long-term care (rates vary by income)",
+    "how_to_apply": "Contact Oregon Department of Veterans' Affairs for application",
+    "source_name": "Oregon Department of Veterans' Affairs",
+    "source_url": "https://www.oregon.gov/odva/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "or_home_loans",
+    "state": "Oregon",
+    "name": "Oregon Veterans' Home Loan Program",
+    "category": "Housing",
+    "description": "Low-interest home loans for Oregon veterans with competitive rates and reduced fees. Available for purchase, construction, or refinancing.",
+    "eligibility": [
+      "Oregon resident veteran",
+      "Honorable discharge",
+      "Meet credit and income requirements"
+    ],
+    "benefit_amount": "Below-market interest rates + reduced fees",
+    "how_to_apply": "Apply through Oregon Department of Veterans' Affairs",
+    "source_name": "Oregon Department of Veterans' Affairs",
+    "source_url": "https://www.oregon.gov/odva/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "or_license_plates",
+    "state": "Oregon",
+    "name": "Veteran License Plates and Parking Placards",
+    "category": "Other",
+    "description": "Special veteran license plates and disabled veteran parking placards. Disabled veteran plates provide special parking privileges.",
+    "eligibility": [
+      "Oregon resident veteran",
+      "For disabled placard: service-connected disability",
+      "Valid vehicle registration"
+    ],
+    "benefit_amount": "Special license plates + disabled veteran parking privileges",
+    "how_to_apply": "Apply through Oregon DMV with DD-214 and disability documentation if applicable",
+    "source_name": "Oregon DMV",
+    "source_url": "https://www.oregon.gov/odot/dmv/",
+    "last_verified": "2025-12-25"
+  }
+]

@@ -1,0 +1,361 @@
+[
+  {
+    "id": "mn_gi_bill",
+    "state": "Minnesota",
+    "name": "Minnesota GI Bill",
+    "category": "Education",
+    "description": "Provides up to $15,000 for eligible Minnesota veterans, currently serving troops, National Guard and Reserve members who served after September 11, 2001. Available until age 62. Can be used for higher education, on-the-job training, apprenticeships, licenses and certifications. Also available to certain spouses and children.",
+    "eligibility": [
+      "Minnesota resident veteran OR currently serving OR Guard/Reserve",
+      "Service after September 11, 2001",
+      "Use before age 62",
+      "Certain spouses and children also eligible"
+    ],
+    "benefit_amount": "Maximum $15,000 lifetime benefit",
+    "how_to_apply": "Apply through Minnesota Department of Veterans Affairs",
+    "source_name": "Minnesota Department of Veterans Affairs",
+    "source_url": "https://mn.gov/mdva/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "mn_property_150k",
+    "state": "Minnesota",
+    "name": "Property Tax Exclusion ($150,000)",
+    "category": "Tax Benefits",
+    "description": "Up to $150,000 market value exclusion from property taxes for veterans with 70% or greater VA service-connected disability. Also available to qualifying primary family caregivers of 70%+ disabled veterans approved under VA Program of Comprehensive Assistance for Family Caregivers.",
+    "eligibility": [
+      "Minnesota resident veteran",
+      "70% or greater service-connected disability",
+      "OR primary family caregiver (VA PCAFC approved)",
+      "Property is homestead (primary residence)",
+      "Apply by December 31 annually"
+    ],
+    "benefit_amount": "$150,000 market value exclusion from property taxes",
+    "how_to_apply": "Apply with County Assessor by December 31; annual filing required",
+    "source_name": "Minnesota Department of Revenue",
+    "source_url": "https://www.revenue.state.mn.us/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "mn_property_300k",
+    "state": "Minnesota",
+    "name": "Property Tax Exclusion ($300,000)",
+    "category": "Tax Benefits",
+    "description": "Up to $300,000 market value exclusion from property taxes for veterans with 100% permanent and total VA disability rating. Substantial financial relief for homeownership. Also extends to surviving spouses (apply within 2 years of veteran's death).",
+    "eligibility": [
+      "Minnesota resident veteran",
+      "100% permanent and total VA disability rating",
+      "Property is homestead (primary residence)",
+      "OR unremarried surviving spouse (within 2 years)",
+      "Apply by December 31 annually"
+    ],
+    "benefit_amount": "$300,000 market value exclusion from property taxes",
+    "how_to_apply": "Apply with County Assessor by December 31; annual filing required",
+    "source_name": "Minnesota Department of Revenue",
+    "source_url": "https://www.revenue.state.mn.us/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "mn_military_pay_exempt",
+    "state": "Minnesota",
+    "name": "Military Pay Income Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Active duty military pay is completely exempt from Minnesota state income tax. Includes active duty, Minnesota National Guard, and Reservists. Re-enlistment bonuses also exempt. Must file tax subtraction Form M1M to receive exemption.",
+    "eligibility": [
+      "Minnesota resident on active duty",
+      "OR Minnesota National Guard member",
+      "OR Reservist"
+    ],
+    "benefit_amount": "100% exemption on military active duty pay + re-enlistment bonuses",
+    "how_to_apply": "File tax subtraction using Form M1M",
+    "source_name": "Minnesota Department of Revenue",
+    "source_url": "https://www.revenue.state.mn.us/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "mn_retirement_pay_exempt",
+    "state": "Minnesota",
+    "name": "Military Retirement Pay Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Military retirement pay is completely exempt from Minnesota state income tax. Makes Minnesota attractive for retired veterans. Must file tax subtraction to receive exemption.",
+    "eligibility": [
+      "Receiving military retirement pay",
+      "Minnesota resident"
+    ],
+    "benefit_amount": "100% exemption on military retirement pay",
+    "how_to_apply": "File tax subtraction using Form M1M",
+    "source_name": "Minnesota Department of Revenue",
+    "source_url": "https://www.revenue.state.mn.us/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "mn_sbp_exempt",
+    "state": "Minnesota",
+    "name": "Survivor Benefit Plan Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Survivor Benefit Plan (SBP) payments are completely exempt from Minnesota state income tax.",
+    "eligibility": [
+      "Receiving SBP payments",
+      "Minnesota resident"
+    ],
+    "benefit_amount": "100% exemption on SBP payments",
+    "how_to_apply": "Exclude from Minnesota income tax return",
+    "source_name": "Minnesota Department of Revenue",
+    "source_url": "https://www.revenue.state.mn.us/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "mn_tax_credit_750",
+    "state": "Minnesota",
+    "name": "Past Military Service Tax Credit",
+    "category": "Tax Benefits",
+    "description": "Tax credit worth up to $750 for qualifying veterans. Applies to active duty, National Guard, and Reservist veterans. Adjusted gross income must be below $37,500. Cannot claim this AND military retirement pay subtraction—must choose one.",
+    "eligibility": [
+      "Minnesota resident veteran, Guard, or Reserve",
+      "Adjusted gross income below $37,500",
+      "Cannot claim if using retirement pay subtraction"
+    ],
+    "benefit_amount": "Up to $750 tax credit",
+    "how_to_apply": "Complete Schedule M1C (Nonrefundable Credits)",
+    "source_name": "Minnesota Department of Revenue",
+    "source_url": "https://www.revenue.state.mn.us/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "mn_combat_zone_credit",
+    "state": "Minnesota",
+    "name": "Combat Zone Tax Credit",
+    "category": "Tax Benefits",
+    "description": "$120 tax credit for EACH MONTH served in qualifying combat zone or hazardous duty area. Can qualify even if owe no tax (refundable). Areas include Afghanistan, Kosovo, Arabian Peninsula, former Yugoslavia, Sinai Peninsula. Surviving family members may also apply. Must file within 3.5 years.",
+    "eligibility": [
+      "Minnesota resident who served in qualifying combat zone",
+      "Served on/after January 1, 2014",
+      "OR surviving family members",
+      "File within 3.5 years of original tax return"
+    ],
+    "benefit_amount": "$120 per month served in combat zone (refundable)",
+    "how_to_apply": "Complete Form M99 (or Form M23 for surviving family)",
+    "source_name": "Minnesota Department of Revenue",
+    "source_url": "https://www.revenue.state.mn.us/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "mn_employment_preference",
+    "state": "Minnesota",
+    "name": "Veterans Employment Preference Points",
+    "category": "Employment",
+    "description": "Veterans receive 5 preference points in Minnesota state and local government hiring. Veterans with service-connected disability receive 10 preference points. Applies to competitive and excepted service positions.",
+    "eligibility": [
+      "Honorably discharged veteran (5 points)",
+      "OR veteran with service-connected disability (10 points)",
+      "Applying for state or local government position"
+    ],
+    "benefit_amount": "5 points (all veterans) or 10 points (disabled veterans)",
+    "how_to_apply": "Indicate veteran status on state/local employment applications",
+    "source_name": "Minnesota Department of Veterans Affairs",
+    "source_url": "https://mn.gov/mdva/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "mn_workforce_development",
+    "state": "Minnesota",
+    "name": "Minnesota Workforce Development Veteran Services",
+    "category": "Employment",
+    "description": "15 regional offices providing job search assistance, resume workshops, training programs, and VA Vocational Rehabilitation coordination for Minnesota veterans.",
+    "eligibility": [
+      "Minnesota resident veteran",
+      "Seeking employment or training"
+    ],
+    "benefit_amount": "Free employment services and career assistance",
+    "how_to_apply": "Contact Iowa Workforce Development regional office",
+    "source_name": "Minnesota Workforce Development",
+    "source_url": "https://mn.gov/deed/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "mn_vetlaw",
+    "state": "Minnesota",
+    "name": "VetLaw Legal Assistance Program",
+    "category": "Other",
+    "description": "Minnesota Assistance Council for Veterans' VetLaw program helps veterans address legal issues presenting barriers to employment or housing. Includes evictions, child support, DUI/DWI, driver's license suspension/revocation, back taxes, defaulted student loans.",
+    "eligibility": [
+      "Minnesota resident veteran",
+      "Legal issues affecting employment or housing"
+    ],
+    "benefit_amount": "Free legal assistance for qualifying issues",
+    "how_to_apply": "Contact Minnesota Assistance Council for Veterans",
+    "source_name": "Minnesota Assistance Council for Veterans",
+    "source_url": "https://www.macv.org/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "mn_hunting_fishing_100",
+    "state": "Minnesota",
+    "name": "FREE Hunting and Fishing (100% Disabled Veterans)",
+    "category": "Recreation",
+    "description": "Veterans with 100% service-connected disability receive: FREE small game license, FREE deer license (one per year), first preference in special hunt drawings and lotteries, and FREE permanent angling license.",
+    "eligibility": [
+      "Minnesota resident veteran",
+      "100% VA service-connected disability"
+    ],
+    "benefit_amount": "FREE small game + deer + permanent angling licenses + hunt preference",
+    "how_to_apply": "Apply through Minnesota Department of Natural Resources with VA documentation",
+    "source_name": "Minnesota Department of Natural Resources",
+    "source_url": "https://www.dnr.state.mn.us/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "mn_active_duty_hunting_preference",
+    "state": "Minnesota",
+    "name": "Active Duty Hunting Preference",
+    "category": "Recreation",
+    "description": "Resident military personnel submitting preference application receive first preference in drawings for special hunts and lotteries.",
+    "eligibility": [
+      "Minnesota resident active duty military",
+      "Submit preference application"
+    ],
+    "benefit_amount": "First preference in hunt drawings and lotteries",
+    "how_to_apply": "Submit preference application through Minnesota DNR",
+    "source_name": "Minnesota Department of Natural Resources",
+    "source_url": "https://www.dnr.state.mn.us/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "mn_on_leave_small_game",
+    "state": "Minnesota",
+    "name": "Small Game Hunting on Leave (No License Required)",
+    "category": "Recreation",
+    "description": "Resident service members on leave who have maintained legal Minnesota residency may hunt small game without a license while on leave. Must have appropriate federal stamps.",
+    "eligibility": [
+      "Minnesota resident service member",
+      "On authorized leave",
+      "Maintained Minnesota legal residency"
+    ],
+    "benefit_amount": "FREE small game hunting on leave (federal stamps still required)",
+    "how_to_apply": "Present military ID and leave papers while hunting",
+    "source_name": "Minnesota Department of Natural Resources",
+    "source_url": "https://www.dnr.state.mn.us/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "mn_veterans_homes_fishing",
+    "state": "Minnesota",
+    "name": "Veterans Home Fishing Benefit",
+    "category": "Recreation",
+    "description": "Patients of Minnesota veterans homes may fish without a license with written permission from the institution.",
+    "eligibility": [
+      "Patient at Minnesota veterans home",
+      "Written permission from institution"
+    ],
+    "benefit_amount": "FREE fishing for veterans home patients",
+    "how_to_apply": "Obtain written permission from veterans home administrator",
+    "source_name": "Minnesota Department of Veterans Affairs",
+    "source_url": "https://mn.gov/mdva/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "mn_veterans_homes",
+    "state": "Minnesota",
+    "name": "Minnesota Veterans Homes",
+    "category": "Healthcare",
+    "description": "Five state-operated veterans homes providing skilled nursing care plus one Adult Day Care Center in Minneapolis. Skilled nursing, long-term care, and adult daycare services for eligible Minnesota veterans and spouses.",
+    "eligibility": [
+      "Minnesota resident veteran",
+      "Honorable discharge",
+      "Demonstration of medical need",
+      "Minimum service time requirements",
+      "Spouses 55+ may be eligible"
+    ],
+    "benefit_amount": "Subsidized skilled nursing and long-term care (5 homes + 1 daycare)",
+    "how_to_apply": "Contact Minnesota Department of Veterans Affairs for admissions",
+    "source_name": "Minnesota Department of Veterans Affairs",
+    "source_url": "https://mn.gov/mdva/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "mn_subsistence_assistance",
+    "state": "Minnesota",
+    "name": "Subsistence Financial Assistance",
+    "category": "Financial Assistance",
+    "description": "Temporary financial aid (up to 6 months) for eligible veterans and dependents unable to work due to temporary disability OR permanently disabled while waiting for permanent disability benefits. Covers rent, mortgage, utilities, health insurance premiums. Medical documentation required; must have been employed within 1 year.",
+    "eligibility": [
+      "Minnesota resident veteran OR dependent",
+      "Unable to work normal occupation due to temporary disability",
+      "OR permanently disabled waiting for VA/SS benefits",
+      "Medical documentation required",
+      "Employed within past year"
+    ],
+    "benefit_amount": "Up to 6 months assistance: rent/mortgage, utilities, insurance premiums",
+    "how_to_apply": "Apply through County Veterans Service Officer (CVSO)",
+    "source_name": "Minnesota Department of Veterans Affairs",
+    "source_url": "https://mn.gov/mdva/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "mn_special_needs_grant",
+    "state": "Minnesota",
+    "name": "Special Needs Grant",
+    "category": "Financial Assistance",
+    "description": "One-time financial assistance to veteran or surviving spouse to assist in financial stability and prevent homelessness. Grants awarded for housing costs and repairs, medical expenses, auto repairs, and other needs promoting stability.",
+    "eligibility": [
+      "Minnesota resident veteran OR surviving spouse",
+      "Financial instability threatening homelessness",
+      "Need for specific assistance (housing, medical, auto, etc.)"
+    ],
+    "benefit_amount": "One-time grant (amount varies by need)",
+    "how_to_apply": "Apply through County Veterans Service Officer (CVSO)",
+    "source_name": "Minnesota Department of Veterans Affairs",
+    "source_url": "https://mn.gov/mdva/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "mn_soar_homeless",
+    "state": "Minnesota",
+    "name": "SOAR Homeless Veterans Assistance",
+    "category": "Financial Assistance",
+    "description": "SOAR (SSI/SSDI Outreach, Access, and Recovery) partnership helps homeless and at-risk veterans with mental illness, medical impairment, or substance use disorder access Social Security Income (SSI) and Social Security Disability Insurance (SSDI) benefits.",
+    "eligibility": [
+      "Minnesota resident veteran",
+      "Homeless or at risk of homelessness",
+      "Mental illness OR medical impairment OR substance use disorder"
+    ],
+    "benefit_amount": "Assistance accessing SSI/SSDI benefits",
+    "how_to_apply": "Contact County Veterans Service Officer or call 888-LinkVet (888-546-5838)",
+    "source_name": "Minnesota Department of Veterans Affairs",
+    "source_url": "https://mn.gov/mdva/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "mn_pow_sales_tax",
+    "state": "Minnesota",
+    "name": "Former POW Sales Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Former prisoners of war are completely exempt from paying Minnesota sales tax on purchases.",
+    "eligibility": [
+      "Former POW",
+      "Minnesota resident"
+    ],
+    "benefit_amount": "100% sales tax exemption",
+    "how_to_apply": "Present POW documentation at point of sale",
+    "source_name": "Minnesota Department of Revenue",
+    "source_url": "https://www.revenue.state.mn.us/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "mn_va_vehicle_modification",
+    "state": "Minnesota",
+    "name": "VA Vehicle Modification Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "If VA helped modify your vehicle, you're exempt from paying both registration tax AND sales tax on that vehicle. File Claim for Motor Vehicle Refund.",
+    "eligibility": [
+      "Minnesota resident veteran",
+      "VA provided vehicle modification assistance",
+      "Documentation from VA"
+    ],
+    "benefit_amount": "Registration tax + sales tax exemption",
+    "how_to_apply": "File Claim for Motor Vehicle Refund with Minnesota DVS",
+    "source_name": "Minnesota Department of Public Safety",
+    "source_url": "https://dps.mn.gov/",
+    "last_verified": "2025-12-30"
+  }
+]

@@ -1,0 +1,204 @@
+{
+  "state": "New Hampshire",
+  "stateCode": "NH",
+  "benefits": [
+    {
+      "id": "nh-guard-tuition",
+      "category": "Education",
+      "name": "New Hampshire National Guard Tuition Waiver",
+      "description": "Guard members receive FREE tuition at ALL New Hampshire state-supported colleges and universities on space-available basis. Includes University System of NH (UNH, Plymouth State, Keene State, Granite State) and Community College System of NH (7 colleges). Must exhaust federal education entitlements first (excluding GI Bill and NG scholarships). After 6 years service, can transfer benefit to spouse for Community College System with 4-year additional service obligation (benefit transferable until July 1, 2027). Degree-enhancing curriculum only.",
+      "eligibility": "Active NH National Guard members who completed AIT/commissioning, in-state or out-of-state residents, good standing",
+      "value": "100% tuition waiver at all NH state colleges/universities (transferable to spouse after 6 years)",
+      "source": "https://www.dmavs.nh.gov/veterans-services/nh-state-benefits-veterans"
+    },
+    {
+      "id": "nh-guard-loan-repayment",
+      "category": "Education",
+      "name": "New Hampshire National Guard Student Loan Repayment",
+      "description": "Guard members who borrowed student loans before enlisting can receive up to $50,000 to repay those loans. Applies to loans from NH colleges/universities or out-of-state schools. Significant federal-level benefit administered through state Guard.",
+      "eligibility": "NH National Guard members with pre-enlistment student loans",
+      "value": "Up to $50,000 student loan repayment",
+      "source": "https://issuu.com/mcleancommunications/docs/_nh_next_2024/s/39862506"
+    },
+    {
+      "id": "nh-children-kia-tuition",
+      "category": "Education",
+      "name": "Free Tuition for Children of KIA/Service-Connected Deaths",
+      "description": "Children of military members killed in action during wartime, or children of wartime veterans who died from service-connected disability, receive FREE tuition at all NH public institutions of higher learning. Additional scholarship up to $2,500/year for 4 years for board, room, rent, books, and supplies if in financial need. Children must be ages 16-25, must reapply annually by September 1st.",
+      "eligibility": "Children (16-25) of service members KIA or wartime veterans who died from service-connected disability",
+      "value": "FREE tuition + up to $2,500/year stipend for 4 years",
+      "source": "https://www.dmavs.nh.gov/veterans-services/nh-state-benefits-veterans"
+    },
+    {
+      "id": "nh-children-disabled-tuition",
+      "category": "Education",
+      "name": "Free Tuition for Children of 100% P&T Disabled Veterans",
+      "description": "Children (biological, adopted, or stepchild) of military members who are totally and permanently disabled from service-connected disability receive FREE tuition at University System of NH and Community College System of NH. Must be between ages 16-25, apply by September 1st, reapply annually.",
+      "eligibility": "Children (16-25) of 100% permanently and totally disabled veterans",
+      "value": "FREE tuition at all NH public colleges/universities",
+      "source": "https://www.dmavs.nh.gov/veterans-services/nh-state-benefits-veterans"
+    },
+    {
+      "id": "nh-no-income-tax",
+      "category": "Tax",
+      "name": "No State Income Tax",
+      "description": "New Hampshire does not levy individual income tax on wages, salaries, military pay, or retirement income. This includes military retired pay, VA disability compensation, TSP distributions, and all earned income. NH only taxes interest and dividends at 5% (being phased out). Massive benefit for all residents including military retirees.",
+      "eligibility": "All NH residents",
+      "value": "ZERO state income tax on all earned income, military pay, retirement, VA benefits",
+      "source": "https://www.dmavs.nh.gov/veterans-services/nh-state-benefits-veterans"
+    },
+    {
+      "id": "nh-veteran-property-tax",
+      "category": "Tax",
+      "name": "Veteran Property Tax Credits",
+      "description": "Multiple property tax credits available: (1) Standard Veteran Credit: $51-$750 for wartime veterans (90+ days service), spouses/surviving spouses - municipalities set amount. (2) All Veterans Credit: $51-$750 for ALL veterans with 90+ days active duty (adopted by some municipalities). (3) Service-Connected Total Disability: $700-$4,000 for 100% P&T disabled veterans, double amputees, paraplegics, or unremarried surviving spouses. Credits vary by municipality. Must be NH resident 1 year, own and occupy as primary residence. Apply by April 15th annually.",
+      "eligibility": "Veterans (wartime or all veterans depending on municipality), 100% P&T disabled, spouses, surviving spouses",
+      "value": "$51-$750 (standard), $700-$4,000 (100% disabled) annual property tax credit",
+      "source": "https://www.dmavs.nh.gov/veterans-services/nh-state-benefits-veterans"
+    },
+    {
+      "id": "nh-surviving-spouse-tax",
+      "category": "Tax",
+      "name": "Surviving Spouse of KIA Property Tax Credit",
+      "description": "Unremarried surviving spouse of service member killed in action or who died while on active duty receives $700-$2,000 property tax credit on real estate or personal property. Amount varies by municipality.",
+      "eligibility": "Unremarried surviving spouse of service member KIA or died on active duty",
+      "value": "$700-$2,000 annual property tax credit",
+      "source": "https://www.military.com/benefits/veteran-state-benefits/new-hampshire-state-veterans-benefits.html"
+    },
+    {
+      "id": "nh-full-property-exemption",
+      "category": "Tax",
+      "name": "Full Property Tax Exemption for Specially Adapted Housing",
+      "description": "100% P&T disabled veterans who are blind, paraplegic, or double amputee due to service connection AND who own specially adapted homestead acquired with VA assistance (SAH/SHA grant or proceeds from sale) are EXEMPT from ALL property taxes. Exemption transfers to unremarried surviving spouse. This is FULL exemption, not just credit. Must meet residency requirements.",
+      "eligibility": "100% P&T disabled veterans (blind/paraplegic/double amputee) with VA-assisted specially adapted housing, surviving spouses",
+      "value": "FULL exemption from all property taxes",
+      "source": "https://www.dmavs.nh.gov/veterans-services/nh-state-benefits-veterans"
+    },
+    {
+      "id": "nh-disabled-dl-free",
+      "category": "Vehicle",
+      "name": "Free Driver's License for Disabled Veterans",
+      "description": "No fee charged for driver's license for 100% P&T disabled veterans or amputee/paraplegic veterans who received motor vehicle from VA. Lifetime savings on license renewals.",
+      "eligibility": "100% P&T disabled veterans, amputees/paraplegics with VA-provided vehicle",
+      "value": "FREE driver's license (no renewal fees)",
+      "source": "https://www.dmavs.nh.gov/veterans-services/nh-state-benefits-veterans"
+    },
+    {
+      "id": "nh-blind-registration",
+      "category": "Vehicle",
+      "name": "Free Vehicle Registration for Blind Veterans",
+      "description": "No fee charged for vehicle registration permit for veterans classified by VA as totally blind from service-connected disability. Annual savings on registration fees.",
+      "eligibility": "Veterans with 100% service-connected blindness",
+      "value": "FREE annual vehicle registration",
+      "source": "https://www.dmavs.nh.gov/veterans-services/nh-state-benefits-veterans"
+    },
+    {
+      "id": "nh-disabled-vet-plates",
+      "category": "Vehicle",
+      "name": "Disabled Veteran License Plates with Free Parking",
+      "description": "Special disabled veteran license plates bearing international accessibility symbol. Provides FREE parking in any city or town in New Hampshire. Plates exempt from $50 license fee if veteran has 100% P&T disability. Must meet mobility requirements for disabled parking privileges.",
+      "eligibility": "Disabled veterans meeting mobility requirements, 100% P&T for fee exemption",
+      "value": "FREE parking statewide + potential fee exemption",
+      "source": "https://veteran.com/new-hampshire-veterans-benefits/"
+    },
+    {
+      "id": "nh-veteran-plates",
+      "category": "Vehicle",
+      "name": "Veteran License Plates",
+      "description": "Veterans honorably discharged from U.S. Armed Forces may be issued special veteran license plates. Plates issued upon application and proof of honorable discharge (DD-214). Provides veteran identification and potential access to veteran discounts.",
+      "eligibility": "Honorably discharged veterans",
+      "value": "Veteran identification license plates",
+      "source": "https://www.moaa-nh.org/do_you_qualify_for_nh_state_veterans_benefits.htm"
+    },
+    {
+      "id": "nh-veteran-dl-designation",
+      "category": "Vehicle",
+      "name": "Veteran Designation on Driver's License",
+      "description": "Veterans can have veteran status designated on their New Hampshire driver's license or ID card. Provides easy veteran identification for accessing benefits and discounts.",
+      "eligibility": "Veterans with proof of service",
+      "value": "Veteran designation on driver's license/ID",
+      "source": "https://vaclaimsinsider.com/new-hampshire-veteran-benefits/"
+    },
+    {
+      "id": "nh-employment-preference",
+      "category": "Employment",
+      "name": "State Employment Veteran Preference",
+      "description": "Veterans receive hiring preference for state positions including: State Liquor Commission employees, State Veterans Council, NH Veterans Home Commandant and employees, state and local government employees. Preference extends to unremarried surviving spouses of wartime veterans and spouses of totally disabled resident wartime veterans. Applies within 90 days of discharge and for ongoing state employment.",
+      "eligibility": "Veterans with honorable discharge (90+ days wartime service), surviving spouses, spouses of disabled veterans",
+      "value": "Hiring preference for state/local government positions",
+      "source": "https://vetsguardian.com/veteran-benefits-for-new-hampshire/"
+    },
+    {
+      "id": "nh-priority-service",
+      "category": "Employment",
+      "name": "Priority of Service Employment Programs",
+      "description": "NH Employment Security (NHES) provides priority for veterans and eligible spouses in ALL Department of Labor-funded workforce programs including training, employment, and placement services. Priority includes state/federal training funding. Eligible spouses include those of: service members who died on active duty, MIA/captured/detained service members, and 100% P&T disabled veterans. 10 NHES locations statewide offer job search assistance, workshops, resume writing, career guidance, job referrals.",
+      "eligibility": "Veterans, eligible spouses (including spouses of 100% disabled, MIA, KIA)",
+      "value": "Priority access to employment services + training funding",
+      "source": "https://veteran.com/new-hampshire-veterans-benefits/"
+    },
+    {
+      "id": "nh-hunting-100-free",
+      "category": "Recreation",
+      "name": "Free Lifetime Hunting & Fishing License (100% Disabled)",
+      "description": "100% P&T disabled veterans receive FREE perpetual (lifetime) hunting and fishing license. One-time $10 administrative fee when applying. Combination hunting (firearm) and fishing license. License remains valid as long as veteran remains NH resident. Paraplegic veterans also eligible for special permit to hunt from motor vehicles/boats. Worth up to $1,564.80 over lifetime.",
+      "eligibility": "NH resident veterans with 100% permanent and total service-connected disability, honorable discharge",
+      "value": "FREE lifetime hunting/fishing license ($10 one-time admin fee, worth $1,564+)",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/New-Hampshire"
+    },
+    {
+      "id": "nh-hunting-80-discount",
+      "category": "Recreation",
+      "name": "50% Off Lifetime Hunting & Fishing License (80-99% Disabled)",
+      "description": "Veterans with 80-99% service-connected disability for at least 2 years receive lifetime hunting and fishing license at 50% of standard cost. Cost varies by age. One-time $10 administrative fee. Significant lifetime savings on annual licenses.",
+      "eligibility": "NH resident veterans with 80-99% service-connected disability for 2+ years, honorable discharge",
+      "value": "50% off lifetime hunting/fishing license ($10 admin fee)",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/New-Hampshire"
+    },
+    {
+      "id": "nh-active-duty-hunting",
+      "category": "Recreation",
+      "name": "Free Hunting & Fishing License for Active Duty on Leave",
+      "description": "NH resident active duty service members stationed outside NH receive FREE special license to hunt and fish while home on leave. Allows service members to enjoy outdoor recreation when visiting home state.",
+      "eligibility": "NH resident active duty stationed outside NH, home on leave",
+      "value": "FREE hunting/fishing license while on leave",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/New-Hampshire"
+    },
+    {
+      "id": "nh-state-parks-free",
+      "category": "Recreation",
+      "name": "Free State Park Admission",
+      "description": "FREE day-use admission to ALL NH state parks for: (1) NH veterans with ANY VA service-connected disability rating, (2) Active or retired NH National Guard members (E-1 through E-6). Must show disabled veteran license plates or VA letter certifying disability. Enterprise activities (ski lifts, food service, campgrounds) still require payment. Annual savings on park entrance fees for entire family.",
+      "eligibility": "NH veterans with any VA disability rating, NH Guard E-1 through E-6 (active/retired)",
+      "value": "FREE admission to all NH state parks (day-use)",
+      "source": "https://www.dmavs.nh.gov/veterans-services/nh-state-benefits-veterans"
+    },
+    {
+      "id": "nh-veterans-home",
+      "category": "Healthcare",
+      "name": "New Hampshire Veterans Home - Tilton",
+      "description": "State-operated 250-bed long-term care facility in Tilton (centrally located). 100 beds designated for memory care. Provides intermediate to long-term care, 24-hour nursing, medications, physical therapy, restorative care, dental care, daily meals, housekeeping, recreational activities. Coordinates with local hospitals and VA for outpatient/inpatient care. Staffed by ~400 healthcare professionals. Out-of-pocket daily rate $320 but reduced drastically based on financial need. Home owned by veteran and occupied by spouse not counted toward assets.",
+      "eligibility": "NH veterans with honorable discharge (90+ days wartime service), 1-year NH residency, medically qualified",
+      "value": "Comprehensive long-term care (250 beds, 100 memory care)",
+      "source": "https://www.military.com/benefits/veteran-state-benefits/new-hampshire-state-veterans-benefits.html"
+    },
+    {
+      "id": "nh-state-cemetery",
+      "category": "Burial",
+      "name": "New Hampshire State Veterans Cemetery - Boscawen",
+      "description": "State veterans cemetery located at 110 Daniel Webster Highway in Boscawen. Provides burial for eligible veterans and their eligible dependents. No residency requirements for burial. Cemetery grounds open 7 days/week during daylight hours. Administration building vestibule has grave locator and cemetery applications. Fee charged for burial services. Honorably discharged veterans from any branch, reserves, or NH Army/Air National Guard eligible.",
+      "eligibility": "Eligible veterans (no residency requirement), spouses and dependents (fee applies)",
+      "value": "State veterans cemetery burial",
+      "source": "https://www.military.com/benefits/veteran-state-benefits/new-hampshire-state-veterans-benefits.html"
+    },
+    {
+      "id": "nh-emergency-assistance",
+      "category": "Financial",
+      "name": "Emergency Financial Assistance for Veterans in Need",
+      "description": "War veterans and their dependent families unable to support themselves receive support at public expense in the town/city where they live. Administered through public welfare offices or county commissioners' office. Provides housing assistance and basic needs support for honorably-discharged wartime veterans facing financial hardship.",
+      "eligibility": "Honorably-discharged wartime veterans and dependents unable to support themselves",
+      "value": "Emergency housing + financial assistance through local public welfare",
+      "source": "https://veteran.com/new-hampshire-veterans-benefits/"
+    }
+  ]
+}

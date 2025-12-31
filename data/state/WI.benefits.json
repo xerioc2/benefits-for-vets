@@ -1,0 +1,343 @@
+[
+  {
+    "id": "wi_wing_grant",
+    "state": "Wisconsin",
+    "name": "Wisconsin National Guard Tuition Grant (WING)",
+    "category": "Education",
+    "description": "Up to 100% tuition based on UW-Madison rates for Wisconsin National Guard members. NEW 2024: Changed from reimbursement to upfront payment. Maximum of 8 semesters. Online applications only (paper apps ended November 7, 2025).",
+    "eligibility": [
+      "Wisconsin National Guard warrant officer or enlisted in good standing",
+      "Enrolled at UW System, Wisconsin Technical College, or reciprocity school",
+      "Maintaining satisfactory progress"
+    ],
+    "benefit_amount": "Up to 100% tuition (based on UW-Madison rates) for 8 semesters",
+    "how_to_apply": "Apply online only through Wisconsin Department of Military Affairs",
+    "source_name": "Wisconsin Department of Military Affairs",
+    "source_url": "https://dma.wi.gov/wisconsin-national-guard-tuition-grant-quick-facts-sheet/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "wi_gi_bill",
+    "state": "Wisconsin",
+    "name": "Wisconsin GI Bill (WI G.I. Bill)",
+    "category": "Education",
+    "description": "Full tuition and segregated fees remission for up to 8 semesters (or 128 credits) at any University of Wisconsin or Wisconsin Technical College for eligible veterans and their dependents.",
+    "eligibility": [
+      "Wisconsin veteran who entered service as WI resident OR lived in WI 5 consecutive years after service",
+      "OR dependent of such veteran",
+      "Honorable discharge",
+      "Income limits apply"
+    ],
+    "benefit_amount": "Full tuition + fees for up to 8 semesters or 128 credits",
+    "how_to_apply": "Two-step process: WDVA certification then institution approval",
+    "source_name": "Wisconsin Department of Veterans Affairs",
+    "source_url": "https://dva.wi.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "wi_veted_grant",
+    "state": "Wisconsin",
+    "name": "Veterans Education (VetEd) Grant Program",
+    "category": "Education",
+    "description": "Tuition and fee reimbursement grant based on credit-bank system tied to length of active duty service. For veterans who haven't earned a bachelor's degree. Covers UW, technical colleges, and approved private institutions.",
+    "eligibility": [
+      "Wisconsin resident veteran",
+      "Honorable discharge",
+      "No bachelor's degree",
+      "Credits available based on service length"
+    ],
+    "benefit_amount": "Reimbursement based on credit bank (service length determines credits available)",
+    "how_to_apply": "Submit completed application to WDVA after successful course completion",
+    "source_name": "Wisconsin Department of Veterans Affairs",
+    "source_url": "https://dva.wi.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "wi_property_tax_credit",
+    "state": "Wisconsin",
+    "name": "Veterans and Surviving Spouses Property Tax Credit",
+    "category": "Tax Benefits",
+    "description": "Refundable property tax credit equal to the FULL AMOUNT of property taxes paid on primary residence for 100% disabled veterans and unremarried surviving spouses receiving DIC. Claimed on Wisconsin income tax return.",
+    "eligibility": [
+      "100% service-connected disability OR unemployability rating",
+      "OR unremarried surviving spouse receiving DIC",
+      "Wisconsin resident (5 years after service OR entered from WI)",
+      "Property is primary residence"
+    ],
+    "benefit_amount": "100% refund of property taxes paid on primary residence",
+    "how_to_apply": "Obtain WDVA verification, attach to first year WI tax return, then automatic",
+    "source_name": "Wisconsin Department of Revenue",
+    "source_url": "https://www.revenue.wi.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "wi_job_retraining",
+    "state": "Wisconsin",
+    "name": "Veteran Job Retraining Grants",
+    "category": "Employment",
+    "description": "Up to $3,000 per year for maximum of 2 years ($6,000 total) for recently unemployed or underemployed veterans with financial need while being retrained for employment.",
+    "eligibility": [
+      "Wisconsin resident veteran",
+      "Recently unemployed or underemployed",
+      "Financial need demonstrated",
+      "Enrolled in retraining program"
+    ],
+    "benefit_amount": "$3,000/year x 2 years maximum ($6,000 total)",
+    "how_to_apply": "Apply through WDVA with financial need documentation",
+    "source_name": "Wisconsin Department of Veterans Affairs",
+    "source_url": "https://dva.wi.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "wi_retirement_tax_free",
+    "state": "Wisconsin",
+    "name": "Military Retirement Pay Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "All military retirement pay (including SBP and RSFPP) is completely exempt from Wisconsin state income tax.",
+    "eligibility": [
+      "Receiving military retirement pay",
+      "Wisconsin resident"
+    ],
+    "benefit_amount": "100% exemption on all military retirement income",
+    "how_to_apply": "Exclude from Wisconsin income tax return",
+    "source_name": "Wisconsin Department of Revenue",
+    "source_url": "https://www.revenue.wi.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "wi_combat_pay_exempt",
+    "state": "Wisconsin",
+    "name": "Combat Pay and Hazardous Duty Pay Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Military pay exempt from federal taxes (combat pay, hazardous duty, hostile fire pay) is also exempt from Wisconsin state income tax.",
+    "eligibility": [
+      "Wisconsin resident service member",
+      "Receiving federally tax-exempt military pay"
+    ],
+    "benefit_amount": "100% exemption on combat and hazardous duty pay",
+    "how_to_apply": "Exclude from Wisconsin income tax return (follows federal exclusion)",
+    "source_name": "Wisconsin Department of Revenue",
+    "source_url": "https://www.revenue.wi.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "wi_guard_active_exempt",
+    "state": "Wisconsin",
+    "name": "National Guard/Reserve Active Duty Pay Exemption",
+    "category": "Tax Benefits",
+    "description": "Military pay for National Guard/Reserve members called to federal active duty or special state service is NOT taxed in Wisconsin. Does not apply to drill pay or annual training.",
+    "eligibility": [
+      "Wisconsin resident Guard/Reserve member",
+      "Called to federal active duty or state service",
+      "Not drill pay or 2-week training"
+    ],
+    "benefit_amount": "100% exemption on active duty pay (not drill/training)",
+    "how_to_apply": "Exclude qualifying pay from Wisconsin tax return",
+    "source_name": "Wisconsin Department of Revenue",
+    "source_url": "https://www.revenue.wi.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "wi_death_gratuity_exempt",
+    "state": "Wisconsin",
+    "name": "Death Gratuity Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "DoD Death Gratuity paid to surviving dependent of active duty service member killed in line of duty is exempt from Wisconsin income tax.",
+    "eligibility": [
+      "Surviving dependent of service member KIA",
+      "Receiving DoD Death Gratuity",
+      "Wisconsin resident"
+    ],
+    "benefit_amount": "100% exemption on death gratuity payment",
+    "how_to_apply": "Exclude from Wisconsin income tax return",
+    "source_name": "Wisconsin Department of Revenue",
+    "source_url": "https://www.revenue.wi.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "wi_employment_preference",
+    "state": "Wisconsin",
+    "name": "Veterans Employment Preference",
+    "category": "Employment",
+    "description": "Veterans hiring preference for Wisconsin state government positions. Additional points awarded on civil service exams.",
+    "eligibility": [
+      "Wisconsin resident veteran",
+      "Honorable discharge",
+      "Applying for state position"
+    ],
+    "benefit_amount": "Point preference on state employment exams",
+    "how_to_apply": "Indicate veteran status on state job applications with DD-214",
+    "source_name": "Wisconsin Department of Administration",
+    "source_url": "https://doa.wi.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "wi_fishing_license",
+    "state": "Wisconsin",
+    "name": "Disabled Veteran Reduced-Fee Fishing License",
+    "category": "Recreation",
+    "description": "Wisconsin disabled veterans with 70% or greater service-connected disability rating are eligible for reduced-fee fishing license. Must be renewed annually.",
+    "eligibility": [
+      "Wisconsin resident veteran",
+      "70% or greater VA service-connected disability",
+      "VA letter indicating disability percentage"
+    ],
+    "benefit_amount": "Reduced-fee fishing license (annual)",
+    "how_to_apply": "Apply at DNR or County Clerk office with VA disability letter",
+    "source_name": "Wisconsin DNR",
+    "source_url": "https://dnr.wisconsin.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "wi_hunting_leave",
+    "state": "Wisconsin",
+    "name": "Free Hunting and Fishing on Leave",
+    "category": "Recreation",
+    "description": "Wisconsin resident service members on active duty leave get FREE small game hunting and fishing licenses. Also eligible for bonus antlerless deer authorization.",
+    "eligibility": [
+      "Wisconsin resident on active duty",
+      "On authorized leave",
+      "Must show military ID and leave papers"
+    ],
+    "benefit_amount": "FREE hunting and fishing licenses + bonus deer tag while on leave",
+    "how_to_apply": "Show military ID and leave papers when applying",
+    "source_name": "Wisconsin DNR",
+    "source_url": "https://dnr.wisconsin.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "wi_state_parks_free",
+    "state": "Wisconsin",
+    "name": "Free State Park Admission",
+    "category": "Recreation",
+    "description": "Free admission to Wisconsin state parks and trails for disabled veterans (70%+ disability) and former POWs. Fee waivers for vehicle admission and trail passes.",
+    "eligibility": [
+      "Wisconsin resident veteran with 70%+ disability OR former POW",
+      "Valid certification"
+    ],
+    "benefit_amount": "FREE admission to all WI state parks and trails",
+    "how_to_apply": "Obtain waiver from Wisconsin Parks and Recreation",
+    "source_name": "Wisconsin DNR",
+    "source_url": "https://dnr.wisconsin.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "wi_anvg",
+    "state": "Wisconsin",
+    "name": "Assistance to Needy Veterans Grant (ANVG)",
+    "category": "Financial Assistance",
+    "description": "Limited financial assistance for veterans in need who have exhausted all other aid sources. Grants for specified healthcare and subsistence needs up to maximum grant limits.",
+    "eligibility": [
+      "Wisconsin resident veteran",
+      "Demonstrated financial need",
+      "Exhausted other aid sources",
+      "Specific healthcare or subsistence need"
+    ],
+    "benefit_amount": "Grants vary by need - up to program maximum limits",
+    "how_to_apply": "Contact County Veterans Service Officer (CVSO)",
+    "source_name": "Wisconsin Department of Veterans Affairs",
+    "source_url": "https://dva.wi.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "wi_emergency_assistance",
+    "state": "Wisconsin",
+    "name": "Emergency Financial Assistance for Military Families",
+    "category": "Financial Assistance",
+    "description": "Financial assistance for families of activated or deployed service members and unremarried surviving spouses/dependent children of veterans who died in line of duty during active or inactive training.",
+    "eligibility": [
+      "Family of activated/deployed Wisconsin service member",
+      "OR unremarried surviving spouse/dependent of KIA veteran",
+      "Emergency financial situation"
+    ],
+    "benefit_amount": "Emergency grants for immediate needs",
+    "how_to_apply": "Contact Wisconsin Department of Veterans Affairs",
+    "source_name": "Wisconsin Department of Veterans Affairs",
+    "source_url": "https://dva.wi.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "wi_veterans_homes",
+    "state": "Wisconsin",
+    "name": "Wisconsin Veterans Homes",
+    "category": "Healthcare",
+    "description": "Three state veterans homes providing 24-hour skilled nursing care. Located at Northern WI (Spooner), Central WI (King), and Southern WI (Union Grove). Federal assistance accepted where applicable.",
+    "eligibility": [
+      "Honorably discharged veteran",
+      "Need for skilled nursing care",
+      "Priority for wartime veterans and service-connected disabled"
+    ],
+    "benefit_amount": "Subsidized skilled nursing care (rates vary by income)",
+    "how_to_apply": "Contact Wisconsin Department of Veterans Affairs for admission",
+    "source_name": "Wisconsin Department of Veterans Affairs",
+    "source_url": "https://dva.wi.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "wi_home_loans",
+    "state": "Wisconsin",
+    "name": "WDVA Home Loan Program",
+    "category": "Housing",
+    "description": "Three loan types: Home Loan, Home Improvement Loan, and Personal Loan. Standard underwriting with competitive rates. Funded by bond sales or Veterans Trust Fund cash reserves.",
+    "eligibility": [
+      "Wisconsin resident veteran",
+      "Honorable discharge",
+      "Meet credit and income standards"
+    ],
+    "benefit_amount": "Below-market rates on home, improvement, and personal loans",
+    "how_to_apply": "Apply through Wisconsin Department of Veterans Affairs",
+    "source_name": "Wisconsin Department of Veterans Affairs",
+    "source_url": "https://dva.wi.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "wi_funeral_honors",
+    "state": "Wisconsin",
+    "name": "Military Funeral Honors Program",
+    "category": "Burial Benefits",
+    "description": "Final military tribute for veterans administered by WDVA with assistance from VSOs, CVSOs, funeral directors, and military forces. Provides dignified and solemn ceremony.",
+    "eligibility": [
+      "Honorably discharged veteran",
+      "Served in U.S. Armed Forces"
+    ],
+    "benefit_amount": "Military funeral honors ceremony at no cost",
+    "how_to_apply": "Arrange through funeral director who coordinates with WDVA",
+    "source_name": "Wisconsin Department of Veterans Affairs",
+    "source_url": "https://dva.wi.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "wi_cemeteries",
+    "state": "Wisconsin",
+    "name": "Wisconsin State Veterans Cemeteries",
+    "category": "Burial Benefits",
+    "description": "Three state-operated veterans cemeteries: Northern Wisconsin (Spooner), Central Wisconsin (King), and Southern Wisconsin (Union Grove). Veterans buried at no cost upon meeting eligibility. Spouses and dependent children may be buried with fee.",
+    "eligibility": [
+      "Honorably discharged veteran",
+      "Wisconsin resident OR died while WI resident",
+      "Spouses and dependents eligible with fee"
+    ],
+    "benefit_amount": "FREE burial for veterans; fee for spouses/dependents",
+    "how_to_apply": "Contact WDVA for pre-need or at-need applications",
+    "source_name": "Wisconsin Department of Veterans Affairs",
+    "source_url": "https://dva.wi.gov/",
+    "last_verified": "2025-12-25"
+  },
+  {
+    "id": "wi_license_plates",
+    "state": "Wisconsin",
+    "name": "Veteran License Plates",
+    "category": "Other",
+    "description": "Special veteran license plates available for Wisconsin veterans. Various designs available including disabled veteran plates and branch-specific plates.",
+    "eligibility": [
+      "Wisconsin resident veteran",
+      "Honorable discharge",
+      "Valid vehicle registration"
+    ],
+    "benefit_amount": "Special veteran license plates (fees vary by type)",
+    "how_to_apply": "Apply through Wisconsin DMV with DD-214",
+    "source_name": "Wisconsin DMV",
+    "source_url": "https://wisconsindot.gov/",
+    "last_verified": "2025-12-25"
+  }
+]

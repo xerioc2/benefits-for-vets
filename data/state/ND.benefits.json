@@ -1,0 +1,231 @@
+{
+  "state": "North Dakota",
+  "stateCode": "ND",
+  "benefits": [
+    {
+      "id": "nd-guard-tuition",
+      "category": "Education",
+      "name": "North Dakota National Guard Tuition Assistance",
+      "description": "ND National Guard members receive 25% tuition waiver + 75% tuition grant at state-supported schools (up to 100% total coverage). Can be used for certificate courses, undergraduate and graduate degrees. Lifetime limit of 144 semester credits or 208 quarter credits. Recent legislation authorized use at out-of-state schools as well. Cannot exceed 100% tuition when combined with federal TA, VA TA, etc. Must maintain good standing with NDNG and complete courses with C or higher (undergrad) or B or higher (graduate).",
+      "eligibility": "ND National Guard members in good standing with service remaining through semester",
+      "value": "Up to 100% tuition coverage (25% waiver + 75% grant, lifetime 144 semester credits)",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/North-Dakota"
+    },
+    {
+      "id": "nd-dependent-tuition-waiver",
+      "category": "Education",
+      "name": "Dependent Tuition Waiver for KIA/Disabled Veterans",
+      "description": "Dependents (spouse, surviving spouse, child, stepchild) of ND resident veterans killed in action, died from service-connected causes, or totally disabled from service-connected causes receive FREE tuition and fees at ALL North Dakota state-supported educational institutions. Benefit usable for bachelor's degree or certificate for up to 45 months or 10 semesters. Must first be accepted for enrollment by institution.",
+      "eligibility": "Spouses, surviving spouses, children, stepchildren of ND resident veterans KIA/died from service-connected causes/100% P&T disabled",
+      "value": "FREE tuition + fees at all ND state schools (up to 45 months/10 semesters)",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/North-Dakota"
+    },
+    {
+      "id": "nd-instate-tuition-veterans",
+      "category": "Education",
+      "name": "In-State Tuition for Veterans and Military",
+      "description": "ND grants residency for tuition purposes to: (1) Full-time active duty, (2) ND National Guard members, (3) Reserves stationed in ND, (4) ND resident veterans with 180+ days continuous active duty and honorable discharge, (5) Spouses and dependents of above, (6) Children/spouses/surviving spouses of resident veterans who were KIA or died from service-connected causes. Massive tuition savings for all military-connected individuals.",
+      "eligibility": "Active duty, Guard, Reserves, ND veterans (180+ days), dependents/spouses of above",
+      "value": "In-state tuition rates at all ND state schools",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/North-Dakota"
+    },
+    {
+      "id": "nd-vet-education-training",
+      "category": "Education",
+      "name": "Veterans Educational Training (VET) Program",
+      "description": "FREE state-funded program for honorably discharged ND veterans to prepare for certification programs or 2-year/4-year college degrees. Provides refresher training plus training in English, computers, math, and study skills. Helps veterans transition to civilian education after military service.",
+      "eligibility": "Honorably discharged ND veterans",
+      "value": "FREE college preparatory training program",
+      "source": "https://workingwarriors.us/state-veteran-benefits/north-dakota-state-veteran-benefits/"
+    },
+    {
+      "id": "nd-military-pay-tax-exempt",
+      "category": "Tax",
+      "name": "Military Pay Income Tax Exemption",
+      "description": "Military pay received by resident active duty and reserve component members that is federally taxable is EXEMPT from North Dakota state income taxes. Applies to active duty pay, Guard/Reserve pay when federally mobilized. National Guard and Reserve drill pay also exempt. Massive annual tax savings for all military members.",
+      "eligibility": "ND resident active duty, National Guard, Reserve members",
+      "value": "ZERO state income tax on all military pay",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/North-Dakota"
+    },
+    {
+      "id": "nd-retirement-pay-tax-exempt",
+      "category": "Tax",
+      "name": "Military Retirement Pay Tax Exemption",
+      "description": "Military retired pay is NOT TAXED in North Dakota. Includes all military retirement income and Survivor Benefit Plan (SBP) payments. TSP distributions subject to state tax but military retirement completely exempt. Permanent annual tax savings for all military retirees.",
+      "eligibility": "Military retirees, SBP recipients",
+      "value": "ZERO state income tax on military retirement + SBP",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/North-Dakota"
+    },
+    {
+      "id": "nd-survivor-benefits-tax-exempt",
+      "category": "Tax",
+      "name": "Military Survivor Benefits Tax Exemption",
+      "description": "Survivor Benefit Plan (SBP), Reserve Component Survivor Benefit Plan (RCSBP), and Retired Serviceman's Family Protection Plan (RSFPP) annuities are EXEMPT from North Dakota state income taxes. Provides financial relief for military survivors.",
+      "eligibility": "Recipients of SBP, RCSBP, RSFPP annuities",
+      "value": "ZERO state income tax on survivor benefits",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/North-Dakota"
+    },
+    {
+      "id": "nd-disabled-veteran-property-tax",
+      "category": "Tax",
+      "name": "Disabled Veteran Property Tax Credit",
+      "description": "Veterans with 50%+ service-connected disability receive property tax credit on homestead equal to disability percentage applied to first $120,000-$180,000 of true/full home valuation (amount varies by county - Bismarck uses $180,000, Ward County $120,000). Example: 70% disabled veteran gets 70% credit on first $180,000 of home value. Credit is portable if veteran moves to different homestead. Unremarried surviving spouse eligible. Surviving spouses receiving DIC get 100% credit. NO income/asset requirements. Must file with county auditor.",
+      "eligibility": "Veterans with 50%+ service-connected disability, honorable discharge, unremarried surviving spouses, DIC recipients",
+      "value": "Property tax credit = disability % applied to first $120K-$180K home valuation",
+      "source": "https://www.tax.nd.gov/sites/www/files/documents/forms/property-tax/property-tax-general/guideline-property-tax-credit-for-disabled-veterans.pdf"
+    },
+    {
+      "id": "nd-paraplegic-property-exemption",
+      "category": "Tax",
+      "name": "Property Tax Exemption for Paraplegic Veterans",
+      "description": "Paraplegic disabled veterans (and unremarried surviving spouses) with VA specially adapted housing are EXEMPT from property tax on first $120,000 of full valuation of property. Complete exemption, not just credit. Transfers to unremarried surviving spouse.",
+      "eligibility": "Paraplegic veterans with VA specially adapted housing, unremarried surviving spouses",
+      "value": "FULL property tax exemption on first $120K of home value",
+      "source": "https://vaclaimsinsider.com/north-dakota-veterans-benefits/"
+    },
+    {
+      "id": "nd-disabled-vet-plates",
+      "category": "Vehicle",
+      "name": "Disabled American Veteran License Plates - Tax Exempt",
+      "description": "100% service-connected disabled veterans eligible for TWO SETS of excise tax exempt Disabled American Veteran license plates. NO annual license fee. Must provide VA letter stating 100% service-connected disability. Unremarried surviving spouse can retain one DAV plate for own use. Optional handicapped symbol available with mobility impairment documentation.",
+      "eligibility": "100% service-connected disabled veterans, unremarried surviving spouses",
+      "value": "2 sets of tax-exempt license plates (NO annual fees)",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/North-Dakota"
+    },
+    {
+      "id": "nd-employment-preference",
+      "category": "Employment",
+      "name": "State Employment Veteran Preference",
+      "description": "Veterans receive hiring preference for state, county, and municipal government jobs: (1) Veterans: 5-point preference on exams/interviews, (2) Disabled veterans: 10-point preference. Preference also extends to spouses of 100% P&T disabled veterans and unremarried surviving spouses of deceased veterans. Applies to all state government positions.",
+      "eligibility": "Veterans with honorable discharge (5 points), disabled veterans (10 points), spouses of 100% disabled, surviving spouses",
+      "value": "5 or 10-point hiring preference for government jobs",
+      "source": "https://vadisabilitygroup.com/north-dakota-state-benefits-for-100-disabled-veterans/"
+    },
+    {
+      "id": "nd-private-employment-preference",
+      "category": "Employment",
+      "name": "Private Employer Veteran Preference",
+      "description": "Private (non-public) employers in ND MAY provide preference to veterans for employment without violating equal employment opportunity law. Spouses of honorably discharged veterans with 100% P&T disability also may be preferred. Encourages veteran hiring in private sector.",
+      "eligibility": "Veterans, spouses of 100% P&T disabled veterans",
+      "value": "Legal veteran hiring preference for private employers",
+      "source": "https://truevetsolutions.com/veteran-benefits-for-north-dakota/"
+    },
+    {
+      "id": "nd-priority-employment-services",
+      "category": "Employment",
+      "name": "Priority Employment and Training Services",
+      "description": "Veterans receive priority service to state's full range of employment and training services. Services focus on helping veterans translate military experience into civilian workforce and providing guidance on career/educational choices. Includes job search support, resume building, job placement services. Must have honorable discharge.",
+      "eligibility": "Veterans with honorable discharge",
+      "value": "Priority access to comprehensive employment services",
+      "source": "https://vaclaimsinsider.com/north-dakota-veterans-benefits/"
+    },
+    {
+      "id": "nd-state-employee-military-leave",
+      "category": "Employment",
+      "name": "State Employee Military Leave with Pay",
+      "description": "National Guard and Reserve members who are state employees receive 20 working days PAID leave for required/voluntary military duty. Additional 10 days UNPAID leave authorized for state/federal active duty. State employees returning from extended active duty have protected right to return to former position or similar status/pay. Must be employed 90+ continuous days prior to military leave.",
+      "eligibility": "State employees who are NG/Reserve members, employed 90+ days",
+      "value": "20 days paid military leave + 10 days unpaid + job protection",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/North-Dakota"
+    },
+    {
+      "id": "nd-hunting-100-disabled",
+      "category": "Recreation",
+      "name": "Discounted Hunting License for 100% Disabled Veterans",
+      "description": "Resident 100% P&T disabled veterans (or individually unemployable) can purchase combined general game, habitat stamp, small game, and fur-bearer hunting license for only $3 (plus $1 certificate fee). Regular combined license much more expensive. Lifetime savings on annual hunting.",
+      "eligibility": "ND resident 100% P&T disabled veterans or individually unemployable",
+      "value": "$3 combined hunting license (plus $1 fee) vs regular price",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/North-Dakota"
+    },
+    {
+      "id": "nd-fishing-50-disabled",
+      "category": "Recreation",
+      "name": "Discounted Fishing License for 50%+ Disabled Veterans",
+      "description": "Resident disabled veterans with 50%+ service-connected disability (or individually unemployable at 50%+) can purchase fishing license for only $5 (plus $1 certificate fee). Regular resident fishing license more expensive. Annual savings for disabled veteran anglers.",
+      "eligibility": "ND resident veterans with 50%+ service-connected disability",
+      "value": "$5 fishing license (plus $1 fee) vs regular resident price",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/North-Dakota"
+    },
+    {
+      "id": "nd-active-duty-free-hunting",
+      "category": "Recreation",
+      "name": "Free Hunting/Fishing for Active Duty on Leave",
+      "description": "ND resident active duty service members on leave may hunt small game, fish, or trap during open season WITHOUT A LICENSE. Must carry proof of residency and leave paperwork. Significant savings while home on leave.",
+      "eligibility": "ND resident active duty service members on leave",
+      "value": "FREE small game hunting, fishing, trapping while on leave",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/North-Dakota"
+    },
+    {
+      "id": "nd-nonresident-military-licenses",
+      "category": "Recreation",
+      "name": "Resident Hunting/Fishing Rates for Nonresident Military",
+      "description": "Nonresident active duty stationed in ND (on duty or leave) eligible to purchase non-lottery licenses (fishing, small game, fur-bearer) at RESIDENT PRICES. ND National Guard members who are nonresidents can purchase ALL Game and Fish licenses at resident prices. Major savings over nonresident rates.",
+      "eligibility": "Nonresident active duty stationed in ND, nonresident ND National Guard members",
+      "value": "Resident license rates (vs higher nonresident rates)",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/North-Dakota"
+    },
+    {
+      "id": "nd-state-parks-free",
+      "category": "Recreation",
+      "name": "Free State Park Entrance for Disabled Veterans & POWs",
+      "description": "Veterans with 50%+ service-connected disability and former POWs receive FREE LIFETIME North Dakota State Park entrance permit. Veterans with <50% disability can purchase annual permit for $28 (vs higher regular rate). Must provide VA proof of disability or display ND disabled veteran license plate.",
+      "eligibility": "Veterans with 50%+ disability (free lifetime), former POWs (free), <50% disabled ($28 annual)",
+      "value": "FREE lifetime state park entrance (50%+ disabled/POWs)",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/North-Dakota"
+    },
+    {
+      "id": "nd-resident-deer-license",
+      "category": "Recreation",
+      "name": "Deer Gun License for Out-of-State Service Members",
+      "description": "ND resident service members stationed OUTSIDE the state may purchase deer gun license WITHOUT participating in license lottery. Must submit application, $30, copy of orders, and ND driver's license/ID. Guarantees deer hunting opportunity for deployed/stationed service members.",
+      "eligibility": "ND resident service members stationed outside ND",
+      "value": "Guaranteed deer gun license (no lottery required, $30)",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/North-Dakota"
+    },
+    {
+      "id": "nd-veterans-home",
+      "category": "Healthcare",
+      "name": "North Dakota Veterans Home - Lisbon",
+      "description": "State-operated veterans home in Lisbon with 98 basic care beds and 52 skilled nursing beds (150 total capacity). Provides basic and skilled nursing care, medical and nursing services, 24-hour care. Cost based on monthly income, offering affordable care for veterans in need. Honorably discharged ND resident veterans and their spouses/surviving spouses eligible. Must be ND resident 30+ days OR entered service as ND resident. ~150 employees.",
+      "eligibility": "Honorably discharged ND veterans (30+ days residency or ND at enlistment), spouses, surviving spouses",
+      "value": "Affordable long-term care (150 beds, income-based pricing)",
+      "source": "https://vaclaimsinsider.com/north-dakota-veterans-benefits/"
+    },
+    {
+      "id": "nd-veterans-cemetery",
+      "category": "Burial",
+      "name": "North Dakota Veterans Cemetery - Mandan",
+      "description": "State veterans cemetery near Mandan provides dignified burial for veterans and eligible family members. NO COST for veteran burial (includes plot, opening/closing grave, perpetual care, government headstone). Small fee for spouse burial. NO RESIDENCY REQUIREMENT - available to all eligible veterans nationwide. Accommodates casketed and cremated remains. Burial with full military honors.",
+      "eligibility": "Eligible veterans (same as VA national cemeteries), spouses, dependents - NO residency requirement",
+      "value": "FREE veteran burial + plot + headstone (spouse small fee)",
+      "source": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/North-Dakota"
+    },
+    {
+      "id": "nd-hardship-assistance",
+      "category": "Financial",
+      "name": "Hardship Assistance Grant",
+      "description": "Emergency financial assistance for veterans, spouses, and unremarried surviving spouses in need of: dental work, glasses, hearing aids, transportation for medical treatment, or other needs approved by Commissioner of Veterans Affairs. Based on financial need. Helps veterans access critical medical/vision/dental care.",
+      "eligibility": "Veterans, spouses, unremarried surviving spouses with emergency financial need",
+      "value": "Emergency grants for dental, vision, hearing, medical transport",
+      "source": "https://www.military.com/benefits/veteran-state-benefits/north-dakota-state-veterans-benefits.html"
+    },
+    {
+      "id": "nd-veterans-aid-fund",
+      "category": "Financial",
+      "name": "Veterans Aid Fund Loans",
+      "description": "Low-interest loans up to $5,000 available to veterans and unremarried surviving spouses of veterans. Qualified applicant may receive multiple loans but total cannot exceed $5,000. Provides financial assistance for veteran emergencies and needs.",
+      "eligibility": "Veterans, unremarried surviving spouses of veterans",
+      "value": "Loans up to $5,000 (low interest)",
+      "source": "https://workingwarriors.us/state-veteran-benefits/north-dakota-state-veteran-benefits/"
+    },
+    {
+      "id": "nd-ptsd-service-dog",
+      "category": "Healthcare",
+      "name": "PTSD Service Dog Grant",
+      "description": "Veterans suffering from PTSD can receive grant to help afford PTSD service dog with doctor's recommendation. Helps veterans access therapeutic service animals for mental health treatment.",
+      "eligibility": "Veterans with PTSD and doctor's recommendation",
+      "value": "Grant to help purchase PTSD service dog",
+      "source": "https://workingwarriors.us/state-veteran-benefits/north-dakota-state-veteran-benefits/"
+    }
+  ]
+}

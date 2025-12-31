@@ -1,0 +1,262 @@
+[
+  {
+    "id": "nj_njngtp",
+    "scope": "state",
+    "state": "NJ",
+    "title": "New Jersey National Guard Tuition Program (NJNGTP)",
+    "summary": "FREE tuition for up to 16 credits per semester at 29 New Jersey public institutions for National Guard members in good standing. Covers both undergraduate and graduate programs. This is a last-dollar benefit after Pell Grants and TAG, and cannot be combined with Federal Tuition Assistance.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Apply through New Jersey Army National Guard education office. Must be approved before enrollment each semester."
+    },
+    "eligibilityNotes": "Eligibility: Active New Jersey National Guard member in good standing Enrolled at participating New Jersey public institution Cannot be receiving Federal Tuition Assistance concurrently\nBenefit: FREE tuition - 16 credits per semester at public institutions\nHow to apply: Apply through New Jersey Army National Guard education office. Must be approved before enrollment each semester.",
+    "sourceUrl": "https://www.nj.gov/military/guard/army/education/",
+    "tags": [
+      "Education",
+      "New Jersey"
+    ],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "nj_vietnam_tuition",
+    "scope": "state",
+    "state": "NJ",
+    "title": "Vietnam Veterans Tuition Credit Program",
+    "summary": "$400 per year tuition credit for eligible Vietnam-era veterans attending New Jersey institutions of higher education.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Contact institution's financial aid office or New Jersey Department of Military and Veterans Affairs"
+    },
+    "eligibilityNotes": "Eligibility: Vietnam-era veteran New Jersey resident Attending New Jersey institution of higher education\nBenefit: $400 per academic year\nHow to apply: Contact institution's financial aid office or New Jersey Department of Military and Veterans Affairs",
+    "sourceUrl": "https://www.nj.gov/military/veterans/benefits-resources/",
+    "tags": [
+      "Education",
+      "New Jersey"
+    ],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "nj_pow_mia_tuition",
+    "scope": "state",
+    "state": "NJ",
+    "title": "POW/MIA Dependents Tuition Waiver",
+    "summary": "FREE tuition at New Jersey public colleges and universities for children of veterans who were prisoners of war or declared missing in action.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Apply through New Jersey Department of Military and Veterans Affairs with POW/MIA documentation"
+    },
+    "eligibilityNotes": "Eligibility: Child of New Jersey veteran who was POW or MIA New Jersey resident Attending New Jersey public institution\nBenefit: FREE tuition at NJ public institutions\nHow to apply: Apply through New Jersey Department of Military and Veterans Affairs with POW/MIA documentation",
+    "sourceUrl": "https://www.nj.gov/military/veterans/benefits-resources/",
+    "tags": [
+      "Education",
+      "New Jersey"
+    ],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "nj_war_orphans",
+    "scope": "state",
+    "state": "NJ",
+    "title": "War Orphans Tuition Assistance",
+    "summary": "$500 per year for up to 4 years for children of veterans who died or became totally disabled while serving during wartime or peacetime service.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Apply through New Jersey Department of Military and Veterans Affairs"
+    },
+    "eligibilityNotes": "Eligibility: Child of New Jersey veteran who died or became totally disabled during service New Jersey resident Attending approved educational institution\nBenefit: $500 per year for up to 4 years ($2,000 total)\nHow to apply: Apply through New Jersey Department of Military and Veterans Affairs",
+    "sourceUrl": "https://www.nj.gov/military/veterans/benefits-resources/",
+    "tags": [
+      "Education",
+      "New Jersey"
+    ],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "nj_property_tax_100",
+    "scope": "state",
+    "state": "NJ",
+    "title": "100% Disabled Veterans Property Tax Exemption",
+    "summary": "100% property tax exemption for veterans who are 100% permanently and totally disabled (P&T) as certified by the VA. Exemption applies to primary residence.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "notes": "100% service-connected, total and permanent disabled veteran; primary residence. Apply through local tax assessor."
+    },
+    "eligibilityNotes": "Eligibility: New Jersey resident veteran 100% permanent and total VA disability rating Property is primary residence\nBenefit: 100% property tax exemption on primary residence\nHow to apply: File annually with local tax assessor with VA certification letter",
+    "sourceUrl": "https://www.nj.gov/treasury/taxation/lpt/lpt-vetexemption.shtml",
+    "tags": [
+      "Tax Benefits",
+      "New Jersey"
+    ],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "nj_property_tax_partial",
+    "scope": "state",
+    "state": "NJ",
+    "title": "Disabled Veterans Property Tax Deduction",
+    "summary": "Proportional property tax exemption based on disability rating (30-90%). Veterans with service-connected disabilities receive deductions up to $10,000 in assessed property value.",
+    "requirements": {
+      "minDisability": 30,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Service-connected disability rating between 30% and 90% (per NJ program). Apply through local tax assessor."
+    },
+    "eligibilityNotes": "Eligibility: New Jersey resident veteran Service-connected disability rating of 30% or higher Property is primary residence\nBenefit: Proportional deduction based on disability rating - up to $10,000 assessed value\nHow to apply: Apply annually with local tax assessor showing VA disability rating",
+    "sourceUrl": "https://www.nj.gov/treasury/taxation/lpt/lpt-vetdeduction.shtml",
+    "tags": [
+      "Tax Benefits",
+      "New Jersey"
+    ],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "nj_veteran_property_deduction",
+    "scope": "state",
+    "state": "NJ",
+    "title": "Standard Veterans Property Tax Deduction",
+    "summary": "$250 annual property tax deduction available to ALL honorably discharged veterans who are New Jersey residents.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Annual $250 property tax deduction for qualifying veterans/surviving spouses. Apply through local tax assessor."
+    },
+    "eligibilityNotes": "Eligibility: Honorably discharged veteran New Jersey resident Property owner\nBenefit: $250 annual property tax deduction\nHow to apply: File with local tax assessor with DD-214",
+    "sourceUrl": "https://www.nj.gov/treasury/taxation/lpt/lpt-vetdeduction.shtml",
+    "tags": [
+      "Tax Benefits",
+      "New Jersey"
+    ],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "nj_income_tax_exemption",
+    "scope": "state",
+    "state": "NJ",
+    "title": "Veterans Income Tax Exemption",
+    "summary": "Income tax exemption for veterans ranging from $3,000 to $6,000 based on disability rating and other qualifying factors.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Claim on New Jersey income tax return with supporting documentation"
+    },
+    "eligibilityNotes": "Eligibility: New Jersey resident veteran Honorable discharge Meets income requirements\nBenefit: $3,000 to $6,000 income tax exemption\nHow to apply: Claim on New Jersey income tax return with supporting documentation",
+    "sourceUrl": "https://www.nj.gov/treasury/taxation/military/taxinformation.shtml",
+    "tags": [
+      "Tax Benefits",
+      "New Jersey"
+    ],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "nj_retirement_tax_free",
+    "scope": "state",
+    "state": "NJ",
+    "title": "Military Retirement Pay Tax Exemption",
+    "summary": "Military retirement pay is fully exempt from New Jersey state income tax for all military retirees.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Exclude military retirement from New Jersey tax return"
+    },
+    "eligibilityNotes": "Eligibility: Receiving military retirement pay New Jersey resident\nBenefit: 100% exemption on all military retirement income\nHow to apply: Exclude military retirement from New Jersey tax return",
+    "sourceUrl": "https://www.nj.gov/treasury/taxation/military/taxinformation.shtml",
+    "tags": [
+      "Tax Benefits",
+      "New Jersey"
+    ],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "nj_employment_preference",
+    "scope": "state",
+    "state": "NJ",
+    "title": "Veterans Absolute Employment Preference",
+    "summary": "Absolute preference in hiring for New Jersey state government positions for qualified veterans. Veterans receive priority consideration over non-veterans with equal qualifications.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Civil Service veterans preference; disabled veterans may receive highest preference. See NJ DMAVA guidance."
+    },
+    "eligibilityNotes": "Eligibility: Honorably discharged veteran New Jersey resident Meets minimum qualifications for position\nBenefit: Absolute hiring preference for state positions\nHow to apply: Indicate veteran status on state job applications and provide DD-214",
+    "sourceUrl": "https://www.nj.gov/military/veterans/services/civil-service-preference/",
+    "tags": [
+      "Employment",
+      "New Jersey"
+    ],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "nj_state_parks_free",
+    "scope": "state",
+    "state": "NJ",
+    "title": "Free State Parks Admission",
+    "summary": "Free admission to New Jersey state parks for disabled veterans with valid veteran identification.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "NJ residents who are totally disabled may qualify for a free Disability State Park Pass; not limited to veterans."
+    },
+    "eligibilityNotes": "Eligibility: New Jersey resident veteran Service-connected disability Valid veteran ID or disability documentation\nBenefit: Free admission to all NJ state parks\nHow to apply: Present veteran ID and disability documentation at park entrance",
+    "sourceUrl": "https://nj.gov/dep/parksandforests/parks/relatedfees.html",
+    "tags": [
+      "Recreation",
+      "New Jersey"
+    ],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "nj_beach_access",
+    "scope": "state",
+    "state": "NJ",
+    "title": "Free Private Beach Access for Disabled Veterans",
+    "summary": "Free access to certain private beaches in New Jersey for disabled veterans during summer season.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "NJ disabled veterans may qualify for free or reduced-fee beach-related access programs (e.g., Island Beach State Park MSFV permit). Eligibility varies by program."
+    },
+    "eligibilityNotes": "Eligibility: New Jersey resident Service-connected disability Participating beach locations\nBenefit: Free beach access at participating locations\nHow to apply: Check with individual municipalities for participating beaches and required documentation",
+    "sourceUrl": "https://dep.nj.gov/parksandforests/islandbeachpermits/",
+    "tags": [
+      "Recreation",
+      "New Jersey"
+    ],
+    "lastReviewed": "2025-12-25"
+  },
+  {
+    "id": "nj_hunting_fishing",
+    "scope": "state",
+    "state": "NJ",
+    "title": "Disabled Veterans Hunting and Fishing License Benefits",
+    "summary": "Reduced-fee or free hunting and fishing licenses for disabled veterans based on disability rating.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "NJ resident, honorably discharged, VA service-connected disability (any degree). Initial certification required by NJ Fish & Wildlife."
+    },
+    "eligibilityNotes": "Eligibility: New Jersey resident veteran Service-connected disability VA disability rating documentation\nBenefit: Reduced fees or free licenses based on disability rating\nHow to apply: Apply through New Jersey Fish and Wildlife with VA disability documentation",
+    "sourceUrl": "https://dep.nj.gov/njfw/licenses-and-permits/disabled-veteran-license-information/",
+    "tags": [
+      "Recreation",
+      "New Jersey"
+    ],
+    "lastReviewed": "2025-12-25"
+  }
+]

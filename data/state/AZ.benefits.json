@@ -1,0 +1,249 @@
+[
+  {
+    "id": "az_tuition_waiver_purple_heart_tier1",
+    "scope": "state",
+    "state": "AZ",
+    "title": "Arizona Tuition Waiver - Purple Heart Recipients (Tier 1)",
+    "summary": "Free undergraduate tuition at Arizona public universities and community colleges for Purple Heart recipients with 50%+ VA disability rating.",
+    "requirements": {
+      "minDisability": 50,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Must have received Purple Heart Citation AND been Arizona resident or stationed in Arizona at time of injury resulting in Purple Heart."
+    },
+    "eligibilityNotes": "Covers tuition only for undergraduate on-campus and/or online programs. Does NOT cover books, parking, course fees, room/board. Must maintain satisfactory academic progress. Apply through Arizona DVS with Purple Heart citation, proof of VA disability rating 50%+, and proof of residency.",
+    "sourceUrl": "https://dvs.az.gov/services/education/tuition-waiver-and-verification-form",
+    "tags": ["education", "tuition", "purple_heart", "waiver"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "az_tuition_waiver_surviving_dependents_tier2",
+    "scope": "state",
+    "state": "AZ",
+    "audience": "dependents",
+    "title": "Arizona Tuition Waiver - Surviving Dependents (Tier 2)",
+    "summary": "Free undergraduate tuition at Arizona public universities and community colleges for unremarried spouses and children (up to age 30) of service members killed in line of duty.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Sponsor must have been Arizona National Guard or US Armed Forces member, Arizona resident or stationed in Arizona, AND killed in line of duty or died from injuries in line of duty."
+    },
+    "eligibilityNotes": "Unremarried spouse and/or children up to age 30. Covers tuition only for undergraduate programs. Does NOT cover books, parking, fees, room/board.",
+    "sourceUrl": "https://dvs.az.gov/services/education/tuition-waiver-and-verification-form",
+    "tags": ["education", "tuition", "dependents", "survivors", "waiver"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "az_tuition_waiver_azng_purple_heart_tier3",
+    "scope": "state",
+    "state": "AZ",
+    "title": "Arizona Tuition Waiver - Current AZ National Guard Purple Heart (Tier 3)",
+    "summary": "Free undergraduate tuition for current Arizona National Guard members who received Purple Heart on or after September 11, 2001.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must be current AZNG member and received Purple Heart post-9/11."
+    },
+    "eligibilityNotes": "Covers tuition only for undergraduate programs at Arizona public institutions.",
+    "sourceUrl": "https://dvs.az.gov/services/education/tuition-waiver-and-verification-form",
+    "tags": ["education", "tuition", "national_guard", "purple_heart", "waiver"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "az_tuition_waiver_azng_medical_discharge_tier4",
+    "scope": "state",
+    "state": "AZ",
+    "title": "Arizona Tuition Waiver - Former AZ National Guard Medically Discharged (Tier 4)",
+    "summary": "Free undergraduate tuition for former Arizona National Guard members medically discharged due to injury/disability during Title 10 service or state emergency response.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must have been medically discharged from AZNG due to injury/disability during Title 10 status OR in response to state emergency declared by Governor."
+    },
+    "eligibilityNotes": "Covers tuition only for undergraduate programs at Arizona public institutions.",
+    "sourceUrl": "https://dvs.az.gov/services/education/tuition-waiver-and-verification-form",
+    "tags": ["education", "tuition", "national_guard", "medical_discharge", "waiver"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "az_national_guard_tuition_reimbursement",
+    "scope": "state",
+    "state": "AZ",
+    "title": "Arizona National Guard State Tuition Reimbursement (STR)",
+    "summary": "Tuition reimbursement up to $250 per semester with fiscal year cap of $4,000 for active Arizona National Guard members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must be drilling AZNG member with 90%+ attendance, completed Initial Active Duty Training, and have 2 years remaining on contract."
+    },
+    "eligibilityNotes": "Must complete at least one semester, be drilling member entire time reimbursement requested. Contact AZNG Education Services Office for application.",
+    "sourceUrl": "https://dvs.az.gov/services/education",
+    "tags": ["education", "tuition", "national_guard", "reimbursement"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "az_military_family_relief_fund",
+    "scope": "state",
+    "state": "AZ",
+    "title": "Arizona Military Family Relief Fund",
+    "summary": "Emergency financial assistance for veteran families and families of currently deployed service members suffering financial hardship.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "For families suffering financial hardship caused by deployment or veteran status."
+    },
+    "eligibilityNotes": "Assistance with rent/mortgage, utility bills, car payments. Nature and duration determined by advisory committee. Contact Arizona DVS for application.",
+    "sourceUrl": "https://dvs.az.gov/",
+    "tags": ["financial_assistance", "emergency", "family_support"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "az_property_tax_exemption_disabled_veteran",
+    "scope": "state",
+    "state": "AZ",
+    "title": "Disabled Veteran Property Tax Exemption",
+    "summary": "Arizona provides a property tax exemption for qualifying disabled veterans and surviving spouses with income and property value limits.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null,
+      "notes": "Net assessed valuation max $31,347. Income limits: $38,843 general, $46,600 if children under 18."
+    },
+    "eligibilityNotes": "Veterans must be totally and permanently disabled. Surviving spouses may qualify. Apply through County Assessor with VA documentation.",
+    "sourceUrl": "https://dvs.az.gov/services/property-tax-exemptions",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "az_vehicle_license_tax_exemption",
+    "scope": "state",
+    "state": "AZ",
+    "title": "Vehicle License Tax Exemption (Disabled Veteran)",
+    "summary": "Exemption from Arizona state license and registration fees for one vehicle owned by qualifying disabled veteran or surviving spouse.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null,
+      "notes": "Applies to one vehicle owned or co-owned by veteran. Surviving spouses eligible if not remarried."
+    },
+    "eligibilityNotes": "Requires VA documentation showing 100% service-connected permanent disability.",
+    "sourceUrl": "https://azdot.gov/motor-vehicles/vehicle-services/plates-and-placards/disabled-veteran",
+    "tags": ["vehicle", "tax", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "az_disabled_veteran_license_plate",
+    "scope": "state",
+    "state": "AZ",
+    "title": "Disabled Veteran License Plate",
+    "summary": "Arizona Disabled Veteran license plate providing parking and vehicle tax benefits.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null
+    },
+    "eligibilityNotes": "Issued by ADOT Motor Vehicle Division with VA disability verification.",
+    "sourceUrl": "https://azdot.gov/motor-vehicles/vehicle-services/plates-and-placards/disabled-veteran",
+    "tags": ["vehicle", "parking", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "az_veteran_designation_driver_license",
+    "scope": "state",
+    "state": "AZ",
+    "title": "Veteran Designation on Arizona Driver License / ID",
+    "summary": "Eligible veterans may add a Veteran designation to an Arizona driver license or ID card.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Requires proof of honorable discharge (e.g., DD-214)."
+    },
+    "eligibilityNotes": "Apply at an Arizona MVD office or authorized third-party provider.",
+    "sourceUrl": "https://azdot.gov/motor-vehicles/driver-services/veteran-designation",
+    "tags": ["id", "license", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "az_employment_preference",
+    "scope": "state",
+    "state": "AZ",
+    "title": "Arizona Veterans Employment Preference",
+    "summary": "Veterans receive 5 or 10 preference points added to certification scores for state, county, and city employment exams.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Veterans passing exam: 5 points. Veterans with service-connected disability: 10 points."
+    },
+    "eligibilityNotes": "Applies to veterans seeking Arizona state, county, or city government employment. Surviving spouses may also qualify for preference.",
+    "sourceUrl": "https://dvs.az.gov/services/employment",
+    "tags": ["employment", "preference", "civil_service"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "az_hunting_fishing_license_disabled_veteran",
+    "scope": "state",
+    "state": "AZ",
+    "title": "Reduced-Fee Hunting & Fishing License (Disabled Veteran)",
+    "summary": "Arizona offers reduced-fee hunting and fishing licenses for qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null,
+      "notes": "Available to Arizona residents with qualifying VA disability."
+    },
+    "eligibilityNotes": "Licenses issued through Arizona Game and Fish Department.",
+    "sourceUrl": "https://www.azgfd.com/license/",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "az_veterans_homes",
+    "scope": "state",
+    "state": "AZ",
+    "benefitType": "facility",
+    "title": "Arizona State Veterans Homes",
+    "summary": "Long-term care facilities providing skilled nursing and assisted living services for eligible veterans and spouses.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Admission depends on medical need, eligibility determination, and bed availability."
+    },
+    "eligibilityNotes": "Arizona operates veterans homes in Flagstaff, Phoenix, Tucson, and Yuma. Residents must be free from tuberculosis.",
+    "sourceUrl": "https://dvs.az.gov/services/veterans-homes",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "az_veterans_cemeteries",
+    "scope": "state",
+    "state": "AZ",
+    "benefitType": "facility",
+    "title": "Arizona Veterans Memorial Cemeteries",
+    "summary": "State-operated veterans cemeteries providing burial options for eligible veterans and family members at no charge for veterans, small fee for spouses/dependents.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility generally mirrors VA national cemetery eligibility."
+    },
+    "eligibilityNotes": "Cemeteries in Camp Navajo, Marana, and Sierra Vista. Veterans with other-than-dishonorable discharge eligible. No charge for veterans, small fee for spouses/dependents.",
+    "sourceUrl": "https://dvs.az.gov/services/memorial-cemeteries",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-24"
+  }
+]

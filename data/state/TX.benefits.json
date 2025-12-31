@@ -1,0 +1,366 @@
+[
+  {
+    "id": "tx_property_tax_exemption_100_disabled",
+    "scope": "state",
+    "state": "TX",
+    "title": "Total Property Tax Exemption for 100% Disabled Veterans",
+    "summary": "Complete exemption from property taxes on the veteran's primary residence homestead for veterans rated 100% disabled by the VA.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": true,
+      "notes": "Must be 100% service-connected disabled OR qualify as Individually Unemployable (IU) at 100% rate."
+    },
+    "eligibilityNotes": "Applies to residence homestead only. Apply through your county appraisal district with VA rating letter. Surviving spouses who have not remarried may also qualify.",
+    "sourceUrl": "https://comptroller.texas.gov/taxes/property-tax/exemptions/disabledvet-faq.php",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "tx_property_tax_exemption_partial",
+    "scope": "state",
+    "state": "TX",
+    "title": "Partial Property Tax Exemption for Disabled Veterans",
+    "summary": "Reduction in assessed home value based on disability rating from 10%-90%.",
+    "requirements": {
+      "minDisability": 10,
+      "requiresServiceConnected": true,
+      "notes": "Exemption amount: 10-29%=$5,000; 30-49%=$7,500; 50-69%=$10,000; 70-100%=$12,000"
+    },
+    "eligibilityNotes": "Can be applied to any one property owned by the veteran. Apply through county appraisal district. Surviving spouses and children may also qualify.",
+    "sourceUrl": "https://comptroller.texas.gov/taxes/property-tax/exemptions/disabledvet-faq.php",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "tx_hazlewood_act_veteran",
+    "scope": "state",
+    "state": "TX",
+    "title": "Hazlewood Act Tuition Exemption for Veterans",
+    "summary": "Up to 150 credit hours of tuition exemption at Texas public colleges and universities for eligible veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must have served at least 181 days active duty, Texas resident at entry or currently, honorable discharge."
+    },
+    "eligibilityNotes": "Does not cover books, housing, or student service fees. Cannot be in default on Texas state loans. Register with Hazlewood Student Database.",
+    "sourceUrl": "https://tvc.texas.gov/education/hazlewood/",
+    "tags": ["education", "tuition", "college"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "tx_hazlewood_legacy",
+    "scope": "state",
+    "state": "TX",
+    "title": "Hazlewood Legacy - Transfer to Child",
+    "summary": "Veterans may transfer unused Hazlewood hours to their children for education at Texas public institutions.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Child must be 25 or younger, biological/step/adopted child or claimed as dependent."
+    },
+    "eligibilityNotes": "Veteran must be Texas resident. Child uses up to 150 hours. Only one child can use benefit at a time. Child must maintain satisfactory academic progress.",
+    "sourceUrl": "https://tvc.texas.gov/education/hazlewood/",
+    "tags": ["education", "tuition", "college", "dependents"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "tx_hazlewood_dependent_spouse",
+    "scope": "state",
+    "state": "TX",
+    "title": "Hazlewood Exemption for Spouse/Child of Disabled/Deceased Veteran",
+    "summary": "Education benefits for spouses and children of veterans who died in service, are MIA, or are 100% disabled.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Veteran must have been KIA, MIA, died from service-related injury, or is 100% disabled/IU."
+    },
+    "eligibilityNotes": "Each eligible dependent receives their own 150 hours. Must be Texas resident. Child must be under 26. Spouse and child each get separate 150 hour allotments.",
+    "sourceUrl": "https://tvc.texas.gov/education/hazlewood/",
+    "tags": ["education", "tuition", "college", "dependents", "survivors"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "tx_hunting_fishing_license_disabled_veteran",
+    "scope": "state",
+    "state": "TX",
+    "title": "Free Super Combo Hunting & Fishing License for Disabled Veterans",
+    "summary": "Comprehensive free hunting and fishing license package for qualifying disabled veterans (resident and non-resident).",
+    "requirements": {
+      "minDisability": 50,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Also qualifies with loss of use of foot or leg regardless of rating."
+    },
+    "eligibilityNotes": "Includes hunting license, fishing license, and five state endorsements. Federal Duck Stamp not included. Must present VA proof of disability when purchasing. Available at license retailers.",
+    "sourceUrl": "https://tpwd.texas.gov/regulations/outdoor-annual/licenses/combination-hunting-fishing/disabled-veteran-super-combo-hunting-and-all-water-fishing-package",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "tx_state_park_passport_disabled_veteran",
+    "scope": "state",
+    "state": "TX",
+    "title": "Free Texas Parklands Disabled Veteran Passport",
+    "summary": "Free entry to all Texas State Parks for the disabled veteran and one additional person.",
+    "requirements": {
+      "minDisability": 60,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Also qualifies with loss of lower extremity regardless of rating percentage."
+    },
+    "eligibilityNotes": "Does not need to be Texas resident. Apply at any Texas State Park with VA documentation or Texas disabled veteran driver's license/ID.",
+    "sourceUrl": "https://tpwd.texas.gov/state-parks/",
+    "tags": ["recreation", "state_parks"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "tx_drivers_license_fee_waiver",
+    "scope": "state",
+    "state": "TX",
+    "title": "Free Driver's License for Disabled Veterans",
+    "summary": "Driver's licenses furnished free of charge to veterans with qualifying service-connected disabilities.",
+    "requirements": {
+      "minDisability": 60,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Must apply before current license expires. Does not apply to commercial licenses."
+    },
+    "eligibilityNotes": "Contact DPS driver's license office. Must provide proof of VA disability rating. Can renew without fee as long as disability qualification continues.",
+    "sourceUrl": "https://www.dps.texas.gov/section/driver-license",
+    "tags": ["vehicle", "license", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "tx_drivers_license_veteran_designation",
+    "scope": "state",
+    "state": "TX",
+    "title": "Veteran Designation on Texas Driver's License",
+    "summary": "Veterans can add a veteran designation to their Texas driver's license or ID card.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": null,
+      "notes": "Requires proof of veteran status (DD-214 or VA documentation)."
+    },
+    "eligibilityNotes": "Visit DPS office with discharge paperwork. Standard license fees apply unless eligible for disabled veteran fee waiver.",
+    "sourceUrl": "https://www.dps.texas.gov/section/driver-license",
+    "tags": ["vehicle", "license", "dmv", "id"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "tx_disabled_veteran_license_plates",
+    "scope": "state",
+    "state": "TX",
+    "title": "Disabled Veteran Specialty License Plates",
+    "summary": "Special license plates available for disabled veterans, including parking privileges with certain plates.",
+    "requirements": {
+      "minDisability": 50,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "40% rating qualifies if due to amputation of lower extremity. Specific plate types have different requirements."
+    },
+    "eligibilityNotes": "Various plate designs available. Some plates include disabled parking symbol (ISA). Contact Texas DMV for application. Letter from VA required.",
+    "sourceUrl": "https://www.txdmv.gov/motorists/license-plates",
+    "tags": ["vehicle", "license_plates", "parking"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "tx_disabled_parking_placard",
+    "scope": "state",
+    "state": "TX",
+    "title": "Disabled Parking Placard for Veterans",
+    "summary": "Parking placards that exempt from meter fees and allow use of disabled parking spaces.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Veteran must meet medical eligibility requirements for disabled parking (mobility limitation)."
+    },
+    "eligibilityNotes": "Available to veterans who possess disabled veteran license plates. Must meet medical criteria for disabled parking beyond just VA disability rating.",
+    "sourceUrl": "https://www.dps.texas.gov/section/driver-license",
+    "tags": ["vehicle", "parking"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "tx_state_veterans_homes",
+    "scope": "state",
+    "state": "TX",
+    "benefitType": "facility",
+    "title": "Texas State Veterans Homes",
+    "summary": "Affordable long-term nursing care facilities for Texas veterans, their spouses, and Gold Star parents.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must be Texas resident at application or at entry to service, or resided in Texas for 1+ years. Veterans with 70%+ service-connected disability may live free."
+    },
+    "eligibilityNotes": "Multiple locations across Texas (Amarillo, Big Spring, Bonham, El Paso, Floresville, Fort Worth, Houston, McAllen, Temple, Tyler). Admission based on medical need and bed availability. VA per diem benefits help cover costs.",
+    "sourceUrl": "https://www.glo.texas.gov/veterans/texas-state-veterans-homes",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "tx_employment_preference",
+    "scope": "state",
+    "state": "TX",
+    "title": "Veterans Employment Preference (State Jobs)",
+    "summary": "Veterans receive preference in employment with Texas state agencies, with agencies required to reach 40% veteran employment.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": null,
+      "notes": "Preference also extends to widows/widowers and children of those killed on active duty."
+    },
+    "eligibilityNotes": "Applies to Texas state government positions. Non-retiree veterans can claim military time toward state retirement by paying required contributions to ERS.",
+    "sourceUrl": "https://tvc.texas.gov/",
+    "tags": ["employment", "preference", "civil_service"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "tx_veterans_land_board_loans",
+    "scope": "state",
+    "state": "TX",
+    "title": "Texas Veterans Land Board Loan Programs",
+    "summary": "Low-interest loans for land, home purchase, and home improvements administered by the Texas Veterans Land Board.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Generally requires 90+ consecutive days active duty after Sept 1940, honorable discharge, and Texas resident at entry or currently. Special advantages for disabled veterans."
+    },
+    "eligibilityNotes": "Three programs: Land Loan, Housing Assistance, and Home Improvement. Cannot have previously used the specific program being applied for. Contact VLB at 800-252-8387.",
+    "sourceUrl": "https://www.glo.texas.gov/vlb/",
+    "tags": ["housing", "loan", "land"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+  "id": "tx_veteran_entrepreneur_program",
+  "scope": "state",
+  "state": "TX",
+  "title": "Texas Veteran Entrepreneur Program",
+  "summary": "Comprehensive business assistance including consultation, business plans, financing, and marketing for veteran entrepreneurs.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Free program operated by Texas Veterans Commission."
+  },
+  "eligibilityNotes": "Provides veteran entrepreneurs and business owners with tools to start or grow businesses. Includes awareness of federal/state benefits, needs assessment, and program review.",
+  "sourceUrl": "https://tvc.texas.gov/entrepreneur/",
+  "tags": ["business", "entrepreneurship", "assistance"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tx_lawyers_for_veterans",
+  "scope": "state",
+  "state": "TX",
+  "title": "Texas Lawyers for Texas Veterans",
+  "summary": "Pro bono civil legal assistance for veterans and families who cannot afford legal services.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "For veterans and families who cannot afford legal services."
+  },
+  "eligibilityNotes": "State Bar of Texas program provides free legal assistance for qualifying veterans in civil matters.",
+  "sourceUrl": "https://www.texasbar.com/Content/NavigationMenu/ForThePublic/FreeLegalInformation/TexasLawyersforTexasVeterans/default.htm",
+  "tags": ["legal", "assistance", "pro_bono"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tx_military_licensing_waiver",
+  "scope": "state",
+  "state": "TX",
+  "title": "Military Occupational Licensing Waiver Program",
+  "summary": "Eliminates application and examination fees; military training counts toward occupational licenses.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Available to veterans and military spouses."
+  },
+  "eligibilityNotes": "Military training and experience counts toward occupational licensing. Spouses may qualify for expedited licensing in nursing, education, legal services, and other fields.",
+  "sourceUrl": "https://tvc.texas.gov/",
+  "tags": ["employment", "licensing", "fee_waiver", "spouse"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tx_state_contracting_preference",
+  "scope": "state",
+  "state": "TX",
+  "title": "Service-Disabled Veteran Business Contracting Preference",
+  "summary": "First preference in state purchasing for Texas businesses owned by service-disabled veterans.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": true,
+    "requiresPermanentTotal": null,
+    "notes": "Business must be 51%+ owned by service-disabled veteran who is Texas resident."
+  },
+  "eligibilityNotes": "Service-disabled veteran-owned Texas businesses receive first preference when state purchases goods. Quality and price must be comparable.",
+  "sourceUrl": "https://comptroller.texas.gov/purchasing/",
+  "tags": ["business", "contracting", "preference"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tx_mental_health_vmhd",
+  "scope": "state",
+  "state": "TX",
+  "title": "Veterans Mental Health Department (VMHD) Services",
+  "summary": "Peer-to-peer networks, suicide prevention training, and justice-involved veteran outreach—all free regardless of discharge status.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Free services regardless of discharge status. $50M invested in alternative therapy clinical trials."
+  },
+  "eligibilityNotes": "Comprehensive mental health support including peer networks, suicide prevention, and innovative treatments. Contact TVC for assistance.",
+  "sourceUrl": "https://tvc.texas.gov/mental-health/",
+  "tags": ["mental_health", "healthcare", "support"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tx_folds_of_honor_scholarship",
+  "scope": "state",
+  "state": "TX",
+  "title": "Folds of Honor Texas Scholarships",
+  "summary": "Up to $5,000 scholarship for dependents of disabled veterans based on unmet financial need.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": true,
+    "requiresPermanentTotal": null,
+    "notes": "Based on unmet need. Children's Fund Scholarship available."
+  },
+  "eligibilityNotes": "Scholarships valued up to $5,000 for dependents of service-connected disabled veterans. Documentation of unmet need required.",
+  "sourceUrl": "https://foldsofhonor.org/",
+  "tags": ["education", "scholarship", "dependents"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "tx_national_guard_state_tuition_assistance",
+  "scope": "state",
+  "state": "TX",
+  "title": "Texas National Guard State Tuition Assistance (STA)",
+  "summary": "Need-based tuition assistance up to $1,000 per semester (or up to $4,500 for priority applicants) for active Texas National Guard, Air Guard, and State Guard members.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be active drilling member (not AGR). Enlisted E-1 to E-9, Officers O-1 to O-5, or Warrants W-1 to W-3. ETS/MRD must be after semester end."
+  },
+  "eligibilityNotes": "Available to active drilling members of Texas Army National Guard (TXARNG), Texas Air National Guard (TXANG), or Texas State Guard (TXSG). Must be accepted and registered at Texas public or private college/university (for-profit schools NOT eligible) for minimum 3 semester credit hours. Must complete basic training before semester start and maintain 2.0 GPA. Must serve through end of semester. Undergraduate applicants prioritized for $1,000/semester; STEM degree students and Early Commissioning Program members receive priority for up to $4,500/semester. Available for 5 academic years (10 semesters). Fall and Spring only - NOT summer. ROTC cadets eligible under certain conditions. Apply through Texas Military Department.",
+  "sourceUrl": "https://tmd.texas.gov/state-tuition-assistance-program",
+  "tags": [
+    "education",
+    "tuition",
+    "national_guard",
+    "need_based"
+  ],
+  "lastReviewed": "2025-12-25"
+}
+]

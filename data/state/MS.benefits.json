@@ -1,0 +1,19 @@
+[
+  {
+    "id": "ms_seap",
+    "scope": "state",
+    "state": "MS",
+    "title": "Mississippi National Guard State Educational Assistance Program (SEAP)",
+    "summary": "Education assistance for MS National Guard members at MS supported/accredited colleges. $1,100/semester (2-year institutions) or $2,500/semester (4-year institutions) for full-time students. Up to $5,000 per state fiscal year.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must be registered voter in MS. Must be actively serving in good standing. Must maintain 2.0 semester GPA. Only for first undergraduate degree or technical certificate. 10-year window from first payment. Funding subject to legislative allocation and availability."
+    },
+    "eligibilityNotes": "MS National Guard state program provides education assistance at junior and senior levels: $1,100/semester for full-time at 2-year MS institutions, $2,500/semester for full-time at 4-year MS institutions. Less than full-time (6-11 credit hours) receive half the full-time amount. Additional supplemental award available after other funding posted, not to exceed cost of tuition at MS public institution. Max $5,000 per state fiscal year via General Scholarship Fund for eligible members. May be combined with FTA, GI Bill (excluding Ch. 33), grants, scholarships. Cannot be used for summer/intersession terms. 10-year eligibility window from first payment. Must inform school of intention to use SEAP. Deadlines vary by semester - check with MS Military Department Education Services Office, 1410 Riverside Drive, Jackson, MS 39202. All funds and amounts subject to availability through State Legislative process.",
+    "sourceUrl": "https://www.ng.ms.gov/gs/g1/edu/tuitionassistance-old",
+    "tags": ["education", "tuition", "national_guard"],
+    "lastReviewed": "2025-12-25"
+  }
+]

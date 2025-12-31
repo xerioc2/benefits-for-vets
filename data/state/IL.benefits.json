@@ -1,0 +1,228 @@
+[
+  {
+    "id": "il_property_tax_exemption_disabled_veteran",
+    "scope": "state",
+    "state": "IL",
+    "title": "Disabled Veterans Property Tax Exemption",
+    "summary": "Illinois provides a property tax exemption for qualifying disabled veterans based on VA disability rating.",
+    "requirements": {
+      "minDisability": 30,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Exemption amount increases at 50% ($2,500) and 70%+ (full exemption) disability levels. 30-49%: $2,500 standard exemption."
+    },
+    "eligibilityNotes": "Veterans must have a service-connected disability of at least 30%. Apply through the local County Assessor. Unremarried surviving spouses may qualify.",
+    "sourceUrl": "https://veterans.illinois.gov/services-benefits/benefits/housing.html",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "il_veterans_grant",
+    "scope": "state",
+    "state": "IL",
+    "title": "Illinois Veterans Grant (IVG)",
+    "summary": "Full tuition and mandatory fee coverage for eligible Illinois veterans attending public colleges and universities.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Requires at least one year of federal active duty service. Illinois residency required."
+    },
+    "eligibilityNotes": "Covers tuition and certain mandatory fees at Illinois public institutions (community colleges and universities). Does not cover housing, books, or program-specific fees. Maximum 120 eligibility units (semester hours).",
+    "sourceUrl": "https://www.isac.org/isac-gift-assistance-programs/illinois-veteran-grant/",
+    "tags": ["education", "tuition", "grant"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "il_dependents_scholarship_full",
+    "scope": "state",
+    "state": "IL",
+    "title": "Deceased, Disabled, and MIA/POW Veterans' Dependents Scholarship",
+    "summary": "Full tuition and mandatory fees at Illinois state-supported colleges/universities for up to 4 years (120 credits) for dependents of qualifying veterans.",
+    "requirements": {
+      "anyOf": [
+        {"minDisability": 100, "requiresServiceConnected": true, "requiresPermanentTotal": true},
+        {"field": "veteranStatus", "op": "==", "value": "died_service_connected"},
+        {"field": "veteranStatus", "op": "==", "value": "MIA_POW"}
+      ],
+      "notes": "Veteran must be Illinois resident at time of service entry, within 6 months after, or 15 consecutive years after entering active duty."
+    },
+    "eligibilityNotes": "Natural child, adopted child, stepchild (under 18 at marriage), or spouse. Children must use benefit before age 26. Spouses must use within 10-20 years depending on circumstances. Covers 120 eligibility points (credit hours). Does NOT cover housing.",
+    "sourceUrl": "https://veterans.illinois.gov/services-benefits/education/mia-pow-scholarship.html",
+    "tags": ["education", "dependents", "scholarship", "tuition"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "il_dependents_children_grant",
+    "scope": "state",
+    "state": "IL",
+    "title": "Deceased, Disabled, and MIA/POW Veterans' Dependents Educational Opportunity Grant (Ages 10-18)",
+    "summary": "$250 annual educational grant for children ages 10-18 of deceased or totally disabled veterans.",
+    "requirements": {
+      "anyOf": [
+        {"minDisability": 100, "requiresServiceConnected": true, "requiresPermanentTotal": true},
+        {"field": "veteranStatus", "op": "==", "value": "died_service_connected"}
+      ],
+      "notes": "For children between ages 10-18. Veteran must be Illinois resident or meet residency criteria."
+    },
+    "eligibilityNotes": "Annual $250 grant for educational expenses for qualifying children. Veteran must have died or become totally disabled during service in WWI, WWII, Korean, Vietnam, Gulf War, Operation Enduring Freedom, or Operation Iraqi Freedom.",
+    "sourceUrl": "https://veterans.illinois.gov/services-benefits/education/educational-opportunities-for-children.html",
+    "tags": ["education", "dependents", "scholarship", "children"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "il_national_guard_grant",
+    "scope": "state",
+    "state": "IL",
+    "title": "Illinois National Guard Grant (ING)",
+    "summary": "Full tuition and mandatory fees at Illinois state universities and colleges for active Illinois National Guard members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must be enlisted or company grade officer with 1+ years service. Currently serving in Illinois National Guard."
+    },
+    "eligibilityNotes": "Up to 120 eligibility units maximum. Guard members whose studies were interrupted by federal active duty (6+ months) get additional eligibility. Submit annually through ISAC.",
+    "sourceUrl": "https://www.isac.org/students/during-college/military-service/",
+    "tags": ["education", "tuition", "national_guard"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "il_children_of_veterans_uofi",
+    "scope": "state",
+    "state": "IL",
+    "title": "University of Illinois Children of Veterans Scholarship",
+    "summary": "Each Illinois county entitled annually to one honorary scholarship at University of Illinois for children of veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "County-based allocation. Contact county veterans service office."
+    },
+    "eligibilityNotes": "One scholarship per county per year for children of Illinois veterans attending University of Illinois.",
+    "sourceUrl": "https://veterans.illinois.gov/services-benefits/education.html",
+    "tags": ["education", "scholarship", "dependents"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "il_fallen_heroes_scholarship",
+    "scope": "state",
+    "state": "IL",
+    "title": "Illinois Fallen Heroes Scholarship Program",
+    "summary": "Bright Start college savings contribution for dependent children of service members killed in line of duty.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Parent must have been killed in line of duty while serving in U.S. Armed Forces."
+    },
+    "eligibilityNotes": "Dependent children of service members killed in action receive college savings funds. Cannot be awarded as cash, must be used for qualified higher education expenses at accredited institutions.",
+    "sourceUrl": "https://myarmybenefits.us.army.mil/Benefit-Library/State/Territory-Benefits/Illinois",
+    "tags": ["education", "scholarship", "dependents", "survivors"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "il_employment_preference",
+    "scope": "state",
+    "state": "IL",
+    "title": "Illinois Veterans Employment Preference",
+    "summary": "Up to 10 points on competitive exams for state government positions for qualifying veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Disabled veterans and certain family members receive preference."
+    },
+    "eligibilityNotes": "Preference applies to initial hire and may extend to promotions/reassignments. Spouses and dependents of totally disabled or deceased veterans also eligible. Must claim at application time.",
+    "sourceUrl": "https://veterans.illinois.gov/services-benefits/benefits/employment.html",
+    "tags": ["employment", "preference", "civil_service"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "il_hunting_fishing_license_disabled_vet",
+    "scope": "state",
+    "state": "IL",
+    "title": "Reduced-Fee Hunting and Fishing Licenses for Disabled Veterans",
+    "summary": "Illinois offers reduced-cost hunting and fishing licenses for qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 10,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Must be an Illinois resident with a service-connected disability of 10% or greater."
+    },
+    "eligibilityNotes": "Licenses are issued through the Illinois Department of Natural Resources. 100% P&T disabled veterans may receive additional benefits.",
+    "sourceUrl": "https://dnr.illinois.gov/lpr/militaryfeeexemptions.html",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "il_driver_license_veteran_designation",
+    "scope": "state",
+    "state": "IL",
+    "title": "Veteran Designation on Illinois Driver License / ID",
+    "summary": "Eligible veterans may add a Veteran designation to an Illinois driver license or state ID.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Requires proof of honorable service (e.g., DD-214)."
+    },
+    "eligibilityNotes": "Veterans must present documentation (DD-214 or equivalent) at a Secretary of State facility.",
+    "sourceUrl": "https://www.ilsos.gov/departments/drivers/drivers_license/veterans_designation.html",
+    "tags": ["id", "license", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "il_veterans_homes",
+    "scope": "state",
+    "state": "IL",
+    "benefitType": "facility",
+    "title": "Illinois Veterans Homes",
+    "summary": "Long-term care facilities providing skilled nursing and assisted living services for eligible veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Admission depends on medical need, eligibility determination, and bed availability."
+    },
+    "eligibilityNotes": "Illinois operates multiple Veterans Homes throughout the state: Anna, Chicago (2), LaSalle, Manteno, Quincy.",
+    "sourceUrl": "https://veterans.illinois.gov/services-benefits/homes.html",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "il_veterans_cemeteries",
+    "scope": "state",
+    "state": "IL",
+    "benefitType": "facility",
+    "title": "Illinois Veterans Cemeteries",
+    "summary": "State-operated cemeteries providing burial options for eligible veterans and family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Eligibility mirrors VA national cemetery requirements."
+    },
+    "eligibilityNotes": "Multiple cemetery locations across Illinois. Contact Illinois Department of Veterans' Affairs for specific locations and availability.",
+    "sourceUrl": "https://www.va.gov/find-locations/",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "il_work_study_opportunities",
+    "scope": "state",
+    "state": "IL",
+    "title": "Illinois VA Work-Study Opportunities",
+    "summary": "VA work-study positions available at Illinois Department of Veterans' Affairs offices throughout the state.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must be eligible for VA work-study program and attending school."
+    },
+    "eligibilityNotes": "Work-study opportunities at numerous IDVA offices statewide. Provides income while attending school.",
+    "sourceUrl": "https://veterans.illinois.gov/services-benefits/education.html",
+    "tags": ["employment", "education", "work_study"],
+    "lastReviewed": "2025-12-24"
+  }
+]

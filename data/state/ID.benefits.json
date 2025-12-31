@@ -1,0 +1,455 @@
+[
+  {
+    "id": "id_seap",
+    "state": "Idaho",
+    "name": "State Education Assistance Program (SEAP)",
+    "category": "Education",
+    "description": "Idaho National Guard members receive up to $8,000 per state fiscal year for tuition and registration fees at ANY Idaho institution (public or private). Must exhaust federal TA first. Can be used WITH GI Bill simultaneously. Enlisted non-technician members only. No time limit, credit hour limit, or degree level limit - use for as long as needed for any degree/certificate. Available for vocational certifications (pilot, hairstyling, welding, etc.).",
+    "eligibility": [
+      "Idaho National Guard member (Army or Air)",
+      "Active drilling, non-technician (state/federal technicians excluded by state law)",
+      "Basic Training graduate",
+      "Cannot use federal TA and SEAP for same class",
+      "CAN use GI Bill and SEAP simultaneously"
+    ],
+    "benefit_amount": "Up to $8,000/state fiscal year (tuition + registration fees)",
+    "how_to_apply": "Contact Idaho National Guard Education Office for required brief before applying (208) 272-3612",
+    "source_name": "Idaho Military Division",
+    "source_url": "https://www.imd.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_armed_forces_dependent_scholarship",
+    "state": "Idaho",
+    "name": "Armed Forces/Public Safety Officer Dependent Scholarship",
+    "category": "Education",
+    "description": "Children and spouses of Idaho military members killed on duty OR disabled to point of unemployability receive: FREE tuition + fees (up to 4 academic years), $750/semester for books, campus housing, AND subsistence. Must be Idaho resident undergraduate.",
+    "eligibility": [
+      "Child or spouse of Idaho military member",
+      "Parent/spouse killed on duty OR disabled to point of unemployability",
+      "Idaho resident undergraduate",
+      "Up to 4 academic years"
+    ],
+    "benefit_amount": "FREE tuition + fees + $750/semester books + housing + subsistence",
+    "how_to_apply": "Apply through Idaho State Board of Education",
+    "source_name": "Idaho State Board of Education",
+    "source_url": "https://boardofed.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_instate_tuition",
+    "state": "Idaho",
+    "name": "In-State Tuition for Military and Veterans",
+    "category": "Education",
+    "description": "In-state tuition rates available for: Idaho resident military stationed outside Idaho OR military/family stationed IN Idaho OR Idaho National Guard/family OR honorably discharged after 2+ years service (apply within 1 year) OR listed Idaho as home of record when serving/separating.",
+    "eligibility": [
+      "Idaho resident military stationed out OR",
+      "Military/family stationed in Idaho OR",
+      "Idaho Guard/family OR",
+      "Honorable discharge 2+ years (apply within 1 year) OR",
+      "Idaho home of record"
+    ],
+    "benefit_amount": "In-state tuition rates (saves $10,000-$15,000/year)",
+    "how_to_apply": "Contact Registrar's office of Idaho institution",
+    "source_name": "Idaho State Board of Education",
+    "source_url": "https://boardofed.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_property_tax_100_permanent",
+    "state": "Idaho",
+    "name": "Veterans Property Tax Reduction ($1,500) - 100% Permanent",
+    "category": "Tax Benefits",
+    "description": "Veterans with 100% service-connected PERMANENT AND TOTAL disability receive up to $1,500 reduction in property taxes on home + 1 acre. No income limit. Once approved, automatically renews - NO annual reapplication required. Surviving spouse can continue benefit if unremarried.",
+    "eligibility": [
+      "Idaho resident veteran",
+      "100% service-connected PERMANENT AND TOTAL disability",
+      "Own and occupy Idaho primary residence",
+      "Property has current homeowner's exemption"
+    ],
+    "benefit_amount": "Up to $1,500 property tax reduction (auto-renews)",
+    "how_to_apply": "Apply online at tax.idaho.gov/ptr or County Assessor January 1-April 15 (one-time application)",
+    "source_name": "Idaho State Tax Commission",
+    "source_url": "https://tax.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_property_tax_100_temp",
+    "state": "Idaho",
+    "name": "Veterans Property Tax Reduction ($1,500) - 100% Temporary",
+    "category": "Tax Benefits",
+    "description": "Veterans with 100% service-connected disability OR 100% IU (individual unemployability) receive up to $1,500 reduction in property taxes on home + 1 acre. No income limit. Must reapply annually if disability is NOT permanent. Surviving spouse can continue benefit if unremarried.",
+    "eligibility": [
+      "Idaho resident veteran",
+      "100% service-connected disability OR 100% IU compensation",
+      "Own and occupy Idaho primary residence before April 15",
+      "Property has current homeowner's exemption"
+    ],
+    "benefit_amount": "Up to $1,500 property tax reduction (annual application required)",
+    "how_to_apply": "Apply online at tax.idaho.gov/ptr or County Assessor January 1-April 15 annually",
+    "source_name": "Idaho State Tax Commission",
+    "source_url": "https://tax.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_property_tax_circuit_breaker",
+    "state": "Idaho",
+    "name": "Property Tax Reduction (10%-90% Disability - Income Based)",
+    "category": "Tax Benefits",
+    "description": "Veterans with 10%-90% service-connected disability (OR receiving VA pension for non-service disability) qualify for 'Circuit Breaker' property tax reduction when meeting residency and income requirements. Income limit approximately $37,810 (2024). Reduction up to $1,500.",
+    "eligibility": [
+      "Idaho resident veteran",
+      "10%-90% service-connected disability OR VA non-service pension",
+      "Income limits apply (approximately $37,810 for 2024)",
+      "Own and occupy Idaho primary residence"
+    ],
+    "benefit_amount": "Up to $1,500 reduction (income-based, sliding scale)",
+    "how_to_apply": "Apply online at tax.idaho.gov/ptr or County Assessor January 1-April 15 annually",
+    "source_name": "Idaho State Tax Commission",
+    "source_url": "https://tax.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_military_pay_exempt_120_days",
+    "state": "Idaho",
+    "name": "Military Pay Tax Exemption (Stationed Outside 120+ Days)",
+    "category": "Tax Benefits",
+    "description": "Idaho resident service members stationed OUTSIDE Idaho for 120+ continuous days are EXEMPT from Idaho state income tax on military pay. Military pay for Idaho residents stationed IN Idaho IS taxable.",
+    "eligibility": [
+      "Idaho resident service member",
+      "Stationed outside Idaho for continuous 120+ days"
+    ],
+    "benefit_amount": "100% exemption on military pay (if outside Idaho 120+ days)",
+    "how_to_apply": "Exclude from Idaho income tax return if stationed outside 120+ days",
+    "source_name": "Idaho State Tax Commission",
+    "source_url": "https://tax.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_retirement_pay_over_65",
+    "state": "Idaho",
+    "name": "Military Retirement Pay Tax Exemption (Age 65+)",
+    "category": "Tax Benefits",
+    "description": "Military retirement pay is 100% EXEMPT from Idaho state income tax for retirees age 65+ OR disabled retirees age 62+. Also available to unremarried surviving spouses.",
+    "eligibility": [
+      "Idaho resident receiving military retirement pay",
+      "Age 65+ OR disabled and age 62+",
+      "OR unremarried surviving spouse meeting age requirements"
+    ],
+    "benefit_amount": "100% exemption on military retirement pay",
+    "how_to_apply": "Exclude from Idaho income tax return",
+    "source_name": "Idaho State Tax Commission",
+    "source_url": "https://tax.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_sbp_exempt",
+    "state": "Idaho",
+    "name": "Survivor Benefit Plan (SBP) Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "SBP/RCSBP/RSFPP payments are 100% tax-free for recipients age 65+ OR disabled and age 62+. Also available to unremarried surviving spouses meeting age requirements.",
+    "eligibility": [
+      "Idaho resident receiving SBP/RCSBP/RSFPP payments",
+      "Age 65+ OR disabled and age 62+",
+      "OR unremarried surviving spouse"
+    ],
+    "benefit_amount": "100% exemption on survivor benefit payments",
+    "how_to_apply": "Exclude from Idaho income tax return",
+    "source_name": "Idaho State Tax Commission",
+    "source_url": "https://tax.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_military_spouse_income_exempt",
+    "state": "Idaho",
+    "name": "Military Spouse Income Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Military spouse's earned income is NOT subject to Idaho income tax if: married to service member serving in Idaho, service member registered with another state as home of record, moved to Idaho with service member, and same permanent residence. Spouse files Idaho Form ID-MS1 with employer.",
+    "eligibility": [
+      "Married to service member serving in Idaho",
+      "Service member has different state as home of record",
+      "Moved to Idaho with service member",
+      "Same permanent residence as service member"
+    ],
+    "benefit_amount": "100% exemption on spouse's earned income in Idaho",
+    "how_to_apply": "File Idaho Form ID-MS1 with employer",
+    "source_name": "Idaho State Tax Commission",
+    "source_url": "https://tax.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_grocery_tax_credit",
+    "state": "Idaho",
+    "name": "Grocery Tax Credit (Age 65+ or Disabled 62+)",
+    "category": "Tax Benefits",
+    "description": "Veterans age 65+ OR disabled age 62+ may claim Idaho Grocery Tax Credit even when not required to file income tax return if VA disability benefits are only income.",
+    "eligibility": [
+      "Idaho resident veteran",
+      "Age 65+ OR disabled and age 62+",
+      "VA disability benefits may be only income"
+    ],
+    "benefit_amount": "Grocery tax credit (amount varies)",
+    "how_to_apply": "File for grocery credit on Idaho tax forms",
+    "source_name": "Idaho State Tax Commission",
+    "source_url": "https://tax.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_employment_preference_5_10",
+    "state": "Idaho",
+    "name": "Veterans Employment Preference (5 or 10 Points)",
+    "category": "Employment",
+    "description": "Honorably discharged veterans receive 5 preference points on state employment exams (initial hire only). Disabled veterans (10%+ service-connected disability) OR Purple Heart recipients receive 10 points. Surviving spouse of preference-eligible veteran (unmarried) also receives 10 points. Veterans with 30%+ disability guaranteed interview if in top 25 qualified applicants.",
+    "eligibility": [
+      "Idaho resident veteran, honorably discharged (5 points)",
+      "OR disabled veteran 10%+/Purple Heart (10 points)",
+      "OR unmarried surviving spouse (10 points)",
+      "Initial hire only (not promotions/transfers)"
+    ],
+    "benefit_amount": "5 or 10 preference points + interview guarantee (30%+ disability)",
+    "how_to_apply": "Indicate veteran status on state job applications with DD-214",
+    "source_name": "Idaho Division of Human Resources",
+    "source_url": "https://dhr.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_late_application_120_days",
+    "state": "Idaho",
+    "name": "Late Employment Application (Recent Discharge/Hospitalization)",
+    "category": "Employment",
+    "description": "Recently discharged military personnel undergoing service-connected hospitalization (up to 1 year after discharge) may file application for ANY classified Idaho position that has already closed. Application must be filed within 120 days of discharge or hospitalization.",
+    "eligibility": [
+      "Recently discharged (within 1 year)",
+      "Undergoing service-connected hospitalization",
+      "Apply within 120 days of discharge/hospitalization"
+    ],
+    "benefit_amount": "Ability to apply for closed positions",
+    "how_to_apply": "File application within 120 days even if position closed",
+    "source_name": "Idaho Division of Human Resources",
+    "source_url": "https://dhr.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_occupational_licensing",
+    "state": "Idaho",
+    "name": "Military Experience for Occupational Licensing",
+    "category": "Employment",
+    "description": "Military members and families receive: expedited processing for occupational licenses, credit for military training relevant to license/registration. Idaho residents on active/reserve/Guard duty do NOT pay professional/occupational license or renewal fees while in military. License expiration extended 6 months after leaving service.",
+    "eligibility": [
+      "Idaho resident military member or family",
+      "Relevant military training for license",
+      "Active/Reserve/Guard duty for fee waiver"
+    ],
+    "benefit_amount": "Expedited licensing + military training credit + FREE license fees + 6-month extension",
+    "how_to_apply": "Contact relevant Idaho licensing board with military credentials",
+    "source_name": "Idaho Division of Occupational and Professional Licenses",
+    "source_url": "https://dopl.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_legal_assistance_imla",
+    "state": "Idaho",
+    "name": "Idaho Military Legal Alliance (IMLA)",
+    "category": "Employment",
+    "description": "Coordinates pro bono legal services for Idaho's military population. Provides legal education on military legal issues, supports military legal clinics, and recruits pro bono attorneys for service members.",
+    "eligibility": [
+      "Idaho military member",
+      "Veteran",
+      "Military family member"
+    ],
+    "benefit_amount": "FREE pro bono legal services and education",
+    "how_to_apply": "Contact Idaho Military Legal Alliance",
+    "source_name": "Idaho Military Legal Alliance",
+    "source_url": "https://veterans.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_hunting_fishing_resident_dav",
+    "state": "Idaho",
+    "name": "$5.75 Resident Disabled Veteran Hunting/Fishing License",
+    "category": "Recreation",
+    "description": "Idaho resident veterans with 40%+ service-connected disability receive $5.75 Disabled American Veteran (DAV) combo hunting/fishing license. Allows purchase of reduced-fee tags: deer ($10.75), elk ($16.50), bear ($6.75), turkey ($10.75). Archery/muzzleloader permits $3.75 each. Documentation required for first issuance only.",
+    "eligibility": [
+      "Idaho resident veteran",
+      "40%+ service-connected disability",
+      "VA Benefits Summary Letter (first time only)"
+    ],
+    "benefit_amount": "$5.75 license + reduced tags (deer $10.75, elk $16.50, bear $6.75, turkey $10.75)",
+    "how_to_apply": "Apply at Idaho Fish and Game office with VA letter (first time) or online (renewals)",
+    "source_name": "Idaho Department of Fish and Game",
+    "source_url": "https://idfg.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_hunting_fishing_nonresident_dav",
+    "state": "Idaho",
+    "name": "$31.75 Nonresident Disabled Veteran Hunting/Fishing License",
+    "category": "Recreation",
+    "description": "Nonresident disabled veterans (40%+ service-connected) receive $31.75 DAV hunting + 3-day fishing license. Allows reduced-fee nonresident tags: deer ($23.75), elk ($39.75), bear ($23.75), turkey ($19.75). Archery/muzzleloader $5.75 each. Limited to 500 deer tags, 300 elk tags.",
+    "eligibility": [
+      "Nonresident veteran (any state)",
+      "40%+ service-connected disability",
+      "VA Benefits Summary Letter"
+    ],
+    "benefit_amount": "$31.75 license + reduced nonresident tags (saves $100-$200 vs regular nonresident)",
+    "how_to_apply": "Apply at Idaho Fish and Game regional office or mail VA letter to PO Box 25, Boise ID 83707",
+    "source_name": "Idaho Department of Fish and Game",
+    "source_url": "https://idfg.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_special_big_game_tag",
+    "state": "Idaho",
+    "name": "Disabled Veterans Special Big Game Tag Program (5 FREE Tags)",
+    "category": "Recreation",
+    "description": "Five FREE big game hunt tags available annually for disabled veterans. Tags eligible for deer, elk, pronghorn, moose, black bear, or mountain lion (except controlled hunts with <5 tags). Participants exempt from licensing requirements. Once-in-a-lifetime opportunity. Application January 2-31.",
+    "eligibility": [
+      "Disabled veteran",
+      "Sponsored by qualified 501(c) organization",
+      "Idaho Division of Veterans Services screens and prioritizes",
+      "Once-in-a-lifetime benefit"
+    ],
+    "benefit_amount": "FREE big game tag (deer/elk/pronghorn/moose/bear/lion) + exempt from licensing",
+    "how_to_apply": "Apply January 2-31 through Idaho Division of Veterans Services",
+    "source_name": "Idaho Department of Fish and Game / Idaho Division of Veterans Services",
+    "source_url": "https://idfg.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_on_leave_reduced_license",
+    "state": "Idaho",
+    "name": "Reduced Hunting/Fishing License for Idaho Residents on Leave",
+    "category": "Recreation",
+    "description": "Service members whose official home of record is Idaho and stationed outside Idaho can purchase hunting/fishing licenses at reduced fee during leave. Must provide Leave and Earnings Statement + leave papers.",
+    "eligibility": [
+      "Service member",
+      "Idaho home of record",
+      "Stationed outside Idaho",
+      "On authorized leave"
+    ],
+    "benefit_amount": "Reduced fee hunting/fishing licenses (on leave)",
+    "how_to_apply": "Present Leave and Earnings Statement + leave papers when purchasing",
+    "source_name": "Idaho Department of Fish and Game",
+    "source_url": "https://idfg.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_nonresident_military_resident_rates",
+    "state": "Idaho",
+    "name": "Resident Rates for Nonresident Military (30+ Days)",
+    "category": "Recreation",
+    "description": "Nonresident service members and dependents stationed in Idaho for 30+ days may purchase Idaho hunting/fishing licenses and tags at RESIDENT prices.",
+    "eligibility": [
+      "Nonresident service member or dependent",
+      "Stationed in Idaho 30+ days"
+    ],
+    "benefit_amount": "Resident license pricing (saves $100-$300 vs nonresident)",
+    "how_to_apply": "Present military ID at Idaho Fish and Game office",
+    "source_name": "Idaho Department of Fish and Game",
+    "source_url": "https://idfg.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_deployment_refund_raincheck",
+    "state": "Idaho",
+    "name": "License/Tag Refund or Rain Check (Deployment)",
+    "category": "Recreation",
+    "description": "Service members deploying for contingency operations can receive refund OR rain check for hunting licenses/tags/permits unable to use due to deployment.",
+    "eligibility": [
+      "Service member",
+      "Deploying for contingency operations",
+      "Unused license/tag/permit"
+    ],
+    "benefit_amount": "Refund or rain check for unused licenses/tags",
+    "how_to_apply": "Request at Idaho Fish and Game regional office or mail Affidavit for Refund form",
+    "source_name": "Idaho Department of Fish and Game",
+    "source_url": "https://idfg.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_state_parks_free_100",
+    "state": "Idaho",
+    "name": "FREE State Parks Camping and Day-Use (100% Disabled)",
+    "category": "Recreation",
+    "description": "Idaho veterans with 100% VA disability rating receive FREE campsite while camping in Idaho state parks AND FREE day-use access to all Idaho state parks.",
+    "eligibility": [
+      "Idaho veteran",
+      "100% VA disability rating"
+    ],
+    "benefit_amount": "FREE state park camping + FREE day-use access",
+    "how_to_apply": "Present VA documentation at Idaho State Parks",
+    "source_name": "Idaho Parks and Recreation",
+    "source_url": "https://parksandrecreation.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_license_plates",
+    "state": "Idaho",
+    "name": "Special Veteran License Plates",
+    "category": "Other",
+    "description": "Multiple veteran plate options: 'Veteran' (no conflict), WWII, Korea, Vietnam, Persian Gulf, Afghanistan/Iraq (post-9/11), Gold Star Family. Disabled Veteran and Disabled Veteran Purple Heart plates available FREE for 100% permanent disabled OR Purple Heart recipients qualifying for disabled veteran fee exemption. POW and Medal of Honor recipients contact ITD Special Plates (208) 334-8649.",
+    "eligibility": [
+      "Idaho resident veteran",
+      "Honorable discharge",
+      "Meet specific plate criteria",
+      "FREE for 100% P&T or Purple Heart (if qualifying)"
+    ],
+    "benefit_amount": "FREE or standard fee specialty plates",
+    "how_to_apply": "Apply at Idaho DMV Online Services or county office",
+    "source_name": "Idaho Transportation Department",
+    "source_url": "https://itd.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_drivers_license_veteran_designation",
+    "state": "Idaho",
+    "name": "Veteran Designation on Driver's License/ID",
+    "category": "Other",
+    "description": "Veterans can add 'veteran' designation to Idaho driver's license or state ID. No charge when added to new or renewed license/ID. $15 duplicate card fee to add designation at any other time. Designation is permanent.",
+    "eligibility": [
+      "Idaho resident veteran",
+      "Valid documentation showing proof of honorable discharge (DD-214)"
+    ],
+    "benefit_amount": "Veteran designation (FREE at renewal, $15 duplicate fee otherwise)",
+    "how_to_apply": "Present DD-214 at Idaho DMV when renewing or requesting duplicate",
+    "source_name": "Idaho Transportation Department",
+    "source_url": "https://itd.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_guard_workers_comp",
+    "state": "Idaho",
+    "name": "Idaho National Guard Workers Compensation",
+    "category": "Healthcare",
+    "description": "Idaho National Guard members who become sick or injured in line of duty may be covered under Idaho Workers Compensation laws if on state active duty AND qualify for Worker's Compensation. Prevents duplicate payments from other programs.",
+    "eligibility": [
+      "Idaho National Guard member",
+      "Sick or injured in line of duty",
+      "On state active duty",
+      "Qualify for Worker's Compensation",
+      "Not paid by another program"
+    ],
+    "benefit_amount": "Workers Compensation medical coverage",
+    "how_to_apply": "Contact Idaho National Guard and Idaho Workers Compensation",
+    "source_name": "Idaho Industrial Commission",
+    "source_url": "https://iic.idaho.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "id_veterans_cemeteries",
+    "state": "Idaho",
+    "name": "Idaho State Veterans Cemeteries (2 Locations)",
+    "category": "Other",
+    "description": "Two state veterans cemeteries in Blackfoot and Boise. Eligibility same as federal VA cemeteries. No Idaho residency requirement. FREE burial for eligible veterans and dependents.",
+    "eligibility": [
+      "Eligible veteran OR dependent",
+      "Meet federal cemetery eligibility",
+      "NO residency requirement"
+    ],
+    "benefit_amount": "FREE burial services",
+    "how_to_apply": "Contact Idaho State Veterans Cemetery in Blackfoot or Boise",
+    "source_name": "Idaho Division of Veterans Services",
+    "source_url": "https://veterans.idaho.gov/",
+    "last_verified": "2025-12-30"
+  }
+]

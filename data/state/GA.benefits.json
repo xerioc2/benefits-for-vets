@@ -1,0 +1,282 @@
+[
+  {
+    "id": "ga_property_tax_exemption_disabled_vet",
+    "scope": "state",
+    "state": "GA",
+    "title": "Disabled Veteran Property Tax Exemption",
+    "summary": "Full exemption from Georgia ad valorem (property) taxes for qualifying disabled veterans up to $121,812 for 2025.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null,
+      "notes": "Applies to primary residence and up to 10 acres of land. Amount adjusted annually by VA Secretary."
+    },
+    "eligibilityNotes": "Veteran must be rated 100% service-connected and permanently disabled by the VA, or meet specific mobility/vision impairment criteria. Surviving spouses may retain the exemption under certain conditions.",
+    "sourceUrl": "https://veterans.georgia.gov/disabled-veteran-homestead-tax-exemption",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_surviving_spouse_property_tax",
+    "scope": "state",
+    "state": "GA",
+    "title": "Surviving Spouse of Service Member Property Tax Exemption",
+    "summary": "Property tax exemption up to $121,812 for unremarried surviving spouse of service member killed in action or who died from service-connected causes.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Veteran must have been Georgia resident prior to death. Exemption continues as long as spouse does not remarry."
+    },
+    "eligibilityNotes": "Unremarried surviving spouse of member killed in or died as result of any war or armed conflict. Exemption from all ad valorem taxes for county, municipal and school purposes.",
+    "sourceUrl": "https://dor.georgia.gov/property-tax-homestead-exemptions",
+    "tags": ["tax", "property", "housing", "survivors"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_vehicle_registration_fee_exemption",
+    "scope": "state",
+    "state": "GA",
+    "title": "Vehicle Registration Fee Exemption (Disabled Veteran)",
+    "summary": "Exemption from Georgia motor vehicle ad valorem and registration taxes for qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null,
+      "notes": "Applies to one personally owned vehicle."
+    },
+    "eligibilityNotes": "Veteran must qualify for Georgia Disabled Veteran license plates.",
+    "sourceUrl": "https://veterans.georgia.gov/state-benefits/motor-vehicle-benefits",
+    "tags": ["vehicle", "tax", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_disabled_veteran_license_plates",
+    "scope": "state",
+    "state": "GA",
+    "title": "Georgia Disabled Veteran License Plates",
+    "summary": "Special license plates providing registration and parking benefits to qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null
+    },
+    "eligibilityNotes": "Issued through the Georgia Department of Revenue with VA disability verification.",
+    "sourceUrl": "https://veterans.georgia.gov/state-benefits/motor-vehicle-benefits",
+    "tags": ["vehicle", "parking", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_driver_license_free",
+    "scope": "state",
+    "state": "GA",
+    "title": "Free Driver License or ID for Veterans",
+    "summary": "Georgia provides free driver licenses or identification cards to qualifying veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Veteran status verification required."
+    },
+    "eligibilityNotes": "Available through the Georgia Department of Driver Services with proof of veteran status.",
+    "sourceUrl": "https://dds.georgia.gov/veterans",
+    "tags": ["id", "license", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_hero_scholarship",
+    "scope": "state",
+    "state": "GA",
+    "title": "Georgia HERO Scholarship",
+    "summary": "Financial assistance up to $2,000 per academic year for qualifying veterans and dependents who served in combat zones.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must have served in combat zone. Available to active duty, Guard, Reserve members and their spouses/children."
+    },
+    "eligibilityNotes": "Up to $2,000 per year for full-time attendance, prorated for part-time. Maximum $8,000 total for four academic years. Must apply within two years of becoming eligible. Renew annually.",
+    "sourceUrl": "https://veterans.georgia.gov/state-benefits",
+    "tags": ["education", "scholarship", "dependents"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_purple_heart_tuition_waiver",
+    "scope": "state",
+    "state": "GA",
+    "title": "Purple Heart & Higher Combat Award Tuition Waiver",
+    "summary": "Free tuition and fees for Purple Heart recipients, higher combat award recipients, and their dependents at Technical College System of Georgia schools.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "For Purple Heart, Bronze Star with valor, Distinguished Service Cross, Air Force Cross, Navy Cross, or Medal of Honor recipients."
+    },
+    "eligibilityNotes": "Award recipient and legal dependents (spouse and children up to age 26) receive up to 36 months of tuition and fees for associate degree, diplomas, or certificates after all other financial aid exhausted.",
+    "sourceUrl": "https://gavectr.org/financial-aid/",
+    "tags": ["education", "tuition", "purple_heart", "dependents"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_in_state_tuition_veterans",
+    "scope": "state",
+    "state": "GA",
+    "title": "In-State Tuition Rates for Veterans and Dependents",
+    "summary": "Nonresident service members, veterans, and dependents receive in-state tuition rates at University System of Georgia schools.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Available for active duty stationed in GA, those reassigned outside GA with family remaining, and veterans separated within 36 months showing intent to become residents."
+    },
+    "eligibilityNotes": "All military using tuition assistance or GI Bill benefits charged in-state rates for up to 3 years after separation.",
+    "sourceUrl": "https://veterans.georgia.gov/services/education-training",
+    "tags": ["education", "tuition"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_combat_veteran_fee_waiver_usg",
+    "scope": "state",
+    "state": "GA",
+    "title": "USG Mandatory Fee Waiver for Combat Veterans",
+    "summary": "Waiver of all mandatory fees at University System of Georgia institutions for combat veterans.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Must have been deployed to combat zone on or after Sept 11, 2001, and meet service duration or disability conditions."
+    },
+    "eligibilityNotes": "Georgia National Guard and Reserve combat veterans receive waiver of mandatory fees at USG institutions.",
+    "sourceUrl": "https://veterans.georgia.gov/services/education-training",
+    "tags": ["education", "tuition", "fee_waiver"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_hunting_fishing_license_disabled_vet",
+    "scope": "state",
+    "state": "GA",
+    "title": "Free Hunting & Fishing Licenses for Disabled Veterans",
+    "summary": "Free lifetime hunting and fishing licenses for qualifying disabled Georgia veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": true,
+      "requiresWartimeService": null
+    },
+    "eligibilityNotes": "Veteran must be a Georgia resident and meet VA disability criteria.",
+    "sourceUrl": "https://veterans.georgia.gov/state-benefits/hunting-and-fishing",
+    "tags": ["recreation", "hunting", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_state_parks_disabled_veteran",
+    "scope": "state",
+    "state": "GA",
+    "title": "State Parks Benefits for Disabled Veterans",
+    "summary": "Free annual pass to state parks with discounted equipment rentals for veterans with service-connected disabilities.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": true,
+      "requiresPermanentTotal": null,
+      "notes": "Must have service-connected disability."
+    },
+    "eligibilityNotes": "Includes discounted camping and equipment rentals. Contact Georgia State Parks for details.",
+    "sourceUrl": "https://gastateparks.org/",
+    "tags": ["recreation", "state_parks"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_state_veterans_homes",
+    "scope": "state",
+    "state": "GA",
+    "benefitType": "facility",
+    "title": "Georgia State Veterans Homes",
+    "summary": "State-operated long-term care facilities for eligible veterans and certain spouses.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Admission depends on medical need, eligibility, and bed availability. Two homes: Milledgeville (Floyd Veterans Memorial Building) and Augusta (Carl Vinson VA Medical Center)."
+    },
+    "eligibilityNotes": "Applicants must meet VA and Georgia eligibility requirements. Nominal fees apply.",
+    "sourceUrl": "https://veterans.georgia.gov/state-veterans-homes",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_veterans_cemeteries",
+    "scope": "state",
+    "state": "GA",
+    "benefitType": "facility",
+    "title": "Georgia Veterans Cemeteries",
+    "summary": "State veterans cemeteries offering burial benefits for eligible veterans and family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility generally mirrors VA national cemetery eligibility."
+    },
+    "eligibilityNotes": "Multiple cemetery locations throughout Georgia. Pre-need eligibility determination is recommended.",
+    "sourceUrl": "https://veterans.georgia.gov/state-veterans-cemeteries",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_employment_preference",
+    "scope": "state",
+    "state": "GA",
+    "title": "Georgia Veterans Employment Preference",
+    "summary": "Veterans may receive hiring preference for Georgia state government positions.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "requiresWartimeService": true,
+      "notes": "Disabled veterans may receive additional preference."
+    },
+    "eligibilityNotes": "Applies to eligible veterans seeking state employment with proper documentation. Disabled veterans receive enhanced consideration.",
+    "sourceUrl": "https://veterans.georgia.gov/state-benefits/employment",
+    "tags": ["employment", "preference"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_senior_homestead_age_62",
+    "scope": "state",
+    "state": "GA",
+    "title": "Age 62+ School Tax Exemption",
+    "summary": "$10,000 exemption from school taxes for Georgia residents age 62 or older with income limits.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Income limit $10,000 (excluding retirement/pension/disability up to Social Security max of $96,432 for 2025)."
+    },
+    "eligibilityNotes": "Available to homeowners 62+ meeting income requirements. Veterans receiving disability income may qualify more easily due to income exclusions.",
+    "sourceUrl": "https://dor.georgia.gov/property-tax-homestead-exemptions",
+    "tags": ["tax", "property", "senior"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "ga_senior_homestead_age_65",
+    "scope": "state",
+    "state": "GA",
+    "title": "Age 65+ Additional Exemption",
+    "summary": "$4,000 exemption from county ad valorem taxes for residents age 65+ with income limits.",
+    "requirements": {
+      "minDisability": null,
+      "requiresServiceConnected": null,
+      "requiresPermanentTotal": null,
+      "notes": "Income limit $10,000 for owner and spouse (excluding retirement/Social Security up to max)."
+    },
+    "eligibilityNotes": "Available to homeowners 65+ meeting income requirements. Can be combined with veteran exemptions.",
+    "sourceUrl": "https://dor.georgia.gov/property-tax-homestead-exemptions",
+    "tags": ["tax", "property", "senior"],
+    "lastReviewed": "2025-12-24"
+  }
+]

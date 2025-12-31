@@ -1,0 +1,270 @@
+[
+  {
+    "id": "pa_property_tax_exemption_disabled_vet",
+    "scope": "state",
+    "state": "PA",
+    "title": "Disabled Veterans Real Estate Tax Exemption",
+    "summary": "Full exemption from real estate property taxes for qualifying disabled veterans in Pennsylvania.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresPermanentTotal": true,
+      "requiresServiceConnected": true,
+      "requiresWartimeService": false,
+      "notes": "Must be 100% service-connected, permanent and total, and meet income/net-worth limits set by PA."
+    },
+    "eligibilityNotes": "Administered by the Pennsylvania Department of Military and Veterans Affairs (DMVA). Surviving spouses may remain eligible under certain conditions.",
+    "sourceUrl": "https://www.pa.gov/agencies/dmva/veterans-services/benefits-and-services/real-estate-tax-exemption.html",
+    "tags": ["tax", "property", "housing"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "pa_vehicle_registration_fee_exemption",
+    "scope": "state",
+    "state": "PA",
+    "title": "Vehicle Registration Fee Exemption (Disabled Veteran)",
+    "summary": "Exemption from Pennsylvania vehicle registration fees for qualifying disabled veterans.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresPermanentTotal": true,
+      "requiresServiceConnected": true,
+      "requiresWartimeService": false,
+      "notes": "Applies to one vehicle owned by the veteran."
+    },
+    "eligibilityNotes": "Veteran must qualify for a Disabled Veteran registration plate through PennDOT.",
+    "sourceUrl": "https://www.dot.state.pa.us/public/dvspubsforms/BMV/BMV%20Forms/MV-371.pdf",
+    "tags": ["vehicle", "tax", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "pa_disabled_veteran_license_plate",
+    "scope": "state",
+    "state": "PA",
+    "title": "Disabled Veteran License Plate",
+    "summary": "Special Pennsylvania license plate for qualifying disabled veterans that may include registration fee exemptions.",
+    "requirements": {
+      "minDisability": 100,
+      "requiresPermanentTotal": true,
+      "requiresServiceConnected": true,
+      "requiresWartimeService": false,
+      "notes": "VA documentation required to verify eligibility."
+    },
+    "eligibilityNotes": "Issued by PennDOT upon approval of Disabled Veteran status.",
+    "sourceUrl": "https://www.dmv.pa.gov/VEHICLE-SERVICES/Registration%20Plates/Special-Fund/Pages/Disabled-Veterans.aspx",
+    "tags": ["vehicle", "parking", "dmv"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "pa_fishing_license_disabled_vet",
+    "scope": "state",
+    "state": "PA",
+    "title": "Reduced-Fee Fishing License for Disabled Veterans",
+    "summary": "Reduced-fee fishing license for qualifying disabled veterans in Pennsylvania.",
+    "requirements": {
+      "minDisability": 60,
+      "requiresPermanentTotal": false,
+      "requiresServiceConnected": true,
+      "requiresWartimeService": false,
+      "notes": "Veteran must have a service-connected disability rating of at least 60%."
+    },
+    "eligibilityNotes": "Available through the Pennsylvania Fish & Boat Commission.",
+    "sourceUrl": "https://www.fishandboat.com/Licenses/Pages/DisabledVeterans.aspx",
+    "tags": ["recreation", "fishing", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "pa_hunting_license_disabled_vet",
+    "scope": "state",
+    "state": "PA",
+    "title": "Reduced-Fee Hunting License for Disabled Veterans",
+    "summary": "Reduced-fee hunting license for qualifying disabled veterans in Pennsylvania.",
+    "requirements": {
+      "minDisability": 60,
+      "requiresPermanentTotal": false,
+      "requiresServiceConnected": true,
+      "requiresWartimeService": false,
+      "notes": "Veteran must have a service-connected disability rating of at least 60%."
+    },
+    "eligibilityNotes": "Issued through the Pennsylvania Game Commission.",
+    "sourceUrl": "https://www.pgc.pa.gov/HuntTrap/LicensesandPermits/Pages/DisabledVeterans.aspx",
+    "tags": ["recreation", "hunting", "license"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "pa_state_veterans_homes",
+    "scope": "state",
+    "state": "PA",
+    "benefitType": "facility",
+    "title": "Pennsylvania State Veterans Homes",
+    "summary": "State-operated long-term care facilities for eligible veterans and eligible spouses.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": null,
+      "notes": "Admission depends on medical need, eligibility determination, and bed availability."
+    },
+    "eligibilityNotes": "Applicants must meet VA and Pennsylvania eligibility criteria. Spouses may qualify in certain circumstances.",
+    "sourceUrl": "https://www.pa.gov/agencies/dmva/veterans-services/state-veterans-homes.html",
+    "tags": ["housing", "long_term_care", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "pa_veterans_employment_preference",
+    "scope": "state",
+    "state": "PA",
+    "title": "Pennsylvania Veterans Employment Preference",
+    "summary": "Preference in hiring and promotion for eligible veterans applying for Pennsylvania public employment.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": true,
+      "notes": "Disabled veterans may receive additional preference points."
+    },
+    "eligibilityNotes": "Applies to qualifying veterans seeking state or local government employment.",
+    "sourceUrl": "https://www.pa.gov/agencies/oa/employment/veterans.html",
+    "tags": ["employment", "preference", "civil_service"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+    "id": "pa_veterans_cemeteries",
+    "scope": "state",
+    "state": "PA",
+    "benefitType": "facility",
+    "title": "Pennsylvania State Veterans Cemeteries",
+    "summary": "State-operated veterans cemeteries providing burial options for eligible veterans and family members.",
+    "requirements": {
+      "minDisability": null,
+      "requiresPermanentTotal": null,
+      "requiresServiceConnected": null,
+      "requiresWartimeService": null,
+      "notes": "Eligibility generally mirrors VA national cemetery eligibility."
+    },
+    "eligibilityNotes": "Multiple locations across Pennsylvania. Pre-need eligibility determination is recommended.",
+    "sourceUrl": "https://www.pa.gov/agencies/dmva/veterans-services/state-veterans-cemeteries.html",
+    "tags": ["burial", "cemetery", "memorial", "facility"],
+    "lastReviewed": "2025-12-24"
+  },
+  {
+  "id": "pa_property_tax_income_limits",
+  "scope": "state",
+  "state": "PA",
+  "title": "100% Disabled Veteran Property Tax Exemption (Income Limits)",
+  "summary": "Full real estate tax exemption for 100% P&T disabled veterans meeting income and net-worth limits.",
+  "requirements": {
+    "minDisability": 100,
+    "requiresPermanentTotal": true,
+    "requiresServiceConnected": true,
+    "notes": "2025 household income limit: $114,637. Net worth limits also apply."
+  },
+  "eligibilityNotes": "Full exemption from real estate taxes on principal residence. Surviving spouses who have not remarried may remain eligible. Apply through local assessor.",
+  "sourceUrl": "https://www.pa.gov/agencies/dmva/veterans-services/benefits-and-services/real-estate-tax-exemption.html",
+  "tags": ["tax", "property", "housing"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "pa_veterans_trust_fund",
+  "scope": "state",
+  "state": "PA",
+  "title": "Pennsylvania Veterans Trust Fund",
+  "summary": "Emergency financial assistance for basic needs including shelter, food, and utilities.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "For veterans experiencing financial emergencies."
+  },
+  "eligibilityNotes": "Administered through county directors of veterans affairs. Provides assistance for emergency basic needs.",
+  "sourceUrl": "https://www.pa.gov/agencies/dmva/veterans-services/pennsylvania-veterans-trust-fund.html",
+  "tags": ["financial_assistance", "emergency"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "pa_national_guard_education",
+  "scope": "state",
+  "state": "PA",
+  "title": "PA National Guard Educational Assistance Program",
+  "summary": "Tuition assistance for active Pennsylvania National Guard members at PA colleges and universities.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must be active member of Pennsylvania National Guard."
+  },
+  "eligibilityNotes": "Provides tuition assistance for Guard members attending Pennsylvania institutions.",
+  "sourceUrl": "https://www.dmva.pa.gov/",
+  "tags": ["education", "tuition", "national_guard"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "pa_veteran_id_card",
+  "scope": "state",
+  "state": "PA",
+  "title": "Pennsylvania Veteran Identification Card",
+  "summary": "State-issued veteran identification card for verification of veteran status.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Available to all honorably discharged Pennsylvania veterans."
+  },
+  "eligibilityNotes": "Separate from driver's license veteran designation. Provides official state verification of veteran status.",
+  "sourceUrl": "https://www.pa.gov/agencies/dmva/",
+  "tags": ["id", "veteran_card"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "pa_state_cemeteries_locations",
+  "scope": "state",
+  "state": "PA",
+  "benefitType": "facility",
+  "title": "Pennsylvania State Veterans Cemeteries (All Locations)",
+  "summary": "Multiple state-operated veterans cemeteries providing burial options throughout Pennsylvania.",
+  "requirements": {
+    "minDisability": null,
+    "requiresPermanentTotal": null,
+    "requiresServiceConnected": null,
+    "requiresWartimeService": null,
+    "notes": "Eligibility mirrors VA national cemetery requirements."
+  },
+  "eligibilityNotes": "Locations include: Indiana (Indiana County), Bucks County, and others across PA. Pre-need eligibility determination recommended.",
+  "sourceUrl": "https://www.pa.gov/agencies/dmva/veterans-services/state-veterans-cemeteries.html",
+  "tags": ["burial", "cemetery", "memorial", "facility"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "pa_veteran_preference_points",
+  "scope": "state",
+  "state": "PA",
+  "title": "PA Veterans Employment Preference Points",
+  "summary": "Hiring preference with points system for state/local government employment.",
+  "requirements": {
+    "minDisability": null,
+    "requiresPermanentTotal": null,
+    "requiresServiceConnected": null,
+    "requiresWartimeService": true,
+    "notes": "Disabled veterans receive additional preference points."
+  },
+  "eligibilityNotes": "Preference in hiring and promotion for Pennsylvania public employment. 5-point preference for veterans, 10-point for service-connected disabled veterans.",
+  "sourceUrl": "https://www.pa.gov/agencies/oa/employment/veterans.html",
+  "tags": ["employment", "preference", "civil_service"],
+  "lastReviewed": "2025-12-24"
+},
+{
+  "id": "pa_eap",
+  "scope": "state",
+  "state": "PA",
+  "title": "Educational Assistance Program (EAP)",
+  "summary": "Up to 100% tuition for undergraduate programs at Pennsylvania institutions for PA National Guard members with 6-year service commitment.",
+  "requirements": {
+    "minDisability": null,
+    "requiresServiceConnected": null,
+    "requiresPermanentTotal": null,
+    "notes": "Must enter 6-year service commitment with PA National Guard. Must be PA resident (bona fide domiciliary). Must fulfill commitment or repay all EAP funds plus interest."
+  },
+  "eligibilityNotes": "PA National Guard members enrolled in degree or certificate-granting program at approved PA institutions. Program administered by PHEAA with PA Department of Military and Veterans Affairs. Award amount based on tuition rate and technology fee charged to PA residents at state-owned universities. Undergraduate students: Award based on full-time/part-time status (full-time = 12+ credits/semester). Must be enrolled for at least 3 credits/year. Summer awards available if funding permits. Must complete FAFSA annually at www.fafsa.ed.gov. PA educational state grants cannot be reduced if receiving EAP benefits. Apply annually through unit of assignment with PA National Guard.",
+  "sourceUrl": "https://www.pheaa.org/funding-opportunities/aid-for-military-national-guard/national-guard-eap",
+  "tags": ["education", "tuition", "national_guard"],
+  "lastReviewed": "2025-12-25"
+}
+]

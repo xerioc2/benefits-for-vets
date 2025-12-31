@@ -1,0 +1,329 @@
+[
+  {
+    "id": "ia_ng_scholarship",
+    "state": "Iowa",
+    "name": "Iowa National Guard Service Scholarship (INGSS)",
+    "category": "Education",
+    "description": "Annual awards up to $9,034 per academic year (2024-2025) for Iowa National Guard members at eligible Iowa colleges and universities. Can be combined with Federal Student Aid, Federal Tuition Assistance, and GI Bill. Covers up to 120 credit hours (130 for STEM degrees) or bachelor's degree. Guard members who mobilize receive tuition refund. Maximum award: 100% of Iowa Board of Regents resident tuition OR 100% of institution's tuition (whichever lower).",
+    "eligibility": [
+      "Current Iowa National Guard member in good standing",
+      "Enrolled at eligible Iowa college/university",
+      "Satisfactory academic progress",
+      "Up to 120 credits (130 for STEM)"
+    ],
+    "benefit_amount": "Up to $9,034/year (2024-2025) + tuition refund if mobilized",
+    "how_to_apply": "Apply through Iowa National Guard Education Office",
+    "source_name": "Iowa National Guard",
+    "source_url": "https://iowanationalguard.com/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ia_branstad_reynolds",
+    "state": "Iowa",
+    "name": "Branstad-Reynolds Scholarship Fund",
+    "category": "Education",
+    "description": "Post-secondary scholarships for children of deceased service members who died while in active military status after September 11, 2001. Subsidizes tuition, books, fees, housing, special tools and equipment. Deadline December 31 annually. Up to $11,844 per year.",
+    "eligibility": [
+      "Child of deceased service member (death after 9/11/2001 in active status)",
+      "Death does not have to be combat-related",
+      "Up to age 26",
+      "Apply by December 31 annually"
+    ],
+    "benefit_amount": "Up to $11,844/year for education expenses",
+    "how_to_apply": "Apply through Iowa Department of Veterans Affairs by December 31",
+    "source_name": "Iowa Department of Veterans Affairs",
+    "source_url": "https://dva.iowa.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ia_war_orphans_aid",
+    "state": "Iowa",
+    "name": "War Orphans Educational Aid",
+    "category": "Education",
+    "description": "For dependents of Iowa veterans killed in action BEFORE September 11, 2001: up to $600 per year with maximum $3,000 total. For children up to age 26.",
+    "eligibility": [
+      "Dependent child of Iowa veteran KIA before 9/11/2001",
+      "Up to age 26"
+    ],
+    "benefit_amount": "$600/year (max $3,000 total)",
+    "how_to_apply": "Apply through Iowa Department of Veterans Affairs",
+    "source_name": "Iowa Department of Veterans Affairs",
+    "source_url": "https://dva.iowa.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ia_instate_tuition_all",
+    "state": "Iowa",
+    "name": "In-State Tuition for Active Duty, Veterans, and Dependents",
+    "category": "Education",
+    "description": "Iowa automatically applies in-state tuition rates to currently serving active duty, spouses, dependent children, domestic partners, AND full-time Guard/Reserve members plus dependents/spouses. Significant savings for military families.",
+    "eligibility": [
+      "Active duty OR spouse/dependent",
+      "OR full-time Guard/Reserve OR spouse/dependent",
+      "Documentation: military ID, PCS orders, marriage certificate, tax return (dependents)"
+    ],
+    "benefit_amount": "In-state tuition rates (saves $10,000-$15,000/year)",
+    "how_to_apply": "Submit required military documentation to Iowa institution",
+    "source_name": "Iowa Board of Regents",
+    "source_url": "https://www.iowaregents.edu/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ia_property_tax_1852",
+    "state": "Iowa",
+    "name": "Iowa Military Property Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Reduces veteran's assessed home value by $1,852 for property tax purposes. Available since 1947. No annual reapplication required (may need to list on tax form).",
+    "eligibility": [
+      "Iowa resident veteran",
+      "Honorably discharged AND: 18+ months active duty OR service-connected injury discharge",
+      "OR 20+ years Guard/Reserve",
+      "OR 90+ days federal active duty (Guard/Reserve)",
+      "OR served during qualifying wartime period"
+    ],
+    "benefit_amount": "$1,852 assessed value reduction",
+    "how_to_apply": "Apply with County Assessor once; no annual reapplication required",
+    "source_name": "Iowa Department of Revenue",
+    "source_url": "https://tax.iowa.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ia_disabled_homestead_100",
+    "state": "Iowa",
+    "name": "Disabled Veteran's Homestead Tax Credit (100% Exemption)",
+    "category": "Tax Benefits",
+    "description": "100% property tax exemption for 100% service-connected disabled veterans and DIC recipients. Enacted 2014. Do NOT have to reapply annually.",
+    "eligibility": [
+      "Iowa resident veteran",
+      "100% service-connected disability",
+      "OR Dependency and Indemnity Compensation recipient",
+      "Property is homestead (primary residence)"
+    ],
+    "benefit_amount": "100% property tax exemption",
+    "how_to_apply": "Apply with County Assessor using Form 54-049; no annual reapplication",
+    "source_name": "Iowa Department of Revenue",
+    "source_url": "https://tax.iowa.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ia_injured_veterans_grant",
+    "state": "Iowa",
+    "name": "Injured Veterans Grant",
+    "category": "Financial Assistance",
+    "description": "Up to $10,000 grant for veterans seriously injured in line of duty after September 11, 2001. Injury must be combat-related in combat/hostile fire zone, requiring medical evacuation OR 30+ consecutive days hospitalization at military hospital. Must be Iowa resident or Iowa National Guard member. Grant remains available after discharge if continuing treatment.",
+    "eligibility": [
+      "Iowa resident OR Iowa National Guard member",
+      "Combat-related injury after 9/11/2001",
+      "In combat zone or hostile fire zone",
+      "Medical evacuation OR 30+ days military hospital",
+      "Received in line of duty"
+    ],
+    "benefit_amount": "Up to $10,000 grant",
+    "how_to_apply": "Apply through Iowa Department of Veterans Affairs",
+    "source_name": "Iowa Department of Veterans Affairs",
+    "source_url": "https://dva.iowa.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ia_homeownership_grant",
+    "state": "Iowa",
+    "name": "Homeownership Assistance Grant",
+    "category": "Housing",
+    "description": "$5,000 grant for service members who served after September 11, 2001 and purchased home after March 10, 2005. Also available to some who served 90+ days between August 2, 1990 and April 6, 1991. Must have prior approval before closing. Subject to funding availability. Can be used with Iowa FirstHome and Homes For Iowans programs.",
+    "eligibility": [
+      "Served after 9/11/2001 OR 90+ days Aug 1990-Apr 1991",
+      "Purchased home after March 10, 2005",
+      "Prior approval required before closing",
+      "Use participating lender"
+    ],
+    "benefit_amount": "$5,000 homeownership grant",
+    "how_to_apply": "Apply through Iowa Finance Authority before closing",
+    "source_name": "Iowa Finance Authority",
+    "source_url": "https://www.iowafinance.com/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ia_retirement_pay_exempt",
+    "state": "Iowa",
+    "name": "Military Retirement Pay Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Military retired pay included in federal gross income is exempt from Iowa income tax. In ADDITION to general $6,000/$12,000 pension exclusion for 55+ taxpayers. Example: married 65-year-old with $20K military retired pay + $25K pension = $32K exclusion ($20K + $12K).",
+    "eligibility": [
+      "Receiving military retirement pay",
+      "Iowa resident"
+    ],
+    "benefit_amount": "100% exemption on military retirement + standard pension exclusion",
+    "how_to_apply": "Exclude from Iowa income tax return",
+    "source_name": "Iowa Department of Revenue",
+    "source_url": "https://tax.iowa.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ia_active_duty_pay_exempt",
+    "state": "Iowa",
+    "name": "Active Duty Military Pay Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Members of U.S. Armed Forces, Reserves, and National Guard in active duty status do NOT pay Iowa income tax on their military pay.",
+    "eligibility": [
+      "Iowa resident on active duty",
+      "OR Guard/Reserve in active status"
+    ],
+    "benefit_amount": "100% exemption on active duty military pay",
+    "how_to_apply": "Exclude from Iowa income tax return",
+    "source_name": "Iowa Department of Revenue",
+    "source_url": "https://tax.iowa.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ia_sbp_exempt",
+    "state": "Iowa",
+    "name": "Survivor Benefit Plan Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Survivor Benefit Plan (SBP) payments are exempt from Iowa income tax.",
+    "eligibility": [
+      "Receiving SBP payments",
+      "Iowa resident"
+    ],
+    "benefit_amount": "100% exemption on SBP payments",
+    "how_to_apply": "Exclude from Iowa income tax return",
+    "source_name": "Iowa Department of Revenue",
+    "source_url": "https://tax.iowa.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ia_retirement_withdrawal_exempt",
+    "state": "Iowa",
+    "name": "Guard/Reserve Active Duty Retirement Withdrawal Exemption",
+    "category": "Tax Benefits",
+    "description": "Guard members activated for federal/state active duty and Reserve members mobilized for federal active duty can withdraw funds from qualified retirement accounts without Iowa state income tax or state penalties (federal taxes still apply).",
+    "eligibility": [
+      "Iowa National Guard activated for federal/state duty",
+      "OR Reserve member mobilized for federal duty",
+      "Withdrawing from qualified retirement account"
+    ],
+    "benefit_amount": "No Iowa income tax or penalties on retirement withdrawals during activation",
+    "how_to_apply": "Report on Iowa income tax return with military orders documentation",
+    "source_name": "Iowa Department of Revenue",
+    "source_url": "https://tax.iowa.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ia_deceased_sm_tax_forgiveness",
+    "state": "Iowa",
+    "name": "Income Tax Forgiveness for Deceased Service Members",
+    "category": "Tax Benefits",
+    "description": "Iowa income tax forgiven if service member's federal taxes were forgiven due to: killed outside U.S. by terrorist act/military action OR declared missing and presumed dead. Single: forgiven for year of death and prior year. Heirs can request refunds for taxes paid while on active duty (within 7 years).",
+    "eligibility": [
+      "Iowa service member killed outside U.S. (terrorism/military)",
+      "OR declared missing and presumed dead",
+      "OR heirs of qualifying deceased service member"
+    ],
+    "benefit_amount": "Iowa tax forgiveness + potential refunds",
+    "how_to_apply": "Contact Iowa Department of Revenue with military documentation",
+    "source_name": "Iowa Department of Revenue",
+    "source_url": "https://tax.iowa.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ia_employment_5_10_points",
+    "state": "Iowa",
+    "name": "Veterans Employment Preference Points",
+    "category": "Employment",
+    "description": "Veterans receive 5 preference points for state and local government jobs. Veterans with service-connected disability receive 10 preference points. Does NOT apply to promotions or reassignments, only hiring. Qualifying spouses also eligible for 5 points.",
+    "eligibility": [
+      "Iowa veteran (5 points) OR disabled veteran (10 points)",
+      "OR qualifying spouse (5 points)",
+      "Honorably discharged",
+      "Applying for state/local government position"
+    ],
+    "benefit_amount": "5 points (all veterans/spouses) or 10 points (disabled veterans)",
+    "how_to_apply": "Indicate veteran status on state/local employment applications with DD-214",
+    "source_name": "Iowa Department of Administrative Services",
+    "source_url": "https://das.iowa.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ia_military_spouse_licensing",
+    "state": "Iowa",
+    "name": "Military Spouse Professional License Portability",
+    "category": "Employment",
+    "description": "State agencies issue licenses WITHOUT EXAMINATION to military spouses licensed in good standing in another state, provided no disqualifying criminal history.",
+    "eligibility": [
+      "Military spouse",
+      "Professional license in good standing from another state",
+      "No disqualifying criminal history"
+    ],
+    "benefit_amount": "License issued without examination",
+    "how_to_apply": "Contact Iowa professional licensing board with spouse documentation and out-of-state license",
+    "source_name": "Iowa Professional Licensing Boards",
+    "source_url": "https://plb.iowa.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ia_workforce_development",
+    "state": "Iowa",
+    "name": "Iowa Workforce Development Veteran Employment Services",
+    "category": "Employment",
+    "description": "15 regional offices around Iowa with staff coordinating veteran services within Iowa Workforce system. Helps clients of VA Vocational Rehabilitation. Career services, job search assistance, and training programs.",
+    "eligibility": [
+      "Iowa resident veteran",
+      "Seeking employment or training"
+    ],
+    "benefit_amount": "Free employment services and career assistance (15 regional offices)",
+    "how_to_apply": "Contact Iowa Workforce Development regional office",
+    "source_name": "Iowa Workforce Development",
+    "source_url": "https://www.iowaworkforcedevelopment.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ia_hunting_fishing_lifetime",
+    "state": "Iowa",
+    "name": "Lifetime Hunting and Fishing License ($7)",
+    "category": "Recreation",
+    "description": "Veterans with ANY VA disability rating (0% or higher) can apply for lifetime hunting and fishing license for only $7. Must be Iowa resident with VA-rated disability from active duty service.",
+    "eligibility": [
+      "Iowa resident veteran",
+      "ANY VA disability rating (0% or higher)",
+      "Disability from active duty service"
+    ],
+    "benefit_amount": "Lifetime hunting + fishing license for $7",
+    "how_to_apply": "Apply through Iowa DNR with VA disability documentation",
+    "source_name": "Iowa Department of Natural Resources",
+    "source_url": "https://www.iowadnr.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ia_veterans_cemetery",
+    "state": "Iowa",
+    "name": "Iowa State Veterans Cemetery",
+    "category": "Other",
+    "description": "Located west of Des Moines in Adel. Military members, qualifying spouses, and dependent children have burial privileges. NO FEE for veterans. Others require interment fee. Eligibility: discharge not characterized as dishonorable OR died on active duty OR 20+ years Guard/Reserve qualified for retirement.",
+    "eligibility": [
+      "Veteran with other-than-dishonorable discharge",
+      "OR died on active duty",
+      "OR 20+ years Guard/Reserve",
+      "Spouses and dependent children also eligible"
+    ],
+    "benefit_amount": "FREE burial for veterans; interment fee for others",
+    "how_to_apply": "Contact Iowa State Veterans Cemetery in Adel",
+    "source_name": "Iowa Department of Veterans Affairs",
+    "source_url": "https://dva.iowa.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "ia_veteran_id",
+    "state": "Iowa",
+    "name": "Veteran Designation on Driver's License/ID",
+    "category": "Other",
+    "description": "Honorably discharged veterans may request 'Veteran' designation on their Iowa driver's license or state-issued identification card.",
+    "eligibility": [
+      "Iowa resident veteran",
+      "Honorably discharged"
+    ],
+    "benefit_amount": "Veteran designation on license/ID",
+    "how_to_apply": "Request at Iowa DOT when renewing/obtaining license with DD-214",
+    "source_name": "Iowa Department of Transportation",
+    "source_url": "https://iowadot.gov/",
+    "last_verified": "2025-12-30"
+  }
+]

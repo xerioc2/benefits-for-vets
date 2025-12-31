@@ -1,0 +1,290 @@
+[
+  {
+    "id": "wv_wveep",
+    "state": "West Virginia",
+    "name": "West Virginia Educational Encouragement Program (WVEEP)",
+    "category": "Education",
+    "description": "Pays 100% of tuition and fees up to $9,000 per fiscal year for West Virginia National Guard members attending participating WV institutions. Can be used IN ADDITION to federal tuition assistance. Funds only for tuition and allowable fees - no overpayments or refunds.",
+    "eligibility": [
+      "West Virginia National Guard member",
+      "Enrolled in approved, accredited post-secondary institution in WV",
+      "Not under adverse action or administrative flag when applying"
+    ],
+    "benefit_amount": "100% tuition + fees (up to $9,000/fiscal year) + federal TA",
+    "how_to_apply": "Apply through West Virginia National Guard Education Office",
+    "source_name": "West Virginia National Guard",
+    "source_url": "https://wv.ng.mil/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "wv_reeducation_500",
+    "state": "West Virginia",
+    "name": "West Virginia Veterans Re-education Assistance",
+    "category": "Education",
+    "description": "Up to $500 per semester for veterans for tuition assistance, tests for professional license or certification, and other training materials. For veterans who have exhausted GI Bill benefits.",
+    "eligibility": [
+      "West Virginia resident veteran",
+      "Exhausted GI Bill benefits",
+      "Pursuing education, professional license, or training"
+    ],
+    "benefit_amount": "Up to $500 per semester",
+    "how_to_apply": "Apply through West Virginia Department of Veterans Assistance",
+    "source_name": "West Virginia Department of Veterans Assistance",
+    "source_url": "https://veterans.wv.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "wv_war_orphans_tuition",
+    "state": "West Virginia",
+    "name": "Children of KIA/Service Death FREE Tuition",
+    "category": "Education",
+    "description": "Children (ages 16-23) whose parent died on active duty during wartime OR as result of disability/injury during wartime duty receive FREE tuition at West Virginia state colleges. Child must be between 16-23 years old.",
+    "eligibility": [
+      "Child of veteran (ages 16-23)",
+      "Parent died on active duty during wartime OR from wartime service disability/injury",
+      "Parent was WV resident at time of military entry"
+    ],
+    "benefit_amount": "FREE tuition at state colleges",
+    "how_to_apply": "Apply through West Virginia Higher Education Policy Commission",
+    "source_name": "West Virginia Higher Education Policy Commission",
+    "source_url": "https://www.wvhepc.edu/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "wv_instate_tuition",
+    "state": "West Virginia",
+    "name": "In-State Tuition for Veterans",
+    "category": "Education",
+    "description": "West Virginia public colleges and universities offer in-state tuition rates to all veterans regardless of state residency under Veterans Access, Choice, and Accountability Act.",
+    "eligibility": [
+      "Veteran (any state)",
+      "Attending West Virginia public institution"
+    ],
+    "benefit_amount": "In-state tuition rates (saves $10,000-$15,000/year)",
+    "how_to_apply": "Submit DD-214 to West Virginia institution",
+    "source_name": "West Virginia Higher Education Policy Commission",
+    "source_url": "https://www.wvhepc.edu/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "wv_property_tax_credit_new_2024",
+    "state": "West Virginia",
+    "name": "Disabled Veteran Real Property Tax Credit (NEW 2024)",
+    "category": "Tax Benefits",
+    "description": "NEW 2024 legislation! Honorably discharged veterans with 90-100% Combined Disability Rating can claim tax CREDIT equal to property tax paid. Applied to state income tax; if exceeds tax owed OR don't file state taxes, can claim reimbursement. Property taxes must be paid on time (Oct 1 & Apr 1). REPLACES previous $20,000 homestead exemption. Only applies to primary residence (exclusive residential use).",
+    "eligibility": [
+      "West Virginia resident veteran",
+      "Honorably discharged",
+      "90-100% Combined VA Disability Rating",
+      "Property taxes paid on time",
+      "Primary residence only",
+      "Eligible starting January 1, 2024 (first use: 2024 return filed in 2025)"
+    ],
+    "benefit_amount": "Tax credit = full property tax amount paid (or reimbursement if no tax liability)",
+    "how_to_apply": "Claim on West Virginia state income tax return starting 2024 tax year",
+    "source_name": "West Virginia State Tax Department",
+    "source_url": "https://tax.wv.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "wv_property_tax_100_legacy",
+    "state": "West Virginia",
+    "name": "100% P&T Property Tax Exemption (Legacy)",
+    "category": "Tax Benefits",
+    "description": "Veterans rated 100% permanent and totally disabled by VA may be exempt from certain property taxes. Note: This is being replaced by NEW 2024 tax credit for 90-100% disabled veterans.",
+    "eligibility": [
+      "West Virginia resident veteran",
+      "100% permanent and total VA disability"
+    ],
+    "benefit_amount": "Exemption from certain property taxes",
+    "how_to_apply": "Contact local County Assessor; being transitioned to new 2024 credit system",
+    "source_name": "West Virginia State Tax Department",
+    "source_url": "https://tax.wv.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "wv_military_pay_exempt",
+    "state": "West Virginia",
+    "name": "Military Pay Income Tax Exemption",
+    "category": "Tax Benefits",
+    "description": "Military pay received by West Virginia resident service members is exempt from WV income tax IF: (1) On active duty 30+ days AND permanently separate with DD214, OR (2) Guard/Reserve called to federal active duty for Operation Enduring Freedom or domestic security. Includes exemption for year of discharge.",
+    "eligibility": [
+      "West Virginia resident service member",
+      "Active duty 30+ days with permanent separation OR Guard/Reserve federal activation",
+      "Home of Record is West Virginia"
+    ],
+    "benefit_amount": "100% exemption on military pay (including discharge year)",
+    "how_to_apply": "Exclude from West Virginia income tax return",
+    "source_name": "West Virginia State Tax Department",
+    "source_url": "https://tax.wv.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "wv_retirement_pay_exempt",
+    "state": "West Virginia",
+    "name": "Military Retirement Pay Tax Exemption (Effective 2018)",
+    "category": "Tax Benefits",
+    "description": "For tax years beginning after December 31, 2017: Military retirement income is 100% EXEMPT from West Virginia state income tax. Includes regular Armed Forces, Reserves, and National Guard retirement paid by U.S. or State of WV. Also includes survivorship annuities to extent included in federal AGI.",
+    "eligibility": [
+      "Receiving military retirement pay OR survivorship annuity",
+      "West Virginia resident",
+      "Effective tax year 2018+"
+    ],
+    "benefit_amount": "100% exemption on military retirement + survivorship annuities",
+    "how_to_apply": "Exclude from West Virginia income tax return",
+    "source_name": "West Virginia State Tax Department",
+    "source_url": "https://tax.wv.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "wv_afghanistan_bonus",
+    "state": "West Virginia",
+    "name": "Afghanistan War Veteran Cash Bonus",
+    "category": "Financial Assistance",
+    "description": "One-time cash bonus for veterans who served during War in Afghanistan: $600 for service in combat zone OR $400 for service outside combat zone. Active-duty service members can apply. Must apply within 1 year of leaving active duty with honorable discharge.",
+    "eligibility": [
+      "West Virginia resident OR active duty",
+      "Served during War in Afghanistan",
+      "Honorable discharge",
+      "Apply within 1 year of leaving active duty"
+    ],
+    "benefit_amount": "$600 (combat zone) or $400 (outside combat zone)",
+    "how_to_apply": "Contact West Virginia Department of Veterans Assistance",
+    "source_name": "West Virginia Department of Veterans Assistance",
+    "source_url": "https://veterans.wv.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "wv_employment_5_10_points",
+    "state": "West Virginia",
+    "name": "Veterans Employment Preference Points",
+    "category": "Employment",
+    "description": "All wartime veterans with honorable discharge get 5 points added to final state employment test score. Veterans with Purple Heart OR VA disability get ADDITIONAL 5 points (total 10). Includes Guard/Reserve with qualifying service.",
+    "eligibility": [
+      "West Virginia wartime veteran (5 points)",
+      "OR Purple Heart/VA disability veteran (+5 more = 10 total)",
+      "Honorable discharge"
+    ],
+    "benefit_amount": "5 or 10 preference points on state employment exams",
+    "how_to_apply": "Indicate veteran status on state employment applications with DD-214",
+    "source_name": "West Virginia Division of Personnel",
+    "source_url": "https://personnel.wv.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "wv_military_incentive_credit",
+    "state": "West Virginia",
+    "name": "West Virginia Military Incentive Tax Credit (Employers)",
+    "category": "Employment",
+    "description": "Tax credits for businesses employing economically disadvantaged veterans, disabled veterans, and unemployed WV National Guard/Reserve members. Economically disadvantaged veterans: 30% of first $5,000 wages. Disabled veterans: disability % × first $5,000 wages. Guard/Reserve: 25% of first $5,000 wages. Encourages private sector veteran employment.",
+    "eligibility": [
+      "Employer hiring certified eligible veteran",
+      "Veteran certified by WV Division of Employment Security",
+      "Continuous employment 1+ years",
+      "Cannot displace existing employee or receive other job training payments"
+    ],
+    "benefit_amount": "25-30% of first $5,000 wages (or disability % for disabled vets)",
+    "how_to_apply": "Employer contacts WorkForce West Virginia for certification",
+    "source_name": "WorkForce West Virginia",
+    "source_url": "https://workforcewv.org/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "wv_workforce_services",
+    "state": "West Virginia",
+    "name": "WorkForce West Virginia Veteran Services",
+    "category": "Employment",
+    "description": "Veteran employment services including resume writing, job interview skills development, and training opportunities. Dedicated support for veteran job placement.",
+    "eligibility": [
+      "West Virginia resident veteran",
+      "Seeking employment or training"
+    ],
+    "benefit_amount": "Free employment services and career assistance",
+    "how_to_apply": "Contact WorkForce West Virginia",
+    "source_name": "WorkForce West Virginia",
+    "source_url": "https://workforcewv.org/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "wv_hunting_fishing_100",
+    "state": "West Virginia",
+    "name": "FREE Hunting, Trapping, and Fishing (100% Disabled/POW/VA Auto Grant)",
+    "category": "Recreation",
+    "description": "Resident veterans who qualify for federal VA auto grant benefits, have 100% permanent and total disability, OR were POW receive FREE West Virginia hunting, trapping, and fishing licenses.",
+    "eligibility": [
+      "West Virginia resident veteran",
+      "100% permanent and total VA disability OR POW OR VA auto grant recipient"
+    ],
+    "benefit_amount": "FREE hunting + trapping + fishing licenses",
+    "how_to_apply": "Apply through West Virginia Division of Natural Resources with VA documentation",
+    "source_name": "West Virginia Division of Natural Resources",
+    "source_url": "https://wvdnr.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "wv_on_leave_hunting",
+    "state": "West Virginia",
+    "name": "FREE Hunting/Fishing/Trapping on Leave",
+    "category": "Recreation",
+    "description": "Active duty service members on leave or furlough permitted to hunt, fish, and trap WITHOUT LICENSE while on leave.",
+    "eligibility": [
+      "Active duty service member",
+      "On authorized leave or furlough in West Virginia"
+    ],
+    "benefit_amount": "FREE hunting + fishing + trapping (no license needed on leave)",
+    "how_to_apply": "Present military ID and leave papers",
+    "source_name": "West Virginia Division of Natural Resources",
+    "source_url": "https://wvdnr.gov/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "wv_state_parks_100",
+    "state": "West Virginia",
+    "name": "FREE Lifetime State Park Pass (100% Disabled)",
+    "category": "Recreation",
+    "description": "Veterans with 100% service-connected disability receive FREE lifetime pass to all West Virginia State Parks including camping and day-use facilities.",
+    "eligibility": [
+      "West Virginia resident veteran",
+      "100% service-connected disability"
+    ],
+    "benefit_amount": "FREE lifetime pass (all state parks, camping, day-use)",
+    "how_to_apply": "Apply through West Virginia State Parks with VA documentation",
+    "source_name": "West Virginia State Parks",
+    "source_url": "https://wvstateparks.com/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "wv_license_plates_free",
+    "state": "West Virginia",
+    "name": "FREE Special License Plates",
+    "category": "Other",
+    "description": "Special vehicle license plates and disabled veteran tags provided WITHOUT FEE to: veterans qualifying for federal VA auto grant benefits, 100% permanent and total disability, former POWs, Purple Heart recipients, Pearl Harbor survivors. Other veteran plates available for $10 one-time fee.",
+    "eligibility": [
+      "West Virginia veteran meeting specific criteria",
+      "FREE for: VA auto grant, 100% P&T, POW, Purple Heart, Pearl Harbor",
+      "$10 fee for other honorably discharged veterans"
+    ],
+    "benefit_amount": "FREE special plates (qualifying vets) or $10 one-time fee",
+    "how_to_apply": "Apply at West Virginia DMV with qualifying documentation",
+    "source_name": "West Virginia Division of Motor Vehicles",
+    "source_url": "https://transportation.wv.gov/dmv/",
+    "last_verified": "2025-12-30"
+  },
+  {
+    "id": "wv_veterans_home",
+    "state": "West Virginia",
+    "name": "West Virginia Veterans Home",
+    "category": "Healthcare",
+    "description": "Located in Barboursville. Offers residential and nursing care to eligible veterans - housing, meals, medical care, and social activities.",
+    "eligibility": [
+      "West Virginia resident veteran",
+      "Eligible for residential or nursing care",
+      "Meet admission requirements"
+    ],
+    "benefit_amount": "Subsidized residential and nursing care",
+    "how_to_apply": "Contact West Virginia Veterans Home in Barboursville",
+    "source_name": "West Virginia Department of Veterans Assistance",
+    "source_url": "https://veterans.wv.gov/",
+    "last_verified": "2025-12-30"
+  }
+]
