@@ -20,9 +20,11 @@ export default function About() {
           end={{ x: 1, y: 1 }}
           style={styles.header}
         >
-          <Text style={styles.headerIcon}>🇺🇸</Text>
-          <Text style={styles.headerTitle}>Benefits4Vets</Text>
-          <Text style={styles.version}>Version 1.0.0</Text>
+<View style={styles.logoBadge}>
+  <Text style={styles.logoText}>B4V</Text>
+</View>
+<Text style={styles.headerTitle}>Benefits4Vets</Text>
+<Text style={styles.version}>Version 1.0.0</Text>
         </LinearGradient>
 
         {/* About Section */}
@@ -168,23 +170,41 @@ const styles = StyleSheet.create({
   },
   card: {
     backgroundColor: 'white',
-    borderRadius: 12,
+    borderRadius: 16,
     padding: 20,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    elevation: 3,
+    boxShadow: '0px 4px 12px rgba(0, 0, 0, 0.12)',
+    elevation: 6,
+    marginBottom: 4,
   },
   warningCard: {
     backgroundColor: '#fff9e6',
     borderWidth: 1,
     borderColor: '#ffd700',
+    borderRadius: 16,
+    padding: 20,
+    boxShadow: '0px 4px 12px rgba(255, 193, 7, 0.15)',  // Yellow tint
+    elevation: 6,
+    marginBottom: 4,
   },
   successCard: {
     backgroundColor: '#e8f5e9',
     borderWidth: 1,
     borderColor: '#4caf50',
+    borderRadius: 16,
+    padding: 20,
+    boxShadow: '0px 4px 12px rgba(76, 175, 80, 0.15)',  // Green tint
+    elevation: 6,
+    marginBottom: 4,
+  },
+  emailButton: {
+    backgroundColor: '#1976d2',
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    borderRadius: 8,
+    marginTop: 16,
+    alignItems: 'center',
+    boxShadow: '0px 4px 8px rgba(25, 118, 210, 0.3)',  // Blue glow
+    elevation: 4,
   },
   cardText: {
     fontSize: 15,
@@ -202,14 +222,6 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     color: '#333',
     marginLeft: 8,
-  },
-  emailButton: {
-    backgroundColor: '#1976d2',
-    paddingVertical: 12,
-    paddingHorizontal: 16,
-    borderRadius: 8,
-    marginTop: 16,
-    alignItems: 'center',
   },
   emailButtonText: {
     color: 'white',
@@ -241,4 +253,25 @@ const styles = StyleSheet.create({
     color: '#666',
     fontStyle: 'italic',
   },
+logoStar: {
+  fontSize: 48,
+  color: '#1976d2',
+},
+logoBadge: {
+  width: 80,
+  height: 80,
+  borderRadius: 20,
+  backgroundColor: 'rgba(255,255,255,0.25)',
+  justifyContent: 'center',
+  alignItems: 'center',
+  marginBottom: 16,
+  borderWidth: 3,
+  borderColor: 'white',
+},
+logoText: {
+  fontSize: 28,
+  fontWeight: '900',
+  color: 'white',
+  letterSpacing: -1,
+},
 });

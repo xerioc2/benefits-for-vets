@@ -1,6 +1,6 @@
+import { Ionicons } from '@expo/vector-icons';
 import { Tabs } from 'expo-router';
 import React from 'react';
-import { Text } from 'react-native';
 
 export default function TabLayout() {
   return (
@@ -56,16 +56,11 @@ export default function TabLayout() {
 
 // Simple icon component using text emojis
 function TabBarIcon({ name, color, size }: { name: string; color: string; size: number }) {
-  const icons: { [key: string]: string } = {
-    home: '🏠',
-    info: 'ℹ️',
-    shield: '🔒',
+  const iconMap: { [key: string]: any } = {
+    home: 'home',
+    info: 'information-circle',
+    shield: 'shield-checkmark',
   };
 
-  return (
-    <Text style={{ fontSize: size, color }}>
-      {icons[name] || '•'}
-    </Text>
-  );
+  return <Ionicons name={iconMap[name]} size={size} color={color} />;
 }
-

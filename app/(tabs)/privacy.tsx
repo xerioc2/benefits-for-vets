@@ -37,7 +37,7 @@ export default function Privacy() {
 
         {/* No Data Collection */}
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>📵 What We DON'T Collect</Text>
+          <Text style={styles.sectionTitle}>📵 What We DON&apos;T Collect</Text>
           <View style={styles.card}>
             <Text style={styles.cardText}>This app does NOT collect:</Text>
             <Text style={styles.bulletPoint}>• Personal identifying information (name, SSN, etc.)</Text>
@@ -86,9 +86,9 @@ export default function Privacy() {
           <Text style={styles.sectionTitle}>🔗 Third-Party Services</Text>
           <View style={styles.card}>
             <Text style={styles.cardText}>
-              When you click "Learn More & Apply" on a benefit, you will be directed to the
+              When you click &quot;Learn More & Apply&quot; on a benefit, you will be directed to the
               official government website for that benefit. Once you leave our app, you are subject
-              to that website's privacy policy.
+              to that website&apos;s privacy policy.
             </Text>
             <Text style={[styles.cardText, { marginTop: 12 }]}>
               We do not share any information with these websites - they cannot see what you
@@ -116,12 +116,12 @@ export default function Privacy() {
 
         {/* Children's Privacy */}
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>👶 Children's Privacy</Text>
+          <Text style={styles.sectionTitle}>👶 Children&apos;s Privacy</Text>
           <View style={styles.card}>
             <Text style={styles.cardText}>
               This app is designed for veterans and does not knowingly collect information from
-              anyone under 13 years of age. Since we don't collect any data at all, there is no
-              risk to children's privacy.
+              anyone under 13 years of age. Since we don&apos;t collect any data at all, there is no
+              risk to children&apos;s privacy.
             </Text>
           </View>
         </View>
@@ -131,7 +131,7 @@ export default function Privacy() {
           <Text style={styles.sectionTitle}>🛡️ Data Security</Text>
           <View style={styles.card}>
             <Text style={styles.cardText}>
-              Since we don't collect or store any personal information, there is no data that could
+              Since we don&apos;t collect or store any personal information, there is no data that could
               be breached, leaked, or compromised. Your privacy is protected by design.
             </Text>
           </View>
@@ -143,7 +143,7 @@ export default function Privacy() {
           <View style={styles.card}>
             <Text style={styles.cardText}>
               We may update this privacy policy from time to time. Any changes will be reflected in
-              the "Last Updated" date at the top of this policy. Since we don't collect your
+              the &quot;Last Updated&quot; date at the top of this policy. Since we don&apos;t collect your
               contact information, we cannot notify you of changes directly.
             </Text>
           </View>
@@ -161,7 +161,7 @@ export default function Privacy() {
             <Text style={styles.bulletPoint}>• Right to delete your data</Text>
             <Text style={styles.bulletPoint}>• Right to data portability</Text>
             <Text style={[styles.cardText, { marginTop: 12, fontWeight: 'bold' }]}>
-              Since we don't collect any data about you, there is nothing to access, delete, or
+              Since we don&apos;t collect any data about you, there is nothing to access, delete, or
               port. Your privacy rights are automatically protected.
             </Text>
           </View>
@@ -242,13 +242,41 @@ const styles = StyleSheet.create({
   },
   card: {
     backgroundColor: 'white',
-    borderRadius: 12,
+    borderRadius: 16,
     padding: 20,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    elevation: 3,
+    boxShadow: '0px 4px 12px rgba(0, 0, 0, 0.12)',
+    elevation: 6,
+    marginBottom: 4,
+  },
+  warningCard: {
+    backgroundColor: '#fff9e6',
+    borderWidth: 1,
+    borderColor: '#ffd700',
+    borderRadius: 16,
+    padding: 20,
+    boxShadow: '0px 4px 12px rgba(255, 193, 7, 0.15)',  // Yellow tint
+    elevation: 6,
+    marginBottom: 4,
+  },
+  successCard: {
+    backgroundColor: '#e8f5e9',
+    borderWidth: 1,
+    borderColor: '#4caf50',
+    borderRadius: 16,
+    padding: 20,
+    boxShadow: '0px 4px 12px rgba(76, 175, 80, 0.15)',  // Green tint
+    elevation: 6,
+    marginBottom: 4,
+  },
+  emailButton: {
+    backgroundColor: '#1976d2',
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    borderRadius: 8,
+    marginTop: 16,
+    alignItems: 'center',
+    boxShadow: '0px 4px 8px rgba(25, 118, 210, 0.3)',  // Blue glow
+    elevation: 4,
   },
   highlightCard: {
     backgroundColor: '#e3f2fd',
@@ -271,14 +299,6 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     color: '#333',
     marginLeft: 8,
-  },
-  emailButton: {
-    backgroundColor: '#1976d2',
-    paddingVertical: 12,
-    paddingHorizontal: 16,
-    borderRadius: 8,
-    marginTop: 16,
-    alignItems: 'center',
   },
   emailButtonText: {
     color: 'white',
