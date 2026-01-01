@@ -1,10 +1,10 @@
 import { Picker } from '@react-native-picker/picker';
 import { LinearGradient } from 'expo-linear-gradient';
-import { StatusBar } from 'expo-status-bar';
 import React, { useEffect, useState } from 'react';
 import {
   Linking,
   Modal,
+  Platform,
   ScrollView,
   StyleSheet,
   Switch,
@@ -13,8 +13,9 @@ import {
   View,
 } from 'react-native';
 
-import AsyncStorage from '@react-native-async-storage/async-storage'; // ← ADD THIS
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { SafeAreaView } from 'react-native-safe-area-context';
+
 // Data
 import federalBenefits from '../../data/federal/Federal.benefits.json';
 import AKBenefits from '../../data/state/AK.benefits.json';
@@ -189,7 +190,6 @@ const US_STATES: { code: StateCode; name: string }[] = [
 ];
 
 const RATINGS = ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90', '100'] as const;
-// ========== ADD THESE FUNCTIONS HERE ==========
 
 // Storage keys
 const STORAGE_KEYS = {
@@ -228,6 +228,7 @@ const savePreference = async (key: string, value: string) => {
     console.error('Error saving preference:', error);
   }
 };
+
 export default function Index() {
   const [state, setState] = useState<StateCode>('TN');
   const [rating, setRating] = useState<(typeof RATINGS)[number]>('0');
@@ -238,28 +239,31 @@ export default function Index() {
 
   const [showStatePicker, setShowStatePicker] = useState(false);
   const [showRatingPicker, setShowRatingPicker] = useState(false);
-useEffect(() => {
-  loadPreferences().then((prefs) => {
-    setState(prefs.state as StateCode);
-    setRating(prefs.rating as (typeof RATINGS)[number]);
-    setIsPermanentTotal(prefs.isPermanentTotal);
-  });
-}, []);
 
-// Save state selection
-useEffect(() => {
-  savePreference(STORAGE_KEYS.STATE, state);
-}, [state]);
+  // Load saved preferences on mount
+  useEffect(() => {
+    loadPreferences().then((prefs) => {
+      setState(prefs.state as StateCode);
+      setRating(prefs.rating as (typeof RATINGS)[number]);
+      setIsPermanentTotal(prefs.isPermanentTotal);
+    });
+  }, []);
 
-// Save rating selection
-useEffect(() => {
-  savePreference(STORAGE_KEYS.RATING, rating);
-}, [rating]);
+  // Save state selection
+  useEffect(() => {
+    savePreference(STORAGE_KEYS.STATE, state);
+  }, [state]);
 
-// Save P&T toggle
-useEffect(() => {
-  savePreference(STORAGE_KEYS.PERMANENT_TOTAL, isPermanentTotal.toString());
-}, [isPermanentTotal]);
+  // Save rating selection
+  useEffect(() => {
+    savePreference(STORAGE_KEYS.RATING, rating);
+  }, [rating]);
+
+  // Save P&T toggle
+  useEffect(() => {
+    savePreference(STORAGE_KEYS.PERMANENT_TOTAL, isPermanentTotal.toString());
+  }, [isPermanentTotal]);
+
   const checkEligibility = (benefit: Benefit, userRating: number, userPT: boolean) => {
     const req = benefit.requirements;
 
@@ -309,21 +313,21 @@ useEffect(() => {
  
   return (
     <>
-<StatusBar style="dark" />
 
       <SafeAreaView style={styles.container}>
         <ScrollView>
           {/* Hero Banner */}
-          <LinearGradient
-            colors={['#1e3a8a', '#dc2626', '#f3f4f6']}
-            start={{ x: 0, y: 0 }}
-            end={{ x: 1, y: 1 }}
-            style={styles.heroBanner}
-          >
-            <Text style={styles.heroTitle}>Benefits4Vets</Text>
-            <Text style={styles.heroSubtitle}>Discover Your Benefits, Maximize Your Impact</Text>
-          </LinearGradient>
-
+<LinearGradient
+  colors={['#1e3a8a', '#dc2626', '#f3f4f6']}
+  start={{ x: 0, y: 0 }}
+  end={{ x: 1, y: 1 }}
+  style={styles.heroBanner}
+>
+  <View style={styles.heroOverlay}>
+    <Text style={styles.heroTitle}>Benefits4Vets</Text>
+    <Text style={styles.heroSubtitle}>Discover Your Benefits, Maximize Your Impact</Text>
+  </View>
+</LinearGradient>
           {/* Form Section */}
           <View style={styles.formSection}>
             <Text style={styles.mainTitle}>Veteran Benefits Finder</Text>
@@ -332,7 +336,11 @@ useEffect(() => {
             {/* State Picker Field */}
             <View style={styles.formGroup}>
               <Text style={styles.label}>Location</Text>
-              <TouchableOpacity style={styles.selectField} onPress={() => setShowStatePicker(true)}>
+<TouchableOpacity 
+  style={styles.selectField} 
+  onPress={() => setShowStatePicker(true)}
+  activeOpacity={0.7}  // ← ADD THIS
+>
                 <Text style={styles.selectFieldText}>{selectedStateName}</Text>
               </TouchableOpacity>
             </View>
@@ -340,7 +348,11 @@ useEffect(() => {
             {/* Rating Picker Field */}
             <View style={styles.formGroup}>
               <Text style={styles.label}>Disability Rating</Text>
-              <TouchableOpacity style={styles.selectField} onPress={() => setShowRatingPicker(true)}>
+<TouchableOpacity 
+  style={styles.selectField} 
+  onPress={() => setShowRatingPicker(true)}
+  activeOpacity={0.7}  // ← ADD THIS
+>
                 <Text style={styles.selectFieldText}>{rating}%</Text>
               </TouchableOpacity>
             </View>
@@ -358,10 +370,17 @@ useEffect(() => {
               </View>
             </View>
 
-            {/* Search Button */}
-            <TouchableOpacity style={styles.searchButton} onPress={findBenefits}>
-              <Text style={styles.searchButtonText}>Find My Benefits</Text>
-            </TouchableOpacity>
+{/* Search Button */}
+<TouchableOpacity onPress={findBenefits} activeOpacity={0.85}>
+  <LinearGradient
+    colors={['#2196f3', '#1976d2']}
+    start={{ x: 0, y: 0 }}
+    end={{ x: 1, y: 0 }}
+    style={styles.searchButton}
+  >
+    <Text style={styles.searchButtonText}>Find My Benefits</Text>
+  </LinearGradient>
+</TouchableOpacity>
           </View>
 
           {/* Results Section */}
@@ -402,19 +421,30 @@ useEffect(() => {
                       <Text style={styles.benefitNotes}>{benefit.eligibilityNotes}</Text>
                     )}
 
-                    {!!benefit.sourceUrl && (
-                      <TouchableOpacity
-                        onPress={() => Linking.openURL(benefit.sourceUrl as string)}
-                        style={styles.learnMoreButton}
-                      >
-                        <Text style={styles.learnMoreText}>Learn More &amp; Apply →</Text>
-                      </TouchableOpacity>
-                    )}
+{!!benefit.sourceUrl && (
+  <TouchableOpacity
+    onPress={() => Linking.openURL(benefit.sourceUrl as string)}
+    style={styles.learnMoreButton}
+    activeOpacity={0.7}
+  >
+    <Text style={styles.learnMoreText}>Learn More &amp; Apply →</Text>
+  </TouchableOpacity>
+)}
                   </View>
                 ))
               )}
             </View>
           )}
+
+          {/* Disclaimer */}
+          <View style={styles.disclaimerSection}>
+            <Text style={styles.disclaimerText}>
+              ⚠️ Information provided is for informational purposes only and should not be considered legal or financial advice. Always verify benefit details with official sources before applying.
+            </Text>
+            <Text style={styles.disclaimerSubtext}>
+              Last updated: December 2025
+            </Text>
+          </View>
         </ScrollView>
       </SafeAreaView>
 
@@ -428,7 +458,7 @@ useEffect(() => {
         <View style={styles.modalBackdrop}>
           <View style={styles.modalSheet}>
             <View style={styles.modalHeader}>
-              <TouchableOpacity onPress={() => setShowStatePicker(false)}>
+              <TouchableOpacity onPress={() => setShowStatePicker(false)} activeOpacity={0.7}>
                 <Text style={styles.modalAction}>Done</Text>
               </TouchableOpacity>
             </View>
@@ -456,7 +486,7 @@ useEffect(() => {
         <View style={styles.modalBackdrop}>
           <View style={styles.modalSheet}>
             <View style={styles.modalHeader}>
-              <TouchableOpacity onPress={() => setShowRatingPicker(false)}>
+              <TouchableOpacity onPress={() => setShowRatingPicker(false)} activeOpacity={0.7}>
                 <Text style={styles.modalAction}>Done</Text>
               </TouchableOpacity>
             </View>
@@ -487,13 +517,17 @@ const styles = StyleSheet.create({
     paddingHorizontal: 32,
     alignItems: 'center',
   },
-  heroTitle: {
-    fontSize: 40,
-    fontWeight: 'bold',
-    color: 'white',
-    marginBottom: 8,
-    textAlign: 'center',
-  },
+heroTitle: {
+  fontSize: 40,
+  fontWeight: 'bold',
+  color: 'white',
+  marginBottom: 8,
+  textAlign: 'center',
+  letterSpacing: -1,
+  textShadowColor: 'rgba(0, 0, 0, 0.3)',  // ← ADD
+  textShadowOffset: { width: 0, height: 2 },  // ← ADD
+  textShadowRadius: 4,  // ← ADD
+},
   heroSubtitle: {
     fontSize: 20,
     color: 'white',
@@ -577,17 +611,39 @@ benefitCard: {
   padding: 20,
   borderRadius: 16,
   marginBottom: 16,
-  boxShadow: '0px 4px 12px rgba(0, 0, 0, 0.12)',
-  elevation: 6,
+  // Remove: boxShadow: '0px 4px 12px rgba(0, 0, 0, 0.12)',
+  // Remove: elevation: 6,
+  ...Platform.select({
+    ios: {
+      shadowColor: '#000',
+      shadowOpacity: 0.12,
+      shadowRadius: 12,
+      shadowOffset: { width: 0, height: 4 },
+    },
+    android: {
+      elevation: 6,
+    },
+  }),
 },
+
 searchButton: {
-  backgroundColor: '#1976d2',
   padding: 16,
   borderRadius: 8,
   alignItems: 'center',
   marginTop: 8,
-  boxShadow: '0px 4px 8px rgba(25, 118, 210, 0.3)',
-  elevation: 4,
+  // Remove: boxShadow: '0px 4px 8px rgba(25, 118, 210, 0.3)',
+  // Remove: elevation: 4,
+  ...Platform.select({
+    ios: {
+      shadowColor: '#1976d2',
+      shadowOpacity: 0.3,
+      shadowRadius: 8,
+      shadowOffset: { width: 0, height: 4 },
+    },
+    android: {
+      elevation: 4,
+    },
+  }),
 },
   benefitHeader: {
     flexDirection: 'row',
@@ -679,4 +735,27 @@ searchButton: {
     fontWeight: '600',
     color: '#1976d2',
   },
+  disclaimerSection: {
+    padding: 20,
+    marginTop: 20,
+    marginBottom: 10,
+  },
+  disclaimerText: {
+    fontSize: 13,
+    lineHeight: 20,
+    color: '#666',
+    textAlign: 'center',
+    fontStyle: 'italic',
+  },
+  disclaimerSubtext: {
+    fontSize: 12,
+    color: '#999',
+    textAlign: 'center',
+    marginTop: 8,
+  },
+  heroOverlay: {
+  width: '100%',
+  backgroundColor: 'rgba(0,0,0,0.15)',
+  alignItems: 'center',
+},
 });

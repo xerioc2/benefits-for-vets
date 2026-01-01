@@ -1,6 +1,5 @@
 import { Ionicons } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -14,7 +13,7 @@ export default function Privacy() {
 
   return (
     <>
-      <StatusBar style="dark" />
+
       <SafeAreaView style={styles.container} edges={['top']}>
         <ScrollView>
           {/* Header */}

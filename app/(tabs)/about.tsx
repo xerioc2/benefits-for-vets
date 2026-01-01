@@ -1,8 +1,7 @@
 import { Ionicons } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Image, Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function About() {
@@ -14,7 +13,7 @@ export default function About() {
 
   return (
     <>
-      <StatusBar style="dark" />
+
       <SafeAreaView style={styles.container} edges={['top']}>
         <ScrollView>
           {/* Header */}
@@ -24,9 +23,10 @@ export default function About() {
             end={{ x: 1, y: 1 }}
             style={styles.header}
           >
-            <View style={styles.logoBadge}>
-              <Text style={styles.logoText}>B4V</Text>
-            </View>
+<Image 
+  source={require('../../assets/icon.png')} 
+  style={styles.logoImage}
+/>
             <Text style={styles.headerTitle}>Benefits4Vets</Text>
             <Text style={styles.version}>Version 1.0.0</Text>
           </LinearGradient>
@@ -285,4 +285,10 @@ const styles = StyleSheet.create({
     color: 'white',
     letterSpacing: -1,
   },
+  logoImage: {
+  width: 100,
+  height: 100,
+  marginBottom: 16,
+  borderRadius: 20,
+},
 });
