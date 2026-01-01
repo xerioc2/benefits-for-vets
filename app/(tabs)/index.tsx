@@ -427,7 +427,7 @@ export default function Index() {
     style={styles.learnMoreButton}
     activeOpacity={0.7}
   >
-    <Text style={styles.learnMoreText}>Learn More &amp; Apply →</Text>
+    <Text style={styles.learnMoreText}>Learn More →</Text>
   </TouchableOpacity>
 )}
                   </View>
