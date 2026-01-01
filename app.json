@@ -8,6 +8,10 @@
     "scheme": "benefits4vetsmobile",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "assetBundlePatterns": [
+      "**/*",
+      "data/**/*.json"
+    ],
     "ios": {
       "supportsTablet": true
     },

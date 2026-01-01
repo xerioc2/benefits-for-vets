@@ -292,21 +292,34 @@ export default function Index() {
     return true;
   };
 
-  const findBenefits = () => {
+const findBenefits = () => {
+  try {
     const userRating = Number.parseInt(rating, 10);
     const allBenefits: Benefit[] = [...(federalBenefits as Benefit[])];
 
+    // Debug logging (remove after testing)
+    console.log('Federal benefits count:', federalBenefits.length);
+    console.log('Selected state:', state);
+
     if (state !== 'federal') {
       const stateBenefits = STATE_BENEFITS[state] as unknown as Benefit[] | undefined;
+      console.log('State benefits count:', stateBenefits?.length ?? 0);
       if (stateBenefits && Array.isArray(stateBenefits)) allBenefits.push(...stateBenefits);
     }
 
+    console.log('Total benefits before filtering:', allBenefits.length);
+
     const eligible = allBenefits.filter(b => checkEligibility(b, userRating, isPermanentTotal));
+
+    console.log('Eligible benefits:', eligible.length);
 
     setResults(eligible);
     setHasSearched(true);
-  };
-
+  } catch (error) {
+    console.error('Error finding benefits:', error);
+    alert('Error loading benefits. Please try again.');
+  }
+};
   const selectedStateName =
     US_STATES.find(s => s.code === state)?.name ?? 'Select a location';
 
