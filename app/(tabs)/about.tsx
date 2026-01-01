@@ -1,4 +1,5 @@
 import { LinearGradient } from 'expo-linear-gradient';
+import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -11,7 +12,9 @@ export default function About() {
   };
 
   return (
-    <SafeAreaView style={styles.container} edges={['top']}>
+    <>
+      <StatusBar style="light" />
+      <SafeAreaView style={styles.container} edges={['top']}>
       <ScrollView>
         {/* Header */}
         <LinearGradient
@@ -130,6 +133,7 @@ export default function About() {
         </View>
       </ScrollView>
     </SafeAreaView>
+    </>
   );
 }
 

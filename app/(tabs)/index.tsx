@@ -1,5 +1,6 @@
 import { Picker } from '@react-native-picker/picker';
 import { LinearGradient } from 'expo-linear-gradient';
+import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
 import {
   Linking,
@@ -11,6 +12,7 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
+
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 // Data
@@ -245,8 +247,11 @@ export default function Index() {
   const selectedStateName =
     US_STATES.find(s => s.code === state)?.name ?? 'Select a location';
 
+ 
   return (
     <>
+<StatusBar style="dark" />
+
       <SafeAreaView style={styles.container}>
         <ScrollView>
           {/* Hero Banner */}
