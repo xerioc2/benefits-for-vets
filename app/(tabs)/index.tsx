@@ -16,58 +16,58 @@ import {
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-// Data
-import federalBenefits from '../../data/federal/Federal.benefits.json';
-import AKBenefits from '../../data/state/AK.benefits.json';
-import ALBenefits from '../../data/state/AL.benefits.json';
-import ARBenefits from '../../data/state/AR.benefits.json';
-import AZBenefits from '../../data/state/AZ.benefits.json';
-import CABenefits from '../../data/state/CA.benefits.json';
-import COBenefits from '../../data/state/CO.benefits.json';
-import CTBenefits from '../../data/state/CT.benefits.json';
-import DEBenefits from '../../data/state/DE.benefits.json';
-import FLBenefits from '../../data/state/FL.benefits.json';
-import GABenefits from '../../data/state/GA.benefits.json';
-import HIBenefits from '../../data/state/HI.benefits.json';
-import IABenefits from '../../data/state/IA.benefits.json';
-import IDBenefits from '../../data/state/ID.benefits.json';
-import ILBenefits from '../../data/state/IL.benefits.json';
-import INBenefits from '../../data/state/IN.benefits.json';
-import KSBenefits from '../../data/state/KS.benefits.json';
-import KYBenefits from '../../data/state/KY.benefits.json';
-import LABenefits from '../../data/state/LA.benefits.json';
-import MABenefits from '../../data/state/MA.benefits.json';
-import MDBenefits from '../../data/state/MD.benefits.json';
-import MEBenefits from '../../data/state/ME.benefits.json';
-import MIBenefits from '../../data/state/MI.benefits.json';
-import MNBenefits from '../../data/state/MN.benefits.json';
-import MOBenefits from '../../data/state/MO.benefits.json';
-import MSBenefits from '../../data/state/MS.benefits.json';
-import MTBenefits from '../../data/state/MT.benefits.json';
-import NCBenefits from '../../data/state/NC.benefits.json';
-import NDBenefits from '../../data/state/ND.benefits.json';
-import NEBenefits from '../../data/state/NE.benefits.json';
-import NHBenefits from '../../data/state/NH.benefits.json';
-import NJBenefits from '../../data/state/NJ.benefits.json';
-import NMBenefits from '../../data/state/NM.benefits.json';
-import NVBenefits from '../../data/state/NV.benefits.json';
-import NYBenefits from '../../data/state/NY.benefits.json';
-import OHBenefits from '../../data/state/OH.benefits.json';
-import OKBenefits from '../../data/state/OK.benefits.json';
-import ORBenefits from '../../data/state/OR.benefits.json';
-import PABenefits from '../../data/state/PA.benefits.json';
-import RIBenefits from '../../data/state/RI.benefits.json';
-import SCBenefits from '../../data/state/SC.benefits.json';
-import SDBenefits from '../../data/state/SD.benefits.json';
-import TNBenefits from '../../data/state/TN.benefits.json';
-import TXBenefits from '../../data/state/TX.benefits.json';
-import UTBenefits from '../../data/state/UT.benefits.json';
-import VABenefits from '../../data/state/VA.benefits.json';
-import VTBenefits from '../../data/state/VT.benefits.json';
-import WABenefits from '../../data/state/WA.benefits.json';
-import WIBenefits from '../../data/state/WI.benefits.json';
-import WVBenefits from '../../data/state/WV.benefits.json';
-import WYBenefits from '../../data/state/WY.benefits.json';
+// Data - using require() for more reliable bundling
+const federalBenefits = require('../../data/federal/Federal.benefits.json');
+const AKBenefits = require('../../data/state/AK.benefits.json');
+const ALBenefits = require('../../data/state/AL.benefits.json');
+const ARBenefits = require('../../data/state/AR.benefits.json');
+const AZBenefits = require('../../data/state/AZ.benefits.json');
+const CABenefits = require('../../data/state/CA.benefits.json');
+const COBenefits = require('../../data/state/CO.benefits.json');
+const CTBenefits = require('../../data/state/CT.benefits.json');
+const DEBenefits = require('../../data/state/DE.benefits.json');
+const FLBenefits = require('../../data/state/FL.benefits.json');
+const GABenefits = require('../../data/state/GA.benefits.json');
+const HIBenefits = require('../../data/state/HI.benefits.json');
+const IABenefits = require('../../data/state/IA.benefits.json');
+const IDBenefits = require('../../data/state/ID.benefits.json');
+const ILBenefits = require('../../data/state/IL.benefits.json');
+const INBenefits = require('../../data/state/IN.benefits.json');
+const KSBenefits = require('../../data/state/KS.benefits.json');
+const KYBenefits = require('../../data/state/KY.benefits.json');
+const LABenefits = require('../../data/state/LA.benefits.json');
+const MABenefits = require('../../data/state/MA.benefits.json');
+const MDBenefits = require('../../data/state/MD.benefits.json');
+const MEBenefits = require('../../data/state/ME.benefits.json');
+const MIBenefits = require('../../data/state/MI.benefits.json');
+const MNBenefits = require('../../data/state/MN.benefits.json');
+const MOBenefits = require('../../data/state/MO.benefits.json');
+const MSBenefits = require('../../data/state/MS.benefits.json');
+const MTBenefits = require('../../data/state/MT.benefits.json');
+const NCBenefits = require('../../data/state/NC.benefits.json');
+const NDBenefits = require('../../data/state/ND.benefits.json');
+const NEBenefits = require('../../data/state/NE.benefits.json');
+const NHBenefits = require('../../data/state/NH.benefits.json');
+const NJBenefits = require('../../data/state/NJ.benefits.json');
+const NMBenefits = require('../../data/state/NM.benefits.json');
+const NVBenefits = require('../../data/state/NV.benefits.json');
+const NYBenefits = require('../../data/state/NY.benefits.json');
+const OHBenefits = require('../../data/state/OH.benefits.json');
+const OKBenefits = require('../../data/state/OK.benefits.json');
+const ORBenefits = require('../../data/state/OR.benefits.json');
+const PABenefits = require('../../data/state/PA.benefits.json');
+const RIBenefits = require('../../data/state/RI.benefits.json');
+const SCBenefits = require('../../data/state/SC.benefits.json');
+const SDBenefits = require('../../data/state/SD.benefits.json');
+const TNBenefits = require('../../data/state/TN.benefits.json');
+const TXBenefits = require('../../data/state/TX.benefits.json');
+const UTBenefits = require('../../data/state/UT.benefits.json');
+const VABenefits = require('../../data/state/VA.benefits.json');
+const VTBenefits = require('../../data/state/VT.benefits.json');
+const WABenefits = require('../../data/state/WA.benefits.json');
+const WIBenefits = require('../../data/state/WI.benefits.json');
+const WVBenefits = require('../../data/state/WV.benefits.json');
+const WYBenefits = require('../../data/state/WY.benefits.json');
 
 type Benefit = {
   id: string;
@@ -79,6 +79,12 @@ type Benefit = {
   state?: string;
   requirements?: any;
 };
+// Helper to normalize JSON imports (handles { default: [...] } in production builds)
+function asBenefitArray(maybe: any): Benefit[] {
+  if (Array.isArray(maybe)) return maybe;
+  if (maybe && Array.isArray(maybe.default)) return maybe.default;
+  return [];
+}
 
 const STATE_BENEFITS = {
   AL: ALBenefits,
@@ -295,21 +301,27 @@ export default function Index() {
 const findBenefits = () => {
   try {
     const userRating = Number.parseInt(rating, 10);
-    const allBenefits: Benefit[] = [...(federalBenefits as Benefit[])];
 
-    // Debug logging (remove after testing)
-    console.log('Federal benefits count:', federalBenefits.length);
+    // Normalize federal benefits
+    const fed = asBenefitArray(federalBenefits);
+    const allBenefits: Benefit[] = [...fed];
+
+    console.log('Federal benefits count:', fed.length);
     console.log('Selected state:', state);
 
     if (state !== 'federal') {
-      const stateBenefits = STATE_BENEFITS[state] as unknown as Benefit[] | undefined;
-      console.log('State benefits count:', stateBenefits?.length ?? 0);
-      if (stateBenefits && Array.isArray(stateBenefits)) allBenefits.push(...stateBenefits);
+      const rawStateBenefits = (STATE_BENEFITS as any)[state];
+      const st = asBenefitArray(rawStateBenefits);
+
+      console.log('State benefits count:', st.length);
+      allBenefits.push(...st);
     }
 
     console.log('Total benefits before filtering:', allBenefits.length);
 
-    const eligible = allBenefits.filter(b => checkEligibility(b, userRating, isPermanentTotal));
+    const eligible = allBenefits.filter((b) =>
+      checkEligibility(b, userRating, isPermanentTotal)
+    );
 
     console.log('Eligible benefits:', eligible.length);
 
