@@ -1,7 +1,7 @@
 import { Picker } from '@react-native-picker/picker';
 import { LinearGradient } from 'expo-linear-gradient';
 import { StatusBar } from 'expo-status-bar';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   Linking,
   Modal,
@@ -13,8 +13,8 @@ import {
   View,
 } from 'react-native';
 
+import AsyncStorage from '@react-native-async-storage/async-storage'; // ← ADD THIS
 import { SafeAreaView } from 'react-native-safe-area-context';
-
 // Data
 import federalBenefits from '../../data/federal/Federal.benefits.json';
 import AKBenefits from '../../data/state/AK.benefits.json';
@@ -189,7 +189,45 @@ const US_STATES: { code: StateCode; name: string }[] = [
 ];
 
 const RATINGS = ['0', '10', '20', '30', '40', '50', '60', '70', '80', '90', '100'] as const;
+// ========== ADD THESE FUNCTIONS HERE ==========
 
+// Storage keys
+const STORAGE_KEYS = {
+  STATE: '@benefits4vets_state',
+  RATING: '@benefits4vets_rating',
+  PERMANENT_TOTAL: '@benefits4vets_pt',
+};
+
+// Load saved preferences
+const loadPreferences = async () => {
+  try {
+    const savedState = await AsyncStorage.getItem(STORAGE_KEYS.STATE);
+    const savedRating = await AsyncStorage.getItem(STORAGE_KEYS.RATING);
+    const savedPT = await AsyncStorage.getItem(STORAGE_KEYS.PERMANENT_TOTAL);
+
+    return {
+      state: savedState || 'TN',
+      rating: savedRating || '0',
+      isPermanentTotal: savedPT === 'true',
+    };
+  } catch (error) {
+    console.error('Error loading preferences:', error);
+    return {
+      state: 'TN',
+      rating: '0',
+      isPermanentTotal: false,
+    };
+  }
+};
+
+// Save preferences
+const savePreference = async (key: string, value: string) => {
+  try {
+    await AsyncStorage.setItem(key, value);
+  } catch (error) {
+    console.error('Error saving preference:', error);
+  }
+};
 export default function Index() {
   const [state, setState] = useState<StateCode>('TN');
   const [rating, setRating] = useState<(typeof RATINGS)[number]>('0');
@@ -200,7 +238,28 @@ export default function Index() {
 
   const [showStatePicker, setShowStatePicker] = useState(false);
   const [showRatingPicker, setShowRatingPicker] = useState(false);
+useEffect(() => {
+  loadPreferences().then((prefs) => {
+    setState(prefs.state as StateCode);
+    setRating(prefs.rating as (typeof RATINGS)[number]);
+    setIsPermanentTotal(prefs.isPermanentTotal);
+  });
+}, []);
 
+// Save state selection
+useEffect(() => {
+  savePreference(STORAGE_KEYS.STATE, state);
+}, [state]);
+
+// Save rating selection
+useEffect(() => {
+  savePreference(STORAGE_KEYS.RATING, rating);
+}, [rating]);
+
+// Save P&T toggle
+useEffect(() => {
+  savePreference(STORAGE_KEYS.PERMANENT_TOTAL, isPermanentTotal.toString());
+}, [isPermanentTotal]);
   const checkEligibility = (benefit: Benefit, userRating: number, userPT: boolean) => {
     const req = benefit.requirements;
 
