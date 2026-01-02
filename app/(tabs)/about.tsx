@@ -137,13 +137,6 @@ export default function About() {
             </View>
           </View>
 
-          {/* Legal Link */}
-          <View style={styles.section}>
-            <TouchableOpacity>
-              <Text style={styles.linkText}>Privacy Policy →</Text>
-            </TouchableOpacity>
-          </View>
-
           {/* Footer */}
           <View style={styles.footer}>
             <Text style={styles.footerText}>Thank you for your service 🇺🇸</Text>

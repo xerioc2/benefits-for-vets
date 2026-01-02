@@ -86,6 +86,7 @@ function asBenefitArray(maybe: any): Benefit[] {
   return [];
 }
 
+
 const STATE_BENEFITS = {
   AL: ALBenefits,
   AK: AKBenefits,
@@ -239,6 +240,7 @@ export default function Index() {
   const [state, setState] = useState<StateCode>('TN');
   const [rating, setRating] = useState<(typeof RATINGS)[number]>('0');
   const [isPermanentTotal, setIsPermanentTotal] = useState(false);
+  const [ptInfoVisible, setPtInfoVisible] = useState(false);
 
   const [results, setResults] = useState<Benefit[]>([]);
   const [hasSearched, setHasSearched] = useState(false);
@@ -381,19 +383,48 @@ const findBenefits = () => {
                 <Text style={styles.selectFieldText}>{rating}%</Text>
               </TouchableOpacity>
             </View>
+{/* P&T Toggle */}
+<View style={styles.formGroup}>
+  <View style={styles.switchRow}>
+    <View style={styles.ptLabelRow}>
+      <Text style={styles.label}>Permanent & Total (P&T)</Text>
+      <TouchableOpacity
+        onPress={() => setPtInfoVisible(true)}
+        style={styles.infoIcon}
+        activeOpacity={0.7}
+      >
+        <Text style={styles.infoIconText}>ⓘ</Text>
+      </TouchableOpacity>
+    </View>
 
-            {/* P&T Toggle */}
-            <View style={styles.formGroup}>
-              <View style={styles.switchRow}>
-                <Text style={styles.label}>Permanent &amp; Total (P&amp;T)</Text>
-                <Switch
-                  value={isPermanentTotal}
-                  onValueChange={setIsPermanentTotal}
-                  trackColor={{ false: '#ccc', true: '#1976d2' }}
-                  thumbColor={isPermanentTotal ? '#fff' : '#f4f3f4'}
-                />
-              </View>
-            </View>
+    <Switch
+      value={isPermanentTotal}
+      onValueChange={setIsPermanentTotal}
+      trackColor={{ false: '#ccc', true: '#1976d2' }}
+      thumbColor={isPermanentTotal ? '#fff' : '#f4f3f4'}
+    />
+  </View>
+
+  {/* P&T Info Modal */}
+  <Modal transparent visible={ptInfoVisible} animationType="fade" onRequestClose={() => setPtInfoVisible(false)}>
+    <TouchableOpacity
+      style={styles.modalOverlay}
+      activeOpacity={1}
+      onPress={() => setPtInfoVisible(false)}
+    >
+      <View style={styles.infoModalCard}>
+        <Text style={styles.infoTitle}>Permanent & Total (P&T)</Text>
+        <Text style={styles.infoBody}>
+          P&T typically means a 100% service-connected disability that is considered permanent. Some benefits require P&T specifically (for example: certain tax exemptions or dependent education benefits).
+        </Text>
+        <TouchableOpacity onPress={() => setPtInfoVisible(false)} style={styles.infoCloseBtn} activeOpacity={0.7}>
+          <Text style={styles.infoCloseText}>Got it</Text>
+        </TouchableOpacity>
+      </View>
+    </TouchableOpacity>
+  </Modal>
+</View>
+
 
 {/* Search Button */}
 <TouchableOpacity onPress={findBenefits} activeOpacity={0.85}>
@@ -783,4 +814,28 @@ searchButton: {
   backgroundColor: 'rgba(0,0,0,0.15)',
   alignItems: 'center',
 },
+ptLabelRow: { flexDirection: 'row', alignItems: 'center', gap: 8 },
+infoIcon: { paddingHorizontal: 6, paddingVertical: 2 },
+infoIconText: { fontSize: 16, fontWeight: '700', color: '#1976d2' },
+
+modalOverlay: {
+  flex: 1,
+  justifyContent: 'center',
+  alignItems: 'center',
+  padding: 20,
+  backgroundColor: 'rgba(0,0,0,0.5)',
+},
+infoModalCard: {
+  width: '100%',
+  maxWidth: 420,
+  borderRadius: 14,
+  padding: 16,
+  backgroundColor: '#fff',
+},
+infoTitle: { fontSize: 18, fontWeight: '700', marginBottom: 8 },
+infoBody: { fontSize: 14, lineHeight: 20, marginBottom: 14 },
+infoCloseBtn: { alignSelf: 'flex-end', paddingVertical: 8, paddingHorizontal: 12 },
+infoCloseText: { fontSize: 14, fontWeight: '700' },
+
+
 });
